@@ -28,6 +28,47 @@ from src.betting.edge_detector import EdgeDetector
 from src.alerts.discord_notifier import DiscordNotifier
 
 
+# Team name mapping: Odds API names -> nfl_data_py abbreviations
+TEAM_NAME_MAP = {
+    'Arizona Cardinals': 'ARI',
+    'Atlanta Falcons': 'ATL',
+    'Baltimore Ravens': 'BAL',
+    'Buffalo Bills': 'BUF',
+    'Carolina Panthers': 'CAR',
+    'Chicago Bears': 'CHI',
+    'Cincinnati Bengals': 'CIN',
+    'Cleveland Browns': 'CLE',
+    'Dallas Cowboys': 'DAL',
+    'Denver Broncos': 'DEN',
+    'Detroit Lions': 'DET',
+    'Green Bay Packers': 'GB',
+    'Houston Texans': 'HOU',
+    'Indianapolis Colts': 'IND',
+    'Jacksonville Jaguars': 'JAX',
+    'Kansas City Chiefs': 'KC',
+    'Las Vegas Raiders': 'LV',
+    'Los Angeles Chargers': 'LAC',
+    'Los Angeles Rams': 'LA',
+    'Miami Dolphins': 'MIA',
+    'Minnesota Vikings': 'MIN',
+    'New England Patriots': 'NE',
+    'New Orleans Saints': 'NO',
+    'New York Giants': 'NYG',
+    'New York Jets': 'NYJ',
+    'Philadelphia Eagles': 'PHI',
+    'Pittsburgh Steelers': 'PIT',
+    'San Francisco 49ers': 'SF',
+    'Seattle Seahawks': 'SEA',
+    'Tampa Bay Buccaneers': 'TB',
+    'Tennessee Titans': 'TEN',
+    'Washington Commanders': 'WAS',
+}
+
+
+def get_team_abbrev(full_name: str) -> str:
+    """Convert full team name to abbreviation."""
+    return TEAM_NAME_MAP.get(full_name, full_name)
+
 def main():
     parser = argparse.ArgumentParser(
         description='Daily NFL EV opportunity scanner'
@@ -112,13 +153,15 @@ def main():
             home_team = game['home_team']
             away_team = game['away_team']
             
-            # Get recent stats for each team
-            # Note: Team names from odds API might not match exactly
-            # This is a simplified matching - production would need better mapping
-            home_stats = get_team_recent_stats(game_stats, home_team)
-            away_stats = get_team_recent_stats(game_stats, away_team)
+            # Convert full names to abbreviations
+            home_abbrev = get_team_abbrev(home_team)
+            away_abbrev = get_team_abbrev(away_team)
             
-            # If stats not found, try partial matching
+            # Get recent stats for each team using abbreviations
+            home_stats = get_team_recent_stats(game_stats, home_abbrev)
+            away_stats = get_team_recent_stats(game_stats, away_abbrev)
+            
+            # If stats not found, try partial matching as fallback
             if not home_stats:
                 matching_teams = game_stats[
                     game_stats['team'].str.contains(home_team.split()[-1], case=False)
@@ -132,6 +175,7 @@ def main():
                 ]['team'].unique()
                 if len(matching_teams) > 0:
                     away_stats = get_team_recent_stats(game_stats, matching_teams[0])
+
             
             # Skip if we couldn't find stats
             if not home_stats or not away_stats:

@@ -1,231 +1,105 @@
-# NFL EV Betting Engine 🏈💰
+# NFL EV Betting Engine
 
-A quantitative sports betting engine that finds **Expected Value (EV)** opportunities in NFL games by comparing machine learning predictions against Vegas odds.
+Finding edge in NFL betting using data + machine learning.
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![XGBoost](https://img.shields.io/badge/ML-XGBoost-orange.svg)
+## What is this?
 
-## 🎯 What This Does
+A Python project that:
+1. Pulls NFL play-by-play data (via `nfl_data_py`)
+2. Trains an XGBoost model to predict game outcomes
+3. Fetches live odds from sportsbooks
+4. Compares model predictions vs Vegas lines
+5. Alerts you on Discord when it finds +EV bets
 
-1. **Ingests NFL Data** - Historical play-by-play data via `nfl_data_py`
-2. **Trains ML Model** - XGBoost model predicts game outcomes
-3. **Fetches Live Odds** - Real-time odds from The Odds API
-4. **Calculates EV** - Compares model probability vs implied odds
-5. **Sends Alerts** - Discord notifications for +EV opportunities
+Built as a portfolio project for a sports betting data engineer role.
 
-## 📊 Architecture
+## How it works
 
 ```
-┌─────────────────┐     ┌─────────────────┐
-│   nfl_data_py   │     │  The Odds API   │
-│  (Historical)   │     │  (Live Odds)    │
-└────────┬────────┘     └────────┬────────┘
-         │                       │
-         ▼                       ▼
-┌─────────────────────────────────────────┐
-│         Data Pipeline & Preprocessing    │
-│  • Game-level aggregation               │
-│  • Feature engineering                  │
-│  • Rolling averages                     │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│           XGBoost Predictor             │
-│  • Win probability for each team        │
-│  • Trained on 4+ years of data          │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│            EV Calculator                │
-│  • Compare model vs Vegas odds          │
-│  • Calculate edge & expected value      │
-│  • Kelly Criterion bet sizing           │
-└────────────────────┬────────────────────┘
-                     │
-                     ▼
-┌─────────────────────────────────────────┐
-│           Discord Alerts                │
-│  • Real-time +EV notifications          │
-│  • Rich embeds with all details         │
-└─────────────────────────────────────────┘
+NFL Data (nfl_data_py) ──┐
+                         ├──> XGBoost Model ──> Compare vs Odds ──> Discord Alert
+Live Odds (The Odds API)─┘
 ```
 
-## 🚀 Quick Start
+The model looks at team efficiency metrics (EPA, success rate, turnovers) to predict win probability. If the model thinks a team has a 60% chance but the odds only imply 50%, that's a +EV opportunity.
 
-### 1. Clone & Install
+## Setup
 
 ```bash
-git clone https://github.com/yourusername/nfl_ev_betting_engine.git
-cd nfl_ev_betting_engine
-
-# Create virtual environment
-python -m venv venv
-venv\Scripts\activate  # Windows
-# source venv/bin/activate  # Linux/Mac
-
-# Install dependencies
+# Clone and install
+git clone https://github.com/AbeneilMagpantay/BDP_PM.git
+cd BDP_PM/nfl_ev_betting_engine
 pip install -r requirements.txt
-```
 
-### 2. Configure API Keys
+# Add your API key (get free one at the-odds-api.com)
+cp .env.example .env
+# edit .env with your keys
 
-```bash
-# Copy example config
-copy .env.example .env  # Windows
-# cp .env.example .env  # Linux/Mac
+# Train the model
+python scripts/train_model.py --fast
 
-# Edit .env and add your keys:
-# ODDS_API_KEY=your_key_here        (get free at https://the-odds-api.com/)
-# DISCORD_WEBHOOK_URL=your_url_here (optional, for alerts)
-```
-
-### 3. Train the Model
-
-```bash
-python scripts/train_model.py
-```
-
-This will:
-- Download NFL play-by-play data (2021-2024)
-- Engineer features (EPA, success rate, etc.)
-- Train XGBoost with hyperparameter tuning
-- Save the model to `data/models/`
-
-### 4. Run Daily Analysis
-
-```bash
+# Run it
 python scripts/daily_runner.py
 ```
 
-This will:
-- Fetch current NFL odds
-- Generate predictions for each game
-- Find +EV opportunities
-- Send Discord alerts (if configured)
-
-## 📁 Project Structure
+## Project structure
 
 ```
 nfl_ev_betting_engine/
 ├── src/
-│   ├── data/
-│   │   ├── nfl_data_fetcher.py   # Historical NFL data
-│   │   ├── odds_fetcher.py       # Live odds from API
-│   │   └── preprocessor.py       # Feature engineering
-│   ├── model/
-│   │   ├── features.py           # Feature definitions
-│   │   ├── trainer.py            # XGBoost training
-│   │   └── predictor.py          # Prediction interface
-│   ├── betting/
-│   │   ├── ev_calculator.py      # EV math
-│   │   └── edge_detector.py      # Find opportunities
-│   └── alerts/
-│       └── discord_notifier.py   # Discord webhooks
+│   ├── data/          # data fetching + preprocessing
+│   ├── model/         # XGBoost training + prediction
+│   ├── betting/       # EV math
+│   └── alerts/        # Discord webhook
 ├── scripts/
-│   ├── train_model.py            # Model training
-│   └── daily_runner.py           # Daily automation
-├── tests/
-│   └── test_ev_calculator.py
-├── data/
-│   ├── raw/                      # Cached raw data
-│   ├── processed/                # Processed features
-│   └── models/                   # Saved models
-├── run_analysis.py               # CLI entry point
-├── requirements.txt
-└── README.md
+│   ├── train_model.py
+│   └── daily_runner.py
+└── tests/
 ```
 
-## 🧮 EV Calculation Explained
+## Model performance
 
-**Expected Value (EV)** tells you the average profit/loss per dollar wagered:
+After training on 2021-2024 data:
+- Accuracy: ~86%
+- ROC AUC: 0.94
 
-```
-EV = (Win Probability × Profit) - (Lose Probability × Stake)
-```
+Note: These numbers are on historical data. Real-world betting performance would be lower since bookmakers already price in most of this information.
 
-### Example:
-- **Your Model**: 55% chance home team wins
-- **Odds**: -110 (implies 52.4%)
-- **Edge**: 55% - 52.4% = **2.6%**
-- **EV**: +4.5% (you expect to profit $4.50 per $100 bet long-term)
+## EV calculation
 
-A **+EV bet** means the odds are in your favor over the long run.
-
-## 🔧 Configuration
-
-Edit `.env` to customize:
-
-```bash
-# API Keys
-ODDS_API_KEY=your_api_key_here
-DISCORD_WEBHOOK_URL=your_webhook_url_here
-
-# Thresholds
-EV_THRESHOLD=5.0          # Minimum EV % to alert
-MIN_CONFIDENCE=0.55       # Minimum model confidence
+```python
+# Basic idea
+model_prob = 0.55  # model says 55% chance
+implied_prob = 0.50  # odds imply 50%
+edge = model_prob - implied_prob  # 5% edge
 ```
 
-## 📈 Model Performance
+If edge > 0, bet has positive expected value.
 
-Target metrics on validation set:
-- **Accuracy**: > 55% (better than coin flip)
-- **ROC AUC**: > 0.55
-- **Log Loss**: < 0.68
+## Key files
 
-The model uses these features:
-- Yards per play (home/away)
-- EPA per play (Expected Points Added)
-- Success rate
-- Turnover differential
-- Pass rate
+| File | What it does |
+|------|--------------|
+| `src/data/nfl_data_fetcher.py` | Pulls play-by-play data |
+| `src/data/odds_fetcher.py` | Gets live odds from API |
+| `src/model/trainer.py` | Trains XGBoost model |
+| `src/betting/ev_calculator.py` | EV math (odds conversion, Kelly) |
+| `scripts/daily_runner.py` | Main script - run this daily |
 
-## 🤖 Automation
+## Limitations
 
-### Windows Task Scheduler
+- Model is overconfident (needs calibration)
+- Doesn't account for injuries, weather, etc.
+- Historical accuracy != future performance
+- Bookmakers are good at their job
 
-1. Open Task Scheduler
-2. Create Basic Task
-3. Set trigger (Daily at 9 AM)
-4. Action: Start a Program
-   - Program: `python`
-   - Arguments: `scripts/daily_runner.py`
-   - Start in: `C:\path\to\nfl_ev_betting_engine`
+## Future improvements
 
-### Linux/Mac Cron
+- Add injury data
+- Calibrate probability outputs
+- Track actual betting performance
+- Add spread/totals predictions (currently just moneyline)
 
-```bash
-# Edit crontab
-crontab -e
+## License
 
-# Add line (runs daily at 9 AM)
-0 9 * * * cd /path/to/nfl_ev_betting_engine && python scripts/daily_runner.py
-```
-
-## 📚 Dependencies
-
-- **pandas** - Data manipulation
-- **numpy** - Numerical operations
-- **scikit-learn** - ML utilities
-- **xgboost** - Gradient boosting model
-- **nfl_data_py** - NFL data source
-- **requests** - API calls
-- **python-dotenv** - Environment variables
-
-## ⚠️ Disclaimer
-
-This project is for **educational purposes only**. Sports betting involves risk and you should only bet what you can afford to lose. Past performance does not guarantee future results. Always gamble responsibly.
-
-## 📄 License
-
-MIT License - see LICENSE file for details.
-
-## 🤝 Contributing
-
-Contributions welcome! Please open an issue or submit a PR.
-
----
-
-Built with ❤️ for data-driven sports analysis
+MIT
