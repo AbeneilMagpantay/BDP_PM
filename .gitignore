@@ -1,0 +1,6 @@
+# Environment files (API keys!)
+.env
+*.env
+
+# Data files (too large for git)
+data/
