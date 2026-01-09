@@ -2,5 +2,5 @@
 .env
 *.env
 
-# Data files (too large for git)
-data/
+# Data files at root (too large for git)
+/data/
