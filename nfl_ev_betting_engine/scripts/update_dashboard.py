@@ -50,6 +50,20 @@ def find_model_edges(predictions, parsed_odds, ev_threshold=1.0):
     return detector.get_edges_as_dicts(edges)
 
 
+def deduplicate_edges(edges):
+    """Keep only the best edge (highest EV) per game per bet_team."""
+    best_edges = {}
+    
+    for edge in edges:
+        # Create a unique key for each game + bet direction
+        key = f"{edge.get('game_id', '')}_{edge.get('bet_team', '')}"
+        
+        if key not in best_edges or edge.get('ev', 0) > best_edges[key].get('ev', 0):
+            best_edges[key] = edge
+    
+    return sorted(best_edges.values(), key=lambda x: x.get('ev', 0), reverse=True)
+
+
 def find_nba_ai_edges(parsed_games, ev_threshold=3.0):
     """Find edges for NBA using the trained AI model."""
     try:
@@ -131,7 +145,7 @@ def find_nba_ai_edges(parsed_games, ev_threshold=3.0):
                             'commence_time': game.get('commence_time', '')
                         })
         
-        return sorted(edges, key=lambda x: x['ev'], reverse=True)
+        return deduplicate_edges(edges)
         
     except Exception as e:
         print(f"  NBA AI model error: {e}")
@@ -187,7 +201,7 @@ def find_soccer_ai_edges(parsed_games, ev_threshold=3.0):
                             'commence_time': game.get('commence_time', '')
                         })
         
-        return sorted(edges, key=lambda x: x['ev'], reverse=True)
+        return deduplicate_edges(edges)
         
     except Exception as e:
         print(f"  Soccer AI model error: {e}")
@@ -272,10 +286,9 @@ def process_soccer():
     all_games = []
     all_edges = []
     
+    # Focus on English Premier League only for better predictions
     leagues = [
         ("soccer_epl", "English Premier League"),
-        ("soccer_spain_la_liga", "La Liga"),
-        ("soccer_germany_bundesliga", "Bundesliga"),
     ]
     
     for league_key, league_name in leagues:

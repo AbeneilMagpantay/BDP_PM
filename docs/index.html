@@ -313,6 +313,28 @@
             font-size: 15px;
         }
 
+        .bet-book {
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: capitalize;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 20px;
+            height: 20px;
+            padding: 0 6px;
+            margin-left: 6px;
+            border-radius: 10px;
+            background: var(--accent-green);
+            color: black;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
         /* Result Styles */
         .result-won {
             color: var(--accent-green);
@@ -678,11 +700,35 @@
 
                 function renderFilters() {
                     const container = document.getElementById('sport-tabs-container');
-                    const sports = ['All', 'NFL', 'NBA', 'Soccer', 'History'];
 
-                    container.innerHTML = sports.map((s, i) =>
-                        `<button class="filter-btn ${i === 0 ? 'active' : ''}" onclick="filterBets('${s.toLowerCase()}', this)">${s}</button>`
-                    ).join('');
+                    // Count edges per sport
+                    const counts = {
+                        all: 0,
+                        nfl: 0,
+                        nba: 0,
+                        soccer: 0
+                    };
+
+                    for (const [key, sport] of Object.entries(data.sports || {})) {
+                        const count = (sport && sport.edges) ? sport.edges.length : 0;
+                        counts[key] = count;
+                        counts.all += count;
+                    }
+
+                    const buttons = [
+                        { key: 'all', label: 'All', count: counts.all },
+                        { key: 'nfl', label: 'NFL', count: counts.nfl },
+                        { key: 'nba', label: 'NBA', count: counts.nba },
+                        { key: 'soccer', label: 'Soccer', count: counts.soccer },
+                        { key: 'history', label: 'History', count: null }
+                    ];
+
+                    container.innerHTML = buttons.map((b, i) => {
+                        const countText = b.count !== null && b.count > 0
+                            ? ` (${b.count})`
+                            : '';
+                        return `<button class="filter-btn ${i === 0 ? 'active' : ''}" onclick="filterBets('${b.key}', this)">${b.label}${countText}</button>`;
+                    }).join('');
                 }
 
                 function filterBets(sport, btn) {
@@ -760,14 +806,15 @@
                     // Reset UI for Value Bets
                     tableTitleText.textContent = 'Latest Value Bets';
 
-                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1.5fr";
+                    headerRow.style.gridTemplateColumns = "1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr";
                     headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
-                <div>Edge</div>
-                <div>Prob</div>
+                <div>Pick</div>
+                <div>Book</div>
                 <div>Odds</div>
-                <div>Exp. Value</div>
+                <div>Prob</div>
+                <div>EV</div>
             `;
 
                     let allEdges = [];
@@ -811,12 +858,12 @@
                         // Handle new vs old keys (bet_team vs bet_on)
                         const pick = e.bet_team || e.bet_on || 'Unknown';
                         const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
+                        const book = e.bookmaker || 'N/A';
 
                         return `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;">
+                <div class="bet-row" style="grid-template-columns: 1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr;">
                     <div class="bet-date">
                         ${new Date(e.commence_time).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
-                        <span style="opacity:0.5;font-weight:400">${new Date(e.commence_time).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
                     </div>
                     <div class="bet-match">
                         ${matchup}
@@ -824,8 +871,9 @@
                     <div>
                         <span class="bet-pick">${pick}</span>
                     </div>
-                    <div class="bet-prob">${prob}%</div>
+                    <div class="bet-book">${book}</div>
                     <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
+                    <div class="bet-prob">${prob}%</div>
                     <div class="bet-ev">+${e.ev}%</div>
                 </div>
             `}).join('');
