@@ -46,30 +46,27 @@ def get_api_key() -> str:
     return api_key
 
 
-def fetch_nfl_odds(
+def fetch_odds(
+    sport_key: str,
     markets: str = DEFAULT_MARKETS,
     regions: str = DEFAULT_REGIONS,
     odds_format: str = DEFAULT_ODDS_FORMAT
 ) -> List[Dict[str, Any]]:
     """
-    Fetch current NFL odds from The Odds API.
+    Fetch current odds for any sport from The Odds API.
     
     Args:
+        sport_key: Sport identifier (e.g., 'americanfootball_nfl', 'basketball_nba', 'soccer_epl')
         markets: Comma-separated markets (h2h, spreads, totals)
         regions: Comma-separated regions for bookmakers (us, uk, eu, au)
         odds_format: 'american' or 'decimal'
         
     Returns:
         List of game dictionaries with odds from multiple bookmakers
-        
-    Example:
-        >>> odds = fetch_nfl_odds()
-        >>> for game in odds:
-        ...     print(f"{game['away_team']} @ {game['home_team']}")
     """
     api_key = get_api_key()
     
-    url = f"{BASE_URL}/sports/{SPORT_KEY}/odds/"
+    url = f"{BASE_URL}/sports/{sport_key}/odds/"
     params = {
         "apiKey": api_key,
         "regions": regions,
@@ -77,13 +74,13 @@ def fetch_nfl_odds(
         "oddsFormat": odds_format
     }
     
-    print(f"Fetching NFL odds from The Odds API...")
+    sport_name = sport_key.split('_')[-1].upper()
+    print(f"Fetching {sport_name} odds from The Odds API...")
     
     try:
         response = requests.get(url, params=params)
         response.raise_for_status()
         
-        # Check remaining API requests
         remaining = response.headers.get('x-requests-remaining', 'unknown')
         used = response.headers.get('x-requests-used', 'unknown')
         print(f"API requests: {used} used, {remaining} remaining this month")
@@ -100,6 +97,34 @@ def fetch_nfl_odds(
     except requests.exceptions.RequestException as e:
         print(f"Error fetching odds: {e}")
         raise
+
+
+def fetch_nfl_odds(
+    markets: str = DEFAULT_MARKETS,
+    regions: str = DEFAULT_REGIONS,
+    odds_format: str = DEFAULT_ODDS_FORMAT
+) -> List[Dict[str, Any]]:
+    """Fetch current NFL odds. Wrapper for backwards compatibility."""
+    return fetch_odds(SPORT_KEY, markets, regions, odds_format)
+
+
+def fetch_nba_odds(
+    markets: str = DEFAULT_MARKETS,
+    regions: str = DEFAULT_REGIONS,
+    odds_format: str = DEFAULT_ODDS_FORMAT
+) -> List[Dict[str, Any]]:
+    """Fetch current NBA odds."""
+    return fetch_odds("basketball_nba", markets, regions, odds_format)
+
+
+def fetch_soccer_odds(
+    league: str = "soccer_epl",  # English Premier League by default
+    markets: str = "h2h",  # Soccer typically just h2h
+    regions: str = "us,uk,eu",
+    odds_format: str = DEFAULT_ODDS_FORMAT
+) -> List[Dict[str, Any]]:
+    """Fetch current Soccer odds for a specific league."""
+    return fetch_odds(league, markets, regions, odds_format)
 
 
 def parse_odds_for_game(game: Dict[str, Any]) -> Dict[str, Any]:
