@@ -186,7 +186,7 @@
             display: grid;
             grid-template-columns: 3fr 1fr;
             gap: 24px;
-            align-items: stretch;
+            align-items: start;
         }
 
         .chart-card {
@@ -285,8 +285,12 @@
             padding: 6px 12px;
             border-radius: 6px;
             display: inline-block;
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 700;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
         .bet-prob {
@@ -720,7 +724,7 @@
                         { key: 'nfl', label: 'NFL', count: counts.nfl },
                         { key: 'nba', label: 'NBA', count: counts.nba },
                         { key: 'soccer', label: 'Soccer', count: counts.soccer },
-                        { key: 'history', label: 'History', count: null }
+                        { key: 'history', label: 'History', count: betHistory.length }
                     ];
 
                     container.innerHTML = buttons.map((b, i) => {
