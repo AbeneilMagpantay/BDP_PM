@@ -561,6 +561,7 @@
             const sidebar = document.getElementById('sidebar');
             const content = document.getElementById('content');
             const p = sport.profile || {};
+            const isEsports = sportId === 'dota2' || sportId === 'valorant';
 
             sidebar.innerHTML = `
                 <div class="card profile-card">
@@ -570,15 +571,15 @@
                     <div class="profile-bio">${p.bio || ''}</div>
                     <div class="profile-stats">
                         <div class="profile-stat">
-                            <span class="profile-stat-value">${p.accuracy || '--'}${p.accuracy ? '%' : ''}</span>
-                            <span class="profile-stat-label">Accuracy</span>
+                            <span class="profile-stat-value">${sport.total_games}</span>
+                            <span class="profile-stat-label">Matches</span>
                         </div>
                         <div class="profile-stat">
                             <span class="profile-stat-value">${p.record?.wins || 0}-${p.record?.losses || 0}</span>
                             <span class="profile-stat-label">Record</span>
                         </div>
                         <div class="profile-stat">
-                            <span class="profile-stat-value">${sport.total_edges}</span>
+                            <span class="profile-stat-value">${sport.total_edges || 0}</span>
                             <span class="profile-stat-label">Edges</span>
                         </div>
                     </div>
@@ -586,17 +587,46 @@
                 <div class="card">
                     <div class="card-title">Stats</div>
                     <div class="stat-row">
-                        <span class="stat-name">Games Today</span>
+                        <span class="stat-name">${isEsports ? 'Matches' : 'Games'} Today</span>
                         <span class="stat-val">${sport.total_games}</span>
                     </div>
-                    <div class="stat-row">
+                    ${!isEsports ? `<div class="stat-row">
                         <span class="stat-name">Value Bets</span>
                         <span class="stat-val green">${sport.total_edges}</span>
-                    </div>
+                    </div>` : `<div class="stat-row">
+                        <span class="stat-name">Odds Available</span>
+                        <span class="stat-val">No (schedule only)</span>
+                    </div>`}
                 </div>
             `;
 
-            content.innerHTML = renderEdges(sport.edges || []);
+            if (isEsports) {
+                content.innerHTML = renderMatches(sport.games || []);
+            } else {
+                content.innerHTML = renderEdges(sport.edges || []);
+            }
+        }
+
+        function renderMatches(games) {
+            if (!games || games.length === 0) {
+                return '<div class="empty-state">No upcoming matches</div>';
+            }
+
+            return games.map(g => `
+                <div class="bet-card">
+                    <div>
+                        <div class="bet-matchup">${g.away_team || 'Team 1'} vs ${g.home_team || 'Team 2'}</div>
+                        <div class="bet-details">
+                            <span>📅 ${formatDate(g.commence_time)}</span>
+                            <span>🏆 ${g.league || 'Tournament'}</span>
+                        </div>
+                    </div>
+                    <div class="bet-ev">
+                        <div class="bet-ev-value" style="color:#666;font-size:14px;">Schedule Only</div>
+                        <div class="bet-ev-label">No odds data</div>
+                    </div>
+                </div>
+            `).join('');
         }
 
         function renderEdges(edges) {

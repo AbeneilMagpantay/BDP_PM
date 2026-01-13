@@ -20,8 +20,8 @@ import requests
 
 load_dotenv(project_root.parent / '.env')
 
-# Sport configurations - The Odds API
-ODDS_API_SPORTS = {
+# Sport configurations - The Odds API only
+SPORTS = {
     'nfl': {
         'key': 'americanfootball_nfl',
         'name': 'NFL',
@@ -60,34 +60,6 @@ ODDS_API_SPORTS = {
     }
 }
 
-# Esports - PandaScore
-PANDASCORE_SPORTS = {
-    'dota2': {
-        'slug': 'dota2',
-        'name': 'Dota 2',
-        'profile': {
-            'name': 'Dota 2',
-            'handle': 'Esports',
-            'emoji': '🎮',
-            'bio': 'Dota 2 match predictions.',
-            'accuracy': 0,
-            'record': {'wins': 0, 'losses': 0},
-        }
-    },
-    'valorant': {
-        'key': 'valorant',
-        'name': 'Valorant',
-        'profile': {
-            'name': 'Valorant',
-            'handle': 'Esports',
-            'emoji': '🎯',
-            'bio': 'Valorant match predictions.',
-            'accuracy': 0,
-            'record': {'wins': 0, 'losses': 0},
-        }
-    }
-}
-
 
 def fetch_odds_api(sport_key: str) -> list:
     """Fetch odds from The Odds API."""
@@ -107,49 +79,6 @@ def fetch_odds_api(sport_key: str) -> list:
     except Exception as e:
         print(f"   Error fetching {sport_key}: {e}")
         return []
-
-
-def fetch_pandascore_matches(game: str) -> list:
-    """Fetch upcoming matches from PandaScore."""
-    api_key = os.getenv('PANDASCORE_API_KEY')
-    if not api_key:
-        print(f"   PandaScore API key not found")
-        return []
-    
-    url = f"https://api.pandascore.co/{game}/matches/upcoming"
-    headers = {'Authorization': f'Bearer {api_key}'}
-    params = {'per_page': 20}
-    
-    try:
-        r = requests.get(url, headers=headers, params=params)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"   Error fetching {game}: {e}")
-        return []
-
-
-def parse_pandascore_matches(matches: list, sport_name: str) -> tuple:
-    """Parse PandaScore matches into games format (no odds available)."""
-    games = []
-    
-    for match in matches:
-        if not match.get('opponents') or len(match['opponents']) < 2:
-            continue
-        
-        team1 = match['opponents'][0].get('opponent', {})
-        team2 = match['opponents'][1].get('opponent', {})
-        
-        game = {
-            'home_team': team1.get('name', 'Team 1'),
-            'away_team': team2.get('name', 'Team 2'),
-            'commence_time': match.get('scheduled_at', ''),
-            'league': match.get('league', {}).get('name', sport_name),
-        }
-        games.append(game)
-    
-    # No edges - PandaScore free tier doesn't provide odds
-    return games, []
 
 
 def find_best_odds(games: list) -> list:
@@ -258,7 +187,7 @@ def main():
     total_games = 0
     
     # Fetch from The Odds API
-    for sport_id, config in ODDS_API_SPORTS.items():
+    for sport_id, config in SPORTS.items():
         print(f"\n📊 Fetching {config['name']} odds...")
         
         raw_odds = fetch_odds_api(config['key'])
@@ -288,38 +217,6 @@ def main():
         }
         
         total_edges += len(edges)
-        total_games += len(games)
-    
-    # Fetch from PandaScore (Esports)
-    for sport_id, config in PANDASCORE_SPORTS.items():
-        print(f"\n🎮 Fetching {config['name']} matches...")
-        
-        game_slug = config.get('slug') or config.get('key')
-        matches = fetch_pandascore_matches(game_slug)
-        
-        if not matches:
-            print(f"   No {config['name']} matches found")
-            all_data['sports'][sport_id] = {
-                'profile': config['profile'],
-                'games': [],
-                'edges': [],
-                'total_games': 0,
-                'total_edges': 0
-            }
-            continue
-        
-        games, edges = parse_pandascore_matches(matches, config['name'])
-        
-        print(f"   Found {len(games)} matches")
-        
-        all_data['sports'][sport_id] = {
-            'profile': config['profile'],
-            'games': games,
-            'edges': edges[:10],
-            'total_games': len(games),
-            'total_edges': len(edges)
-        }
-        
         total_games += len(games)
     
     all_data['total_games'] = total_games
