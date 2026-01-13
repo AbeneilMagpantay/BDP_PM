@@ -59,9 +59,9 @@ class SoccerMatchPredictor:
         # Train model
         print("\nTraining XGBoost model...")
         self.model = XGBClassifier(
-            n_estimators=150,
-            max_depth=4,
-            learning_rate=0.05,
+            n_estimators=300,
+            max_depth=6,
+            learning_rate=0.03,
             subsample=0.8,
             colsample_bytree=0.8,
             objective='binary:logistic',
@@ -119,12 +119,12 @@ class SoccerMatchPredictor:
         away_team_stats: Dict[str, float]
     ) -> Dict[str, float]:
         """
-        Predict the outcome of a single match.
+        Predict the outcome of a single match with form and H2H.
         """
         features = {}
         
         # Map stats to features
-        for key in ['strength', 'xg', 'shots', 'possession']:
+        for key in ['strength', 'xg', 'shots', 'possession', 'form', 'h2h_win_rate']:
             features[f'home_{key}'] = home_team_stats.get(key, 0.5)
             features[f'away_{key}'] = away_team_stats.get(key, 0.5)
         
@@ -133,6 +133,7 @@ class SoccerMatchPredictor:
         features['xg_diff'] = features.get('home_xg', 1) - features.get('away_xg', 1)
         features['shots_diff'] = features.get('home_shots', 10) - features.get('away_shots', 10)
         features['possession_diff'] = features.get('home_possession', 50) - features.get('away_possession', 50)
+        features['form_diff'] = features.get('home_form', 0.5) - features.get('away_form', 0.5)
         
         # Create DataFrame
         df = pd.DataFrame([features])

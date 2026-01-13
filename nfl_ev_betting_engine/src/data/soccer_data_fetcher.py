@@ -109,9 +109,18 @@ def _generate_synthetic_soccer_data(n_matches: int = 2000) -> pd.DataFrame:
         home = np.random.choice(teams)
         away = np.random.choice([t for t in teams if t != home])
         
-        # Home advantage + team strength difference
+        # Home advantage + team strength difference + form momentum
         home_adv = 0.1
-        strength_diff = team_strength[home] - team_strength[away] + home_adv
+        
+        # Generate random recent form (0.0 to 1.0)
+        home_form = np.random.uniform(0.2, 0.9)
+        away_form = np.random.uniform(0.2, 0.9)
+        
+        # Correlate form with underlying strength (better teams have better form)
+        home_form = (home_form + team_strength[home]) / 2
+        away_form = (away_form + team_strength[away]) / 2
+        
+        strength_diff = (team_strength[home] - team_strength[away]) + (home_form - away_form)*0.3 + home_adv
         
         # Generate result
         home_win_prob = 0.5 + strength_diff * 0.4
@@ -138,6 +147,11 @@ def _generate_synthetic_soccer_data(n_matches: int = 2000) -> pd.DataFrame:
             'home_goals': home_goals,
             'away_goals': away_goals,
             'home_strength': team_strength[home],
+            'away_strength': team_strength[away],
+            'home_form': home_form,
+            'away_form': away_form,
+            'home_h2h_win_rate': np.random.uniform(0.3, 0.7), # Placeholder H2H
+            'away_h2h_win_rate': np.random.uniform(0.3, 0.7), # Placeholder H2H
             'away_strength': team_strength[away],
             'home_xg': np.random.uniform(0.5, 3.0),
             'away_xg': np.random.uniform(0.3, 2.5),

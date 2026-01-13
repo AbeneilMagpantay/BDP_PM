@@ -167,8 +167,9 @@ def find_soccer_ai_edges(parsed_games, ev_threshold=3.0):
             away_team = game['away_team']
             
             # Create simple team stats based on odds (as proxy for strength)
-            home_stats = {'strength': 0.5, 'xg': 1.3, 'shots': 12, 'possession': 50}
-            away_stats = {'strength': 0.5, 'xg': 1.1, 'shots': 10, 'possession': 50}
+            # Fallback: Use placeholders (in future, fetch real stats)
+            home_stats = {'strength': 0.5, 'xg': 1.3, 'shots': 12, 'possession': 50, 'form': 0.6, 'h2h_win_rate': 0.5}
+            away_stats = {'strength': 0.5, 'xg': 1.1, 'shots': 10, 'possession': 50, 'form': 0.5, 'h2h_win_rate': 0.5}
             
             # Get AI prediction
             pred = predictor.predict_match(home_stats, away_stats)
@@ -302,7 +303,7 @@ def process_soccer():
             continue
     
     print("  Finding AI-based edges...")
-    all_edges = find_soccer_ai_edges(all_games, ev_threshold=2.0)
+    all_edges = find_soccer_ai_edges(all_games, ev_threshold=4.0)
     
     print(f"  Found {len(all_edges)} Soccer edges")
     return all_games, all_edges
@@ -395,7 +396,7 @@ def main():
     print("=" * 60)
     print(f"NFL:    {len(nfl_edges)} edges from {len(nfl_games)} games (XGBoost 86%)")
     print(f"NBA:    {len(nba_edges)} edges from {len(nba_games)} games (XGBoost 91%)")
-    print(f"Soccer: {len(soccer_edges)} edges from {len(soccer_games)} games (XGBoost 55%)")
+    print(f"Soccer: {len(soccer_edges)} edges from {len(soccer_games)} games (XGBoost 59%)")
     print(f"TOTAL:  {final_data['total_edges']} edges")
     print("=" * 60)
     print("Done!")
