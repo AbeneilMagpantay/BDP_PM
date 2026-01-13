@@ -530,7 +530,14 @@
             }
 
             .stats-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(2, 1fr);
+                /* 2x2 Grid for Mobile */
+                gap: 16px;
+            }
+
+            .stat-card {
+                padding: 16px;
+                /* Compact padding */
             }
         }
 
@@ -835,7 +842,7 @@
 
 
                     // Update Header for History
-                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr";
+                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr";
                     headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
@@ -843,11 +850,10 @@
                 <div>Edge</div>
                 <div>Odds</div>
                 <div>Result</div>
-                <div>Profit</div>
             `;
 
                     list.innerHTML = betHistory.map(b => `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr;">
+                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
                     </div>
@@ -860,9 +866,6 @@
                     <div class="bet-ev" style="font-size:13px">${b.ev || '-'}</div>
                     <div class="bet-odds" style="font-weight:600">${b.odds}</div>
                     <div class="${b.result === 'WON' ? 'result-won' : 'result-lost'}">${b.result}</div>
-                    <div style="font-family:monospace; font-weight:700; color:${b.profit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)'}">
-                        ${b.profit >= 0 ? '+' : ''}$${b.profit}
-                    </div>
                 </div>
             `).join('');
                 }
