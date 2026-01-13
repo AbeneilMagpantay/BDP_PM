@@ -686,25 +686,26 @@
 
             <script>
                 let data = null;
-
-                // Mock history data reflecting the User's First Run (Jan 9, 2026)
-                const betHistory = [
-                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'San Francisco 49ers @ Seattle Seahawks', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
-                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers @ Baltimore Ravens', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
-                    { sport: 'nba', date: '2026-01-09T01:55:00', match: 'Chicago Bulls @ Milwaukee Bucks', pick: 'Bulls', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
-                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'New England Patriots @ New York Jets', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
-                    { sport: 'nba', date: '2026-01-09T01:55:00', match: 'Los Angeles Lakers @ Golden State Warriors', pick: 'Lakers', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
-                ];
+                let betHistory = [];
 
                 async function load() {
                     try {
                         const res = await fetch('data/predictions.json');
                         data = await res.json();
 
+                        // Load History
+                        try {
+                            const histRes = await fetch('data/history.json');
+                            betHistory = await histRes.json();
+                        } catch (e) {
+                            console.warn("Could not load history.json", e);
+                            betHistory = [];
+                        }
+
                         // Update timestamps
-                        // Update timestamps with Time Ago
                         function timeAgo(dateString) {
                             const date = new Date(dateString);
+                            // ... existing timeAgo logic ...
                             const now = new Date();
                             const seconds = Math.floor((now - date) / 1000);
 
@@ -717,10 +718,7 @@
 
                         document.getElementById('updated-at').textContent = 'Updated ' + timeAgo(data.generated_at);
 
-                        // Update Stats
-
-
-                        // Set Static Record
+                        // Set Static Record based on Persistent History
                         const wins = betHistory.filter(h => h.result === 'WON').length;
                         const losses = betHistory.filter(h => h.result === 'LOST').length;
                         document.getElementById('record').textContent = `${wins}-${losses}`;
