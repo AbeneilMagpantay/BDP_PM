@@ -533,6 +533,32 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Mobile Scroll for Table */
+        @media (max-width: 768px) {
+            .bets-container {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                border-radius: 12px;
+                border: 1px solid var(--border-color);
+            }
+
+            .table-header,
+            .bet-row {
+                min-width: 800px;
+                /* Force spread layout */
+            }
+
+            /* Hide scrollbar but keep functionality */
+            .bets-container::-webkit-scrollbar {
+                height: 4px;
+            }
+
+            .bets-container::-webkit-scrollbar-thumb {
+                background: var(--border-color);
+                border-radius: 2px;
+            }
+        }
     </style>
 </head>
 
@@ -809,7 +835,7 @@
 
 
                     // Update Header for History
-                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr";
+                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr";
                     headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
@@ -818,11 +844,10 @@
                 <div>Odds</div>
                 <div>Result</div>
                 <div>Profit</div>
-                <div>ROI</div>
             `;
 
                     list.innerHTML = betHistory.map(b => `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr;">
+                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
                     </div>
@@ -838,7 +863,6 @@
                     <div style="font-family:monospace; font-weight:700; color:${b.profit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)'}">
                         ${b.profit >= 0 ? '+' : ''}$${b.profit}
                     </div>
-                    <div class="bet-prob" style="opacity:0.7">-</div>
                 </div>
             `).join('');
                 }
