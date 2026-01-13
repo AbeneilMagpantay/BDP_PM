@@ -182,7 +182,8 @@
             display: grid;
             grid-template-columns: 3fr 1fr;
             gap: 24px;
-            align-items: start;
+            align-items: stretch;
+            /* FORCE SYMMETRY */
         }
 
         .chart-card {
@@ -190,6 +191,8 @@
             border-radius: 16px;
             padding: 32px;
             border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
         }
 
         .card-header {
@@ -197,6 +200,7 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 32px;
+            flex-shrink: 0;
         }
 
         .card-title {
@@ -217,6 +221,8 @@
             border: 1px solid var(--border-color);
             border-radius: 12px;
             overflow: hidden;
+            flex: 1;
+            /* Allow table to fill space */
         }
 
         .table-header {
@@ -294,6 +300,7 @@
             display: flex;
             flex-direction: column;
             gap: 24px;
+            height: 100%;
         }
 
         /* Donut Chart */
@@ -370,18 +377,25 @@
         /* System Card */
         .system-card {
             padding: 24px;
+            flex: 1;
+            /* FILL REMAINING HEIGHT */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .intelligence-list {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 24px;
+            flex: 1;
+            justify-content: space-evenly;
         }
 
         .intel-item {
             display: flex;
             gap: 16px;
-            align-items: center;
+            align-items: flex-start;
         }
 
         .intel-icon-small {
@@ -394,19 +408,21 @@
             align-items: center;
             justify-content: center;
             font-size: 20px;
+            margin-top: 2px;
         }
 
         .intel-item h4 {
             font-size: 14px;
             font-weight: 700;
-            margin-bottom: 2px;
+            margin-bottom: 6px;
             color: var(--text-main);
         }
 
         .intel-item p {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--text-muted);
-            line-height: 1.4;
+            line-height: 1.5;
+            font-weight: 400;
         }
 
         /* Sport Filter Tabs */
@@ -567,8 +583,9 @@
                         <div class="intel-item">
                             <div class="intel-icon-small"><i class="ph-duotone ph-globe"></i></div>
                             <div>
-                                <h4>Global Ingestion</h4>
-                                <p>Scans 40+ bookmakers real-time</p>
+                                <h4>Global Data Ingestion</h4>
+                                <p>The system constantly scans 40+ global bookmakers in real-time, ingesting odds for
+                                    NFL, NBA, and Soccer to detect market inefficiencies the moment they appear.</p>
                             </div>
                         </div>
 
@@ -576,15 +593,19 @@
                             <div class="intel-icon-small"><i class="ph-duotone ph-calculator"></i></div>
                             <div>
                                 <h4>EV Engine</h4>
-                                <p>Math-based edge detection</p>
+                                <p>Our proprietary engine calculates Expected Value (EV) by comparing implied
+                                    probabilities against true market odds, mathematically identifying bets with a
+                                    positive long-term edge.</p>
                             </div>
                         </div>
 
                         <div class="intel-item">
                             <div class="intel-icon-small"><i class="ph-duotone ph-robot"></i></div>
                             <div>
-                                <h4>24/7 Automation</h4>
-                                <p>Autonomous execution cycle</p>
+                                <h4>Automated Execution</h4>
+                                <p>Powered by autonomous workflows, the system runs on a 24/7 cycle to fetch, analyze,
+                                    and publish predictions without human intervention, ensuring no opportunity is
+                                    missed.</p>
                             </div>
                         </div>
                     </div>
