@@ -683,7 +683,20 @@
                         data = await res.json();
 
                         // Update timestamps
-                        document.getElementById('updated-at').textContent = 'Last updated: ' + new Date(data.generated_at).toLocaleString();
+                        // Update timestamps with Time Ago
+                        function timeAgo(dateString) {
+                            const date = new Date(dateString);
+                            const now = new Date();
+                            const seconds = Math.floor((now - date) / 1000);
+
+                            let interval = seconds / 3600;
+                            if (interval > 1) return Math.floor(interval) + " hours ago";
+                            interval = seconds / 60;
+                            if (interval > 1) return Math.floor(interval) + " mins ago";
+                            return "just now";
+                        }
+
+                        document.getElementById('updated-at').textContent = 'Updated ' + timeAgo(data.generated_at);
 
                         // Update Stats
                         if (data.aggregate) {
