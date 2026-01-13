@@ -4,3 +4,5 @@
 
 # Data files at root (too large for git)
 /data/
+!/data/models/
+!/data/models/*.joblib

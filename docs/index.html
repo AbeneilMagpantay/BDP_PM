@@ -631,99 +631,87 @@
                                     positive long-term edge.</p>
                             </div>
                         </div>
-
-                        <div class="intel-item">
-                            <div class="intel-icon-small"><i class="ph-duotone ph-robot"></i></div>
-                            <div>
-                                <h4>Automated Execution</h4>
-                                <p>Powered by autonomous workflows, the system runs on a 24/7 cycle to fetch, analyze,
-                                    and publish predictions without human intervention, ensuring no opportunity is
-                                    missed.</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
+
             </div>
-        </div>
 
-    </div>
+            <script>
+                let data = null;
 
-    <script>
-        let data = null;
+                // Mock history data reflecting the User's First Run (Jan 9, 2026)
+                const betHistory = [
+                    { date: '2026-01-09T01:55:00', match: 'San Francisco 49ers', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
+                    { date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
+                    { date: '2026-01-09T01:55:00', match: 'Chicago Bears', pick: 'Bears', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
+                    { date: '2026-01-09T01:55:00', match: 'New England Patriots', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
+                    { date: '2026-01-09T01:55:00', match: 'Los Angeles Rams', pick: 'Rams', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
+                ];
 
-        // Mock history data reflecting the User's First Run (Jan 9, 2026)
-        const betHistory = [
-            { date: '2026-01-09T01:55:00', match: 'San Francisco 49ers', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
-            { date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
-            { date: '2026-01-09T01:55:00', match: 'Chicago Bears', pick: 'Bears', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
-            { date: '2026-01-09T01:55:00', match: 'New England Patriots', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
-            { date: '2026-01-09T01:55:00', match: 'Los Angeles Rams', pick: 'Rams', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
-        ];
+                async function load() {
+                    try {
+                        const res = await fetch('data/predictions.json');
+                        data = await res.json();
 
-        async function load() {
-            try {
-                const res = await fetch('data/predictions.json');
-                data = await res.json();
+                        // Update timestamps
+                        document.getElementById('updated-at').textContent = 'Last updated: ' + new Date(data.generated_at).toLocaleString();
 
-                // Update timestamps
-                document.getElementById('updated-at').textContent = 'Last updated: ' + new Date(data.generated_at).toLocaleString();
+                        // Update Stats
+                        if (data.aggregate) {
+                            const agg = data.aggregate;
+                            // Record only
+                            document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
 
-                // Update Stats
-                if (data.aggregate) {
-                    const agg = data.aggregate;
-                    // Record only
-                    document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
+                            // Chart
+                            const winRate = agg.win_rate || 0;
+                            document.getElementById('win-rate').textContent = winRate + '%';
+                            document.getElementById('win-chart').style.background = `conic-gradient(var(--accent-green) 0% ${winRate}%, #2c2f36 ${winRate}% 100%)`;
+                        }
 
-                    // Chart
-                    const winRate = agg.win_rate || 0;
-                    document.getElementById('win-rate').textContent = winRate + '%';
-                    document.getElementById('win-chart').style.background = `conic-gradient(var(--accent-green) 0% ${winRate}%, #2c2f36 ${winRate}% 100%)`;
+                        renderFilters();
+                        renderBets('all', null);
+
+                    } catch (e) {
+                        console.error(e);
+                    }
                 }
 
-                renderFilters();
-                renderBets('all', null);
+                function renderFilters() {
+                    const container = document.getElementById('sport-tabs-container');
+                    const sports = ['All', 'NFL', 'NBA', 'Soccer', 'History'];
 
-            } catch (e) {
-                console.error(e);
-            }
-        }
+                    container.innerHTML = sports.map((s, i) =>
+                        `<button class="filter-btn ${i === 0 ? 'active' : ''}" onclick="filterBets('${s.toLowerCase()}', this)">${s}</button>`
+                    ).join('');
+                }
 
-        function renderFilters() {
-            const container = document.getElementById('sport-tabs-container');
-            const sports = ['All', 'NFL', 'NBA', 'Soccer', 'History'];
+                function filterBets(sport, btn) {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
 
-            container.innerHTML = sports.map((s, i) =>
-                `<button class="filter-btn ${i === 0 ? 'active' : ''}" onclick="filterBets('${s.toLowerCase()}', this)">${s}</button>`
-            ).join('');
-        }
+                    if (sport === 'history') {
+                        renderHistory();
+                    } else {
+                        renderBets(sport);
+                    }
+                }
 
-        function filterBets(sport, btn) {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
+                function renderHistory() {
+                    const list = document.getElementById('bets-list');
+                    const tableTitleText = document.getElementById('table-title-text');
+                    const headerRow = document.getElementById('table-header-row');
 
-            if (sport === 'history') {
-                renderHistory();
-            } else {
-                renderBets(sport);
-            }
-        }
+                    // Fade out avg edge/best edge in history mode
+                    const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
+                    const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
+                    avgEdgeContainer.classList.add('hidden-stat');
+                    bestEdgeContainer.classList.add('hidden-stat');
 
-        function renderHistory() {
-            const list = document.getElementById('bets-list');
-            const tableTitleText = document.getElementById('table-title-text');
-            const headerRow = document.getElementById('table-header-row');
+                    tableTitleText.textContent = "Betting History";
 
-            // Fade out avg edge/best edge in history mode
-            const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
-            const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
-            avgEdgeContainer.classList.add('hidden-stat');
-            bestEdgeContainer.classList.add('hidden-stat');
-
-            tableTitleText.textContent = "Betting History";
-
-            // Update Header for History
-            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr";
-            headerRow.innerHTML = `
+                    // Update Header for History
+                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr";
+                    headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
@@ -734,7 +722,7 @@
                 <div>ROI</div>
             `;
 
-            list.innerHTML = betHistory.map(b => `
+                    list.innerHTML = betHistory.map(b => `
                 <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
@@ -754,26 +742,26 @@
                     <div class="bet-prob" style="opacity:0.7">-</div>
                 </div>
             `).join('');
-        }
+                }
 
-        function renderBets(filter) {
-            const list = document.getElementById('bets-list');
-            const tableTitleText = document.getElementById('table-title-text');
-            const headerRow = document.getElementById('table-header-row');
-            const avgEdgeEl = document.getElementById('avg-edge');
-            const bestEdgeEl = document.getElementById('best-edge');
+                function renderBets(filter) {
+                    const list = document.getElementById('bets-list');
+                    const tableTitleText = document.getElementById('table-title-text');
+                    const headerRow = document.getElementById('table-header-row');
+                    const avgEdgeEl = document.getElementById('avg-edge');
+                    const bestEdgeEl = document.getElementById('best-edge');
 
-            // Restore avg edge opacity
-            const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
-            const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
-            avgEdgeContainer.classList.remove('hidden-stat');
-            bestEdgeContainer.classList.remove('hidden-stat');
+                    // Restore avg edge opacity
+                    const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
+                    const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
+                    avgEdgeContainer.classList.remove('hidden-stat');
+                    bestEdgeContainer.classList.remove('hidden-stat');
 
-            // Reset UI for Value Bets
-            tableTitleText.textContent = 'Latest Value Bets';
+                    // Reset UI for Value Bets
+                    tableTitleText.textContent = 'Latest Value Bets';
 
-            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1.5fr";
-            headerRow.innerHTML = `
+                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1.5fr";
+                    headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
                 <div>Edge</div>
@@ -782,43 +770,43 @@
                 <div>Exp. Value</div>
             `;
 
-            let allEdges = [];
+                    let allEdges = [];
 
-            for (const [key, sport] of Object.entries(data.sports || {})) {
-                if (filter !== 'all' && !sport.profile.name.toLowerCase().includes(filter) && filter !== key) continue;
-                if (sport.edges) {
-                    sport.edges.forEach(e => allEdges.push({ ...e, sportInfo: sport.profile }));
-                }
-            }
+                    for (const [key, sport] of Object.entries(data.sports || {})) {
+                        if (filter !== 'all' && !sport.profile.name.toLowerCase().includes(filter) && filter !== key) continue;
+                        if (sport.edges) {
+                            sport.edges.forEach(e => allEdges.push({ ...e, sportInfo: sport.profile }));
+                        }
+                    }
 
-            allEdges.sort((a, b) => b.ev - a.ev);
+                    allEdges.sort((a, b) => b.ev - a.ev);
 
-            // Calculate Stats
-            if (allEdges.length > 0) {
-                // Avg
-                const totalEv = allEdges.reduce((sum, e) => sum + e.ev, 0);
-                const avgEv = totalEv / allEdges.length;
-                avgEdgeEl.textContent = '+' + avgEv.toFixed(1) + '%';
+                    // Calculate Stats
+                    if (allEdges.length > 0) {
+                        // Avg
+                        const totalEv = allEdges.reduce((sum, e) => sum + e.ev, 0);
+                        const avgEv = totalEv / allEdges.length;
+                        avgEdgeEl.textContent = '+' + avgEv.toFixed(1) + '%';
 
-                // Best
-                bestEdgeEl.textContent = '+' + allEdges[0].ev.toFixed(1) + '%';
-                bestEdgeEl.classList.add('text-green'); // logic handled by css usually, but here simple text
-            } else {
-                avgEdgeEl.textContent = '--%';
-                bestEdgeEl.textContent = '--%';
-            }
+                        // Best
+                        bestEdgeEl.textContent = '+' + allEdges[0].ev.toFixed(1) + '%';
+                        bestEdgeEl.classList.add('text-green'); // logic handled by css usually, but here simple text
+                    } else {
+                        avgEdgeEl.textContent = '--%';
+                        bestEdgeEl.textContent = '--%';
+                    }
 
-            if (allEdges.length === 0) {
-                list.innerHTML = `
+                    if (allEdges.length === 0) {
+                        list.innerHTML = `
                     <div class="empty-state">
                         <i class="ph ph-empty"></i>
                         <p>No value bets found for this filter.</p>
                     </div>`;
-                return;
-            }
+                        return;
+                    }
 
-            list.innerHTML = allEdges.map(e => {
-                return `
+                    list.innerHTML = allEdges.map(e => {
+                        return `
                 <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;">
                     <div class="bet-date">
                         ${new Date(e.commence_time).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
@@ -835,10 +823,10 @@
                     <div class="bet-ev">+${e.ev}%</div>
                 </div>
             `}).join('');
-        }
+                }
 
-        load();
-    </script>
+                load();
+            </script>
 </body>
 
 </html>

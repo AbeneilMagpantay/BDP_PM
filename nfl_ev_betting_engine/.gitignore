@@ -13,7 +13,7 @@ data/processed/*
 !data/processed/.gitkeep
 
 # Model files (large)
-data/models/*.joblib
+# data/models/*.joblib
 data/models/*.pkl
 !data/models/.gitkeep
 

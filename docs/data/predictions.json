@@ -1,474 +1,1320 @@
 {
-  "generated_at": "2026-01-13T18:12:39.392616",
+  "generated_at": "2026-01-13T19:18:44.865242",
   "sports": {
     "nfl": {
-      "profile": {
-        "name": "NFL",
-        "handle": "American Football",
-        "emoji": "\ud83c\udfc8",
-        "bio": "NFL game predictions and betting edges.",
-        "accuracy": 86,
-        "record": {
-          "wins": 4,
-          "losses": 1
-        }
-      },
+      "profile": {},
       "games": [
         {
+          "game_id": "ea794ebbcb7cbcaf7753c65d0f1a15c8",
+          "sport": "americanfootball_nfl",
+          "commence_time": "2026-01-17T21:30:00Z",
           "home_team": "Denver Broncos",
           "away_team": "Buffalo Bills",
-          "commence_time": "2026-01-17T21:30:00Z",
-          "home_odds": -105,
-          "home_book": "BetMGM",
-          "away_odds": -108,
-          "away_book": "DraftKings"
+          "bookmakers": {
+            "draftkings": {
+              "last_update": "2026-01-13T11:17:53Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -108,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -112,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -118,
+                    "point": 1.5
+                  },
+                  "Denver Broncos": {
+                    "odds": -102,
+                    "point": -1.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "fanduel": {
+              "last_update": "2026-01-13T11:18:08Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -108,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -108,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -102,
+                    "point": -1.5
+                  },
+                  "Denver Broncos": {
+                    "odds": -120,
+                    "point": 1.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "betrivers": {
+              "last_update": "2026-01-13T11:18:19Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -109,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -117,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -114,
+                    "point": 1.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -112,
+                    "point": -1.0
+                  }
+                }
+              }
+            },
+            "betmgm": {
+              "last_update": "2026-01-13T11:18:23Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -115,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -105,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -110,
+                    "point": -1.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -110,
+                    "point": 1.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "lowvig": {
+              "last_update": "2026-01-13T11:18:31Z",
+              "markets": {
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -105,
+                    "point": 0.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -105,
+                    "point": 0.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -107,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -107,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "betonlineag": {
+              "last_update": "2026-01-13T11:17:55Z",
+              "markets": {
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -110,
+                    "point": 0.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -110,
+                    "point": 0.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "mybookieag": {
+              "last_update": "2026-01-13T11:18:34Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -109,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -112,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": 100,
+                    "point": -1.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -120,
+                    "point": 1.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "bovada": {
+              "last_update": "2026-01-13T11:18:21Z",
+              "markets": {
+                "h2h": {
+                  "Buffalo Bills": {
+                    "odds": -115,
+                    "point": null
+                  },
+                  "Denver Broncos": {
+                    "odds": -105,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -105,
+                    "point": -1.5
+                  },
+                  "Denver Broncos": {
+                    "odds": -115,
+                    "point": 1.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 46.5
+                  }
+                }
+              }
+            },
+            "betus": {
+              "last_update": "2026-01-13T11:17:41Z",
+              "markets": {
+                "spreads": {
+                  "Buffalo Bills": {
+                    "odds": -110,
+                    "point": 0.0
+                  },
+                  "Denver Broncos": {
+                    "odds": -110,
+                    "point": 0.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 46.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 46.5
+                  }
+                }
+              }
+            }
+          }
         },
         {
+          "game_id": "9161553abe07f4eadf12b071f4f6e3ac",
+          "sport": "americanfootball_nfl",
+          "commence_time": "2026-01-18T01:00:00Z",
           "home_team": "Seattle Seahawks",
           "away_team": "San Francisco 49ers",
-          "commence_time": "2026-01-18T01:00:00Z",
-          "home_odds": -355,
-          "home_book": "DraftKings",
-          "away_odds": 310,
-          "away_book": "FanDuel"
+          "bookmakers": {
+            "draftkings": {
+              "last_update": "2026-01-13T11:17:53Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 280,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -355,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -112,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -108,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -108,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -112,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "fanduel": {
+              "last_update": "2026-01-13T11:18:08Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 310,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -390,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "betonlineag": {
+              "last_update": "2026-01-13T11:17:55Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 306,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -385,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "lowvig": {
+              "last_update": "2026-01-13T11:18:31Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 306,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -385,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -105,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -105,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -107,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -107,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "betmgm": {
+              "last_update": "2026-01-13T11:18:23Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 300,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -375,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "betrivers": {
+              "last_update": "2026-01-13T11:18:19Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 285,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -400,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -118,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -108,
+                    "point": -7.5
+                  }
+                }
+              }
+            },
+            "mybookieag": {
+              "last_update": "2026-01-13T11:18:34Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 300,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -400,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "betus": {
+              "last_update": "2026-01-13T11:17:41Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 300,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -375,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 45.5
+                  }
+                }
+              }
+            },
+            "bovada": {
+              "last_update": "2026-01-13T11:18:21Z",
+              "markets": {
+                "h2h": {
+                  "San Francisco 49ers": {
+                    "odds": 295,
+                    "point": null
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -390,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "San Francisco 49ers": {
+                    "odds": -110,
+                    "point": 7.5
+                  },
+                  "Seattle Seahawks": {
+                    "odds": -110,
+                    "point": -7.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 45.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 45.5
+                  }
+                }
+              }
+            }
+          }
         },
         {
+          "game_id": "1e7cc7c3ef7d9f4e473cb43f39652897",
+          "sport": "americanfootball_nfl",
+          "commence_time": "2026-01-18T20:00:00Z",
           "home_team": "New England Patriots",
           "away_team": "Houston Texans",
-          "commence_time": "2026-01-18T20:00:00Z",
-          "home_odds": -150,
-          "home_book": "Bovada",
-          "away_odds": 136,
-          "away_book": "DraftKings"
+          "bookmakers": {
+            "draftkings": {
+              "last_update": "2026-01-13T11:17:53Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 136,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -162,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": -118,
+                    "point": 3.0
+                  },
+                  "New England Patriots": {
+                    "odds": -102,
+                    "point": -3.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 40.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 40.5
+                  }
+                }
+              }
+            },
+            "betrivers": {
+              "last_update": "2026-01-13T11:18:19Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 123,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -159,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": -107,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -120,
+                    "point": -2.5
+                  }
+                }
+              }
+            },
+            "fanduel": {
+              "last_update": "2026-01-13T11:18:08Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 130,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -154,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": -102,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -120,
+                    "point": -2.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 40.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 40.5
+                  }
+                }
+              }
+            },
+            "betonlineag": {
+              "last_update": "2026-01-13T11:17:55Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 134,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -154,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": 100,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -120,
+                    "point": -2.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -107,
+                    "point": 41.0
+                  },
+                  "Under": {
+                    "odds": -113,
+                    "point": 41.0
+                  }
+                }
+              }
+            },
+            "betmgm": {
+              "last_update": "2026-01-13T11:18:23Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 130,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -155,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": 100,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -120,
+                    "point": -2.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 40.5
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 40.5
+                  }
+                }
+              }
+            },
+            "lowvig": {
+              "last_update": "2026-01-13T11:18:31Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 134,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -154,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": 105,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -116,
+                    "point": -2.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -104,
+                    "point": 41.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 41.0
+                  }
+                }
+              }
+            },
+            "mybookieag": {
+              "last_update": "2026-01-13T11:18:34Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 128,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -158,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": -115,
+                    "point": 3.0
+                  },
+                  "New England Patriots": {
+                    "odds": -105,
+                    "point": -3.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 41.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 41.0
+                  }
+                }
+              }
+            },
+            "betus": {
+              "last_update": "2026-01-13T11:17:41Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 134,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -155,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": 100,
+                    "point": 2.5
+                  },
+                  "New England Patriots": {
+                    "odds": -120,
+                    "point": -2.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 41.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 41.0
+                  }
+                }
+              }
+            },
+            "bovada": {
+              "last_update": "2026-01-13T11:18:21Z",
+              "markets": {
+                "h2h": {
+                  "Houston Texans": {
+                    "odds": 130,
+                    "point": null
+                  },
+                  "New England Patriots": {
+                    "odds": -150,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Houston Texans": {
+                    "odds": -115,
+                    "point": 3.0
+                  },
+                  "New England Patriots": {
+                    "odds": -105,
+                    "point": -3.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 41.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 41.0
+                  }
+                }
+              }
+            }
+          }
         },
         {
+          "game_id": "3cb03f5ff8d371b94e8b55c7e58b7a34",
+          "sport": "americanfootball_nfl",
+          "commence_time": "2026-01-18T23:30:00Z",
           "home_team": "Chicago Bears",
           "away_team": "Los Angeles Rams",
-          "commence_time": "2026-01-18T23:30:00Z",
-          "home_odds": 180,
-          "home_book": "Bovada",
-          "away_odds": -191,
-          "away_book": "BetOnline.ag"
-        }
-      ],
-      "edges": [],
-      "total_games": 4,
-      "total_edges": 0
-    },
-    "nba": {
-      "profile": {
-        "name": "NBA",
-        "handle": "Basketball",
-        "emoji": "\ud83c\udfc0",
-        "bio": "NBA game predictions and betting edges.",
-        "accuracy": 0,
-        "record": {
-          "wins": 0,
-          "losses": 0
-        }
-      },
-      "games": [
-        {
-          "home_team": "Miami Heat",
-          "away_team": "Phoenix Suns",
-          "commence_time": "2026-01-14T00:40:00Z",
-          "home_odds": -106,
-          "home_book": "BetRivers",
-          "away_odds": -104,
-          "away_book": "FanDuel"
-        },
-        {
-          "home_team": "Houston Rockets",
-          "away_team": "Chicago Bulls",
-          "commence_time": "2026-01-14T01:10:00Z",
-          "home_odds": -518,
-          "home_book": "LowVig.ag",
-          "away_odds": 460,
-          "away_book": "FanDuel"
-        },
-        {
-          "home_team": "New Orleans Pelicans",
-          "away_team": "Denver Nuggets",
-          "commence_time": "2026-01-14T01:10:00Z",
-          "home_odds": 126,
-          "home_book": "FanDuel",
-          "away_odds": -136,
-          "away_book": "LowVig.ag"
-        },
-        {
-          "home_team": "Milwaukee Bucks",
-          "away_team": "Minnesota Timberwolves",
-          "commence_time": "2026-01-14T01:10:00Z",
-          "home_odds": -145,
-          "home_book": "Bovada",
-          "away_odds": 133,
-          "away_book": "MyBookie.ag"
-        },
-        {
-          "home_team": "Oklahoma City Thunder",
-          "away_team": "San Antonio Spurs",
-          "commence_time": "2026-01-14T01:10:00Z",
-          "home_odds": -260,
-          "home_book": "Bovada",
-          "away_odds": 230,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Los Angeles Lakers",
-          "away_team": "Atlanta Hawks",
-          "commence_time": "2026-01-14T03:40:00Z",
-          "home_odds": 139,
-          "home_book": "LowVig.ag",
-          "away_odds": -149,
-          "away_book": "MyBookie.ag"
-        },
-        {
-          "home_team": "Golden State Warriors",
-          "away_team": "Portland Trail Blazers",
-          "commence_time": "2026-01-14T04:10:00Z",
-          "home_odds": -395,
-          "home_book": "LowVig.ag",
-          "away_odds": 340,
-          "away_book": "FanDuel"
-        }
-      ],
-      "edges": [],
-      "total_games": 7,
-      "total_edges": 0
-    },
-    "soccer": {
-      "profile": {
-        "name": "Soccer",
-        "handle": "Premier League",
-        "emoji": "\u26bd",
-        "bio": "EPL match predictions and betting edges.",
-        "accuracy": 0,
-        "record": {
-          "wins": 0,
-          "losses": 0
-        }
-      },
-      "games": [
-        {
-          "home_team": "Manchester United",
-          "away_team": "Manchester City",
-          "commence_time": "2026-01-17T12:30:00Z",
-          "home_odds": 270,
-          "home_book": "LowVig.ag",
-          "away_odds": -105,
-          "away_book": "FanDuel"
-        },
-        {
-          "home_team": "Chelsea",
-          "away_team": "Brentford",
-          "commence_time": "2026-01-17T15:00:00Z",
-          "home_odds": -143,
-          "home_book": "LowVig.ag",
-          "away_odds": 410,
-          "away_book": "LowVig.ag"
-        },
-        {
-          "home_team": "Liverpool",
-          "away_team": "Burnley",
-          "commence_time": "2026-01-17T15:00:00Z",
-          "home_odds": -445,
-          "home_book": "LowVig.ag",
-          "away_odds": 1400,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Sunderland",
-          "away_team": "Crystal Palace",
-          "commence_time": "2026-01-17T15:00:00Z",
-          "home_odds": 174,
-          "home_book": "BetOnline.ag",
-          "away_odds": 180,
-          "away_book": "FanDuel"
-        },
-        {
-          "home_team": "Leeds United",
-          "away_team": "Fulham",
-          "commence_time": "2026-01-17T15:00:00Z",
-          "home_odds": 128,
-          "home_book": "LowVig.ag",
-          "away_odds": 236,
-          "away_book": "LowVig.ag"
-        },
-        {
-          "home_team": "Tottenham Hotspur",
-          "away_team": "West Ham United",
-          "commence_time": "2026-01-17T15:00:00Z",
-          "home_odds": -135,
-          "home_book": "LowVig.ag",
-          "away_odds": 380,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Nottingham Forest",
-          "away_team": "Arsenal",
-          "commence_time": "2026-01-17T17:30:00Z",
-          "home_odds": 500,
-          "home_book": "FanDuel",
-          "away_odds": -177,
-          "away_book": "Bovada"
-        },
-        {
-          "home_team": "Wolverhampton Wanderers",
-          "away_team": "Newcastle United",
-          "commence_time": "2026-01-18T14:00:00Z",
-          "home_odds": 360,
-          "home_book": "BetRivers",
-          "away_odds": -132,
-          "away_book": "LowVig.ag"
-        },
-        {
-          "home_team": "Aston Villa",
-          "away_team": "Everton",
-          "commence_time": "2026-01-18T16:30:00Z",
-          "home_odds": -145,
-          "home_book": "BetMGM",
-          "away_odds": 440,
-          "away_book": "LowVig.ag"
-        },
-        {
-          "home_team": "Brighton and Hove Albion",
-          "away_team": "Bournemouth",
-          "commence_time": "2026-01-19T20:00:00Z",
-          "home_odds": -115,
-          "home_book": "DraftKings",
-          "away_odds": 310,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "West Ham United",
-          "away_team": "Sunderland",
-          "commence_time": "2026-01-24T12:30:00Z",
-          "home_odds": 145,
-          "home_book": "FanDuel",
-          "away_odds": 201,
-          "away_book": "BetOnline.ag"
-        },
-        {
-          "home_team": "Fulham",
-          "away_team": "Brighton and Hove Albion",
-          "commence_time": "2026-01-24T15:00:00Z",
-          "home_odds": 161,
-          "home_book": "LowVig.ag",
-          "away_odds": 180,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Burnley",
-          "away_team": "Tottenham Hotspur",
-          "commence_time": "2026-01-24T15:00:00Z",
-          "home_odds": 325,
-          "home_book": "BetRivers",
-          "away_odds": -107,
-          "away_book": "Bovada"
-        },
-        {
-          "home_team": "Manchester City",
-          "away_team": "Wolverhampton Wanderers",
-          "commence_time": "2026-01-24T15:00:00Z",
-          "home_odds": -599,
-          "home_book": "MyBookie.ag",
-          "away_odds": 1700,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Bournemouth",
-          "away_team": "Liverpool",
-          "commence_time": "2026-01-24T17:30:00Z",
-          "home_odds": 280,
-          "home_book": "FanDuel",
-          "away_odds": -110,
-          "away_book": "DraftKings"
-        },
-        {
-          "home_team": "Newcastle United",
-          "away_team": "Aston Villa",
-          "commence_time": "2026-01-25T14:00:00Z",
-          "home_odds": 105,
-          "home_book": "FanDuel",
-          "away_odds": 248,
-          "away_book": "BetOnline.ag"
-        },
-        {
-          "home_team": "Brentford",
-          "away_team": "Nottingham Forest",
-          "commence_time": "2026-01-25T14:00:00Z",
-          "home_odds": 115,
-          "home_book": "DraftKings",
-          "away_odds": 250,
-          "away_book": "FanDuel"
-        },
-        {
-          "home_team": "Crystal Palace",
-          "away_team": "Chelsea",
-          "commence_time": "2026-01-25T14:00:00Z",
-          "home_odds": 230,
-          "home_book": "FanDuel",
-          "away_odds": 117,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Arsenal",
-          "away_team": "Manchester United",
-          "commence_time": "2026-01-25T16:30:00Z",
-          "home_odds": -215,
-          "home_book": "LowVig.ag",
-          "away_odds": 650,
-          "away_book": "BetRivers"
-        },
-        {
-          "home_team": "Everton",
-          "away_team": "Leeds United",
-          "commence_time": "2026-01-26T20:00:00Z",
-          "home_odds": 150,
-          "home_book": "BetOnline.ag",
-          "away_odds": 215,
-          "away_book": "BetRivers"
+          "bookmakers": {
+            "draftkings": {
+              "last_update": "2026-01-13T11:17:53Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 164,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -198,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -105,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -115,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -115,
+                    "point": 50.5
+                  },
+                  "Under": {
+                    "odds": -105,
+                    "point": 50.5
+                  }
+                }
+              }
+            },
+            "fanduel": {
+              "last_update": "2026-01-13T11:18:08Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 172,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -205,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -104,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -118,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -106,
+                    "point": 50.5
+                  },
+                  "Under": {
+                    "odds": -114,
+                    "point": 50.5
+                  }
+                }
+              }
+            },
+            "betrivers": {
+              "last_update": "2026-01-13T11:18:19Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 150,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -195,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -114,
+                    "point": 4.0
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -110,
+                    "point": -4.0
+                  }
+                }
+              }
+            },
+            "betonlineag": {
+              "last_update": "2026-01-13T11:17:55Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 166,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -191,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -105,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -115,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -107,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -113,
+                    "point": 51.0
+                  }
+                }
+              }
+            },
+            "lowvig": {
+              "last_update": "2026-01-13T11:18:31Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 166,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -191,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -101,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -109,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -104,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 51.0
+                  }
+                }
+              }
+            },
+            "betmgm": {
+              "last_update": "2026-01-13T11:18:23Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 165,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -200,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -110,
+                    "point": 4.0
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -110,
+                    "point": -4.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -118,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 51.0
+                  }
+                }
+              }
+            },
+            "bovada": {
+              "last_update": "2026-01-13T11:18:21Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 180,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -220,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -105,
+                    "point": 4.0
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -115,
+                    "point": -4.0
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -105,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -115,
+                    "point": 51.0
+                  }
+                }
+              }
+            },
+            "mybookieag": {
+              "last_update": "2026-01-13T11:18:34Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 163,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -202,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -110,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -110,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -110,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -110,
+                    "point": 51.0
+                  }
+                }
+              }
+            },
+            "betus": {
+              "last_update": "2026-01-13T11:17:41Z",
+              "markets": {
+                "h2h": {
+                  "Chicago Bears": {
+                    "odds": 170,
+                    "point": null
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -200,
+                    "point": null
+                  }
+                },
+                "spreads": {
+                  "Chicago Bears": {
+                    "odds": -110,
+                    "point": 3.5
+                  },
+                  "Los Angeles Rams": {
+                    "odds": -110,
+                    "point": -3.5
+                  }
+                },
+                "totals": {
+                  "Over": {
+                    "odds": -105,
+                    "point": 51.0
+                  },
+                  "Under": {
+                    "odds": -115,
+                    "point": 51.0
+                  }
+                }
+              }
+            }
+          }
         }
       ],
       "edges": [
         {
-          "home_team": "Everton",
-          "away_team": "Leeds United",
-          "bet_on": "Leeds United",
-          "side": "away",
-          "odds": 215,
-          "bookmaker": "BetRivers",
-          "implied_prob": 31.7,
-          "edge": 28.3,
-          "ev": 56.5,
-          "commence_time": "2026-01-26T20:00:00Z"
+          "game_id": "9161553abe07f4eadf12b071f4f6e3ac",
+          "matchup": "San Francisco 49ers @ Seattle Seahawks",
+          "bet_team": "San Francisco 49ers",
+          "bet_side": "away",
+          "odds": 310,
+          "bookmaker": "fanduel",
+          "model_prob": 0.843,
+          "implied_prob": 0.244,
+          "edge": 59.89,
+          "ev": 245.56,
+          "kelly_bet": 4.83,
+          "confidence": 0.686,
+          "commence_time": "2026-01-18T01:00:00Z"
         },
         {
-          "home_team": "Sunderland",
-          "away_team": "Crystal Palace",
-          "bet_on": "Crystal Palace",
-          "side": "away",
-          "odds": 180,
-          "bookmaker": "FanDuel",
-          "implied_prob": 35.7,
-          "edge": 27.8,
-          "ev": 55.6,
-          "commence_time": "2026-01-17T15:00:00Z"
+          "game_id": "ea794ebbcb7cbcaf7753c65d0f1a15c8",
+          "matchup": "Buffalo Bills @ Denver Broncos",
+          "bet_team": "Buffalo Bills",
+          "bet_side": "away",
+          "odds": -108,
+          "bookmaker": "draftkings",
+          "model_prob": 0.939,
+          "implied_prob": 0.519,
+          "edge": 41.97,
+          "ev": 80.84,
+          "kelly_bet": 11.33,
+          "confidence": 0.878,
+          "commence_time": "2026-01-17T21:30:00Z"
         },
         {
-          "home_team": "Leeds United",
-          "away_team": "Fulham",
-          "bet_on": "Fulham",
-          "side": "away",
-          "odds": 236,
-          "bookmaker": "LowVig.ag",
-          "implied_prob": 29.8,
-          "edge": 26.4,
-          "ev": 52.8,
-          "commence_time": "2026-01-17T15:00:00Z"
+          "game_id": "1e7cc7c3ef7d9f4e473cb43f39652897",
+          "matchup": "Houston Texans @ New England Patriots",
+          "bet_team": "New England Patriots",
+          "bet_side": "home",
+          "odds": -150,
+          "bookmaker": "bovada",
+          "model_prob": 0.968999981880188,
+          "implied_prob": 0.6,
+          "edge": 36.9,
+          "ev": 61.5,
+          "kelly_bet": 13.84,
+          "confidence": 0.938,
+          "commence_time": "2026-01-18T20:00:00Z"
         },
         {
-          "home_team": "West Ham United",
-          "away_team": "Sunderland",
-          "bet_on": "Sunderland",
-          "side": "away",
-          "odds": 201,
-          "bookmaker": "BetOnline.ag",
-          "implied_prob": 33.2,
-          "edge": 26.0,
-          "ev": 51.9,
-          "commence_time": "2026-01-24T12:30:00Z"
-        },
-        {
-          "home_team": "Fulham",
-          "away_team": "Brighton and Hove Albion",
-          "bet_on": "Brighton and Hove Albion",
-          "side": "away",
-          "odds": 180,
-          "bookmaker": "BetRivers",
-          "implied_prob": 35.7,
-          "edge": 26.0,
-          "ev": 51.9,
-          "commence_time": "2026-01-24T15:00:00Z"
-        },
-        {
-          "home_team": "Brentford",
-          "away_team": "Nottingham Forest",
-          "bet_on": "Nottingham Forest",
-          "side": "away",
-          "odds": 250,
-          "bookmaker": "FanDuel",
-          "implied_prob": 28.6,
-          "edge": 24.9,
-          "ev": 49.8,
-          "commence_time": "2026-01-25T14:00:00Z"
-        },
-        {
-          "home_team": "Burnley",
-          "away_team": "Tottenham Hotspur",
-          "bet_on": "Burnley",
-          "side": "home",
-          "odds": 325,
-          "bookmaker": "BetRivers",
-          "implied_prob": 23.5,
-          "edge": 24.8,
-          "ev": 49.6,
-          "commence_time": "2026-01-24T15:00:00Z"
-        },
-        {
-          "home_team": "Crystal Palace",
-          "away_team": "Chelsea",
-          "bet_on": "Crystal Palace",
-          "side": "home",
-          "odds": 230,
-          "bookmaker": "FanDuel",
-          "implied_prob": 30.3,
-          "edge": 23.6,
-          "ev": 47.2,
-          "commence_time": "2026-01-25T14:00:00Z"
-        },
-        {
-          "home_team": "Newcastle United",
-          "away_team": "Aston Villa",
-          "bet_on": "Aston Villa",
-          "side": "away",
-          "odds": 248,
-          "bookmaker": "BetOnline.ag",
-          "implied_prob": 28.7,
-          "edge": 22.5,
-          "ev": 45.0,
-          "commence_time": "2026-01-25T14:00:00Z"
-        },
-        {
-          "home_team": "Aston Villa",
-          "away_team": "Everton",
-          "bet_on": "Everton",
-          "side": "away",
-          "odds": 440,
-          "bookmaker": "LowVig.ag",
-          "implied_prob": 18.5,
-          "edge": 22.3,
-          "ev": 44.6,
-          "commence_time": "2026-01-18T16:30:00Z"
+          "game_id": "3cb03f5ff8d371b94e8b55c7e58b7a34",
+          "matchup": "Los Angeles Rams @ Chicago Bears",
+          "bet_team": "Los Angeles Rams",
+          "bet_side": "away",
+          "odds": -191,
+          "bookmaker": "betonlineag",
+          "model_prob": 0.806,
+          "implied_prob": 0.656,
+          "edge": 14.96,
+          "ev": 22.79,
+          "kelly_bet": 7.14,
+          "confidence": 0.612,
+          "commence_time": "2026-01-18T23:30:00Z"
         }
       ],
-      "total_games": 20,
-      "total_edges": 20
+      "total_games": 4,
+      "total_edges": 4
+    },
+    "nba": {
+      "edges": [],
+      "games": []
+    },
+    "soccer": {
+      "edges": [],
+      "games": []
     }
   },
-  "total_games": 31,
-  "total_edges": 20,
   "aggregate": {
-    "total_games": 31,
-    "total_edges": 20,
     "total_wins": 4,
     "total_losses": 1,
     "win_rate": 80.0,
     "bankroll": {
-      "start": 100,
-      "current": 134,
+      "current": 100,
       "profit": 34,
       "roi": 68.0
     }
-  }
+  },
+  "total_games": 4,
+  "total_edges": 4
 }
