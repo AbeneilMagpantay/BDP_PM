@@ -2,7 +2,9 @@ name: Daily Dashboard Update
 
 on:
   schedule:
-    # Runs at 09:00 UTC daily.
+    # Runs at 00:00 UTC (8:00 AM PH) for late NBA/NFL news
+    - cron: '0 0 * * *'
+    # Runs at 09:00 UTC (5:00 PM PH) for Soccer & Early Lines
     - cron: '0 9 * * *'
   workflow_dispatch:  # Allows manual run from Actions tab
 
