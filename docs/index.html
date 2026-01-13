@@ -773,9 +773,10 @@
                     let allEdges = [];
 
                     for (const [key, sport] of Object.entries(data.sports || {})) {
-                        if (filter !== 'all' && !sport.profile.name.toLowerCase().includes(filter) && filter !== key) continue;
+                        // Filter by sport key (nfl, nba, soccer)
+                        if (filter !== 'all' && key !== filter) continue;
                         if (sport.edges) {
-                            sport.edges.forEach(e => allEdges.push({ ...e, sportInfo: sport.profile }));
+                            sport.edges.forEach(e => allEdges.push({ ...e, sport_key: key }));
                         }
                     }
 
