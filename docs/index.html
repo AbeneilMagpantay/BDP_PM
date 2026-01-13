@@ -617,21 +617,7 @@
             <!-- Right Column: Charts & Intel -->
             <div class="right-column">
                 <!-- Win Rate Chart -->
-                <div class="chart-card">
-                    <div class="card-header">
-                        <span class="card-title"><i class="ph-fill ph-chart-pie-slice"></i> Win Rate</span>
-                    </div>
-                    <div class="donut-chart-container" id="win-chart">
-                        <div class="donut-inner">
-                            <span class="donut-value" id="win-rate">--%</span>
-                            <span class="donut-label">Won</span>
-                        </div>
-                    </div>
-                    <div class="chart-legend">
-                        <div class="legend-item"><span class="dot dot-green"></span> Won</div>
-                        <div class="legend-item"><span class="dot dot-gray"></span> Lost</div>
-                    </div>
-                </div>
+                <!-- Win Rate Chart Removed -->
 
                 <!-- System Intelligence Card -->
                 <div class="chart-card system-card">
@@ -699,7 +685,12 @@
                         document.getElementById('updated-at').textContent = 'Updated ' + timeAgo(data.generated_at);
 
                         // Update Stats
-                        updateWinRate('all');
+
+
+                        // Set Static Record
+                        const wins = betHistory.filter(h => h.result === 'WON').length;
+                        const losses = betHistory.filter(h => h.result === 'LOST').length;
+                        document.getElementById('record').textContent = `${wins}-${losses}`;
 
                         renderFilters();
                         renderBets('all', null);
@@ -786,8 +777,6 @@
                     document.getElementById('intel-title-2').textContent = content.t2;
                     document.getElementById('intel-desc-2').textContent = content.d2;
 
-                    updateWinRate(sport);
-
                     if (sport === 'history') {
                         renderHistory();
                     } else {
@@ -795,23 +784,7 @@
                     }
                 }
 
-                function updateWinRate(sport) {
-                    let filteredHistory = betHistory;
-                    if (sport !== 'all' && sport !== 'history') {
-                        filteredHistory = betHistory.filter(h => h.sport === sport);
-                    }
 
-                    const wins = filteredHistory.filter(h => h.result === 'WON').length;
-                    const total = filteredHistory.length;
-                    let rate = 0;
-                    if (total > 0) rate = Math.round((wins / total) * 100);
-
-                    document.getElementById('win-rate').textContent = rate + '%';
-                    document.getElementById('record').textContent = `${wins}-${total - wins}`;
-
-                    const color = rate >= 50 ? 'var(--accent-green)' : 'var(--accent-red)';
-                    document.getElementById('win-chart').style.background = `conic-gradient(${color} 0% ${rate}%, #2c2f36 ${rate}% 100%)`;
-                }
 
                 function renderHistory() {
                     const list = document.getElementById('bets-list');
@@ -829,6 +802,8 @@
 
                     document.getElementById('table-title-text').textContent = "Betting History";
                     const headerRow = document.getElementById('table-header-row');
+
+                    const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
                     bestEdgeContainer.classList.add('hidden-stat');
 
                     tableTitleText.textContent = "Betting History";
