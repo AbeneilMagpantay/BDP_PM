@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BDP Premier Dashboard</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg-dark: #13151b;
@@ -29,69 +30,14 @@
             font-family: 'Inter', sans-serif;
             background-color: var(--bg-dark);
             color: var(--text-main);
-            display: flex;
             min-height: 100vh;
         }
 
-        /* Sidebar */
-        .sidebar {
-            width: 260px;
-            background-color: var(--bg-card);
-            border-right: 1px solid var(--border-color);
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-            position: fixed;
-            height: 100vh;
-            left: 0;
-            top: 0;
-            z-index: 100;
-        }
-
-        .brand {
-            font-size: 20px;
-            font-weight: 700;
-            color: var(--text-main);
-            margin-bottom: 40px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .brand span {
-            color: var(--accent-green);
-        }
-
-        .nav-menu {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .nav-item {
-            padding: 12px 16px;
-            border-radius: 8px;
-            color: var(--text-muted);
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .nav-item:hover,
-        .nav-item.active {
-            background-color: rgba(0, 230, 118, 0.1);
-            color: var(--accent-green);
-        }
-
-        /* Main Content */
+        /* Main Content Center */
         .main-content {
-            margin-left: 260px;
-            flex: 1;
-            padding: 30px;
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 40px 24px;
         }
 
         /* Header */
@@ -99,68 +45,106 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 30px;
+            margin-bottom: 48px;
         }
 
-        .header-title h1 {
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .brand-icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(0, 230, 118, 0.1);
+            color: var(--accent-green);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-size: 24px;
-            font-weight: 600;
         }
 
-        .header-title p {
+        .header-brand h1 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+        }
+
+        .header-meta {
+            text-align: right;
+        }
+
+        .header-meta p {
             color: var(--text-muted);
-            font-size: 14px;
-            margin-top: 5px;
+            font-size: 13px;
+            margin-bottom: 8px;
+            font-weight: 500;
         }
 
         .profile-pill {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 12px;
             background: var(--bg-card);
-            padding: 8px 16px;
-            border-radius: 30px;
+            padding: 6px 16px 6px 6px;
+            border-radius: 40px;
             border: 1px solid var(--border-color);
+            transition: border-color 0.2s;
         }
 
         .profile-img {
             width: 32px;
             height: 32px;
             border-radius: 50%;
-            background: var(--accent-blue);
+            background: linear-gradient(135deg, var(--accent-blue), #1e88e5);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 14px;
             font-weight: 700;
+            color: white;
+            box-shadow: 0 4px 10px rgba(41, 121, 255, 0.3);
+        }
+
+        .profile-name {
+            font-size: 13px;
+            font-weight: 600;
         }
 
         /* Stats Grid */
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
         }
 
         .stat-card {
             background: var(--bg-card);
-            border-radius: 12px;
+            border-radius: 16px;
             padding: 24px;
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 24px;
             border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
 
         .stat-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
+            font-size: 32px;
         }
 
         .bg-green-soft {
@@ -179,9 +163,10 @@
         }
 
         .stat-info h3 {
-            font-size: 28px;
-            font-weight: 700;
+            font-size: 32px;
+            font-weight: 800;
             margin-bottom: 4px;
+            letter-spacing: -1px;
         }
 
         .stat-info p {
@@ -189,66 +174,76 @@
             font-size: 13px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            font-weight: 700;
         }
 
-        /* Dashboard Grid */
+        /* Dashboard Layout */
         .dashboard-grid {
             display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 20px;
-            margin-bottom: 30px;
+            grid-template-columns: 3fr 1fr;
+            gap: 24px;
+            align-items: start;
         }
 
         .chart-card {
             background: var(--bg-card);
-            border-radius: 12px;
-            padding: 24px;
+            border-radius: 16px;
+            padding: 32px;
             border: 1px solid var(--border-color);
-            min-height: 300px;
         }
 
         .card-header {
             display: flex;
             justify-content: space-between;
-            margin-bottom: 20px;
+            align-items: center;
+            margin-bottom: 32px;
         }
 
         .card-title {
-            font-size: 16px;
-            font-weight: 600;
+            font-size: 18px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card-title i {
+            color: var(--accent-blue);
+            font-size: 24px;
         }
 
         /* Bets Table */
         .bets-container {
-            background: var(--bg-card);
-            border-radius: 12px;
             border: 1px solid var(--border-color);
+            border-radius: 12px;
             overflow: hidden;
         }
 
         .table-header {
             display: grid;
-            grid-template-columns: 2fr 3fr 2fr 1fr 1fr 1.5fr;
+            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;
             padding: 16px 24px;
-            background: rgba(0, 0, 0, 0.2);
-            font-size: 12px;
+            background: rgba(255, 255, 255, 0.02);
+            font-size: 11px;
             color: var(--text-muted);
             text-transform: uppercase;
-            font-weight: 600;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid var(--border-color);
         }
 
         .bet-row {
             display: grid;
-            grid-template-columns: 2fr 3fr 2fr 1fr 1fr 1.5fr;
+            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;
             padding: 20px 24px;
             border-bottom: 1px solid var(--border-color);
             align-items: center;
             font-size: 14px;
-            transition: background 0.2s;
+            transition: background 0.15s;
         }
 
         .bet-row:hover {
-            background: rgba(255, 255, 255, 0.02);
+            background: rgba(255, 255, 255, 0.03);
         }
 
         .bet-row:last-child {
@@ -257,52 +252,67 @@
 
         .bet-date {
             color: var(--text-muted);
-            font-size: 12px;
+            font-size: 13px;
+            font-weight: 500;
         }
 
         .bet-match {
-            font-weight: 500;
+            font-weight: 600;
+            color: white;
         }
 
         .bet-pick {
             background: rgba(41, 121, 255, 0.1);
             color: var(--accent-blue);
-            padding: 4px 10px;
-            border-radius: 4px;
+            padding: 6px 12px;
+            border-radius: 6px;
             display: inline-block;
-            font-size: 12px;
-            font-weight: 600;
+            font-size: 13px;
+            font-weight: 700;
         }
 
         .bet-prob {
             color: var(--text-muted);
+            font-weight: 500;
         }
 
         .bet-odds {
-            font-weight: 600;
+            font-weight: 700;
+            font-family: monospace;
+            letter-spacing: -0.5px;
+            font-size: 15px;
         }
 
         .bet-ev {
             color: var(--accent-green);
-            font-weight: 700;
+            font-weight: 800;
+            font-size: 15px;
         }
 
-        /* Donut Chart (CSS Only) */
+        /* Right Column Stack */
+        .right-column {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        /* Donut Chart */
         .donut-chart-container {
             position: relative;
-            width: 180px;
-            height: 180px;
-            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            margin: 20px auto 40px auto;
             border-radius: 50%;
             background: conic-gradient(var(--accent-green) 0% 80%, #2c2f36 80% 100%);
             display: flex;
             align-items: center;
             justify-content: center;
+            box-shadow: 0 0 40px rgba(0, 230, 118, 0.05);
         }
 
         .donut-inner {
-            width: 140px;
-            height: 140px;
+            width: 160px;
+            height: 160px;
             background: var(--bg-card);
             border-radius: 50%;
             display: flex;
@@ -312,131 +322,191 @@
         }
 
         .donut-value {
-            font-size: 24px;
-            font-weight: 700;
+            font-size: 42px;
+            font-weight: 800;
             color: var(--text-main);
+            letter-spacing: -2px;
+            line-height: 1;
         }
 
         .donut-label {
-            font-size: 12px;
+            font-size: 13px;
             color: var(--text-muted);
+            margin-top: 8px;
+            font-weight: 600;
+            text-transform: uppercase;
         }
 
         .chart-legend {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
+            gap: 24px;
         }
 
         .legend-item {
             display: flex;
             align-items: center;
-            gap: 8px;
-            font-size: 12px;
+            gap: 10px;
+            font-size: 13px;
             color: var(--text-muted);
+            font-weight: 500;
         }
 
         .dot {
-            width: 8px;
-            height: 8px;
+            width: 10px;
+            height: 10px;
             border-radius: 50%;
         }
 
         .dot-green {
             background: var(--accent-green);
+            box-shadow: 0 0 10px rgba(0, 230, 118, 0.4);
         }
 
         .dot-gray {
             background: #2c2f36;
         }
 
+        /* System Card */
+        .system-card {
+            padding: 24px;
+        }
+
+        .intelligence-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .intel-item {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .intel-icon-small {
+            min-width: 40px;
+            height: 40px;
+            background: rgba(41, 121, 255, 0.1);
+            color: var(--accent-blue);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .intel-item h4 {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 2px;
+            color: var(--text-main);
+        }
+
+        .intel-item p {
+            font-size: 12px;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
         /* Sport Filter Tabs */
         .sport-filter {
             display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 4px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
         }
 
         .filter-btn {
             background: transparent;
-            border: 1px solid var(--border-color);
+            border: none;
             color: var(--text-muted);
-            padding: 8px 16px;
-            border-radius: 6px;
+            padding: 8px 20px;
+            border-radius: 8px;
             cursor: pointer;
             font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            color: var(--text-main);
         }
 
         .filter-btn.active {
             background: var(--accent-blue);
-            border-color: var(--accent-blue);
             color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+
+        .empty-state i {
+            font-size: 40px;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 1024px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <div class="brand">
-            <span>⚡</span> BDP Premier
-        </div>
-        <ul class="nav-menu">
-            <li class="nav-item active">
-                <span>📊</span> Dashboard
-            </li>
-            <li class="nav-item">
-                <span>🏈</span> NFL
-            </li>
-            <li class="nav-item">
-                <span>🏀</span> NBA
-            </li>
-            <li class="nav-item">
-                <span>⚽</span> Soccer
-            </li>
-            <li class="nav-item">
-                <span>📈</span> History
-            </li>
-        </ul>
-    </div>
-
-    <!-- Main Content -->
     <div class="main-content">
 
         <!-- Header -->
         <div class="top-header">
-            <div class="header-title">
-                <h1 id="page-title">Dashboard</h1>
-                <p id="updated-at">Last updated: --</p>
+            <div class="header-brand">
+                <div class="brand-icon">
+                    <i class="ph-fill ph-lightning"></i>
+                </div>
+                <h1>BDP Premier</h1>
             </div>
-            <div class="profile-pill">
-                <div class="profile-img">AM</div>
-                <span>Abeneil Magpantay</span>
+
+            <div class="header-meta">
+                <p id="updated-at">Last updated: --</p>
+                <div class="profile-pill">
+                    <div class="profile-img">AM</div>
+                    <span class="profile-name">Abeneil Magpantay</span>
+                </div>
             </div>
         </div>
 
         <!-- Top Stats Cards -->
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon bg-green-soft">💰</div>
+                <div class="stat-icon bg-green-soft"><i class="ph-fill ph-wallet"></i></div>
                 <div class="stat-info">
-                    <h3 id="bankroll">$100</h3>
+                    <h3 id="bankroll">--</h3>
                     <p>Current Bankroll</p>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon bg-teal-soft">📈</div>
+                <div class="stat-icon bg-teal-soft"><i class="ph-fill ph-trend-up"></i></div>
                 <div class="stat-info">
-                    <h3 id="roi">0%</h3>
+                    <h3 id="roi">--</h3>
                     <p>Total ROI</p>
                 </div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon bg-blue-soft">📝</div>
+                <div class="stat-icon bg-blue-soft"><i class="ph-fill ph-chart-bar"></i></div>
                 <div class="stat-info">
-                    <h3 id="record">0-0</h3>
+                    <h3 id="record">--</h3>
                     <p>Total Record</p>
                 </div>
             </div>
@@ -444,11 +514,12 @@
 
         <!-- Analytics Grid -->
         <div class="dashboard-grid">
+            <!-- Latest Bets Table -->
             <div class="chart-card">
                 <div class="card-header">
-                    <span class="card-title">Latest Value Bets</span>
+                    <span class="card-title"><i class="ph-fill ph-list-dashes"></i> Latest Value Bets</span>
                     <div class="sport-filter" id="sport-tabs-container">
-                        <!-- Populated by split JS -->
+                        <!-- Populated by JS -->
                     </div>
                 </div>
 
@@ -462,25 +533,61 @@
                         <div>Exp. Value</div>
                     </div>
                     <div id="bets-list">
-                        <!-- Bets will be inserted here -->
+                        <!-- Bets inserted here -->
                     </div>
                 </div>
             </div>
 
-            <!-- Outcome Chart -->
-            <div class="chart-card">
-                <div class="card-header">
-                    <span class="card-title">Win Rate</span>
-                </div>
-                <div class="donut-chart-container" id="win-chart">
-                    <div class="donut-inner">
-                        <span class="donut-value" id="win-rate">0%</span>
-                        <span class="donut-label">Won</span>
+            <!-- Right Column: Charts & Intel -->
+            <div class="right-column">
+                <!-- Win Rate Chart -->
+                <div class="chart-card">
+                    <div class="card-header">
+                        <span class="card-title"><i class="ph-fill ph-chart-pie-slice"></i> Win Rate</span>
+                    </div>
+                    <div class="donut-chart-container" id="win-chart">
+                        <div class="donut-inner">
+                            <span class="donut-value" id="win-rate">--%</span>
+                            <span class="donut-label">Won</span>
+                        </div>
+                    </div>
+                    <div class="chart-legend">
+                        <div class="legend-item"><span class="dot dot-green"></span> Won</div>
+                        <div class="legend-item"><span class="dot dot-gray"></span> Lost</div>
                     </div>
                 </div>
-                <div class="chart-legend">
-                    <div class="legend-item"><span class="dot dot-green"></span> Won</div>
-                    <div class="legend-item"><span class="dot dot-gray"></span> Lost</div>
+
+                <!-- System Intelligence Card -->
+                <div class="chart-card system-card">
+                    <div class="card-header">
+                        <span class="card-title"><i class="ph-fill ph-brain"></i> System Intel</span>
+                    </div>
+
+                    <div class="intelligence-list">
+                        <div class="intel-item">
+                            <div class="intel-icon-small"><i class="ph-duotone ph-globe"></i></div>
+                            <div>
+                                <h4>Global Ingestion</h4>
+                                <p>Scans 40+ bookmakers real-time</p>
+                            </div>
+                        </div>
+
+                        <div class="intel-item">
+                            <div class="intel-icon-small"><i class="ph-duotone ph-calculator"></i></div>
+                            <div>
+                                <h4>EV Engine</h4>
+                                <p>Math-based edge detection</p>
+                            </div>
+                        </div>
+
+                        <div class="intel-item">
+                            <div class="intel-icon-small"><i class="ph-duotone ph-robot"></i></div>
+                            <div>
+                                <h4>24/7 Automation</h4>
+                                <p>Autonomous execution cycle</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -495,10 +602,10 @@
                 const res = await fetch('data/predictions.json');
                 data = await res.json();
 
-                // Update timestamps and headers
+                // Update timestamps
                 document.getElementById('updated-at').textContent = 'Last updated: ' + new Date(data.generated_at).toLocaleString();
 
-                // Update Top Stats
+                // Update Stats
                 if (data.aggregate) {
                     const agg = data.aggregate;
                     const bank = agg.bankroll || { current: 100, profit: 0, roi: 0 };
@@ -507,7 +614,7 @@
                     document.getElementById('roi').textContent = (bank.roi > 0 ? '+' : '') + bank.roi + '%';
                     document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
 
-                    // Update Win Rate Chart
+                    // Chart
                     const winRate = agg.win_rate || 0;
                     document.getElementById('win-rate').textContent = winRate + '%';
                     document.getElementById('win-chart').style.background = `conic-gradient(var(--accent-green) 0% ${winRate}%, #2c2f36 ${winRate}% 100%)`;
@@ -531,7 +638,6 @@
         }
 
         function filterBets(sport, btn) {
-            // Update active state
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             renderBets(sport);
@@ -541,22 +647,21 @@
             const list = document.getElementById('bets-list');
             let allEdges = [];
 
-            // Collect all edges
             for (const [key, sport] of Object.entries(data.sports || {})) {
                 if (filter !== 'all' && !sport.profile.name.toLowerCase().includes(filter) && filter !== key) continue;
-
                 if (sport.edges) {
-                    sport.edges.forEach(e => {
-                        allEdges.push({ ...e, sportInfo: sport.profile });
-                    });
+                    sport.edges.forEach(e => allEdges.push({ ...e, sportInfo: sport.profile }));
                 }
             }
 
-            // Sort by EV
             allEdges.sort((a, b) => b.ev - a.ev);
 
             if (allEdges.length === 0) {
-                list.innerHTML = '<div style="padding:24px;text-align:center;color:#889;">No value bets found for this filter.</div>';
+                list.innerHTML = `
+                    <div class="empty-state">
+                        <i class="ph ph-empty"></i>
+                        <p>No value bets found for this filter.</p>
+                    </div>`;
                 return;
             }
 
@@ -564,10 +669,10 @@
                 <div class="bet-row">
                     <div class="bet-date">
                         ${new Date(e.commence_time).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
-                        <br><span style="font-size:10px;opacity:0.6">${e.sportInfo.name}</span>
+                        <span style="opacity:0.5;font-weight:400">${new Date(e.commence_time).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
                     </div>
                     <div class="bet-match">
-                        ${e.away_team} <span style="opacity:0.5;font-size:12px">@</span> ${e.home_team}
+                        ${e.away_team} <span style="opacity:0.4;font-weight:400;margin:0 4px">@</span> ${e.home_team}
                     </div>
                     <div>
                         <span class="bet-pick">${e.bet_on}</span>
