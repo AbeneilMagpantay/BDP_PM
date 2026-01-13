@@ -643,8 +643,9 @@
                         <div class="intel-item">
                             <div class="intel-icon-small"><i class="ph-duotone ph-globe"></i></div>
                             <div>
-                                <h4>Global Data Ingestion</h4>
-                                <p>The system constantly scans 40+ global bookmakers in real-time, ingesting odds for
+                                <h4 id="intel-title-1">Global Data Ingestion</h4>
+                                <p id="intel-desc-1">The system constantly scans 40+ global bookmakers in real-time,
+                                    ingesting odds for
                                     NFL, NBA, and Soccer to detect market inefficiencies the moment they appear.</p>
                             </div>
                         </div>
@@ -652,8 +653,9 @@
                         <div class="intel-item">
                             <div class="intel-icon-small"><i class="ph-duotone ph-calculator"></i></div>
                             <div>
-                                <h4>EV Engine</h4>
-                                <p>Our proprietary engine calculates Expected Value (EV) by comparing implied
+                                <h4 id="intel-title-2">EV Engine</h4>
+                                <p id="intel-desc-2">Our proprietary engine calculates Expected Value (EV) by comparing
+                                    implied
                                     probabilities against true market odds, mathematically identifying bets with a
                                     positive long-term edge.</p>
                             </div>
@@ -736,9 +738,49 @@
                     }).join('');
                 }
 
+                const intelContent = {
+                    all: {
+                        t1: "Global Data Ingestion",
+                        d1: "The system constantly scans 40+ global bookmakers in real-time, ingesting odds for NFL, NBA, and Soccer to detect market inefficiencies the moment they appear.",
+                        t2: "EV Engine",
+                        d2: "Our proprietary engine calculates Expected Value (EV) by comparing implied probabilities against true market odds, mathematically identifying bets with a positive long-term edge."
+                    },
+                    nfl: {
+                        t1: "NFL Market Feed",
+                        d1: "Ingests real-time spread and moneyline movements. Focuses on key number disagreements (3, 7) and significant lineup-change impacts.",
+                        t2: "XGBoost NFL Model",
+                        d2: "Trained on 10 years of play-by-play stats. Key features: Yards Per Play Differential, Turnover Margin, and DVOA efficiency metrics."
+                    },
+                    nba: {
+                        t1: "NBA Odds Stream",
+                        d1: "Monitors rapid line movement and player prop availability. Detects value opportunities when impact players are questioned (GTD) or ruled out.",
+                        t2: "NBA Pace & Efficiency",
+                        d2: "Evaluates Pace (possessions/48m), Offensive Rating, and Rest Days. Identifies fatigue spots and mismatches in transition defense."
+                    },
+                    soccer: {
+                        t1: "EPL & Euro Leagues",
+                        d1: "Scrapes odds for English Premier League. Focuses on 1x2, Asian Handicap, and Over/Under markets where liquidity is highest.",
+                        t2: "Smart Form Model",
+                        d2: "NEW: Incorporates 5-game rolling Form Momentum and H2H history. Filters for >4% edge to ensure high confidence on winning streaks."
+                    },
+                    history: {
+                        t1: "Historical Tracking",
+                        d1: "A complete record of all AI-recommended bets. Transparency is key to validating the model's long-term edge and refining future predictions.",
+                        t2: "Performance Audit",
+                        d2: "Win rate and ROI are recalculated daily. The system learns from past losses to refine edge thresholds and improve future selection."
+                    }
+                };
+
                 function filterBets(sport, btn) {
                     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                     btn.classList.add('active');
+
+                    // Update Intel
+                    const content = intelContent[sport] || intelContent.all;
+                    document.getElementById('intel-title-1').textContent = content.t1;
+                    document.getElementById('intel-desc-1').textContent = content.d1;
+                    document.getElementById('intel-title-2').textContent = content.t2;
+                    document.getElementById('intel-desc-2').textContent = content.d2;
 
                     if (sport === 'history') {
                         renderHistory();
