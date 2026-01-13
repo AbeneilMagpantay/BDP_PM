@@ -130,9 +130,8 @@ def fetch_pandascore_matches(game: str) -> list:
 
 
 def parse_pandascore_matches(matches: list, sport_name: str) -> tuple:
-    """Parse PandaScore matches into games and edges format."""
+    """Parse PandaScore matches into games format (no odds available)."""
     games = []
-    edges = []
     
     for match in matches:
         if not match.get('opponents') or len(match['opponents']) < 2:
@@ -146,28 +145,11 @@ def parse_pandascore_matches(matches: list, sport_name: str) -> tuple:
             'away_team': team2.get('name', 'Team 2'),
             'commence_time': match.get('scheduled_at', ''),
             'league': match.get('league', {}).get('name', sport_name),
-            'home_odds': 0,
-            'away_odds': 0,
-            'home_book': 'PandaScore',
-            'away_book': 'PandaScore'
         }
         games.append(game)
-        
-        # Create edge entry for display (no actual odds from PandaScore free tier)
-        edges.append({
-            'home_team': game['home_team'],
-            'away_team': game['away_team'],
-            'bet_on': game['home_team'],
-            'side': 'home',
-            'odds': 0,
-            'bookmaker': game['league'],
-            'implied_prob': 50.0,
-            'edge': 0,
-            'ev': 0,
-            'commence_time': game['commence_time']
-        })
     
-    return games, edges
+    # No edges - PandaScore free tier doesn't provide odds
+    return games, []
 
 
 def find_best_odds(games: list) -> list:
