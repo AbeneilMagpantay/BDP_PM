@@ -177,6 +177,10 @@
             font-weight: 700;
         }
 
+        .hidden-stat {
+            opacity: 0.3;
+        }
+
         /* Dashboard Layout */
         .dashboard-grid {
             display: grid;
@@ -530,17 +534,18 @@
         <!-- Top Stats Cards -->
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon bg-green-soft"><i class="ph-fill ph-wallet"></i></div>
+                <div class="stat-icon bg-green-soft"><i class="ph-fill ph-chart-line-up"></i></div>
                 <div class="stat-info">
-                    <h3 id="current-bankroll">--</h3> <!-- REVERTED -->
-                    <p>Current Bankroll</p>
+                    <h3 id="avg-edge">--%</h3>
+                    <p>Avg. Edge</p>
                 </div>
             </div>
+            <!-- Swapped ROI for Best Edge -->
             <div class="stat-card">
-                <div class="stat-icon bg-teal-soft"><i class="ph-fill ph-trend-up"></i></div>
+                <div class="stat-icon bg-teal-soft"><i class="ph-fill ph-star"></i></div>
                 <div class="stat-info">
-                    <h3 id="roi">--</h3>
-                    <p>Total ROI</p>
+                    <h3 id="best-edge">--</h3>
+                    <p>Top Opportunity</p>
                 </div>
             </div>
             <div class="stat-card">
@@ -560,7 +565,6 @@
                     <div>
                         <span class="card-title"><i class="ph-fill ph-list-dashes"></i> <span
                                 id="table-title-text">Latest Value Bets</span></span>
-                        <!-- REMOVED: Computations label -->
                     </div>
                     <div class="sport-filter" id="sport-tabs-container">
                         <!-- Populated by JS -->
@@ -569,7 +573,6 @@
 
                 <div class="bets-container">
                     <div class="table-header" id="table-header-row">
-                        <!-- REMOVED: To Win Column -->
                         <div>Date</div>
                         <div>Match</div>
                         <div>Edge</div>
@@ -581,7 +584,6 @@
                         <!-- Bets inserted here -->
                     </div>
 
-                    <!-- REMOVED: Total Potential Summary -->
                 </div>
             </div>
 
@@ -649,13 +651,13 @@
     <script>
         let data = null;
 
-        // Mock history data relative to the record 4-1 (NFL Only as requested)
+        // Mock history data reflecting the User's First Run (Jan 9, 2026)
         const betHistory = [
-            { date: '2026-01-11T16:30:00', match: 'Packers @ Cowboys', pick: 'Packers', odds: '+160', result: 'WON', profit: 160 },
-            { date: '2026-01-11T13:00:00', match: 'Rams @ Lions', pick: 'Lions', odds: '-135', result: 'WON', profit: 74.07 },
-            { date: '2026-01-07T13:00:00', match: 'Jaguars @ Titans', pick: 'Jaguars', odds: '-180', result: 'LOST', profit: -100 },
-            { date: '2026-01-07T16:25:00', match: 'Seahawks @ Cardinals', pick: 'Seahawks', odds: '-145', result: 'WON', profit: 68.97 },
-            { date: '2026-01-06T20:15:00', match: 'Texans @ Colts', pick: 'Texans', odds: '+105', result: 'WON', profit: 105 },
+            { date: '2026-01-09T01:55:00', match: 'San Francisco 49ers', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
+            { date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
+            { date: '2026-01-09T01:55:00', match: 'Chicago Bears', pick: 'Bears', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
+            { date: '2026-01-09T01:55:00', match: 'New England Patriots', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
+            { date: '2026-01-09T01:55:00', match: 'Los Angeles Rams', pick: 'Rams', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
         ];
 
         async function load() {
@@ -669,10 +671,7 @@
                 // Update Stats
                 if (data.aggregate) {
                     const agg = data.aggregate;
-                    const bank = agg.bankroll || { current: 100, profit: 0, roi: 0 };
-
-                    document.getElementById('current-bankroll').textContent = '$' + bank.current;
-                    document.getElementById('roi').textContent = (bank.roi > 0 ? '+' : '') + bank.roi + '%';
+                    // Record only
                     document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
 
                     // Chart
@@ -714,14 +713,21 @@
             const tableTitleText = document.getElementById('table-title-text');
             const headerRow = document.getElementById('table-header-row');
 
+            // Fade out avg edge/best edge in history mode
+            const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
+            const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
+            avgEdgeContainer.classList.add('hidden-stat');
+            bestEdgeContainer.classList.add('hidden-stat');
+
             tableTitleText.textContent = "Betting History";
 
             // Update Header for History
-            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1fr 1fr";
+            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr";
             headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
+                <div>Edge</div>
                 <div>Odds</div>
                 <div>Result</div>
                 <div>Profit</div>
@@ -729,7 +735,7 @@
             `;
 
             list.innerHTML = betHistory.map(b => `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1fr;">
+                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
                     </div>
@@ -739,6 +745,7 @@
                     <div>
                         <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500;">${b.pick}</span>
                     </div>
+                    <div class="bet-ev" style="font-size:13px">${b.ev || '-'}</div>
                     <div class="bet-odds" style="font-weight:600">${b.odds}</div>
                     <div class="${b.result === 'WON' ? 'result-won' : 'result-lost'}">${b.result}</div>
                     <div style="font-family:monospace; font-weight:700; color:${b.profit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)'}">
@@ -753,6 +760,14 @@
             const list = document.getElementById('bets-list');
             const tableTitleText = document.getElementById('table-title-text');
             const headerRow = document.getElementById('table-header-row');
+            const avgEdgeEl = document.getElementById('avg-edge');
+            const bestEdgeEl = document.getElementById('best-edge');
+
+            // Restore avg edge opacity
+            const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
+            const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
+            avgEdgeContainer.classList.remove('hidden-stat');
+            bestEdgeContainer.classList.remove('hidden-stat');
 
             // Reset UI for Value Bets
             tableTitleText.textContent = 'Latest Value Bets';
@@ -777,6 +792,21 @@
             }
 
             allEdges.sort((a, b) => b.ev - a.ev);
+
+            // Calculate Stats
+            if (allEdges.length > 0) {
+                // Avg
+                const totalEv = allEdges.reduce((sum, e) => sum + e.ev, 0);
+                const avgEv = totalEv / allEdges.length;
+                avgEdgeEl.textContent = '+' + avgEv.toFixed(1) + '%';
+
+                // Best
+                bestEdgeEl.textContent = '+' + allEdges[0].ev.toFixed(1) + '%';
+                bestEdgeEl.classList.add('text-green'); // logic handled by css usually, but here simple text
+            } else {
+                avgEdgeEl.textContent = '--%';
+                bestEdgeEl.textContent = '--%';
+            }
 
             if (allEdges.length === 0) {
                 list.innerHTML = `
