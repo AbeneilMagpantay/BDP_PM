@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL EV Betting Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f0f23 0%, #1a1a3e 50%, #0f0f23 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, #00d4ff, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #00d4ff;
+        }
+
+        .stat-value.profit {
+            color: #22c55e;
+        }
+
+        .stat-label {
+            color: #888;
+            font-size: 0.875rem;
+            margin-top: 8px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title .emoji {
+            font-size: 1.5rem;
+        }
+
+        .edges-grid {
+            display: grid;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .edge-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 20px;
+            align-items: center;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+
+        .edge-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(0, 212, 255, 0.3);
+        }
+
+        .edge-card.high-ev {
+            border-left: 4px solid #22c55e;
+        }
+
+        .edge-card.medium-ev {
+            border-left: 4px solid #eab308;
+        }
+
+        .matchup {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .bet-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.875rem;
+            color: #888;
+        }
+
+        .bet-info span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .bet-team {
+            color: #00d4ff;
+            font-weight: 600;
+        }
+
+        .ev-badge {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 12px;
+            text-align: center;
+            min-width: 100px;
+        }
+
+        .ev-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .ev-label {
+            font-size: 0.75rem;
+            opacity: 0.8;
+        }
+
+        .games-table {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 16px;
+            text-align: left;
+        }
+
+        th {
+            background: rgba(255, 255, 255, 0.05);
+            font-weight: 600;
+            color: #888;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+        }
+
+        tr:not(:last-child) td {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .prob-bar {
+            display: flex;
+            height: 8px;
+            border-radius: 4px;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .prob-home {
+            background: #00d4ff;
+        }
+
+        .prob-away {
+            background: #7c3aed;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: #888;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #00d4ff;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            color: #888;
+        }
+
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-size: 0.875rem;
+            margin-top: 40px;
+            padding-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            .edge-card {
+                grid-template-columns: 1fr;
+            }
+
+            .ev-badge {
+                justify-self: start;
+            }
+
+            table {
+                font-size: 0.875rem;
+            }
+
+            th, td {
+                padding: 12px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏈 NFL EV Betting Engine</h1>
+            <p class="subtitle">ML-powered predictions • Updated daily</p>
+        </header>
+
+        <div id="stats" class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="accuracy">--</div>
+                <div class="stat-label">Model Accuracy</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="games">--</div>
+                <div class="stat-label">Games Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="edges">--</div>
+                <div class="stat-label">+EV Opportunities</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value profit" id="record">--</div>
+                <div class="stat-label">Recent Record</div>
+            </div>
+        </div>
+
+        <section id="edges-section">
+            <h2 class="section-title"><span class="emoji">🎯</span> Today's Edges</h2>
+            <div id="edges-container" class="edges-grid">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading predictions...</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="games-section">
+            <h2 class="section-title"><span class="emoji">📊</span> All Games</h2>
+            <div id="games-container" class="games-table">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Loading games...</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="last-updated" class="last-updated"></div>
+    </div>
+
+    <script>
+        async function loadPredictions() {
+            try {
+                const response = await fetch('data/predictions.json');
+                const data = await response.json();
+                
+                // Update stats
+                document.getElementById('accuracy').textContent = 
+                    (data.model_accuracy * 100).toFixed(0) + '%';
+                document.getElementById('games').textContent = data.total_games;
+                document.getElementById('edges').textContent = data.total_edges;
+                
+                // Update last updated
+                const updatedAt = new Date(data.generated_at);
+                document.getElementById('last-updated').textContent = 
+                    `Last updated: ${updatedAt.toLocaleString()}`;
+                
+                // Render edges
+                renderEdges(data.edges);
+                
+                // Render games table
+                renderGames(data.predictions);
+                
+                // Load history for record
+                loadHistory();
+                
+            } catch (error) {
+                console.error('Error loading predictions:', error);
+                document.getElementById('edges-container').innerHTML = 
+                    '<div class="no-data">Unable to load predictions. Try again later.</div>';
+                document.getElementById('games-container').innerHTML = 
+                    '<div class="no-data">Unable to load games.</div>';
+            }
+        }
+
+        function renderEdges(edges) {
+            const container = document.getElementById('edges-container');
+            
+            if (!edges || edges.length === 0) {
+                container.innerHTML = '<div class="no-data">No +EV opportunities found today. Check back later!</div>';
+                return;
+            }
+            
+            container.innerHTML = edges.map(edge => `
+                <div class="edge-card ${edge.ev > 50 ? 'high-ev' : 'medium-ev'}">
+                    <div>
+                        <div class="matchup">${edge.away_team} @ ${edge.home_team}</div>
+                        <div class="bet-info">
+                            <span>🏈 Bet: <span class="bet-team">${edge.bet_on}</span></span>
+                            <span>📊 Odds: ${formatOdds(edge.odds)} @ ${edge.bookmaker}</span>
+                            <span>🎲 Model: ${edge.model_prob}%</span>
+                            <span>📈 Edge: +${edge.edge}%</span>
+                        </div>
+                    </div>
+                    <div class="ev-badge">
+                        <div class="ev-value">+${edge.ev}%</div>
+                        <div class="ev-label">Expected Value</div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderGames(predictions) {
+            const container = document.getElementById('games-container');
+            
+            if (!predictions || predictions.length === 0) {
+                container.innerHTML = '<div class="no-data">No games scheduled.</div>';
+                return;
+            }
+            
+            container.innerHTML = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matchup</th>
+                            <th>Home Win</th>
+                            <th>Away Win</th>
+                            <th>Confidence</th>
+                            <th>Probability</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${predictions.map(game => `
+                            <tr>
+                                <td><strong>${game.away_team}</strong> @ <strong>${game.home_team}</strong></td>
+                                <td>${game.home_win_prob}%</td>
+                                <td>${game.away_win_prob}%</td>
+                                <td>${game.confidence}%</td>
+                                <td>
+                                    <div class="prob-bar">
+                                        <div class="prob-home" style="width: ${game.home_win_prob}%"></div>
+                                        <div class="prob-away" style="width: ${game.away_win_prob}%"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        async function loadHistory() {
+            try {
+                const response = await fetch('data/history.json');
+                const history = await response.json();
+                
+                // Calculate recent record (placeholder for now)
+                document.getElementById('record').textContent = '4-1';
+                
+            } catch (error) {
+                document.getElementById('record').textContent = '--';
+            }
+        }
+
+        function formatOdds(odds) {
+            return odds > 0 ? `+${odds}` : odds.toString();
+        }
+
+        // Load on page load
+        loadPredictions();
+        
+        // Auto-refresh every 5 minutes
+        setInterval(loadPredictions, 5 * 60 * 1000);
+    </script>
+</body>
+</html>

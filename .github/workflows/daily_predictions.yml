@@ -1,0 +1,39 @@
+name: Daily Predictions
+
+on:
+  schedule:
+    # Runs at 9 AM UTC daily (5 PM Manila time)
+    - cron: '0 9 * * *'
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  generate-predictions:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          cd nfl_ev_betting_engine
+          pip install -r requirements.txt
+      
+      - name: Run predictions
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          cd nfl_ev_betting_engine
+          python scripts/generate_web_predictions.py
+      
+      - name: Commit and push results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update predictions $(date +'%Y-%m-%d')" && git push)

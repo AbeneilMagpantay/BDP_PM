@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-01-13T17:27:44.651875",
+  "model_accuracy": 0.86,
+  "total_games": 4,
+  "total_edges": 4,
+  "predictions": [
+    {
+      "home_team": "Denver Broncos",
+      "away_team": "Buffalo Bills",
+      "home_win_prob": 6.1,
+      "away_win_prob": 93.9,
+      "confidence": 87.8,
+      "commence_time": "2026-01-17T21:30:00Z"
+    },
+    {
+      "home_team": "Seattle Seahawks",
+      "away_team": "San Francisco 49ers",
+      "home_win_prob": 15.7,
+      "away_win_prob": 84.3,
+      "confidence": 68.6,
+      "commence_time": "2026-01-18T01:00:00Z"
+    },
+    {
+      "home_team": "New England Patriots",
+      "away_team": "Houston Texans",
+      "home_win_prob": 96.9,
+      "away_win_prob": 3.1,
+      "confidence": 93.8,
+      "commence_time": "2026-01-18T20:00:00Z"
+    },
+    {
+      "home_team": "Chicago Bears",
+      "away_team": "Los Angeles Rams",
+      "home_win_prob": 19.4,
+      "away_win_prob": 80.6,
+      "confidence": 61.2,
+      "commence_time": "2026-01-18T23:30:00Z"
+    }
+  ],
+  "edges": [
+    {
+      "home_team": "Seattle Seahawks",
+      "away_team": "San Francisco 49ers",
+      "bet_on": "San Francisco 49ers",
+      "side": "away",
+      "odds": 310,
+      "bookmaker": "fanduel",
+      "model_prob": 84.3,
+      "implied_prob": 24.4,
+      "edge": 59.9,
+      "ev": 245.6,
+      "kelly": 4.8,
+      "commence_time": "2026-01-18T01:00:00Z"
+    },
+    {
+      "home_team": "Denver Broncos",
+      "away_team": "Buffalo Bills",
+      "bet_on": "Buffalo Bills",
+      "side": "away",
+      "odds": -108,
+      "bookmaker": "draftkings",
+      "model_prob": 93.9,
+      "implied_prob": 51.9,
+      "edge": 42.0,
+      "ev": 80.8,
+      "kelly": 11.3,
+      "commence_time": "2026-01-17T21:30:00Z"
+    },
+    {
+      "home_team": "New England Patriots",
+      "away_team": "Houston Texans",
+      "bet_on": "New England Patriots",
+      "side": "home",
+      "odds": -150,
+      "bookmaker": "bovada",
+      "model_prob": 96.9,
+      "implied_prob": 60.0,
+      "edge": 36.9,
+      "ev": 61.5,
+      "kelly": 13.8,
+      "commence_time": "2026-01-18T20:00:00Z"
+    },
+    {
+      "home_team": "Chicago Bears",
+      "away_team": "Los Angeles Rams",
+      "bet_on": "Los Angeles Rams",
+      "side": "away",
+      "odds": -191,
+      "bookmaker": "betonlineag",
+      "model_prob": 80.6,
+      "implied_prob": 65.6,
+      "edge": 15.0,
+      "ev": 22.8,
+      "kelly": 7.1,
+      "commence_time": "2026-01-18T23:30:00Z"
+    }
+  ]
+}
