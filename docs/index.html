@@ -670,11 +670,11 @@
 
                 // Mock history data reflecting the User's First Run (Jan 9, 2026)
                 const betHistory = [
-                    { date: '2026-01-09T01:55:00', match: 'San Francisco 49ers', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
-                    { date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
-                    { date: '2026-01-09T01:55:00', match: 'Chicago Bears', pick: 'Bears', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
-                    { date: '2026-01-09T01:55:00', match: 'New England Patriots', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
-                    { date: '2026-01-09T01:55:00', match: 'Los Angeles Rams', pick: 'Rams', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
+                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'San Francisco 49ers', pick: '49ers', odds: '+203', result: 'WON', profit: 203.00, ev: '+179.3%' },
+                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'Pittsburgh Steelers', pick: 'Steelers', odds: '+145', result: 'WON', profit: 145.00, ev: '+123.3%' },
+                    { sport: 'nba', date: '2026-01-09T01:55:00', match: 'Chicago Bulls', pick: 'Bulls', odds: '+105', result: 'WON', profit: 105.00, ev: '+73.6%' },
+                    { sport: 'nfl', date: '2026-01-09T01:55:00', match: 'New England Patriots', pick: 'Patriots', odds: '-185', result: 'WON', profit: 54.05, ev: '+51.9%' },
+                    { sport: 'nba', date: '2026-01-09T01:55:00', match: 'Los Angeles Betting', pick: 'Lakers', odds: '-600', result: 'LOST', profit: -100.00, ev: '+15.3%' },
                 ];
 
                 async function load() {
@@ -699,16 +699,7 @@
                         document.getElementById('updated-at').textContent = 'Updated ' + timeAgo(data.generated_at);
 
                         // Update Stats
-                        if (data.aggregate) {
-                            const agg = data.aggregate;
-                            // Record only
-                            document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
-
-                            // Chart
-                            const winRate = agg.win_rate || 0;
-                            document.getElementById('win-rate').textContent = winRate + '%';
-                            document.getElementById('win-chart').style.background = `conic-gradient(var(--accent-green) 0% ${winRate}%, #2c2f36 ${winRate}% 100%)`;
-                        }
+                        updateWinRate('all');
 
                         renderFilters();
                         renderBets('all', null);
@@ -795,6 +786,8 @@
                     document.getElementById('intel-title-2').textContent = content.t2;
                     document.getElementById('intel-desc-2').textContent = content.d2;
 
+                    updateWinRate(sport);
+
                     if (sport === 'history') {
                         renderHistory();
                     } else {
@@ -802,15 +795,40 @@
                     }
                 }
 
+                function updateWinRate(sport) {
+                    let filteredHistory = betHistory;
+                    if (sport !== 'all' && sport !== 'history') {
+                        filteredHistory = betHistory.filter(h => h.sport === sport);
+                    }
+
+                    const wins = filteredHistory.filter(h => h.result === 'WON').length;
+                    const total = filteredHistory.length;
+                    let rate = 0;
+                    if (total > 0) rate = Math.round((wins / total) * 100);
+
+                    document.getElementById('win-rate').textContent = rate + '%';
+                    document.getElementById('record').textContent = `${wins}-${total - wins}`;
+
+                    const color = rate >= 50 ? 'var(--accent-green)' : 'var(--accent-red)';
+                    document.getElementById('win-chart').style.background = `conic-gradient(${color} 0% ${rate}%, #2c2f36 ${rate}% 100%)`;
+                }
+
                 function renderHistory() {
                     const list = document.getElementById('bets-list');
-                    const tableTitleText = document.getElementById('table-title-text');
-                    const headerRow = document.getElementById('table-header-row');
 
-                    // Fade out avg edge/best edge in history mode
-                    const avgEdgeContainer = document.getElementById('avg-edge').parentElement.parentElement;
-                    const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
-                    avgEdgeContainer.classList.add('hidden-stat');
+                    // Switch Stats for History
+                    document.getElementById('avg-edge').parentElement.querySelector('h3').textContent = "Net Profit";
+                    const totalProfit = betHistory.reduce((sum, b) => sum + b.profit, 0);
+                    const avgEl = document.getElementById('avg-edge');
+                    avgEl.textContent = (totalProfit >= 0 ? '+' : '') + '$' + totalProfit.toFixed(2);
+                    avgEl.style.color = totalProfit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
+
+                    document.getElementById('best-edge').parentElement.querySelector('h3').textContent = "Total Bets";
+                    document.getElementById('best-edge').textContent = betHistory.length;
+                    document.getElementById('best-edge').classList.remove('text-green');
+
+                    document.getElementById('table-title-text').textContent = "Betting History";
+                    const headerRow = document.getElementById('table-header-row');
                     bestEdgeContainer.classList.add('hidden-stat');
 
                     tableTitleText.textContent = "Betting History";
@@ -862,6 +880,11 @@
                     const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
                     avgEdgeContainer.classList.remove('hidden-stat');
                     bestEdgeContainer.classList.remove('hidden-stat');
+
+                    // Reset Stat Titles
+                    document.getElementById('avg-edge').parentElement.querySelector('h3').textContent = "Avg. Edge";
+                    document.getElementById('avg-edge').style.color = 'var(--accent-green)';
+                    document.getElementById('best-edge').parentElement.querySelector('h3').textContent = "Top Opportunity";
 
                     // Reset UI for Value Bets
                     tableTitleText.textContent = 'Latest Value Bets';
