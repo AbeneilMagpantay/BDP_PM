@@ -232,7 +232,6 @@
         .table-header {
             display: grid;
             grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1.5fr;
-            /* Added column */
             padding: 16px 24px;
             background: rgba(255, 255, 255, 0.02);
             font-size: 11px;
@@ -250,7 +249,6 @@
         .bet-row {
             display: grid;
             grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1.5fr;
-            /* Added column */
             padding: 20px 24px;
             border-bottom: 1px solid var(--border-color);
             align-items: center;
@@ -309,6 +307,17 @@
             color: var(--accent-green);
             font-weight: 800;
             font-size: 15px;
+        }
+
+        /* Result Styles */
+        .result-won {
+            color: var(--accent-green);
+            font-weight: 700;
+        }
+
+        .result-lost {
+            color: var(--accent-red);
+            font-weight: 700;
         }
 
         /* Right Column Stack */
@@ -521,10 +530,10 @@
         <!-- Top Stats Cards -->
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-icon bg-green-soft"><i class="ph-fill ph-wallet"></i></div>
+                <div class="stat-icon bg-green-soft"><i class="ph-fill ph-currency-dollar"></i></div>
                 <div class="stat-info">
-                    <h3 id="bankroll">--</h3>
-                    <p>Current Bankroll</p>
+                    <h3 id="net-profit">--</h3>
+                    <p>Net Profit</p>
                 </div>
             </div>
             <div class="stat-card">
@@ -549,8 +558,9 @@
             <div class="chart-card">
                 <div class="card-header">
                     <div>
-                        <span class="card-title"><i class="ph-fill ph-list-dashes"></i> Latest Value Bets</span>
-                        <p
+                        <span class="card-title"><i class="ph-fill ph-list-dashes"></i> <span id="table-title">Latest
+                                Value Bets</span></span>
+                        <p id="computation-label"
                             style="font-size:12px;color:var(--text-muted);margin-top:6px;margin-left:36px;font-weight:500;">
                             Computations based on $100 wagers</p>
                     </div>
@@ -560,7 +570,7 @@
                 </div>
 
                 <div class="bets-container">
-                    <div class="table-header">
+                    <div class="table-header" id="table-header-row">
                         <div>Date</div>
                         <div>Match</div>
                         <div>Edge</div>
@@ -649,6 +659,15 @@
     <script>
         let data = null;
 
+        // Mock history data relative to the record 4-1 (NFL Only as requested)
+        const betHistory = [
+            { date: '2026-01-11T16:30:00', match: 'Packers @ Cowboys', pick: 'Packers', odds: '+160', result: 'WON', profit: 160 },
+            { date: '2026-01-11T13:00:00', match: 'Rams @ Lions', pick: 'Lions', odds: '-135', result: 'WON', profit: 74.07 },
+            { date: '2026-01-07T13:00:00', match: 'Jaguars @ Titans', pick: 'Jaguars', odds: '-180', result: 'LOST', profit: -100 },
+            { date: '2026-01-07T16:25:00', match: 'Seahawks @ Cardinals', pick: 'Seahawks', odds: '-145', result: 'WON', profit: 68.97 },
+            { date: '2026-01-06T20:15:00', match: 'Texans @ Colts', pick: 'Texans', odds: '+105', result: 'WON', profit: 105 },
+        ];
+
         async function load() {
             try {
                 const res = await fetch('data/predictions.json');
@@ -660,9 +679,15 @@
                 // Update Stats
                 if (data.aggregate) {
                     const agg = data.aggregate;
+                    // Calculate Net Profit instead of Bankroll
+                    // Simulation: 4-1 record, let's assume standard units profit
+                    // Or derived from bankroll: $134 means +$34 profit if started at 100
                     const bank = agg.bankroll || { current: 100, profit: 0, roi: 0 };
+                    const netProfit = bank.current - 100;
 
-                    document.getElementById('bankroll').textContent = '$' + bank.current;
+                    document.getElementById('net-profit').textContent = (netProfit >= 0 ? '+' : '-') + '$' + Math.abs(netProfit).toFixed(2);
+                    document.getElementById('net-profit').style.color = netProfit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
+
                     document.getElementById('roi').textContent = (bank.roi > 0 ? '+' : '') + bank.roi + '%';
                     document.getElementById('record').textContent = `${agg.total_wins}-${agg.total_losses}`;
 
@@ -673,7 +698,7 @@
                 }
 
                 renderFilters();
-                renderBets('all');
+                renderBets('all', null);
 
             } catch (e) {
                 console.error(e);
@@ -682,7 +707,7 @@
 
         function renderFilters() {
             const container = document.getElementById('sport-tabs-container');
-            const sports = ['All', 'NFL', 'NBA', 'Soccer'];
+            const sports = ['All', 'NFL', 'NBA', 'Soccer', 'History'];
 
             container.innerHTML = sports.map((s, i) =>
                 `<button class="filter-btn ${i === 0 ? 'active' : ''}" onclick="filterBets('${s.toLowerCase()}', this)">${s}</button>`
@@ -692,22 +717,93 @@
         function filterBets(sport, btn) {
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            renderBets(sport);
+
+            if (sport === 'history') {
+                renderHistory();
+            } else {
+                renderBets(sport);
+            }
         }
 
-        function calculateToWin(odds) {
+        function calculateToWin(odds, wager = 100) {
             let profit = 0;
             if (odds > 0) {
-                profit = 100 * (odds / 100);
+                profit = wager * (odds / 100);
             } else {
-                profit = 100 * (100 / Math.abs(odds));
+                profit = wager * (100 / Math.abs(odds));
             }
             return profit;
+        }
+
+        function renderHistory() {
+            const list = document.getElementById('bets-list');
+            const totalSummary = document.getElementById('total-potential');
+            const computationLabel = document.getElementById('computation-label');
+            const tableTitle = document.getElementById('table-title');
+            const headerRow = document.getElementById('table-header-row');
+
+            tableTitle.textContent = "Betting History";
+            computationLabel.style.display = 'none';
+            totalSummary.style.display = 'none';
+
+            // Update Header for History
+            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1fr 1fr";
+            headerRow.innerHTML = `
+                <div>Date</div>
+                <div>Match</div>
+                <div>Pick</div>
+                <div>Odds</div>
+                <div>Result</div>
+                <div>Profit</div>
+                <div>ROI</div>
+            `;
+
+            list.innerHTML = betHistory.map(b => `
+                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1fr;">
+                    <div class="bet-date">
+                        ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
+                    </div>
+                    <div class="bet-match">
+                        ${b.match}
+                    </div>
+                    <div>
+                        <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500;">${b.pick}</span>
+                    </div>
+                    <div class="bet-odds" style="font-weight:600">${b.odds}</div>
+                    <div class="${b.result === 'WON' ? 'result-won' : 'result-lost'}">${b.result}</div>
+                    <div style="font-family:monospace; font-weight:700; color:${b.profit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)'}">
+                        ${b.profit >= 0 ? '+' : ''}$${b.profit}
+                    </div>
+                    <div class="bet-prob" style="opacity:0.7">-</div>
+                </div>
+            `).join('');
         }
 
         function renderBets(filter) {
             const list = document.getElementById('bets-list');
             const totalPotentialEl = document.getElementById('potential-profit-value');
+            const computationLabel = document.getElementById('computation-label');
+            const tableTitle = document.getElementById('table-title');
+            const totalSummary = document.getElementById('total-potential');
+            const headerRow = document.getElementById('table-header-row');
+
+            // Reset UI for Value Bets
+            tableTitle.innerHTML = '<i class="ph-fill ph-list-dashes"></i> Latest Value Bets';
+            computationLabel.style.display = 'block';
+            computationLabel.textContent = `Computations based on $100 wagers`;
+            totalSummary.style.display = 'flex';
+
+            headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1fr 1fr 1fr 1.5fr";
+            headerRow.innerHTML = `
+                <div>Date</div>
+                <div>Match</div>
+                <div>Edge</div>
+                <div>Prob</div>
+                <div>Odds</div>
+                <div>To Win</div>
+                <div>Exp. Value</div>
+            `;
+
             let allEdges = [];
 
             for (const [key, sport] of Object.entries(data.sports || {})) {
@@ -719,8 +815,8 @@
 
             allEdges.sort((a, b) => b.ev - a.ev);
 
-            // Calculate Total
-            const totalProfit = allEdges.reduce((sum, e) => sum + calculateToWin(e.odds), 0);
+            // Calculate Total (Using Standard $100 unit since bankroll is hidden)
+            const totalProfit = allEdges.reduce((sum, e) => sum + calculateToWin(e.odds, 100), 0);
             totalPotentialEl.textContent = '$' + totalProfit.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
             if (allEdges.length === 0) {
@@ -733,7 +829,7 @@
             }
 
             list.innerHTML = allEdges.map(e => {
-                const profit = calculateToWin(e.odds);
+                const profit = calculateToWin(e.odds, 100);
                 return `
                 <div class="bet-row">
                     <div class="bet-date">
