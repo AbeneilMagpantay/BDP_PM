@@ -806,6 +806,11 @@
                     }
 
                     list.innerHTML = allEdges.map(e => {
+                        const prob = e.implied_prob > 1 ? e.implied_prob : (e.implied_prob * 100).toFixed(1);
+                        // Handle new vs old keys (bet_team vs bet_on)
+                        const pick = e.bet_team || e.bet_on || 'Unknown';
+                        const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
+
                         return `
                 <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;">
                     <div class="bet-date">
@@ -813,12 +818,12 @@
                         <span style="opacity:0.5;font-weight:400">${new Date(e.commence_time).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}</span>
                     </div>
                     <div class="bet-match">
-                        ${e.away_team} <span style="opacity:0.4;font-weight:400;margin:0 4px">@</span> ${e.home_team}
+                        ${matchup}
                     </div>
                     <div>
-                        <span class="bet-pick">${e.bet_on}</span>
+                        <span class="bet-pick">${pick}</span>
                     </div>
-                    <div class="bet-prob">${e.implied_prob}%</div>
+                    <div class="bet-prob">${prob}%</div>
                     <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
                     <div class="bet-ev">+${e.ev}%</div>
                 </div>
