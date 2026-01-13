@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-13T18:10:21.286868",
+  "generated_at": "2026-01-13T18:12:39.392616",
   "sports": {
     "nfl": {
       "profile": {
@@ -45,8 +45,8 @@
           "home_team": "Chicago Bears",
           "away_team": "Los Angeles Rams",
           "commence_time": "2026-01-18T23:30:00Z",
-          "home_odds": 172,
-          "home_book": "FanDuel",
+          "home_odds": 180,
+          "home_book": "Bovada",
           "away_odds": -191,
           "away_book": "BetOnline.ag"
         }
@@ -108,8 +108,8 @@
           "home_team": "Oklahoma City Thunder",
           "away_team": "San Antonio Spurs",
           "commence_time": "2026-01-14T01:10:00Z",
-          "home_odds": -263,
-          "home_book": "LowVig.ag",
+          "home_odds": -260,
+          "home_book": "Bovada",
           "away_odds": 230,
           "away_book": "BetRivers"
         },
@@ -463,6 +463,12 @@
     "total_edges": 20,
     "total_wins": 4,
     "total_losses": 1,
-    "win_rate": 80.0
+    "win_rate": 80.0,
+    "bankroll": {
+      "start": 100,
+      "current": 134,
+      "profit": 34,
+      "roi": 68.0
+    }
   }
 }

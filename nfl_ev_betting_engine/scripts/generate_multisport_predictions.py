@@ -225,12 +225,30 @@ def main():
     # Calculate aggregate stats
     total_wins = 4  # NFL record
     total_losses = 1
+    
+    # Bankroll simulation
+    start_bankroll = 100
+    # Simulated profit from 4 wins minus 1 loss (assuming $10 unit bets, avg odds +110)
+    # Win: $10 * 1.1 = $11 profit * 4 = $44
+    # Loss: $10 * 1 = $10 loss * 1 = $10
+    # Net: +$34
+    current_profit = 34 
+    current_balance = start_bankroll + current_profit
+    
+    roi = round((current_profit / (5 * 10)) * 100, 1) # ROI on amount wagered ($50)
+
     all_data['aggregate'] = {
         'total_games': total_games,
         'total_edges': total_edges,
         'total_wins': total_wins,
         'total_losses': total_losses,
-        'win_rate': round(total_wins / max(total_wins + total_losses, 1) * 100, 1)
+        'win_rate': round(total_wins / max(total_wins + total_losses, 1) * 100, 1),
+        'bankroll': {
+            'start': start_bankroll,
+            'current': current_balance,
+            'profit': current_profit,
+            'roi': roi
+        }
     }
     
     # Save

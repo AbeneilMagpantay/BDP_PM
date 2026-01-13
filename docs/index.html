@@ -403,16 +403,16 @@
             <div class="logo">🎲 Sports Betting Tracker</div>
             <div class="header-stats">
                 <div class="header-stat">
-                    <div class="header-stat-value" id="total-games">--</div>
-                    <div class="header-stat-label">Total Games</div>
+                    <div class="header-stat-value" id="bankroll">$100</div>
+                    <div class="header-stat-label">Bankroll</div>
                 </div>
                 <div class="header-stat">
-                    <div class="header-stat-value" id="total-edges">--</div>
-                    <div class="header-stat-label">Edges Found</div>
+                    <div class="header-stat-value green" id="profit">+$0</div>
+                    <div class="header-stat-label">Profit</div>
                 </div>
                 <div class="header-stat">
-                    <div class="header-stat-value green" id="record">4-1</div>
-                    <div class="header-stat-label">Record</div>
+                    <div class="header-stat-value" id="roi">0%</div>
+                    <div class="header-stat-label">ROI</div>
                 </div>
             </div>
         </div>
@@ -438,13 +438,17 @@
                 const res = await fetch('data/predictions.json');
                 data = await res.json();
 
-                document.getElementById('total-games').textContent = data.total_games || 0;
-                document.getElementById('total-edges').textContent = data.total_edges || 0;
                 document.getElementById('updated').textContent = 'Updated: ' + new Date(data.generated_at).toLocaleString();
 
-                if (data.aggregate) {
-                    document.getElementById('record').textContent =
-                        `${data.aggregate.total_wins}-${data.aggregate.total_losses}`;
+                if (data.aggregate && data.aggregate.bankroll) {
+                    const b = data.aggregate.bankroll;
+                    document.getElementById('bankroll').textContent = '$' + b.current;
+                    document.getElementById('profit').textContent = (b.profit >= 0 ? '+' : '') + '$' + b.profit;
+                    document.getElementById('roi').textContent = (b.roi >= 0 ? '+' : '') + b.roi + '%';
+
+                    // Color logic
+                    document.getElementById('profit').className = 'header-stat-value ' + (b.profit >= 0 ? 'green' : 'red');
+                    document.getElementById('roi').className = 'header-stat-value ' + (b.roi >= 0 ? 'green' : 'red');
                 }
 
                 renderSportTabs();
@@ -515,7 +519,7 @@
                     <div class="profile-avatar">📊</div>
                     <div class="profile-name">All Sports</div>
                     <div class="profile-handle">Multi-sport tracker</div>
-                    <div class="profile-bio">Aggregated betting opportunities across all sports and esports.</div>
+                    <div class="profile-bio">Aggregated betting opportunities across all sports.</div>
                     <div class="profile-stats">
                         <div class="profile-stat">
                             <span class="profile-stat-value">${data.total_games}</span>
