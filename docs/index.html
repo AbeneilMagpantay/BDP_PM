@@ -740,10 +740,10 @@
 
                 const intelContent = {
                     all: {
-                        t1: "Global Data Ingestion",
-                        d1: "The system constantly scans 40+ global bookmakers in real-time, ingesting odds for NFL, NBA, and Soccer to detect market inefficiencies the moment they appear.",
-                        t2: "EV Engine",
-                        d2: "Our proprietary engine calculates Expected Value (EV) by comparing implied probabilities against true market odds, mathematically identifying bets with a positive long-term edge."
+                        t1: "Multi-Sport AI Ensemble",
+                        d1: "Aggregates predictions from specialized XGBoost models for NFL, NBA, and Soccer. Retrained daily on new data to adapt to shifting team form and injuries.",
+                        t2: "EV Engine & Discovery",
+                        d2: "Scans 40+ global bookmakers in real-time to find market inefficiencies where the AI's win probability significantly exceeds the implied bookmaker odds."
                     },
                     nfl: {
                         t1: "NFL Market Feed",
@@ -874,7 +874,12 @@
                         }
                     }
 
-                    allEdges.sort((a, b) => b.ev - a.ev);
+                    allEdges.sort((a, b) => {
+                        const timeA = new Date(a.commence_time).getTime();
+                        const timeB = new Date(b.commence_time).getTime();
+                        if (timeA !== timeB) return timeA - timeB;
+                        return b.ev - a.ev;
+                    });
 
                     // Calculate Stats
                     if (allEdges.length > 0) {
