@@ -27,9 +27,10 @@ jobs:
       - name: Run predictions
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          PANDASCORE_API_KEY: ${{ secrets.PANDASCORE_API_KEY }}
         run: |
           cd nfl_ev_betting_engine
-          python scripts/generate_web_predictions.py
+          python scripts/generate_multisport_predictions.py
       
       - name: Commit and push results
         run: |

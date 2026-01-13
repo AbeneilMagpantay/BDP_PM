@@ -1,98 +1,1056 @@
 {
-  "generated_at": "2026-01-13T17:27:44.651875",
-  "model_accuracy": 0.86,
-  "total_games": 4,
-  "total_edges": 4,
-  "predictions": [
-    {
-      "home_team": "Denver Broncos",
-      "away_team": "Buffalo Bills",
-      "home_win_prob": 6.1,
-      "away_win_prob": 93.9,
-      "confidence": 87.8,
-      "commence_time": "2026-01-17T21:30:00Z"
+  "generated_at": "2026-01-13T17:53:26.134061",
+  "sports": {
+    "nfl": {
+      "profile": {
+        "name": "NFL",
+        "handle": "American Football",
+        "emoji": "\ud83c\udfc8",
+        "bio": "NFL game predictions and betting edges.",
+        "accuracy": 86,
+        "record": {
+          "wins": 4,
+          "losses": 1
+        }
+      },
+      "games": [
+        {
+          "home_team": "Denver Broncos",
+          "away_team": "Buffalo Bills",
+          "commence_time": "2026-01-17T21:30:00Z",
+          "home_odds": -105,
+          "home_book": "BetMGM",
+          "away_odds": -108,
+          "away_book": "DraftKings"
+        },
+        {
+          "home_team": "Seattle Seahawks",
+          "away_team": "San Francisco 49ers",
+          "commence_time": "2026-01-18T01:00:00Z",
+          "home_odds": -375,
+          "home_book": "BetMGM",
+          "away_odds": 310,
+          "away_book": "FanDuel"
+        },
+        {
+          "home_team": "New England Patriots",
+          "away_team": "Houston Texans",
+          "commence_time": "2026-01-18T20:00:00Z",
+          "home_odds": -150,
+          "home_book": "Bovada",
+          "away_odds": 136,
+          "away_book": "DraftKings"
+        },
+        {
+          "home_team": "Chicago Bears",
+          "away_team": "Los Angeles Rams",
+          "commence_time": "2026-01-18T23:30:00Z",
+          "home_odds": 180,
+          "home_book": "Bovada",
+          "away_odds": -191,
+          "away_book": "BetOnline.ag"
+        }
+      ],
+      "edges": [],
+      "total_games": 4,
+      "total_edges": 0
     },
-    {
-      "home_team": "Seattle Seahawks",
-      "away_team": "San Francisco 49ers",
-      "home_win_prob": 15.7,
-      "away_win_prob": 84.3,
-      "confidence": 68.6,
-      "commence_time": "2026-01-18T01:00:00Z"
+    "nba": {
+      "profile": {
+        "name": "NBA",
+        "handle": "Basketball",
+        "emoji": "\ud83c\udfc0",
+        "bio": "NBA game predictions and betting edges.",
+        "accuracy": 0,
+        "record": {
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "games": [
+        {
+          "home_team": "Miami Heat",
+          "away_team": "Phoenix Suns",
+          "commence_time": "2026-01-14T00:40:00Z",
+          "home_odds": -106,
+          "home_book": "BetRivers",
+          "away_odds": -104,
+          "away_book": "FanDuel"
+        },
+        {
+          "home_team": "Houston Rockets",
+          "away_team": "Chicago Bulls",
+          "commence_time": "2026-01-14T01:10:00Z",
+          "home_odds": -600,
+          "home_book": "DraftKings",
+          "away_odds": 468,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "New Orleans Pelicans",
+          "away_team": "Denver Nuggets",
+          "commence_time": "2026-01-14T01:10:00Z",
+          "home_odds": 126,
+          "home_book": "FanDuel",
+          "away_odds": -136,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "Milwaukee Bucks",
+          "away_team": "Minnesota Timberwolves",
+          "commence_time": "2026-01-14T01:10:00Z",
+          "home_odds": -145,
+          "home_book": "Bovada",
+          "away_odds": 135,
+          "away_book": "MyBookie.ag"
+        },
+        {
+          "home_team": "Oklahoma City Thunder",
+          "away_team": "San Antonio Spurs",
+          "commence_time": "2026-01-14T01:10:00Z",
+          "home_odds": -260,
+          "home_book": "Bovada",
+          "away_odds": 230,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Los Angeles Lakers",
+          "away_team": "Atlanta Hawks",
+          "commence_time": "2026-01-14T03:40:00Z",
+          "home_odds": 139,
+          "home_book": "LowVig.ag",
+          "away_odds": -149,
+          "away_book": "MyBookie.ag"
+        },
+        {
+          "home_team": "Golden State Warriors",
+          "away_team": "Portland Trail Blazers",
+          "commence_time": "2026-01-14T04:10:00Z",
+          "home_odds": -415,
+          "home_book": "LowVig.ag",
+          "away_odds": 350,
+          "away_book": "BetMGM"
+        }
+      ],
+      "edges": [],
+      "total_games": 7,
+      "total_edges": 0
     },
-    {
-      "home_team": "New England Patriots",
-      "away_team": "Houston Texans",
-      "home_win_prob": 96.9,
-      "away_win_prob": 3.1,
-      "confidence": 93.8,
-      "commence_time": "2026-01-18T20:00:00Z"
+    "soccer": {
+      "profile": {
+        "name": "Soccer",
+        "handle": "Premier League",
+        "emoji": "\u26bd",
+        "bio": "EPL match predictions and betting edges.",
+        "accuracy": 0,
+        "record": {
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "games": [
+        {
+          "home_team": "Manchester United",
+          "away_team": "Manchester City",
+          "commence_time": "2026-01-17T12:30:00Z",
+          "home_odds": 270,
+          "home_book": "LowVig.ag",
+          "away_odds": -105,
+          "away_book": "FanDuel"
+        },
+        {
+          "home_team": "Chelsea",
+          "away_team": "Brentford",
+          "commence_time": "2026-01-17T15:00:00Z",
+          "home_odds": -143,
+          "home_book": "LowVig.ag",
+          "away_odds": 410,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "Liverpool",
+          "away_team": "Burnley",
+          "commence_time": "2026-01-17T15:00:00Z",
+          "home_odds": -445,
+          "home_book": "LowVig.ag",
+          "away_odds": 1400,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Sunderland",
+          "away_team": "Crystal Palace",
+          "commence_time": "2026-01-17T15:00:00Z",
+          "home_odds": 174,
+          "home_book": "BetOnline.ag",
+          "away_odds": 180,
+          "away_book": "FanDuel"
+        },
+        {
+          "home_team": "Leeds United",
+          "away_team": "Fulham",
+          "commence_time": "2026-01-17T15:00:00Z",
+          "home_odds": 128,
+          "home_book": "LowVig.ag",
+          "away_odds": 236,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "Tottenham Hotspur",
+          "away_team": "West Ham United",
+          "commence_time": "2026-01-17T15:00:00Z",
+          "home_odds": -135,
+          "home_book": "LowVig.ag",
+          "away_odds": 380,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Nottingham Forest",
+          "away_team": "Arsenal",
+          "commence_time": "2026-01-17T17:30:00Z",
+          "home_odds": 500,
+          "home_book": "FanDuel",
+          "away_odds": -177,
+          "away_book": "BetUS"
+        },
+        {
+          "home_team": "Wolverhampton Wanderers",
+          "away_team": "Newcastle United",
+          "commence_time": "2026-01-18T14:00:00Z",
+          "home_odds": 360,
+          "home_book": "BetRivers",
+          "away_odds": -132,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "Aston Villa",
+          "away_team": "Everton",
+          "commence_time": "2026-01-18T16:30:00Z",
+          "home_odds": -145,
+          "home_book": "BetMGM",
+          "away_odds": 440,
+          "away_book": "LowVig.ag"
+        },
+        {
+          "home_team": "Brighton and Hove Albion",
+          "away_team": "Bournemouth",
+          "commence_time": "2026-01-19T20:00:00Z",
+          "home_odds": -115,
+          "home_book": "DraftKings",
+          "away_odds": 310,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "West Ham United",
+          "away_team": "Sunderland",
+          "commence_time": "2026-01-24T12:30:00Z",
+          "home_odds": 145,
+          "home_book": "FanDuel",
+          "away_odds": 201,
+          "away_book": "BetOnline.ag"
+        },
+        {
+          "home_team": "Fulham",
+          "away_team": "Brighton and Hove Albion",
+          "commence_time": "2026-01-24T15:00:00Z",
+          "home_odds": 161,
+          "home_book": "LowVig.ag",
+          "away_odds": 180,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Burnley",
+          "away_team": "Tottenham Hotspur",
+          "commence_time": "2026-01-24T15:00:00Z",
+          "home_odds": 325,
+          "home_book": "BetRivers",
+          "away_odds": -107,
+          "away_book": "Bovada"
+        },
+        {
+          "home_team": "Manchester City",
+          "away_team": "Wolverhampton Wanderers",
+          "commence_time": "2026-01-24T15:00:00Z",
+          "home_odds": -599,
+          "home_book": "MyBookie.ag",
+          "away_odds": 1700,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Bournemouth",
+          "away_team": "Liverpool",
+          "commence_time": "2026-01-24T17:30:00Z",
+          "home_odds": 280,
+          "home_book": "FanDuel",
+          "away_odds": -110,
+          "away_book": "DraftKings"
+        },
+        {
+          "home_team": "Newcastle United",
+          "away_team": "Aston Villa",
+          "commence_time": "2026-01-25T14:00:00Z",
+          "home_odds": 105,
+          "home_book": "FanDuel",
+          "away_odds": 248,
+          "away_book": "BetOnline.ag"
+        },
+        {
+          "home_team": "Brentford",
+          "away_team": "Nottingham Forest",
+          "commence_time": "2026-01-25T14:00:00Z",
+          "home_odds": 115,
+          "home_book": "DraftKings",
+          "away_odds": 250,
+          "away_book": "FanDuel"
+        },
+        {
+          "home_team": "Crystal Palace",
+          "away_team": "Chelsea",
+          "commence_time": "2026-01-25T14:00:00Z",
+          "home_odds": 230,
+          "home_book": "FanDuel",
+          "away_odds": 117,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Arsenal",
+          "away_team": "Manchester United",
+          "commence_time": "2026-01-25T16:30:00Z",
+          "home_odds": -215,
+          "home_book": "LowVig.ag",
+          "away_odds": 650,
+          "away_book": "BetRivers"
+        },
+        {
+          "home_team": "Everton",
+          "away_team": "Leeds United",
+          "commence_time": "2026-01-26T20:00:00Z",
+          "home_odds": 150,
+          "home_book": "BetOnline.ag",
+          "away_odds": 215,
+          "away_book": "BetRivers"
+        }
+      ],
+      "edges": [
+        {
+          "home_team": "Everton",
+          "away_team": "Leeds United",
+          "bet_on": "Leeds United",
+          "side": "away",
+          "odds": 215,
+          "bookmaker": "BetRivers",
+          "implied_prob": 31.7,
+          "edge": 28.3,
+          "ev": 56.5,
+          "commence_time": "2026-01-26T20:00:00Z"
+        },
+        {
+          "home_team": "Sunderland",
+          "away_team": "Crystal Palace",
+          "bet_on": "Crystal Palace",
+          "side": "away",
+          "odds": 180,
+          "bookmaker": "FanDuel",
+          "implied_prob": 35.7,
+          "edge": 27.8,
+          "ev": 55.6,
+          "commence_time": "2026-01-17T15:00:00Z"
+        },
+        {
+          "home_team": "Leeds United",
+          "away_team": "Fulham",
+          "bet_on": "Fulham",
+          "side": "away",
+          "odds": 236,
+          "bookmaker": "LowVig.ag",
+          "implied_prob": 29.8,
+          "edge": 26.4,
+          "ev": 52.8,
+          "commence_time": "2026-01-17T15:00:00Z"
+        },
+        {
+          "home_team": "West Ham United",
+          "away_team": "Sunderland",
+          "bet_on": "Sunderland",
+          "side": "away",
+          "odds": 201,
+          "bookmaker": "BetOnline.ag",
+          "implied_prob": 33.2,
+          "edge": 26.0,
+          "ev": 51.9,
+          "commence_time": "2026-01-24T12:30:00Z"
+        },
+        {
+          "home_team": "Fulham",
+          "away_team": "Brighton and Hove Albion",
+          "bet_on": "Brighton and Hove Albion",
+          "side": "away",
+          "odds": 180,
+          "bookmaker": "BetRivers",
+          "implied_prob": 35.7,
+          "edge": 26.0,
+          "ev": 51.9,
+          "commence_time": "2026-01-24T15:00:00Z"
+        },
+        {
+          "home_team": "Brentford",
+          "away_team": "Nottingham Forest",
+          "bet_on": "Nottingham Forest",
+          "side": "away",
+          "odds": 250,
+          "bookmaker": "FanDuel",
+          "implied_prob": 28.6,
+          "edge": 24.9,
+          "ev": 49.8,
+          "commence_time": "2026-01-25T14:00:00Z"
+        },
+        {
+          "home_team": "Burnley",
+          "away_team": "Tottenham Hotspur",
+          "bet_on": "Burnley",
+          "side": "home",
+          "odds": 325,
+          "bookmaker": "BetRivers",
+          "implied_prob": 23.5,
+          "edge": 24.8,
+          "ev": 49.6,
+          "commence_time": "2026-01-24T15:00:00Z"
+        },
+        {
+          "home_team": "Crystal Palace",
+          "away_team": "Chelsea",
+          "bet_on": "Crystal Palace",
+          "side": "home",
+          "odds": 230,
+          "bookmaker": "FanDuel",
+          "implied_prob": 30.3,
+          "edge": 23.6,
+          "ev": 47.2,
+          "commence_time": "2026-01-25T14:00:00Z"
+        },
+        {
+          "home_team": "Newcastle United",
+          "away_team": "Aston Villa",
+          "bet_on": "Aston Villa",
+          "side": "away",
+          "odds": 248,
+          "bookmaker": "BetOnline.ag",
+          "implied_prob": 28.7,
+          "edge": 22.5,
+          "ev": 45.0,
+          "commence_time": "2026-01-25T14:00:00Z"
+        },
+        {
+          "home_team": "Aston Villa",
+          "away_team": "Everton",
+          "bet_on": "Everton",
+          "side": "away",
+          "odds": 440,
+          "bookmaker": "LowVig.ag",
+          "implied_prob": 18.5,
+          "edge": 22.3,
+          "ev": 44.6,
+          "commence_time": "2026-01-18T16:30:00Z"
+        }
+      ],
+      "total_games": 20,
+      "total_edges": 20
     },
-    {
-      "home_team": "Chicago Bears",
-      "away_team": "Los Angeles Rams",
-      "home_win_prob": 19.4,
-      "away_win_prob": 80.6,
-      "confidence": 61.2,
-      "commence_time": "2026-01-18T23:30:00Z"
+    "dota2": {
+      "profile": {
+        "name": "Dota 2",
+        "handle": "Esports",
+        "emoji": "\ud83c\udfae",
+        "bio": "Dota 2 match predictions.",
+        "accuracy": 0,
+        "record": {
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "games": [
+        {
+          "home_team": "Nemiga Gaming",
+          "away_team": "Inner Circle",
+          "commence_time": "2026-01-13T14:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Rune Eaters",
+          "away_team": "Spirit Academy",
+          "commence_time": "2026-01-13T14:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": " Pipsqueak+4",
+          "away_team": "OQ Enjoyers",
+          "commence_time": "2026-01-13T15:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Estar Backs",
+          "away_team": "Chandogs",
+          "commence_time": "2026-01-13T21:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Looking for Org",
+          "away_team": "Red Submarine",
+          "commence_time": "2026-01-13T21:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Ttgame",
+          "away_team": "the bug",
+          "commence_time": "2026-01-13T21:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Rottweilas Latam",
+          "away_team": "BabyKalma",
+          "commence_time": "2026-01-13T21:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Veroja",
+          "away_team": "yache123",
+          "commence_time": "2026-01-16T04:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Ivory",
+          "away_team": "REKONIX",
+          "commence_time": "2026-01-16T08:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "1win",
+          "away_team": "AVULUS",
+          "commence_time": "2026-01-16T10:00:00Z",
+          "league": "ESL One",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Team TBD",
+          "away_team": "Team Uknown",
+          "commence_time": "2026-01-16T13:00:00Z",
+          "league": "EPL Championship",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        }
+      ],
+      "edges": [
+        {
+          "home_team": "Nemiga Gaming",
+          "away_team": "Inner Circle",
+          "bet_on": "Nemiga Gaming",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T14:00:00Z"
+        },
+        {
+          "home_team": "Rune Eaters",
+          "away_team": "Spirit Academy",
+          "bet_on": "Rune Eaters",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T14:00:00Z"
+        },
+        {
+          "home_team": " Pipsqueak+4",
+          "away_team": "OQ Enjoyers",
+          "bet_on": " Pipsqueak+4",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T15:00:00Z"
+        },
+        {
+          "home_team": "Estar Backs",
+          "away_team": "Chandogs",
+          "bet_on": "Estar Backs",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T21:00:00Z"
+        },
+        {
+          "home_team": "Looking for Org",
+          "away_team": "Red Submarine",
+          "bet_on": "Looking for Org",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T21:00:00Z"
+        },
+        {
+          "home_team": "Ttgame",
+          "away_team": "the bug",
+          "bet_on": "Ttgame",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T21:00:00Z"
+        },
+        {
+          "home_team": "Rottweilas Latam",
+          "away_team": "BabyKalma",
+          "bet_on": "Rottweilas Latam",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T21:00:00Z"
+        },
+        {
+          "home_team": "Veroja",
+          "away_team": "yache123",
+          "bet_on": "Veroja",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T04:00:00Z"
+        },
+        {
+          "home_team": "Ivory",
+          "away_team": "REKONIX",
+          "bet_on": "Ivory",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T08:00:00Z"
+        },
+        {
+          "home_team": "1win",
+          "away_team": "AVULUS",
+          "bet_on": "1win",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "ESL One",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T10:00:00Z"
+        }
+      ],
+      "total_games": 11,
+      "total_edges": 11
+    },
+    "valorant": {
+      "profile": {
+        "name": "Valorant",
+        "handle": "Esports",
+        "emoji": "\ud83c\udfaf",
+        "bio": "Valorant match predictions.",
+        "accuracy": 0,
+        "record": {
+          "wins": 0,
+          "losses": 0
+        }
+      },
+      "games": [
+        {
+          "home_team": "NOVO Esports",
+          "away_team": "Otakar Esports",
+          "commence_time": "2026-01-13T16:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "DNSTY",
+          "away_team": "Ramboot Club",
+          "commence_time": "2026-01-13T16:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "FALKE ESPORTS",
+          "away_team": "Bar\u00e7a eSports",
+          "commence_time": "2026-01-13T18:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "KPI Gaming",
+          "away_team": "UCAM Esports Club",
+          "commence_time": "2026-01-13T18:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Team Envy",
+          "away_team": "Evil Geniuses",
+          "commence_time": "2026-01-15T22:00:00Z",
+          "league": "VCT",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "LOUD",
+          "away_team": "Cloud9",
+          "commence_time": "2026-01-16T01:00:00Z",
+          "league": "VCT",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Esprit Sh\u014dnen",
+          "away_team": "F9 EICAR",
+          "commence_time": "2026-01-16T17:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Mandatory",
+          "away_team": "Joblife",
+          "commence_time": "2026-01-16T20:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "KR\u00dc Esports",
+          "away_team": "FURIA Esports",
+          "commence_time": "2026-01-16T22:00:00Z",
+          "league": "VCT",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "100 Thieves",
+          "away_team": "Leviat\u00e1n Esports",
+          "commence_time": "2026-01-17T01:00:00Z",
+          "league": "VCT",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Esprit Sh\u014dnen",
+          "away_team": "WIP Esports",
+          "commence_time": "2026-01-17T14:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Fire Flux Esports",
+          "away_team": "Galatasaray Esports",
+          "commence_time": "2026-01-17T14:30:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "CGN Esports",
+          "away_team": "Dortmund Gesichtenhausen",
+          "commence_time": "2026-01-17T16:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Mayhem",
+          "away_team": "AlQadsiah Esports",
+          "commence_time": "2026-01-17T16:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Stallions Esports",
+          "away_team": "yung",
+          "commence_time": "2026-01-17T16:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Galions",
+          "away_team": "Caldya Esport",
+          "commence_time": "2026-01-17T17:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Eternal Fire",
+          "away_team": "Misa Esports",
+          "commence_time": "2026-01-17T17:30:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "Howlers",
+          "away_team": "Fraggerz",
+          "commence_time": "2026-01-17T18:30:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "VillianArc",
+          "away_team": "Nobles",
+          "commence_time": "2026-01-17T18:30:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        },
+        {
+          "home_team": "FOKUS",
+          "away_team": "RIZON",
+          "commence_time": "2026-01-17T19:00:00Z",
+          "league": "VCL",
+          "home_odds": 0,
+          "away_odds": 0,
+          "home_book": "PandaScore",
+          "away_book": "PandaScore"
+        }
+      ],
+      "edges": [
+        {
+          "home_team": "NOVO Esports",
+          "away_team": "Otakar Esports",
+          "bet_on": "NOVO Esports",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T16:00:00Z"
+        },
+        {
+          "home_team": "DNSTY",
+          "away_team": "Ramboot Club",
+          "bet_on": "DNSTY",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T16:00:00Z"
+        },
+        {
+          "home_team": "FALKE ESPORTS",
+          "away_team": "Bar\u00e7a eSports",
+          "bet_on": "FALKE ESPORTS",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T18:00:00Z"
+        },
+        {
+          "home_team": "KPI Gaming",
+          "away_team": "UCAM Esports Club",
+          "bet_on": "KPI Gaming",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-13T18:00:00Z"
+        },
+        {
+          "home_team": "Team Envy",
+          "away_team": "Evil Geniuses",
+          "bet_on": "Team Envy",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCT",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-15T22:00:00Z"
+        },
+        {
+          "home_team": "LOUD",
+          "away_team": "Cloud9",
+          "bet_on": "LOUD",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCT",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T01:00:00Z"
+        },
+        {
+          "home_team": "Esprit Sh\u014dnen",
+          "away_team": "F9 EICAR",
+          "bet_on": "Esprit Sh\u014dnen",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T17:00:00Z"
+        },
+        {
+          "home_team": "Mandatory",
+          "away_team": "Joblife",
+          "bet_on": "Mandatory",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCL",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T20:00:00Z"
+        },
+        {
+          "home_team": "KR\u00dc Esports",
+          "away_team": "FURIA Esports",
+          "bet_on": "KR\u00dc Esports",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCT",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-16T22:00:00Z"
+        },
+        {
+          "home_team": "100 Thieves",
+          "away_team": "Leviat\u00e1n Esports",
+          "bet_on": "100 Thieves",
+          "side": "home",
+          "odds": 0,
+          "bookmaker": "VCT",
+          "implied_prob": 50.0,
+          "edge": 0,
+          "ev": 0,
+          "commence_time": "2026-01-17T01:00:00Z"
+        }
+      ],
+      "total_games": 20,
+      "total_edges": 20
     }
-  ],
-  "edges": [
-    {
-      "home_team": "Seattle Seahawks",
-      "away_team": "San Francisco 49ers",
-      "bet_on": "San Francisco 49ers",
-      "side": "away",
-      "odds": 310,
-      "bookmaker": "fanduel",
-      "model_prob": 84.3,
-      "implied_prob": 24.4,
-      "edge": 59.9,
-      "ev": 245.6,
-      "kelly": 4.8,
-      "commence_time": "2026-01-18T01:00:00Z"
-    },
-    {
-      "home_team": "Denver Broncos",
-      "away_team": "Buffalo Bills",
-      "bet_on": "Buffalo Bills",
-      "side": "away",
-      "odds": -108,
-      "bookmaker": "draftkings",
-      "model_prob": 93.9,
-      "implied_prob": 51.9,
-      "edge": 42.0,
-      "ev": 80.8,
-      "kelly": 11.3,
-      "commence_time": "2026-01-17T21:30:00Z"
-    },
-    {
-      "home_team": "New England Patriots",
-      "away_team": "Houston Texans",
-      "bet_on": "New England Patriots",
-      "side": "home",
-      "odds": -150,
-      "bookmaker": "bovada",
-      "model_prob": 96.9,
-      "implied_prob": 60.0,
-      "edge": 36.9,
-      "ev": 61.5,
-      "kelly": 13.8,
-      "commence_time": "2026-01-18T20:00:00Z"
-    },
-    {
-      "home_team": "Chicago Bears",
-      "away_team": "Los Angeles Rams",
-      "bet_on": "Los Angeles Rams",
-      "side": "away",
-      "odds": -191,
-      "bookmaker": "betonlineag",
-      "model_prob": 80.6,
-      "implied_prob": 65.6,
-      "edge": 15.0,
-      "ev": 22.8,
-      "kelly": 7.1,
-      "commence_time": "2026-01-18T23:30:00Z"
-    }
-  ]
+  },
+  "total_games": 62,
+  "total_edges": 20,
+  "aggregate": {
+    "total_games": 62,
+    "total_edges": 20,
+    "total_wins": 4,
+    "total_losses": 1,
+    "win_rate": 80.0
+  }
 }

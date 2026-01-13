@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFL Betting Tracker</title>
+    <title>Sports Betting Tracker</title>
     <style>
         * {
             margin: 0;
@@ -18,15 +18,14 @@
             color: #1a1a2e;
         }
 
-        /* Header */
         .header {
             background: linear-gradient(135deg, #1e3a5f 0%, #0d1b2a 100%);
             color: white;
-            padding: 25px 0;
+            padding: 20px 0;
         }
 
         .header-content {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
             display: flex;
@@ -41,7 +40,7 @@
 
         .header-stats {
             display: flex;
-            gap: 30px;
+            gap: 25px;
         }
 
         .header-stat {
@@ -49,19 +48,77 @@
         }
 
         .header-stat-value {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 700;
         }
 
         .header-stat-label {
-            font-size: 11px;
+            font-size: 10px;
             opacity: 0.7;
             text-transform: uppercase;
         }
 
+        /* Sport Tabs */
+        .sport-tabs {
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .sport-tabs-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 5px;
+            overflow-x: auto;
+        }
+
+        .sport-tab {
+            padding: 15px 20px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .sport-tab.active {
+            color: #1e3a5f;
+            border-bottom-color: #1e3a5f;
+        }
+
+        .sport-tab:hover {
+            color: #1e3a5f;
+        }
+
+        .sport-emoji {
+            font-size: 18px;
+        }
+
+        .sport-count {
+            background: #e0e0e0;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+        }
+
+        .sport-tab.active .sport-count {
+            background: #1e3a5f;
+            color: white;
+        }
+
         /* Main Layout */
         .main {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
             display: grid;
@@ -69,7 +126,6 @@
             gap: 20px;
         }
 
-        /* Sidebar */
         .sidebar {
             display: flex;
             flex-direction: column;
@@ -84,46 +140,47 @@
         }
 
         .card-title {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
-            margin-bottom: 15px;
-            color: #666;
+            margin-bottom: 12px;
+            color: #888;
+            text-transform: uppercase;
         }
 
+        /* Profile Card */
         .profile-card {
             text-align: center;
             padding: 25px 20px;
         }
 
         .profile-avatar {
-            width: 80px;
-            height: 80px;
+            width: 70px;
+            height: 70px;
             background: linear-gradient(135deg, #1e3a5f, #3d5a80);
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 36px;
-            margin: 0 auto 15px;
+            font-size: 32px;
+            margin: 0 auto 12px;
         }
 
         .profile-name {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 700;
-            color: #1a1a2e;
         }
 
         .profile-handle {
             color: #888;
-            font-size: 14px;
-            margin-bottom: 12px;
+            font-size: 13px;
+            margin-bottom: 8px;
         }
 
         .profile-bio {
-            font-size: 13px;
-            color: #555;
-            line-height: 1.5;
-            margin-bottom: 18px;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 15px;
         }
 
         .profile-stats {
@@ -139,12 +196,12 @@
 
         .profile-stat-value {
             display: block;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 700;
         }
 
         .profile-stat-label {
-            font-size: 11px;
+            font-size: 10px;
             color: #888;
         }
 
@@ -152,37 +209,17 @@
             color: #2e7d32;
         }
 
-        .model-info {
-            text-align: center;
+        .red {
+            color: #c62828;
         }
 
-        .model-badge {
-            display: inline-block;
-            background: #e8f5e9;
-            color: #2e7d32;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 14px;
-            margin-bottom: 15px;
-        }
-
-        .model-accuracy {
-            font-size: 48px;
-            font-weight: 700;
-            color: #1a1a2e;
-        }
-
-        .model-label {
-            color: #666;
-            font-size: 13px;
-        }
-
+        /* Stats rows */
         .stat-row {
             display: flex;
             justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid #f0f0f0;
+            padding: 8px 0;
+            border-bottom: 1px solid #f5f5f5;
+            font-size: 13px;
         }
 
         .stat-row:last-child {
@@ -197,14 +234,6 @@
             font-weight: 600;
         }
 
-        .stat-val.green {
-            color: #2e7d32;
-        }
-
-        .stat-val.red {
-            color: #c62828;
-        }
-
         /* Content */
         .content {
             display: flex;
@@ -212,67 +241,16 @@
             gap: 15px;
         }
 
-        /* Tabs */
-        .tabs {
-            display: flex;
-            gap: 5px;
-            background: white;
-            padding: 8px;
-            border-radius: 10px;
-        }
-
-        .tab {
-            padding: 10px 20px;
-            border: none;
-            background: none;
-            cursor: pointer;
-            font-size: 14px;
-            font-weight: 500;
-            border-radius: 6px;
-            color: #666;
-        }
-
-        .tab.active {
-            background: #1e3a5f;
-            color: white;
-        }
-
-        .tab:hover:not(.active) {
-            background: #f0f2f5;
-        }
-
-        /* Filters */
-        .filters {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-
-        .filter-btn {
-            padding: 8px 14px;
-            border: 1px solid #ddd;
-            background: white;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 13px;
-        }
-
-        .filter-btn.active {
-            border-color: #1e3a5f;
-            background: #1e3a5f;
-            color: white;
-        }
-
         /* Bet Cards */
         .bet-card {
             background: white;
             border-radius: 10px;
-            padding: 18px;
+            padding: 16px;
             display: grid;
             grid-template-columns: 1fr auto;
-            gap: 15px;
+            gap: 12px;
             cursor: pointer;
-            transition: box-shadow 0.2s;
+            transition: all 0.2s;
         }
 
         .bet-card:hover {
@@ -280,24 +258,24 @@
         }
 
         .bet-matchup {
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 600;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
 
         .bet-details {
             display: flex;
-            gap: 15px;
-            font-size: 13px;
-            color: #666;
-            margin-bottom: 10px;
+            gap: 12px;
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 8px;
         }
 
         .bet-pick {
             display: inline-block;
-            padding: 4px 10px;
+            padding: 3px 10px;
             border-radius: 4px;
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 600;
         }
 
@@ -312,24 +290,17 @@
         }
 
         .bet-bar {
-            height: 6px;
+            height: 4px;
             background: #f0f0f0;
-            border-radius: 3px;
+            border-radius: 2px;
             overflow: hidden;
-            margin-top: 10px;
+            margin-top: 8px;
         }
 
         .bet-bar-fill {
             height: 100%;
-            border-radius: 3px;
-        }
-
-        .bet-bar-fill.win {
-            background: #4caf50;
-        }
-
-        .bet-bar-fill.pending {
             background: #ff9800;
+            border-radius: 2px;
         }
 
         .bet-ev {
@@ -337,30 +308,28 @@
         }
 
         .bet-ev-value {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 700;
             color: #2e7d32;
         }
 
         .bet-ev-label {
-            font-size: 11px;
-            color: #666;
+            font-size: 10px;
+            color: #888;
         }
 
         .bet-odds {
-            font-size: 14px;
-            color: #1a1a2e;
+            font-size: 13px;
             font-weight: 500;
-            margin-top: 5px;
+            margin-top: 4px;
         }
 
-        /* Expanded details */
         .bet-expanded {
             display: none;
             grid-column: 1 / -1;
-            padding-top: 15px;
+            padding-top: 12px;
             border-top: 1px solid #f0f0f0;
-            margin-top: 10px;
+            margin-top: 8px;
         }
 
         .bet-card.expanded .bet-expanded {
@@ -370,69 +339,48 @@
         .detail-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 15px;
+            gap: 10px;
         }
 
         .detail-item {
             text-align: center;
-            padding: 12px;
+            padding: 10px;
             background: #f8f9fa;
-            border-radius: 8px;
+            border-radius: 6px;
         }
 
         .detail-value {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
         }
 
         .detail-label {
-            font-size: 11px;
-            color: #666;
-            margin-top: 3px;
+            font-size: 10px;
+            color: #888;
         }
 
-        /* Chart */
-        .chart-container {
-            background: white;
-            border-radius: 10px;
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .updated {
+            text-align: center;
+            color: #999;
+            font-size: 11px;
             padding: 20px;
         }
 
-        .chart-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
+        /* Sport sections */
+        .sport-section {
+            display: none;
         }
 
-        .chart-title {
-            font-weight: 600;
+        .sport-section.active {
+            display: block;
         }
 
-        .chart {
-            height: 120px;
-            display: flex;
-            align-items: flex-end;
-            gap: 4px;
-        }
-
-        .chart-bar {
-            flex: 1;
-            background: #e8f5e9;
-            border-radius: 3px 3px 0 0;
-            min-height: 10px;
-            position: relative;
-        }
-
-        .chart-bar.positive {
-            background: #4caf50;
-        }
-
-        .chart-bar.negative {
-            background: #ef5350;
-        }
-
-        /* Responsive */
         @media (max-width: 768px) {
             .main {
                 grid-template-columns: 1fr;
@@ -446,205 +394,251 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-
-        .empty-state {
-            text-align: center;
-            padding: 40px;
-            color: #666;
-        }
-
-        .updated {
-            text-align: center;
-            color: #999;
-            font-size: 12px;
-            padding: 20px;
-        }
     </style>
 </head>
 
 <body>
     <div class="header">
         <div class="header-content">
-            <div class="logo">NFL Betting Tracker</div>
+            <div class="logo">🎲 Sports Betting Tracker</div>
             <div class="header-stats">
                 <div class="header-stat">
-                    <div class="header-stat-value" id="total-picks">--</div>
-                    <div class="header-stat-label">Total Picks</div>
+                    <div class="header-stat-value" id="total-games">--</div>
+                    <div class="header-stat-label">Total Games</div>
                 </div>
                 <div class="header-stat">
-                    <div class="header-stat-value" id="record">4-1</div>
+                    <div class="header-stat-value" id="total-edges">--</div>
+                    <div class="header-stat-label">Edges Found</div>
+                </div>
+                <div class="header-stat">
+                    <div class="header-stat-value green" id="record">4-1</div>
                     <div class="header-stat-label">Record</div>
-                </div>
-                <div class="header-stat">
-                    <div class="header-stat-value" id="roi">+57%</div>
-                    <div class="header-stat-label">ROI</div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="sport-tabs">
+        <div class="sport-tabs-inner" id="sport-tabs"></div>
+    </div>
+
     <div class="main">
-        <div class="sidebar">
-            <div class="card profile-card">
-                <div class="profile-avatar">🏈</div>
-                <div class="profile-name">GridironGuru</div>
-                <div class="profile-handle">@gridiron_ml</div>
-                <div class="profile-bio">XGBoost model trained on 200K+ NFL plays. Finding edges since 2026.</div>
-                <div class="profile-stats">
-                    <div class="profile-stat">
-                        <span class="profile-stat-value" id="accuracy">86%</span>
-                        <span class="profile-stat-label">Accuracy</span>
-                    </div>
-                    <div class="profile-stat">
-                        <span class="profile-stat-value">4-1</span>
-                        <span class="profile-stat-label">Record</span>
-                    </div>
-                    <div class="profile-stat">
-                        <span class="profile-stat-value green">+57%</span>
-                        <span class="profile-stat-label">ROI</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-title">Performance</div>
-                <div class="stat-row">
-                    <span class="stat-name">Wins</span>
-                    <span class="stat-val green">4</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Losses</span>
-                    <span class="stat-val red">1</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Win Rate</span>
-                    <span class="stat-val">80%</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Avg EV</span>
-                    <span class="stat-val green">+48.2%</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Best Book</span>
-                    <span class="stat-val">FanDuel</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-title">Data Sources</div>
-                <div class="stat-row">
-                    <span class="stat-name">Historical</span>
-                    <span class="stat-val">nfl_data_py</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Odds</span>
-                    <span class="stat-val">The Odds API</span>
-                </div>
-                <div class="stat-row">
-                    <span class="stat-name">Plays</span>
-                    <span class="stat-val">200K+</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="tabs">
-                <button class="tab active" data-tab="picks">Today's Picks</button>
-                <button class="tab" data-tab="history">History</button>
-                <button class="tab" data-tab="games">All Games</button>
-            </div>
-
-            <div class="filters">
-                <button class="filter-btn active">All</button>
-                <button class="filter-btn">High EV (50%+)</button>
-                <button class="filter-btn">Medium EV</button>
-                <button class="filter-btn">Home</button>
-                <button class="filter-btn">Away</button>
-            </div>
-
-            <div id="picks-container">
-                <div class="empty-state">Loading picks...</div>
-            </div>
-
-            <div class="chart-container">
-                <div class="chart-header">
-                    <span class="chart-title">Profit Trend</span>
-                    <span style="color:#666;font-size:13px;">Last 5 picks</span>
-                </div>
-                <div class="chart" id="chart">
-                    <div class="chart-bar positive" style="height:30%"></div>
-                    <div class="chart-bar positive" style="height:60%"></div>
-                    <div class="chart-bar positive" style="height:100%"></div>
-                    <div class="chart-bar positive" style="height:75%"></div>
-                    <div class="chart-bar negative" style="height:40%"></div>
-                </div>
-            </div>
-        </div>
+        <div class="sidebar" id="sidebar"></div>
+        <div class="content" id="content"></div>
     </div>
 
     <p class="updated" id="updated"></p>
 
     <script>
-        // Load data
+        let data = null;
+        let currentSport = 'all';
+
         async function load() {
             try {
                 const res = await fetch('data/predictions.json');
-                const data = await res.json();
+                data = await res.json();
 
-                document.getElementById('accuracy').textContent = Math.round(data.model_accuracy * 100) + '%';
-                document.getElementById('total-picks').textContent = data.total_edges;
-                document.getElementById('updated').textContent = 'Last updated: ' + new Date(data.generated_at).toLocaleString();
+                document.getElementById('total-games').textContent = data.total_games || 0;
+                document.getElementById('total-edges').textContent = data.total_edges || 0;
+                document.getElementById('updated').textContent = 'Updated: ' + new Date(data.generated_at).toLocaleString();
 
-                renderPicks(data.edges);
+                if (data.aggregate) {
+                    document.getElementById('record').textContent =
+                        `${data.aggregate.total_wins}-${data.aggregate.total_losses}`;
+                }
+
+                renderSportTabs();
+                renderContent('all');
             } catch (e) {
                 console.error(e);
-                document.getElementById('picks-container').innerHTML = '<div class="empty-state">Could not load data</div>';
             }
         }
 
-        function renderPicks(edges) {
-            const container = document.getElementById('picks-container');
+        function renderSportTabs() {
+            const tabs = document.getElementById('sport-tabs');
 
-            if (!edges || edges.length === 0) {
-                container.innerHTML = '<div class="empty-state">No picks available</div>';
-                return;
+            let html = `<button class="sport-tab active" onclick="switchSport('all')">
+                <span class="sport-emoji">📊</span> All
+                <span class="sport-count">${data.total_edges || 0}</span>
+            </button>`;
+
+            for (const [id, sport] of Object.entries(data.sports || {})) {
+                const count = sport.total_edges || sport.total_games || 0;
+                html += `<button class="sport-tab" onclick="switchSport('${id}')">
+                    <span class="sport-emoji">${sport.profile?.emoji || '🎯'}</span>
+                    ${sport.profile?.name || id.toUpperCase()}
+                    <span class="sport-count">${count}</span>
+                </button>`;
             }
 
-            container.innerHTML = edges.map((e, i) => `
-                <div class="bet-card" onclick="toggleCard(this)">
+            tabs.innerHTML = html;
+        }
+
+        function switchSport(sportId) {
+            currentSport = sportId;
+
+            document.querySelectorAll('.sport-tab').forEach((tab, i) => {
+                if (sportId === 'all' && i === 0) tab.classList.add('active');
+                else if (tab.textContent.includes(data.sports[sportId]?.profile?.name)) tab.classList.add('active');
+                else tab.classList.remove('active');
+            });
+
+            // Highlight correct tab
+            document.querySelectorAll('.sport-tab').forEach(tab => {
+                tab.classList.remove('active');
+                if (sportId === 'all' && tab.textContent.includes('All')) {
+                    tab.classList.add('active');
+                } else if (sportId !== 'all' && data.sports[sportId]?.profile?.name &&
+                    tab.textContent.includes(data.sports[sportId].profile.name)) {
+                    tab.classList.add('active');
+                }
+            });
+
+            renderContent(sportId);
+        }
+
+        function renderContent(sportId) {
+            if (sportId === 'all') {
+                renderAllSports();
+            } else {
+                renderSingleSport(sportId);
+            }
+        }
+
+        function renderAllSports() {
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+
+            // Aggregate sidebar
+            sidebar.innerHTML = `
+                <div class="card profile-card">
+                    <div class="profile-avatar">📊</div>
+                    <div class="profile-name">All Sports</div>
+                    <div class="profile-handle">Multi-sport tracker</div>
+                    <div class="profile-bio">Aggregated betting opportunities across all sports and esports.</div>
+                    <div class="profile-stats">
+                        <div class="profile-stat">
+                            <span class="profile-stat-value">${data.total_games}</span>
+                            <span class="profile-stat-label">Games</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="profile-stat-value">${data.total_edges}</span>
+                            <span class="profile-stat-label">Edges</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="profile-stat-value green">${data.aggregate?.win_rate || 80}%</span>
+                            <span class="profile-stat-label">Win Rate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Sports Breakdown</div>
+                    ${Object.entries(data.sports || {}).map(([id, s]) => `
+                        <div class="stat-row">
+                            <span class="stat-name">${s.profile?.emoji || ''} ${s.profile?.name || id}</span>
+                            <span class="stat-val">${s.total_games} games</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            // All edges combined
+            let allEdges = [];
+            for (const [id, sport] of Object.entries(data.sports || {})) {
+                for (const edge of (sport.edges || [])) {
+                    allEdges.push({ ...edge, sport: sport.profile?.name || id });
+                }
+            }
+            allEdges.sort((a, b) => (b.ev || 0) - (a.ev || 0));
+
+            content.innerHTML = renderEdges(allEdges.slice(0, 15));
+        }
+
+        function renderSingleSport(sportId) {
+            const sport = data.sports[sportId];
+            if (!sport) return;
+
+            const sidebar = document.getElementById('sidebar');
+            const content = document.getElementById('content');
+            const p = sport.profile || {};
+
+            sidebar.innerHTML = `
+                <div class="card profile-card">
+                    <div class="profile-avatar">${p.emoji || '🎯'}</div>
+                    <div class="profile-name">${p.name || sportId}</div>
+                    <div class="profile-handle">${p.handle || ''}</div>
+                    <div class="profile-bio">${p.bio || ''}</div>
+                    <div class="profile-stats">
+                        <div class="profile-stat">
+                            <span class="profile-stat-value">${p.accuracy || '--'}${p.accuracy ? '%' : ''}</span>
+                            <span class="profile-stat-label">Accuracy</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="profile-stat-value">${p.record?.wins || 0}-${p.record?.losses || 0}</span>
+                            <span class="profile-stat-label">Record</span>
+                        </div>
+                        <div class="profile-stat">
+                            <span class="profile-stat-value">${sport.total_edges}</span>
+                            <span class="profile-stat-label">Edges</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Stats</div>
+                    <div class="stat-row">
+                        <span class="stat-name">Games Today</span>
+                        <span class="stat-val">${sport.total_games}</span>
+                    </div>
+                    <div class="stat-row">
+                        <span class="stat-name">Value Bets</span>
+                        <span class="stat-val green">${sport.total_edges}</span>
+                    </div>
+                </div>
+            `;
+
+            content.innerHTML = renderEdges(sport.edges || []);
+        }
+
+        function renderEdges(edges) {
+            if (!edges || edges.length === 0) {
+                return '<div class="empty-state">No betting opportunities found</div>';
+            }
+
+            return edges.map(e => `
+                <div class="bet-card" onclick="this.classList.toggle('expanded')">
                     <div>
-                        <div class="bet-matchup">${e.away_team} @ ${e.home_team}</div>
+                        <div class="bet-matchup">${e.away_team || 'Away'} @ ${e.home_team || 'Home'}</div>
                         <div class="bet-details">
                             <span>📅 ${formatDate(e.commence_time)}</span>
-                            <span>📊 ${e.bookmaker}</span>
+                            <span>📊 ${e.bookmaker || e.sport || 'Best Odds'}</span>
                         </div>
-                        <span class="bet-pick ${e.side}">${e.bet_on}</span>
+                        <span class="bet-pick ${e.side || 'home'}">${e.bet_on || 'Pick'}</span>
                         <div class="bet-bar">
-                            <div class="bet-bar-fill pending" style="width: ${Math.min(e.model_prob, 100)}%"></div>
+                            <div class="bet-bar-fill" style="width: ${Math.min(e.implied_prob || 50, 100)}%"></div>
                         </div>
                     </div>
                     <div class="bet-ev">
-                        <div class="bet-ev-value">+${e.ev}%</div>
+                        <div class="bet-ev-value">+${e.ev || 0}%</div>
                         <div class="bet-ev-label">Expected Value</div>
-                        <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
+                        <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds || '--'}</div>
                     </div>
                     <div class="bet-expanded">
                         <div class="detail-grid">
                             <div class="detail-item">
-                                <div class="detail-value">${e.model_prob}%</div>
-                                <div class="detail-label">Model Prob</div>
+                                <div class="detail-value">${e.implied_prob || '--'}%</div>
+                                <div class="detail-label">Implied %</div>
                             </div>
                             <div class="detail-item">
-                                <div class="detail-value">${e.implied_prob}%</div>
-                                <div class="detail-label">Implied Prob</div>
-                            </div>
-                            <div class="detail-item">
-                                <div class="detail-value">+${e.edge}%</div>
+                                <div class="detail-value">+${e.edge || 0}%</div>
                                 <div class="detail-label">Edge</div>
                             </div>
                             <div class="detail-item">
-                                <div class="detail-value">${e.kelly}%</div>
-                                <div class="detail-label">Kelly Bet</div>
+                                <div class="detail-value">${e.odds || '--'}</div>
+                                <div class="detail-label">Odds</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-value">${e.sport || '--'}</div>
+                                <div class="detail-label">Sport</div>
                             </div>
                         </div>
                     </div>
@@ -652,31 +646,11 @@
             `).join('');
         }
 
-        function toggleCard(card) {
-            card.classList.toggle('expanded');
-        }
-
         function formatDate(dateStr) {
             if (!dateStr) return 'TBD';
             const d = new Date(dateStr);
             return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
         }
-
-        // Tab switching
-        document.querySelectorAll('.tab').forEach(tab => {
-            tab.addEventListener('click', () => {
-                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-                tab.classList.add('active');
-            });
-        });
-
-        // Filter switching
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-            });
-        });
 
         load();
     </script>
