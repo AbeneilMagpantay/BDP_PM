@@ -183,7 +183,6 @@
             grid-template-columns: 3fr 1fr;
             gap: 24px;
             align-items: stretch;
-            /* FORCE SYMMETRY */
         }
 
         .chart-card {
@@ -211,6 +210,10 @@
             gap: 12px;
         }
 
+        .card-title p {
+            margin: 0;
+        }
+
         .card-title i {
             color: var(--accent-blue);
             font-size: 24px;
@@ -222,12 +225,14 @@
             border-radius: 12px;
             overflow: hidden;
             flex: 1;
-            /* Allow table to fill space */
+            display: flex;
+            flex-direction: column;
         }
 
         .table-header {
             display: grid;
-            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;
+            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1.5fr;
+            /* Added column */
             padding: 16px 24px;
             background: rgba(255, 255, 255, 0.02);
             font-size: 11px;
@@ -238,9 +243,14 @@
             border-bottom: 1px solid var(--border-color);
         }
 
+        #bets-list {
+            flex: 1;
+        }
+
         .bet-row {
             display: grid;
-            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1.5fr;
+            grid-template-columns: 1.5fr 3fr 2fr 1fr 1fr 1fr 1.5fr;
+            /* Added column */
             padding: 20px 24px;
             border-bottom: 1px solid var(--border-color);
             align-items: center;
@@ -287,6 +297,12 @@
             font-family: monospace;
             letter-spacing: -0.5px;
             font-size: 15px;
+        }
+
+        .bet-win {
+            color: var(--accent-green);
+            font-weight: 700;
+            font-family: monospace;
         }
 
         .bet-ev {
@@ -378,7 +394,6 @@
         .system-card {
             padding: 24px;
             flex: 1;
-            /* FILL REMAINING HEIGHT */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -533,7 +548,12 @@
             <!-- Latest Bets Table -->
             <div class="chart-card">
                 <div class="card-header">
-                    <span class="card-title"><i class="ph-fill ph-list-dashes"></i> Latest Value Bets</span>
+                    <div>
+                        <span class="card-title"><i class="ph-fill ph-list-dashes"></i> Latest Value Bets</span>
+                        <p
+                            style="font-size:12px;color:var(--text-muted);margin-top:6px;margin-left:36px;font-weight:500;">
+                            Computations based on $100 wagers</p>
+                    </div>
                     <div class="sport-filter" id="sport-tabs-container">
                         <!-- Populated by JS -->
                     </div>
@@ -546,10 +566,21 @@
                         <div>Edge</div>
                         <div>Prob</div>
                         <div>Odds</div>
+                        <div>To Win</div>
                         <div>Exp. Value</div>
                     </div>
                     <div id="bets-list">
                         <!-- Bets inserted here -->
+                    </div>
+
+                    <!-- Total Potential Summary -->
+                    <div id="total-potential"
+                        style="padding: 20px 24px; border-top: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; background: rgba(0, 230, 118, 0.03);">
+                        <span
+                            style="color: var(--text-muted); font-size: 13px; font-weight: 500; display:flex; align-items:center; gap:8px;"><i
+                                class="ph-fill ph-calculator"></i> Total Potential Profit (All Hits)</span>
+                        <span id="potential-profit-value"
+                            style="color: var(--accent-green); font-weight: 700; font-size: 18px; letter-spacing: -0.5px;">$0.00</span>
                     </div>
                 </div>
             </div>
@@ -664,8 +695,19 @@
             renderBets(sport);
         }
 
+        function calculateToWin(odds) {
+            let profit = 0;
+            if (odds > 0) {
+                profit = 100 * (odds / 100);
+            } else {
+                profit = 100 * (100 / Math.abs(odds));
+            }
+            return profit;
+        }
+
         function renderBets(filter) {
             const list = document.getElementById('bets-list');
+            const totalPotentialEl = document.getElementById('potential-profit-value');
             let allEdges = [];
 
             for (const [key, sport] of Object.entries(data.sports || {})) {
@@ -677,6 +719,10 @@
 
             allEdges.sort((a, b) => b.ev - a.ev);
 
+            // Calculate Total
+            const totalProfit = allEdges.reduce((sum, e) => sum + calculateToWin(e.odds), 0);
+            totalPotentialEl.textContent = '$' + totalProfit.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
             if (allEdges.length === 0) {
                 list.innerHTML = `
                     <div class="empty-state">
@@ -686,7 +732,9 @@
                 return;
             }
 
-            list.innerHTML = allEdges.map(e => `
+            list.innerHTML = allEdges.map(e => {
+                const profit = calculateToWin(e.odds);
+                return `
                 <div class="bet-row">
                     <div class="bet-date">
                         ${new Date(e.commence_time).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
@@ -700,9 +748,10 @@
                     </div>
                     <div class="bet-prob">${e.implied_prob}%</div>
                     <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
+                    <div class="bet-win">$${profit.toFixed(2)}</div>
                     <div class="bet-ev">+${e.ev}%</div>
                 </div>
-            `).join('');
+            `}).join('');
         }
 
         load();
