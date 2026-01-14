@@ -704,6 +704,10 @@
 
                         // Update timestamps
                         function timeAgo(dateString) {
+                            // Force UTC processing if no timezone specified
+                            if (!dateString.endsWith('Z') && !dateString.includes('+')) {
+                                dateString += 'Z';
+                            }
                             const date = new Date(dateString);
                             // ... existing timeAgo logic ...
                             const now = new Date();
