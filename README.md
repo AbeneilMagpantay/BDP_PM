@@ -1,81 +1,81 @@
-# 🤖 AI Sports Betting Dashboard
+# NFL EV Betting Engine
 
-**A fully autonomous, closed-loop AI system for detecting +EV (Expected Value) sports betting opportunities.**
+[![CI Status](https://github.com/AbeneilMagpantay/BDP_PM/actions/workflows/daily_update.yml/badge.svg)](https://github.com/AbeneilMagpantay/BDP_PM/actions/workflows/daily_update.yml)
+![Python Version](https://img.shields.io/badge/python-3.10-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=AI+Betting+Dashboard)
+An automated Expected Value (+EV) sports betting system that leverages machine learning to identify discrepancies between model probabilities and bookmaker odds.
 
-## 🚀 Key Features
+The system operates as a closed-loop pipeline on GitHub Actions, performing daily data ingestion, model retraining, inference, and result grading without manual intervention.
 
-### 1. Multi-Sport Intelligence
-*   **NFL:** Trained on play-by-play data (2015-Present) using advanced efficiency metrics (EPA, DVOA).
-*   **NBA:** Evaluates Pace, Offensive Rating, and Rest Days (Dynamic daily retraining).
-*   **Soccer (EPL):** Analyzes form momentum and head-to-head history.
+## Architectural Overview
 
-### 2. Autonomous "Closed Loop" System
-This project runs entirely on **GitHub Actions**, requiring zero manual maintenance.
-*   **Daily Retraining:** Every day, the AI retrains itself on the absolute latest data (including games played yesterday).
-*   **Real-Time Market Scan:** Fetches live odds from 40+ bookmakers via **TheOddsApi** to identify discrepancies.
-*   **Auto-Grading:** Automatically tracks every recommended bet, checks the real game score the next day, and grades it (WON/LOST) to track long-term performance.
+The project consists of three main components:
 
-### 3. +EV Discovery Engine
-The system only recommends bets where the **AI's calculated win probability** is significantly higher than the **implied probability** of the bookmaker's odds.
-*   **Edge:** The percentage difference between AI confidence and Market price.
-*   **Kelly Criterion:** Suggested bankroll allocation for each bet.
+1.  **Data Pipeline & Retraining**: 
+    - Fetches historical play-by-play data (NFL), advanced stats (NBA), and match results (Soccer).
+    - Dynamically detects the current season context to ensure models train on the latest available data.
+    - Rebuilds XGBoost classification models daily to adapt to recent team form.
 
-## 🛠️ Technology Stack
-*   **Core:** Python 3.10
-*   **ML:** XGBoost, Scikit-Learn, Pandas
-*   **Data Sources:** nfl_data_py, nba_api, soccerdata, TheOddsApi
-*   **Automation:** GitHub Actions (Cron Jobs)
-*   **Frontend:** HTML5/CSS3 (Hosted on Vercel/GitHub Pages)
+2.  **Inference Engine**:
+    - Queries **The Odds API** for live spreads, money lines, and totals across 40+ bookmakers.
+    - Calculates the "Edge" (difference between Model Win % and Implied Odds %).
+    - Applies the Kelly Criterion to determine optimal bankroll allocation.
 
-## 🔄 Workflow (Daily Cycle)
+3.  **Automated Accountability**:
+    - Archives daily predictions to a persistent history file.
+    - Grades previous bets using confirmed game scores fetched from external APIs.
+    - Tracks aggregate performance (ROI, Win Rate) over time.
 
-1.  **08:00 AM (PH Time):** GitHub Action wakes up.
-2.  **Retrain:** Scripts fetch the very latest season data (e.g., 2026 Season) and rebuild the XGBoost models.
-3.  **Scan:** The EV Engine fetches live odds and compares them against the new models.
-4.  **Publish:** Profitable opportunities are pushed to `docs/data/predictions.json`.
-5.  **Grade:** The Archiver checks yesterday's pending bets, pulls real scores from the API, updates `history.json`, and calculates profit.
-6.  **Deploy:** Vercel automatically deploys the updated dashboard.
+## Directory Structure
 
-## 📂 Project Structure
-
-```
-├── .github/workflows/    # Automation logic (daily_update.yml)
-├── docs/                 # Frontend (index.html) & Data storage
-│   ├── data/
-│   │   ├── predictions.json  # Current Live Bets
-│   │   └── history.json     # All-time Graded Record
+```bash
+├── .github/workflows/    # CI/CD definitions (cron schedule)
+├── docs/                 # Static dashboard assets (GitHub Pages root)
+│   ├── data/             # JSON artifacts (predictions, history)
 ├── nfl_ev_betting_engine/
-│   ├── scripts/          # Core execution scripts
-│   │   ├── train_model.py       # NFL Training
-│   │   ├── update_dashboard.py  # Odds Fetching & EV Calc
-│   │   └── grade_history.py     # Score Checking & Grading
-│   └── src/              # Shared library code
+│   ├── scripts/          # ETL and execution scripts
+│   ├── src/              # Core library (models, fetchers, utils)
 ```
 
-## 🔧 Setup & Installation
+## Installation
 
-1.  **Clone the repo:**
-    ```bash
-    git clone https://github.com/AbeneilMagpantay/BDP_PM.git
-    cd BDP_PM
-    ```
+Requires Python 3.10+.
 
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r nfl_ev_betting_engine/requirements.txt
-    ```
+```bash
+git clone https://github.com/AbeneilMagpantay/BDP_PM.git
+cd BDP_PM
+pip install -r nfl_ev_betting_engine/requirements.txt
+```
 
-3.  **Set Environment Variables (.env):**
-    ```
-    ODDS_API_KEY=your_api_key_here
-    ```
+## Configuration
 
-4.  **Run Locally:**
-    ```bash
-    python nfl_ev_betting_engine/scripts/update_dashboard.py
-    ```
+Create a `.env` file in the root directory:
 
----
-*Auto-generated & Maintained by Antigravity*
+```ini
+ODDS_API_KEY=your_api_key_here
+```
+
+## Usage
+
+### Manual Execution
+
+To run the full update cycle locally:
+
+```bash
+# 1. Update dashboard (Fetch odds -> Predict -> Save JSON)
+python nfl_ev_betting_engine/scripts/update_dashboard.py
+
+# 2. Grade historical bets
+python nfl_ev_betting_engine/scripts/grade_history.py
+```
+
+### Automation
+
+The system is configured to run automatically via **GitHub Actions** (`.github/workflows/daily_update.yml`):
+- **Cron**: Runs daily at 00:00 UTC and 09:00 UTC.
+- **Triggers**: Auto-updates whenever changes are pushed to `main`.
+
+## Disclaimer
+
+This software is for educational and research purposes only. It is not financial advice. I am not responsible for any financial losses incurred from using this software.
