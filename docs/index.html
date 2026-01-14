@@ -966,9 +966,9 @@
                             badge = '<span class="badge" style="background:var(--accent-blue); color:white;">TODAY</span>';
                         }
 
-                        // Format Date with Time
+                        // Format Date with Time and Timezone
                         const dateStr = gameDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-                        const timeStr = gameDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+                        const timeStr = gameDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
 
                         return `
                 <div class="bet-row" style="grid-template-columns: 1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr;">
