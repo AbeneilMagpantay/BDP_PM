@@ -36,7 +36,7 @@ jobs:
           PYTHONPATH: nfl_ev_betting_engine/src
         run: |
           # 1. NFL Model (Fast mode for CI)
-          python nfl_ev_betting_engine/scripts/train_model.py --years 2023 2024 --fast
+          python nfl_ev_betting_engine/scripts/train_model.py --fast
           
           # 2. NBA Model
           python nfl_ev_betting_engine/scripts/train_nba_model.py

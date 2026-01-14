@@ -23,6 +23,16 @@ from src.model.trainer import NFLGamePredictor
 
 
 def main():
+    # Dynamic year detection
+    from datetime import datetime
+    now = datetime.now()
+    # If month < 3, we are in the 'previous' season (e.g. Feb 2026 is 2025 season)
+    # But usually nfl_data_py uses the year the season started.
+    current_season = now.year if now.month > 8 else now.year - 1
+    
+    # Default to last 5 years including current
+    default_years = list(range(current_season - 4, current_season + 1))
+
     parser = argparse.ArgumentParser(
         description='Train NFL game prediction model'
     )
@@ -30,8 +40,8 @@ def main():
         '--years',
         nargs='+',
         type=int,
-        default=[2021, 2022, 2023, 2024],
-        help='Years of data to use for training (default: 2021-2024)'
+        default=default_years,
+        help=f'Years of data to use for training (default: {default_years})'
     )
     parser.add_argument(
         '--fast',
