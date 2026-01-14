@@ -232,7 +232,14 @@ def process_nfl():
     years = [current_season] # Only need current season for recency
     # years = [current_season - 1, current_season] # Optional: if we need longer history
     
-    pbp = fetch_play_by_play_data(years, use_cache=True)
+    try:
+        pbp = fetch_play_by_play_data(years, use_cache=True)
+    except Exception as e:
+        print(f"  Warning: Could not fetch data for {current_season}. Falling back to previous season... ({e})")
+        # Fallback to previous season (likely because real-world data hasn't caught up to simulated time)
+        years = [current_season - 1]
+        pbp = fetch_play_by_play_data(years, use_cache=True)
+
     game_stats = aggregate_to_game_stats(pbp)
     
     print("  Predicting...")
