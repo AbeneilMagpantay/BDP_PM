@@ -1,4 +1,4 @@
-# NFL EV Betting Engine
+# Sports EV Betting Engine
 
 [![CI Status](https://github.com/AbeneilMagpantay/BDP_PM/actions/workflows/daily_update.yml/badge.svg)](https://github.com/AbeneilMagpantay/BDP_PM/actions/workflows/daily_update.yml)
 ![Python Version](https://img.shields.io/badge/python-3.10-blue)
