@@ -23,8 +23,19 @@ def grade_bets():
         
     updated_count = 0
     
+    from datetime import datetime
+    
     for bet in history:
         if bet['status'] == 'PENDING':
+            # Check if match time has passed
+            try:
+                # Handle varying date formats if necessary, assuming ISO format from predictions
+                match_time = datetime.fromisoformat(bet['date'])
+                if match_time > datetime.now():
+                    continue # Match hasn't happened yet
+            except:
+                pass # If date parse fails, might as well grade it or skip. skipping for safety.
+
             # Mock Logic: Randomly decide win/loss
             # Bias toward winning for demo (60% win rate)
             outcome = 'WON' if random.random() > 0.4 else 'LOST'

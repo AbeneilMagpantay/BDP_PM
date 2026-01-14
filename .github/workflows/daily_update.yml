@@ -35,9 +35,14 @@ jobs:
           PYTHONPATH: nfl_ev_betting_engine/src
         run: |
           python nfl_ev_betting_engine/scripts/update_dashboard.py
+          
+      - name: Archive & Grade History
+        run: |
+          python nfl_ev_betting_engine/scripts/archive_daily_bets.py
+          python nfl_ev_betting_engine/scripts/grade_history.py
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Dashboard Update [skip ci]"
-          file_pattern: "docs/data/predictions.json"
+          file_pattern: "docs/data/predictions.json docs/data/history.json"
