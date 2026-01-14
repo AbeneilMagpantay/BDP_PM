@@ -62,8 +62,12 @@ jobs:
           python nfl_ev_betting_engine/scripts/archive_daily_bets.py
           python nfl_ev_betting_engine/scripts/grade_history.py
 
+      - name: Pull Latest Changes
+        run: git pull origin main --rebase || echo "Pull failed, will try force push"
+
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Automated Dashboard Update [skip ci]"
           file_pattern: "docs/data/predictions.json docs/data/history.json"
+          push_options: '--force'
