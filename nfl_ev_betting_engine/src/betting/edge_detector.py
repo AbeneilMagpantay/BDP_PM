@@ -278,8 +278,8 @@ class EdgeDetector:
                 'bookmaker': e.bookmaker,
                 'model_prob': round(e.model_probability, 3),
                 'implied_prob': round(e.implied_probability, 3),
-                'edge': e.edge,
-                'ev': e.expected_value,
+                'edge': round(e.edge, 2),
+                'ev': round(e.expected_value, 2),
                 'kelly_bet': e.kelly_bet,
                 'confidence': round(e.confidence, 3),
                 'commence_time': e.commence_time
