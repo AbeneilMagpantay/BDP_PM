@@ -58,6 +58,9 @@ jobs:
           python nfl_ev_betting_engine/scripts/update_dashboard.py
           
       - name: Archive & Grade History
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          PYTHONPATH: nfl_ev_betting_engine/src
         run: |
           python nfl_ev_betting_engine/scripts/archive_daily_bets.py
           python nfl_ev_betting_engine/scripts/grade_history.py
