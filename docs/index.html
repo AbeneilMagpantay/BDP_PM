@@ -953,10 +953,28 @@
                         const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
                         const book = e.bookmaker || 'N/A';
 
+                        const gameDate = new Date(e.commence_time);
+                        const now = new Date();
+                        const timeDiff = (gameDate - now) / (1000 * 60 * 60); // Difference in hours
+
+                        let badge = '';
+                        if (timeDiff <= 0 && timeDiff > -4) {
+                            badge = '<span class="badge" style="background:var(--accent-red); color:white;">LIVE</span>';
+                        } else if (timeDiff > 0 && timeDiff <= 2) {
+                            badge = '<span class="badge" style="background:var(--accent-orange, #ff9800); color:black;">SOON</span>';
+                        } else if (gameDate.toDateString() === now.toDateString()) {
+                            badge = '<span class="badge" style="background:var(--accent-blue); color:white;">TODAY</span>';
+                        }
+
+                        // Format Date with Time
+                        const dateStr = gameDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+                        const timeStr = gameDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+
                         return `
                 <div class="bet-row" style="grid-template-columns: 1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr;">
                     <div class="bet-date">
-                        ${new Date(e.commence_time).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
+                        <div>${dateStr}</div>
+                        <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">${timeStr} ${badge}</div>
                     </div>
                     <div class="bet-match">
                         ${matchup}
