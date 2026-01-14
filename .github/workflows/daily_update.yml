@@ -42,6 +42,12 @@ jobs:
           # 3. Soccer Model
           python nfl_ev_betting_engine/scripts/train_soccer_model.py
 
+      - name: Debug - List Data Directory
+        run: |
+          echo "Current Directory: $(pwd)"
+          ls -R data || echo "Data directory not found"
+          ls -R nfl_ev_betting_engine/data || echo "Inner data dir not found"
+
       - name: Run Update Script
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
