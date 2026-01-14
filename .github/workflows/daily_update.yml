@@ -29,6 +29,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r nfl_ev_betting_engine/requirements.txt
 
+      - name: Train AI Models (Daily Retrain)
+        env:
+          PYTHONPATH: nfl_ev_betting_engine/src
+        run: |
+          # 1. NFL Model (Fast mode for CI)
+          python nfl_ev_betting_engine/scripts/train_model.py --years 2023 2024 --fast
+          
+          # 2. NBA Model
+          python nfl_ev_betting_engine/scripts/train_nba_model.py
+          
+          # 3. Soccer Model
+          python nfl_ev_betting_engine/scripts/train_soccer_model.py
+
       - name: Run Update Script
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
