@@ -1,6 +1,8 @@
 name: Daily Dashboard Update
 
 on:
+  push:
+    branches: [ "main" ]
   schedule:
     # Runs at 00:00 UTC (8:00 AM PH) for late NBA/NFL news
     - cron: '0 0 * * *'
