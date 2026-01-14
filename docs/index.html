@@ -967,7 +967,7 @@
                     <div class="bet-book">${book}</div>
                     <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
                     <div class="bet-prob">${prob}%</div>
-                    <div class="bet-ev">+${e.ev}%</div>
+                    <div class="bet-ev">+${Number(e.ev).toFixed(2)}%</div>
                 </div>
             `}).join('');
                 }
