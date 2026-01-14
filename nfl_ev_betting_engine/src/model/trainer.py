@@ -326,6 +326,13 @@ class NFLGamePredictor:
         """
         model_files = list(MODEL_DIR.glob("nfl_predictor_*.joblib"))
         
+        # DEBUG: Print search path and results
+        print(f"DEBUG: Searching for models in: {MODEL_DIR.absolute()}")
+        if MODEL_DIR.exists():
+            print(f"DEBUG: Directory contents: {[f.name for f in MODEL_DIR.iterdir()]}")
+        else:
+            print("DEBUG: Directory does not exist!")
+
         if not model_files:
             raise FileNotFoundError(
                 f"No saved models found in {MODEL_DIR}. "
