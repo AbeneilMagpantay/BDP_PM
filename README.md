@@ -27,13 +27,6 @@ The project consists of three main components:
     - Grades previous bets using confirmed game scores fetched from external APIs.
     - Tracks aggregate performance (ROI, Win Rate) over time.
 
-## Key Technical Achievements
-
-*   **Autonomous MLOps Pipeline**: Architected a self-healing system processing 200k+ historical records, orchestrating daily ETL, model retraining, and inference via GitHub Actions with zero manual intervention.
-*   **Dynamic Adaptation**: Engineered a data ingestion layer that automatically handles future season contexts (e.g., 2026 scheduling) and integrates real-time odds with sub-second latency.
-*   **Production-Grade ML**: Deployed XGBoost classifiers achieving **86% accuracy (0.94 ROC AUC)**, utilizing continuous training loops on ground-truth data to prevent concept drift.
-*   **Closed-Loop Validation**: Implemented an automated feedback system that verifies predictions against real-world game outcomes daily, creating a rigorous self-improving dataset.
-
 ## Directory Structure
 
 ```bash
