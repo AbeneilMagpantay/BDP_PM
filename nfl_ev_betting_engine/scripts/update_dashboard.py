@@ -220,8 +220,18 @@ def process_nfl():
     prediction_service = GamePredictionService()
     
     print("  Loading Stats...")
-    current_year = datetime.now().year
-    years = [current_year - 1, current_year]
+    
+    # Calculate current NFL season correctly
+    # If we are in Jan-Aug, the current season started the previous year
+    now = datetime.now()
+    if now.month < 9:
+        current_season = now.year - 1
+    else:
+        current_season = now.year
+        
+    years = [current_season] # Only need current season for recency
+    # years = [current_season - 1, current_season] # Optional: if we need longer history
+    
     pbp = fetch_play_by_play_data(years, use_cache=True)
     game_stats = aggregate_to_game_stats(pbp)
     
