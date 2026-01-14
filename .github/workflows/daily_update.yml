@@ -29,41 +29,41 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r nfl_ev_betting_engine/requirements.txt
+          pip install -r sports_betting_engine/requirements.txt
 
       - name: Train AI Models (Daily Retrain)
         env:
-          PYTHONPATH: nfl_ev_betting_engine/src
+          PYTHONPATH: sports_betting_engine/src
         run: |
           # 1. NFL Model (Fast mode for CI)
-          python nfl_ev_betting_engine/scripts/train_model.py --fast
+          python sports_betting_engine/scripts/train_model.py --fast
           
           # 2. NBA Model
-          python nfl_ev_betting_engine/scripts/train_nba_model.py
+          python sports_betting_engine/scripts/train_nba_model.py
           
           # 3. Soccer Model
-          python nfl_ev_betting_engine/scripts/train_soccer_model.py
+          python sports_betting_engine/scripts/train_soccer_model.py
 
       - name: Debug - List Data Directory
         run: |
           echo "Current Directory: $(pwd)"
           ls -R data || echo "Data directory not found"
-          ls -R nfl_ev_betting_engine/data || echo "Inner data dir not found"
+          ls -R sports_betting_engine/data || echo "Inner data dir not found"
 
       - name: Run Update Script
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          PYTHONPATH: nfl_ev_betting_engine/src
+          PYTHONPATH: sports_betting_engine/src
         run: |
-          python nfl_ev_betting_engine/scripts/update_dashboard.py
+          python sports_betting_engine/scripts/update_dashboard.py
           
       - name: Archive & Grade History
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          PYTHONPATH: nfl_ev_betting_engine/src
+          PYTHONPATH: sports_betting_engine/src
         run: |
-          python nfl_ev_betting_engine/scripts/archive_daily_bets.py
-          python nfl_ev_betting_engine/scripts/grade_history.py
+          python sports_betting_engine/scripts/archive_daily_bets.py
+          python sports_betting_engine/scripts/grade_history.py
 
       - name: Pull Latest Changes
         run: git pull origin main --rebase || echo "Pull failed, will try force push"

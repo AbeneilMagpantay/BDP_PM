@@ -4,7 +4,7 @@ echo      BDP PREMIER - DAILY UPDATE
 echo ==========================================
 echo.
 echo 1. Fetching Latest Odds & Calculating EV...
-cd /d "%~dp0nfl_ev_betting_engine"
+cd /d "%~dp0sports_betting_engine"
 python scripts/update_dashboard.py
 if %errorlevel% neq 0 (
     echo.

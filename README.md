@@ -33,7 +33,7 @@ The project consists of three main components:
 ├── .github/workflows/    # CI/CD definitions (cron schedule)
 ├── docs/                 # Static dashboard assets (GitHub Pages root)
 │   ├── data/             # JSON artifacts (predictions, history)
-├── nfl_ev_betting_engine/
+├── sports_betting_engine/
 │   ├── scripts/          # ETL and execution scripts
 │   ├── src/              # Core library (models, fetchers, utils)
 ```
@@ -45,7 +45,7 @@ Requires Python 3.10+.
 ```bash
 git clone https://github.com/AbeneilMagpantay/BDP_PM.git
 cd BDP_PM
-pip install -r nfl_ev_betting_engine/requirements.txt
+pip install -r sports_betting_engine/requirements.txt
 ```
 
 ## Configuration
@@ -64,10 +64,10 @@ To run the full update cycle locally:
 
 ```bash
 # 1. Update dashboard (Fetch odds -> Predict -> Save JSON)
-python nfl_ev_betting_engine/scripts/update_dashboard.py
+python sports_betting_engine/scripts/update_dashboard.py
 
 # 2. Grade historical bets
-python nfl_ev_betting_engine/scripts/grade_history.py
+python sports_betting_engine/scripts/grade_history.py
 ```
 
 ### Automation
