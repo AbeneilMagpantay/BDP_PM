@@ -99,6 +99,44 @@ def fetch_odds(
         raise
 
 
+def fetch_scores(sport_key: str, days_from: int = 3) -> List[Dict[str, Any]]:
+    """
+    Fetch recent game scores for a specific sport.
+    
+    Args:
+        sport_key: Sport identifier
+        days_from: Number of days of history to fetch (max 3 for free plan)
+        
+    Returns:
+        List of game objects with 'scores' field
+    """
+    api_key = get_api_key()
+    
+    url = f"{BASE_URL}/sports/{sport_key}/scores/"
+    params = {
+        "apiKey": api_key,
+        "daysFrom": days_from,
+        "dateFormat": "iso"
+    }
+    
+    print(f"Fetching {sport_key} scores from The Odds API...")
+    
+    try:
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+        
+    except requests.exceptions.HTTPError as e:
+        if response.status_code == 404:
+            print(f"Warning: Scores not available for {sport_key} (404)")
+            return []
+        print(f"Error fetching scores: {e}")
+        return []
+    except Exception as e:
+        print(f"Error fetching scores: {e}")
+        return []
+
+
 def fetch_nfl_odds(
     markets: str = DEFAULT_MARKETS,
     regions: str = DEFAULT_REGIONS,
