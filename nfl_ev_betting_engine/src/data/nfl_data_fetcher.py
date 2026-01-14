@@ -28,23 +28,12 @@ def fetch_play_by_play_data(
 ) -> pd.DataFrame:
     """
     Fetch play-by-play data for specified NFL seasons.
-    
-    Args:
-        years: List of years to fetch (e.g., [2022, 2023, 2024])
-        use_cache: If True, try to load from cache first
-        cache_dir: Directory for cached data files
-        
-    Returns:
-        DataFrame with play-by-play data for all specified years
-        
-    Example:
-        >>> pbp = fetch_play_by_play_data([2023, 2024])
-        >>> print(f"Loaded {len(pbp)} plays")
+    Fetches year-by-year to handle missing future data gracefully.
     """
     if cache_dir is None:
         cache_dir = RAW_DATA_DIR
         
-    cache_file = cache_dir / f"pbp_{'_'.join(map(str, years))}.parquet"
+    cache_file = cache_dir / f"pbp_{'_'.join(map(str, sorted(years)))}.parquet"
     
     # Try to load from cache
     if use_cache and cache_file.exists():
@@ -65,18 +54,35 @@ def fetch_play_by_play_data(
         'home_score', 'away_score', 'result', 'total'
     ]
     
+    all_pbp = []
+    
+    for year in years:
+        try:
+            print(f"Fetching NFL {year}...")
+            # Fetch single year
+            pbp_year = nfl.import_pbp_data([year], columns)
+            if pbp_year is not None and not pbp_year.empty:
+                all_pbp.append(pbp_year)
+                print(f"Successfully loaded {year} ({len(pbp_year)} rows)")
+        except Exception as e:
+            # Catch all exceptions, including likely NameError in nfl_data_py or HTTPError
+            print(f"Warning: Could not fetch data for {year}. Skipping. Error: {e}")
+            continue
+
+    if not all_pbp:
+        raise ValueError(f"No data could be fetched for any of the requested years: {years}")
+
+    combined_pbp = pd.concat(all_pbp, ignore_index=True)
+
     try:
-        pbp = nfl.import_pbp_data(years, columns)
-        
         # Save to cache
         cache_dir.mkdir(parents=True, exist_ok=True)
-        pbp.to_parquet(cache_file)
+        combined_pbp.to_parquet(cache_file)
         print(f"Cached play-by-play data to: {cache_file}")
-        
-        return pbp
     except Exception as e:
-        print(f"Error fetching play-by-play data: {e}")
-        raise
+        print(f"Warning: Failed to cache data: {e}")
+        
+    return combined_pbp
 
 
 def fetch_schedule_data(years: List[int]) -> pd.DataFrame:
