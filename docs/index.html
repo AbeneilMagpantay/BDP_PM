@@ -824,15 +824,18 @@
                 function renderHistory() {
                     const list = document.getElementById('bets-list');
 
+                    // Only show graded bets (exclude pending/future games)
+                    const gradedBets = betHistory.filter(b => b.result === 'WON' || b.result === 'LOST');
+
                     // Switch Stats for History
                     document.getElementById('avg-edge').parentElement.querySelector('h3').textContent = "Net Profit";
-                    const totalProfit = betHistory.reduce((sum, b) => sum + b.profit, 0);
+                    const totalProfit = gradedBets.reduce((sum, b) => sum + (b.profit || 0), 0);
                     const avgEl = document.getElementById('avg-edge');
                     avgEl.textContent = (totalProfit >= 0 ? '+' : '') + '$' + totalProfit.toFixed(2);
                     avgEl.style.color = totalProfit >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
 
                     document.getElementById('best-edge').parentElement.querySelector('h3').textContent = "Total Bets";
-                    document.getElementById('best-edge').textContent = betHistory.length;
+                    document.getElementById('best-edge').textContent = gradedBets.length;
                     document.getElementById('best-edge').classList.remove('text-green');
 
                     document.getElementById('table-title-text').textContent = "Betting History";
@@ -854,7 +857,13 @@
                 <div>Result</div>
             `;
 
-                    list.innerHTML = betHistory.map(b => `
+                    list.innerHTML = gradedBets.map(b => {
+                        // Format EV with 2 decimals and %
+                        const evDisplay = b.ev != null ? '+' + Number(b.ev).toFixed(2) + '%' : '-';
+                        // Result is guaranteed to be WON or LOST since we filtered
+                        const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
+
+                        return `
                 <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
@@ -865,11 +874,11 @@
                     <div>
                         <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500;">${b.pick}</span>
                     </div>
-                    <div class="bet-ev" style="font-size:13px">${b.ev || '-'}</div>
+                    <div class="bet-ev" style="font-size:13px">${evDisplay}</div>
                     <div class="bet-odds" style="font-weight:600">${b.odds}</div>
-                    <div class="${b.result === 'WON' ? 'result-won' : 'result-lost'}">${b.result}</div>
+                    <div class="${resultClass}">${b.result}</div>
                 </div>
-            `).join('');
+            `}).join('');
                 }
 
                 function renderBets(filter) {
