@@ -21,7 +21,7 @@ jobs:
       
       - name: Install dependencies
         run: |
-          cd nfl_ev_betting_engine
+          cd sports_betting_engine
           pip install -r requirements.txt
       
       - name: Run predictions
@@ -29,7 +29,7 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           PANDASCORE_API_KEY: ${{ secrets.PANDASCORE_API_KEY }}
         run: |
-          cd nfl_ev_betting_engine
+          cd sports_betting_engine
           python scripts/generate_multisport_predictions.py
       
       - name: Commit and push results
