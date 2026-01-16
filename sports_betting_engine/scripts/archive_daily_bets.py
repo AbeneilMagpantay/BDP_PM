@@ -4,8 +4,9 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-# Paths
-DOCS_DIR = Path(__file__).parent.parent / "docs"
+# Paths - Go up 3 levels: scripts/ -> sports_betting_engine/ -> BDP_PM/ (repo root)
+REPO_ROOT = Path(__file__).parent.parent.parent
+DOCS_DIR = REPO_ROOT / "docs"
 DATA_DIR = DOCS_DIR / "data"
 PREDICTIONS_FILE = DATA_DIR / "predictions.json"
 HISTORY_FILE = DATA_DIR / "history.json"
@@ -24,12 +25,36 @@ def archive_bets():
         
     current_bets = []
     
-    # Flatten bets from all sports
-    for sport in ['nfl', 'nba', 'soccer']:
-        if sport in data and isinstance(data[sport], list):
-            for bet in data[sport]:
-                bet['sport'] = sport
-                current_bets.append(bet)
+    # The structure is: { "sports": { "nfl": { "edges": [...] } } }
+    sports_data = data.get('sports', {})
+    
+    for sport_key in ['nfl', 'nba', 'soccer']:
+        sport_info = sports_data.get(sport_key, {})
+        edges = sport_info.get('edges', [])
+        
+        for edge in edges:
+            # Edge structure from update_dashboard.py:
+            # matchup: "Away @ Home", bet_team, odds, ev, commence_time, bookmaker
+            matchup_str = edge.get('matchup', 'Unknown @ Unknown')
+            
+            # Parse teams from "Away @ Home" format
+            if ' @ ' in matchup_str:
+                away_team, home_team = matchup_str.split(' @ ', 1)
+            else:
+                away_team, home_team = 'Unknown', matchup_str
+            
+            bet = {
+                'sport': sport_key,
+                'date': edge.get('commence_time', ''),
+                'match': matchup_str,
+                'pick': edge.get('bet_team', ''),
+                'odds': edge.get('odds', 0),
+                'ev': edge.get('ev', 0),
+                'bookmaker': edge.get('bookmaker', 'Unknown'),
+                'home_team': home_team,
+                'away_team': away_team
+            }
+            current_bets.append(bet)
     
     # Load History
     if HISTORY_FILE.exists():
