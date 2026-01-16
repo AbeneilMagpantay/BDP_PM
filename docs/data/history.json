@@ -230,10 +230,9 @@
         "pick": "Cleveland Cavaliers",
         "odds": 117,
         "ev": 82.56,
-        "result": "WON",
-        "profit": 117.0,
-        "status": "GRADED",
-        "score": "107-133"
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     },
     {
         "id": "nba_2026-01-17t00:10:00z_neworleanspelicansindianapacers_indianapacers",

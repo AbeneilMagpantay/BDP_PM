@@ -61,6 +61,10 @@ def grade_bets():
                 
             home = game.get('home_team')
             away = game.get('away_team')
+            # Get game date (just the date part, not time)
+            commence_time = game.get('commence_time', '')
+            game_date = commence_time[:10] if commence_time else ''  # e.g., "2026-01-15"
+            
             scores = game.get('scores', [])
             
             # Parse scores
@@ -68,7 +72,8 @@ def grade_bets():
                 home_score = next((s['score'] for s in scores if s['name'] == home), None)
                 away_score = next((s['score'] for s in scores if s['name'] == away), None)
                 
-                scores_map[(home, away)] = {
+                # Use (home, away, date) as key to avoid matching wrong games
+                scores_map[(home, away, game_date)] = {
                     'home_score': int(home_score) if home_score is not None else 0,
                     'away_score': int(away_score) if away_score is not None else 0,
                     'completed': True
@@ -99,7 +104,12 @@ def grade_bets():
              else:
                  continue # Cannot identify teams
 
-        game_result = matchup_games.get((home, away))
+        # Get bet date (just the date part) for matching
+        bet_date_str = bet.get('date', '')
+        bet_date = bet_date_str[:10] if bet_date_str else ''  # e.g., "2026-01-15"
+        
+        # Look up using (home, away, date) to match correct game
+        game_result = matchup_games.get((home, away, bet_date))
         
         if game_result and game_result['completed']:
             home_score = game_result['home_score']
