@@ -757,7 +757,7 @@
                         { key: 'nfl', label: 'NFL', count: counts.nfl },
                         { key: 'nba', label: 'NBA', count: counts.nba },
                         { key: 'soccer', label: 'Soccer', count: counts.soccer },
-                        { key: 'history', label: 'History', count: betHistory.length }
+                        { key: 'history', label: 'History', count: betHistory.filter(b => b.result === 'WON' || b.result === 'LOST').length }
                     ];
 
                     container.innerHTML = buttons.map((b, i) => {
