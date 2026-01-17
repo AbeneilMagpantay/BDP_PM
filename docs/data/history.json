@@ -194,9 +194,10 @@
         "pick": "Washington Wizards",
         "odds": 235,
         "ev": 101.6,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "128-115"
     },
     {
         "id": "nba_2026-01-17t00:40:00z_chicagobullsbrooklynnets_chicagobulls",
@@ -206,9 +207,10 @@
         "pick": "Chicago Bulls",
         "odds": 110,
         "ev": 98.73,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-109"
     },
     {
         "id": "nba_2026-01-17t02:40:00z_minnesotatimberwolveshoustonrockets_minnesotatimberwolves",
@@ -218,9 +220,10 @@
         "pick": "Minnesota Timberwolves",
         "odds": 141,
         "ev": 97.9,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "110-105"
     },
     {
         "id": "nba_2026-01-17t00:10:00z_clevelandcavaliersphiladelphia76ers_clevelandcavaliers",
@@ -230,9 +233,10 @@
         "pick": "Cleveland Cavaliers",
         "odds": 117,
         "ev": 82.56,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 117.0,
+        "status": "GRADED",
+        "score": "115-117"
     },
     {
         "id": "nba_2026-01-17t00:10:00z_neworleanspelicansindianapacers_indianapacers",
@@ -242,9 +246,10 @@
         "pick": "Indiana Pacers",
         "odds": -149,
         "ev": 39.77,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 67.11,
+        "status": "GRADED",
+        "score": "127-119"
     },
     {
         "id": "nba_2026-01-18t17:00:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
@@ -266,6 +271,126 @@
         "pick": "Sunderland",
         "odds": 183,
         "ev": 8.0,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t01:10:00z_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-01-18T01:10:00Z",
+        "match": "Minnesota Timberwolves @ San Antonio Spurs",
+        "pick": "Minnesota Timberwolves",
+        "odds": 205,
+        "ev": 120.86,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:40:00z_indianapacersdetroitpistons_indianapacers",
+        "sport": "nba",
+        "date": "2026-01-18T00:40:00Z",
+        "match": "Indiana Pacers @ Detroit Pistons",
+        "pick": "Indiana Pacers",
+        "odds": 500,
+        "ev": 80.61,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t01:40:00z_charlottehornetsgoldenstatewarriors_charlottehornets",
+        "sport": "nba",
+        "date": "2026-01-18T01:40:00Z",
+        "match": "Charlotte Hornets @ Golden State Warriors",
+        "pick": "Charlotte Hornets",
+        "odds": 209,
+        "ev": 76.74,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:40:00z_phoenixsunsnewyorkknicks_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-01-18T00:40:00Z",
+        "match": "Phoenix Suns @ New York Knicks",
+        "pick": "Phoenix Suns",
+        "odds": 146,
+        "ev": 75.78,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:40:00z_bostoncelticsatlantahawks_bostonceltics",
+        "sport": "nba",
+        "date": "2026-01-18T00:40:00Z",
+        "match": "Boston Celtics @ Atlanta Hawks",
+        "pick": "Boston Celtics",
+        "odds": -154,
+        "ev": 68.53,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t02:10:00z_washingtonwizardsdenvernuggets_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-01-18T02:10:00Z",
+        "match": "Washington Wizards @ Denver Nuggets",
+        "pick": "Washington Wizards",
+        "odds": 500,
+        "ev": 66.52,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t03:10:00z_losangeleslakersportlandtrailblazers_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-01-18T03:10:00Z",
+        "match": "Los Angeles Lakers @ Portland Trail Blazers",
+        "pick": "Portland Trail Blazers",
+        "odds": -145,
+        "ev": 45.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t17:10:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-01-18T17:10:00Z",
+        "match": "Orlando Magic @ Memphis Grizzlies",
+        "pick": "Memphis Grizzlies",
+        "odds": 170,
+        "ev": 30.71,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t01:10:00z_oklahomacitythundermiamiheat_miamiheat",
+        "sport": "nba",
+        "date": "2026-01-18T01:10:00Z",
+        "match": "Oklahoma City Thunder @ Miami Heat",
+        "pick": "Miami Heat",
+        "odds": 356,
+        "ev": 25.4,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-17t22:10:00z_utahjazzdallasmavericks_utahjazz",
+        "sport": "nba",
+        "date": "2026-01-17T22:10:00Z",
+        "match": "Utah Jazz @ Dallas Mavericks",
+        "pick": "Utah Jazz",
+        "odds": 158,
+        "ev": 10.36,
         "result": null,
         "profit": null,
         "status": "PENDING"
