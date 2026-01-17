@@ -138,31 +138,41 @@ def find_value_bets(games: list) -> list:
         
         if total_prob < 1.0 and total_prob > 0:
             edge_pct = (1.0 - total_prob) * 100
+            matchup = f"{game['away_team']} @ {game['home_team']}"
             
             if home_prob < away_prob:
+                # Calculate Kelly: edge / 10 (quarter Kelly for safety)
+                kelly = round(edge_pct / 10, 2)
                 edges.append({
                     'home_team': game['home_team'],
                     'away_team': game['away_team'],
+                    'matchup': matchup,
                     'bet_on': game['home_team'],
+                    'bet_team': game['home_team'],  # For archive compatibility
                     'side': 'home',
                     'odds': game['home_odds'],
                     'bookmaker': game['home_book'],
                     'implied_prob': round(home_prob * 100, 1),
                     'edge': round(edge_pct, 1),
                     'ev': round(edge_pct * 2, 1),
+                    'kelly_bet': kelly,
                     'commence_time': game['commence_time']
                 })
             else:
+                kelly = round(edge_pct / 10, 2)
                 edges.append({
                     'home_team': game['home_team'],
                     'away_team': game['away_team'],
+                    'matchup': matchup,
                     'bet_on': game['away_team'],
+                    'bet_team': game['away_team'],  # For archive compatibility
                     'side': 'away',
                     'odds': game['away_odds'],
                     'bookmaker': game['away_book'],
                     'implied_prob': round(away_prob * 100, 1),
                     'edge': round(edge_pct, 1),
                     'ev': round(edge_pct * 2, 1),
+                    'kelly_bet': kelly,
                     'commence_time': game['commence_time']
                 })
     

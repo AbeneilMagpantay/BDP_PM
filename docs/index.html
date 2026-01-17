@@ -906,15 +906,16 @@
                     // Reset UI for Value Bets
                     tableTitleText.textContent = 'Latest Value Bets';
 
-                    headerRow.style.gridTemplateColumns = "1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr";
+                    headerRow.style.gridTemplateColumns = "1fr 2fr 1.5fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr";
                     headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
                 <div>Book</div>
                 <div>Odds</div>
-                <div>Prob</div>
                 <div>EV</div>
+                <div>Kelly</div>
+                <div>Prob</div>
             `;
 
                     let allEdges = [];
@@ -965,6 +966,8 @@
                         const pick = e.bet_team || e.bet_on || 'Unknown';
                         const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
                         const book = e.bookmaker || 'N/A';
+                        // Format Kelly
+                        const kelly = e.kelly_bet != null && e.kelly_bet > 0 ? e.kelly_bet.toFixed(2) + '%' : '-';
 
                         // Format Date with Time and Timezone
                         const gameDate = new Date(e.commence_time);
@@ -972,7 +975,7 @@
                         const timeStr = gameDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
 
                         return `
-                <div class="bet-row" style="grid-template-columns: 1fr 2.2fr 2fr 1.3fr 0.7fr 0.7fr 0.9fr;">
+                <div class="bet-row" style="grid-template-columns: 1fr 2fr 1.5fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr;">
                     <div class="bet-date">
                         <div>${dateStr}</div>
                         <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">${timeStr}</div>
@@ -985,8 +988,9 @@
                     </div>
                     <div class="bet-book">${book}</div>
                     <div class="bet-odds">${e.odds > 0 ? '+' + e.odds : e.odds}</div>
-                    <div class="bet-prob">${prob}%</div>
                     <div class="bet-ev">+${Number(e.ev).toFixed(2)}%</div>
+                    <div style="color: var(--accent-blue);">${kelly}</div>
+                    <div class="bet-prob">${prob}%</div>
                 </div>
             `}).join('');
                 }
