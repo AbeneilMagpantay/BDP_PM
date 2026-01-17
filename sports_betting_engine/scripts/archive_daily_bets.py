@@ -50,6 +50,7 @@ def archive_bets():
                 'pick': edge.get('bet_team', ''),
                 'odds': edge.get('odds', 0),
                 'ev': edge.get('ev', 0),
+                'kelly': edge.get('kelly_bet', 0),  # Kelly % recommendation
                 'bookmaker': edge.get('bookmaker', 'Unknown'),
                 'home_team': home_team,
                 'away_team': away_team

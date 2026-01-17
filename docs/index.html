@@ -847,12 +847,13 @@
 
 
                     // Update Header for History
-                    headerRow.style.gridTemplateColumns = "1.5fr 3fr 2fr 1.5fr 1fr 1fr";
+                    headerRow.style.gridTemplateColumns = "1.5fr 2.5fr 2fr 1fr 1fr 1fr 1fr";
                     headerRow.innerHTML = `
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
-                <div>Edge</div>
+                <div>EV</div>
+                <div>Kelly</div>
                 <div>Odds</div>
                 <div>Result</div>
             `;
@@ -860,11 +861,13 @@
                     list.innerHTML = gradedBets.map(b => {
                         // Format EV with 2 decimals and %
                         const evDisplay = b.ev != null ? '+' + Number(b.ev).toFixed(2) + '%' : '-';
+                        // Format Kelly with 2 decimals and %
+                        const kellyDisplay = b.kelly != null && b.kelly > 0 ? Number(b.kelly).toFixed(2) + '%' : '-';
                         // Result is guaranteed to be WON or LOST since we filtered
                         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
 
                         return `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 3fr 2fr 1.5fr 1fr 1fr;">
+                <div class="bet-row" style="grid-template-columns: 1.5fr 2.5fr 2fr 1fr 1fr 1fr 1fr;">
                     <div class="bet-date">
                         ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
                     </div>
@@ -875,6 +878,7 @@
                         <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500;">${b.pick}</span>
                     </div>
                     <div class="bet-ev" style="font-size:13px">${evDisplay}</div>
+                    <div style="font-size:13px; color: var(--accent-blue);">${kellyDisplay}</div>
                     <div class="bet-odds" style="font-weight:600">${b.odds}</div>
                     <div class="${resultClass}">${b.result}</div>
                 </div>
