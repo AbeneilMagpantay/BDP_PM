@@ -9,6 +9,8 @@ on:
 jobs:
   generate-predictions:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to push changes back
     
     steps:
       - name: Checkout repository
