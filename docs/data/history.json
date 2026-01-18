@@ -239,5 +239,17 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t17:14:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-01-18T17:14:00Z",
+        "match": "Orlando Magic @ Memphis Grizzlies",
+        "pick": "Memphis Grizzlies",
+        "odds": 120,
+        "ev": 29.27,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
