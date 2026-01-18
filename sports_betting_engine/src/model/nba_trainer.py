@@ -13,9 +13,18 @@ from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional, Any
 
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
 from sklearn.metrics import accuracy_score, log_loss, roc_auc_score
 from xgboost import XGBClassifier
+
+# Hyperparameter grid for tuning
+NBA_PARAM_GRID = {
+    'n_estimators': [100, 200],
+    'max_depth': [3, 4, 5],
+    'learning_rate': [0.03, 0.05, 0.1],
+    'subsample': [0.8],
+    'colsample_bytree': [0.8]
+}
 
 # Model save directory
 MODEL_DIR = Path(__file__).parent.parent.parent.parent / "data" / "models"
@@ -51,6 +60,7 @@ class NBAGamePredictor:
         X: pd.DataFrame,
         y: pd.Series,
         test_size: float = 0.2,
+        tune_hyperparameters: bool = True,
         random_state: int = 42
     ) -> Dict[str, Any]:
         """Train the XGBoost model on provided data."""
@@ -73,21 +83,43 @@ class NBAGamePredictor:
         print(f"  Training samples: {len(X_train)}")
         print(f"  Test samples: {len(X_test)}")
         
-        # Train model
-        print("\nTraining XGBoost model...")
-        self.model = XGBClassifier(
-            n_estimators=200,
-            max_depth=4,
-            learning_rate=0.05,
-            subsample=0.8,
-            colsample_bytree=0.8,
-            objective='binary:logistic',
-            eval_metric='logloss',
-            random_state=random_state,
-            use_label_encoder=False
-        )
-        
-        self.model.fit(X_train, y_train)
+        # Train model with or without hyperparameter tuning
+        if tune_hyperparameters:
+            print("\nPerforming GridSearchCV hyperparameter tuning...")
+            base_model = XGBClassifier(
+                objective='binary:logistic',
+                eval_metric='logloss',
+                random_state=random_state,
+                use_label_encoder=False
+            )
+            
+            grid_search = GridSearchCV(
+                base_model,
+                NBA_PARAM_GRID,
+                cv=3,
+                scoring='neg_log_loss',
+                n_jobs=-1,
+                verbose=1
+            )
+            grid_search.fit(X_train, y_train)
+            
+            print(f"\nBest parameters: {grid_search.best_params_}")
+            print(f"Best CV log loss: {-grid_search.best_score_:.4f}")
+            self.model = grid_search.best_estimator_
+        else:
+            print("\nTraining XGBoost model with default params...")
+            self.model = XGBClassifier(
+                n_estimators=200,
+                max_depth=4,
+                learning_rate=0.05,
+                subsample=0.8,
+                colsample_bytree=0.8,
+                objective='binary:logistic',
+                eval_metric='logloss',
+                random_state=random_state,
+                use_label_encoder=False
+            )
+            self.model.fit(X_train, y_train)
         
         # Evaluate
         y_pred = self.model.predict(X_test)
