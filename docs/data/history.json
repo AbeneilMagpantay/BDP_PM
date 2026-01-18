@@ -115,9 +115,10 @@
         "pick": "Wolverhampton Wanderers",
         "odds": 380,
         "ev": 37.01,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "0-0"
     },
     {
         "id": "soccer_2026-01-24t15:00:00z_tottenhamhotspurburnley_burnley",
@@ -223,6 +224,18 @@
         "pick": "Nottingham Forest",
         "odds": 144,
         "ev": 9.41,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-18t16:30:00z_evertonastonvilla_astonvilla",
+        "sport": "soccer",
+        "date": "2026-01-18T16:30:00Z",
+        "match": "Everton @ Aston Villa",
+        "pick": "Aston Villa",
+        "odds": 220,
+        "ev": 28.87,
         "result": null,
         "profit": null,
         "status": "PENDING"
