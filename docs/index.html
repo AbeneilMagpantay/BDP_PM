@@ -849,8 +849,9 @@
 
 
                     // Update Header for History
-                    headerRow.style.gridTemplateColumns = "1.5fr 2.5fr 2fr 1fr 1fr 1fr 1fr";
+                    headerRow.style.gridTemplateColumns = "0.6fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr";
                     headerRow.innerHTML = `
+                <div>Sport</div>
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
@@ -867,21 +868,24 @@
                         const kellyDisplay = b.kelly != null && b.kelly > 0 ? Number(b.kelly).toFixed(2) + '%' : '-';
                         // Result is guaranteed to be WON or LOST since we filtered
                         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
+                        // Sport emoji
+                        const sportEmoji = { 'nfl': '🏈', 'nba': '🏀', 'soccer': '⚽' }[b.sport] || '🎯';
 
                         return `
-                <div class="bet-row" style="grid-template-columns: 1.5fr 2.5fr 2fr 1fr 1fr 1fr 1fr;">
-                    <div class="bet-date">
-                        ${new Date(b.date).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
+                <div class="bet-row" style="grid-template-columns: 0.6fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr;">
+                    <div style="font-size: 18px; text-align: center;">${sportEmoji}</div>
+                    <div class="bet-date" style="font-size: 12px;">
+                        ${new Date(b.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                     </div>
-                    <div class="bet-match">
+                    <div class="bet-match" style="font-size: 12px;">
                         ${b.match}
                     </div>
                     <div>
-                        <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500;">${b.pick}</span>
+                        <span class="bet-pick" style="border:1px solid var(--border-color); background:transparent; color: var(--text-main); font-weight:500; font-size: 11px;">${b.pick}</span>
                     </div>
-                    <div class="bet-ev" style="font-size:13px">${evDisplay}</div>
-                    <div style="font-size:13px; color: var(--accent-blue);">${kellyDisplay}</div>
-                    <div class="bet-odds" style="font-weight:600">${b.odds}</div>
+                    <div class="bet-ev" style="font-size:12px">${evDisplay}</div>
+                    <div style="font-size:12px; color: var(--accent-blue);">${kellyDisplay}</div>
+                    <div class="bet-odds" style="font-weight:600; font-size: 12px;">${b.odds}</div>
                     <div class="${resultClass}">${b.result}</div>
                 </div>
             `}).join('');
