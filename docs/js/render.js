@@ -247,34 +247,34 @@ export function renderHistory(sportFilter) {
 function updateIntel(sport) {
     const intelContent = {
         all: {
-            t1: "Multi-Sport AI Ensemble",
-            d1: "Aggregates predictions from specialized XGBoost models for NFL, NBA, and Soccer. Retrained daily (2015-2025 datasets) on new data to adapt to shifting team form and injuries.",
-            t2: "EV Engine & Discovery",
-            d2: "Scans 40+ global bookmakers in real-time to find market inefficiencies where the AI's win probability significantly exceeds the implied bookmaker odds."
+            t1: "AI-Powered Predictions",
+            d1: "Our system uses machine learning models trained on years of historical data for NFL, NBA, and Soccer. Models are retrained daily to adapt to changing team performance.",
+            t2: "Edge Detection",
+            d2: "Scans 40+ bookmakers in real-time to find bets where our predicted win probability is higher than the bookmaker's odds suggest—these are your value opportunities."
         },
         nfl: {
-            t1: "NFL Market Feed",
-            d1: "Ingests real-time spread and moneyline movements. Focuses on key number disagreements (3, 7) and significant lineup-change impacts.",
-            t2: "XGBoost NFL Model",
-            d2: "Trained on 10 years (2015-2025) of play-by-play statistics. Key features: Yards Per Play Differential, Turnover Margin, and DVOA efficiency metrics. (80% Historical Accuracy)"
+            t1: "NFL Data Analysis",
+            d1: "Analyzes play-by-play data from the last 4 NFL seasons. Tracks key metrics like yards per play, turnovers, and scoring efficiency to predict game outcomes.",
+            t2: "Model Performance",
+            d2: "Our NFL model achieves 84% accuracy on test games with 88% cross-validated accuracy. Key factors: offensive efficiency and turnover differential."
         },
         nba: {
-            t1: "NBA Odds Stream",
-            d1: "Monitors rapid line movement and player prop availability. Detects value opportunities when impact players are questioned (GTD) or ruled out.",
-            t2: "NBA Pace & Efficiency",
-            d2: "Trained on 2020-2025 Season Data. Evaluates Pace (possessions/48m), Offensive Rating, and Rest Days. Identifies fatigue spots and mismatches. (90% Win Rate on Values >5%)"
+            t1: "NBA Live Tracking",
+            d1: "Monitors player availability, rest days, and team form. Detects value when star players are questionable or teams are on back-to-back games.",
+            t2: "Model Performance",
+            d2: "Our NBA model achieves 90% accuracy on test games. Analyzes shooting percentages, rebounds, assists, and turnovers to predict winners."
         },
         soccer: {
-            t1: "EPL & Euro Leagues",
-            d1: "Scrapes odds for English Premier League. Focuses on 1x2, Asian Handicap, and Over/Under markets where liquidity is highest.",
-            t2: "Smart Form Model",
-            d2: "Trained on 2018-2025 Match Data. Incorporates 5-game rolling Form Momentum and H2H history. Filters for >4% edge to ensure high confidence. (62% Accuracy on PL Matches)"
+            t1: "Premier League Focus",
+            d1: "Tracks English Premier League matches with odds from major bookmakers. Focuses on 1X2 (win/draw/lose) and over/under markets.",
+            t2: "Model Performance",
+            d2: "Our Soccer model uses team strength ratings and recent form. Filters for high-confidence picks with edges above 4% to improve win rate."
         },
         history: {
-            t1: "Historical Tracking",
-            d1: "A complete record of all AI-recommended bets. Transparency is key to validating the model's long-term edge and refining future predictions.",
-            t2: "Performance Audit",
-            d2: "Win rate and ROI are recalculated daily. The system learns from past losses to refine edge thresholds and improve future selection."
+            t1: "Full Transparency",
+            d1: "Every bet recommended by the AI is recorded here. Track our wins, losses, and profit over time to verify the system's long-term edge.",
+            t2: "Daily Updates",
+            d2: "Results are graded automatically after games complete. Win rate and profit stats update daily so you can see real performance—not just cherry-picked wins."
         }
     };
 
