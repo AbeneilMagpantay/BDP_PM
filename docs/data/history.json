@@ -166,5 +166,65 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-19t02:40:00z_torontoraptorslosangeleslakers_losangeleslakers",
+        "sport": "nba",
+        "date": "2026-01-19T02:40:00Z",
+        "match": "Toronto Raptors @ Los Angeles Lakers",
+        "pick": "Los Angeles Lakers",
+        "odds": 108,
+        "ev": 12.01,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-24t15:00:00z_brightonandhovealbionfulham_fulham",
+        "sport": "soccer",
+        "date": "2026-01-24T15:00:00Z",
+        "match": "Brighton and Hove Albion @ Fulham",
+        "pick": "Fulham",
+        "odds": 166,
+        "ev": 16.19,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-26t20:00:00z_leedsunitedeverton_everton",
+        "sport": "soccer",
+        "date": "2026-01-26T20:00:00Z",
+        "match": "Leeds United @ Everton",
+        "pick": "Everton",
+        "odds": 159,
+        "ev": 14.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-24t12:30:00z_sunderlandwesthamunited_westhamunited",
+        "sport": "soccer",
+        "date": "2026-01-24T12:30:00Z",
+        "match": "Sunderland @ West Ham United",
+        "pick": "West Ham United",
+        "odds": 151,
+        "ev": 11.69,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-01t14:00:00z_crystalpalacenottinghamforest_nottinghamforest",
+        "sport": "soccer",
+        "date": "2026-02-01T14:00:00Z",
+        "match": "Crystal Palace @ Nottingham Forest",
+        "pick": "Nottingham Forest",
+        "odds": 144,
+        "ev": 9.41,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
