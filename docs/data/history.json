@@ -9,7 +9,8 @@
         "ev": 42.04,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.1
     },
     {
         "id": "soccer_2026-01-31t15:00:00z_arsenalleedsunited_leedsunited",
@@ -21,7 +22,8 @@
         "ev": 46.83,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.34
     },
     {
         "id": "soccer_2026-01-31t15:00:00z_bournemouthwolverhamptonwanderers_wolverhamptonwanderers",
@@ -33,7 +35,8 @@
         "ev": 20.87,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.04
     },
     {
         "id": "soccer_2026-01-25t14:00:00z_chelseacrystalpalace_crystalpalace",
@@ -45,7 +48,8 @@
         "ev": 19.85,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 0.99
     },
     {
         "id": "soccer_2026-01-24t17:30:00z_liverpoolbournemouth_bournemouth",
@@ -57,7 +61,8 @@
         "ev": 27.91,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.4
     },
     {
         "id": "soccer_2026-01-24t15:00:00z_tottenhamhotspurburnley_burnley",
@@ -69,7 +74,8 @@
         "ev": 33.22,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.66
     },
     {
         "id": "nba_2026-01-19t02:40:00z_torontoraptorslosangeleslakers_torontoraptors",
@@ -81,7 +87,8 @@
         "ev": 57.25,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.86
     },
     {
         "id": "nba_2026-01-19t02:10:00z_portlandtrailblazerssacramentokings_portlandtrailblazers",
@@ -93,7 +100,8 @@
         "ev": 44.05,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.2
     },
     {
         "id": "nba_2026-01-19t01:10:00z_charlottehornetsdenvernuggets_charlottehornets",
@@ -105,7 +113,8 @@
         "ev": 90.96,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 4.55
     },
     {
         "id": "nba_2026-01-19t00:10:00z_brooklynnetschicagobulls_chicagobulls",
@@ -117,7 +126,8 @@
         "ev": 56.38,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.82
     },
     {
         "id": "nba_2026-01-19t00:10:00z_neworleanspelicanshoustonrockets_houstonrockets",
@@ -129,7 +139,8 @@
         "ev": 7.82,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 0.39
     },
     {
         "id": "nfl_2026-01-18t23:30:00z_losangelesramschicagobears_losangelesrams",
@@ -141,7 +152,8 @@
         "ev": 46.279998779296875,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 2.31
     },
     {
         "id": "nba_2026-01-18t17:00:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
@@ -153,7 +165,8 @@
         "ev": 31.25,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.56
     },
     {
         "id": "soccer_2026-01-18t14:00:00z_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
@@ -165,7 +178,8 @@
         "ev": 39.46,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.97
     },
     {
         "id": "nba_2026-01-18t03:10:00z_losangeleslakersportlandtrailblazers_portlandtrailblazers",
@@ -178,7 +192,8 @@
         "result": "WON",
         "profit": 68.97,
         "status": "GRADED",
-        "score": "132-116"
+        "score": "132-116",
+        "kelly": 2.26
     },
     {
         "id": "nba_2026-01-18t02:10:00z_washingtonwizardsdenvernuggets_washingtonwizards",
@@ -191,7 +206,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "121-115"
+        "score": "121-115",
+        "kelly": 3.33
     },
     {
         "id": "nba_2026-01-18t01:40:00z_charlottehornetsgoldenstatewarriors_charlottehornets",
@@ -204,7 +220,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "136-116"
+        "score": "136-116",
+        "kelly": 3.84
     },
     {
         "id": "nba_2026-01-18t01:10:00z_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
@@ -217,7 +234,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "126-123"
+        "score": "126-123",
+        "kelly": 6.04
     },
     {
         "id": "nba_2026-01-18t01:10:00z_oklahomacitythundermiamiheat_miamiheat",
@@ -230,7 +248,8 @@
         "result": "WON",
         "profit": 356.0,
         "status": "GRADED",
-        "score": "122-120"
+        "score": "122-120",
+        "kelly": 1.27
     },
     {
         "id": "nfl_2026-01-18t01:00:00z_sanfrancisco49ersseattleseahawks_sanfrancisco49ers",
@@ -243,7 +262,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "41-6"
+        "score": "41-6",
+        "kelly": 11.63
     },
     {
         "id": "nba_2026-01-18t00:40:00z_indianapacersdetroitpistons_indianapacers",
@@ -256,7 +276,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "121-78"
+        "score": "121-78",
+        "kelly": 4.03
     },
     {
         "id": "nba_2026-01-18t00:40:00z_phoenixsunsnewyorkknicks_phoenixsuns",
@@ -269,7 +290,8 @@
         "result": "WON",
         "profit": 146.0,
         "status": "GRADED",
-        "score": "99-106"
+        "score": "99-106",
+        "kelly": 3.79
     },
     {
         "id": "nba_2026-01-18t00:40:00z_bostoncelticsatlantahawks_bostonceltics",
@@ -282,7 +304,8 @@
         "result": "WON",
         "profit": 64.94,
         "status": "GRADED",
-        "score": "106-132"
+        "score": "106-132",
+        "kelly": 3.43
     },
     {
         "id": "nba_2026-01-17t22:10:00z_utahjazzdallasmavericks_utahjazz",
@@ -295,7 +318,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "138-120"
+        "score": "138-120",
+        "kelly": 0.52
     },
     {
         "id": "soccer_2026-01-17t17:30:00z_arsenalnottinghamforest_nottinghamforest",
@@ -308,7 +332,8 @@
         "result": "PUSH",
         "profit": 0.0,
         "status": "GRADED",
-        "score": "0-0"
+        "score": "0-0",
+        "kelly": 2.5
     },
     {
         "id": "soccer_2026-01-17t15:00:00z_crystalpalacesunderland_sunderland",
@@ -321,7 +346,8 @@
         "result": "WON",
         "profit": 183.0,
         "status": "GRADED",
-        "score": "2-1"
+        "score": "2-1",
+        "kelly": 0.4
     },
     {
         "id": "soccer_2026-01-17t12:30:00z_manchestercitymanchesterunited_manchesterunited",
@@ -334,7 +360,8 @@
         "result": "WON",
         "profit": 285.0,
         "status": "GRADED",
-        "score": "2-0"
+        "score": "2-0",
+        "kelly": 1.34
     },
     {
         "id": "nba_2026-01-17t03:10:00z_washingtonwizardssacramentokings_washingtonwizards",
@@ -347,7 +374,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "128-115"
+        "score": "128-115",
+        "kelly": 5.08
     },
     {
         "id": "nba_2026-01-17t02:40:00z_minnesotatimberwolveshoustonrockets_minnesotatimberwolves",
@@ -360,7 +388,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "110-105"
+        "score": "110-105",
+        "kelly": 4.9
     },
     {
         "id": "nba_2026-01-17t00:40:00z_chicagobullsbrooklynnets_chicagobulls",
@@ -373,7 +402,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "112-109"
+        "score": "112-109",
+        "kelly": 4.94
     },
     {
         "id": "nba_2026-01-17t00:10:00z_clevelandcavaliersphiladelphia76ers_clevelandcavaliers",
@@ -386,7 +416,8 @@
         "result": "WON",
         "profit": 117.0,
         "status": "GRADED",
-        "score": "115-117"
+        "score": "115-117",
+        "kelly": 4.13
     },
     {
         "id": "nba_2026-01-17t00:10:00z_neworleanspelicansindianapacers_indianapacers",
@@ -399,7 +430,8 @@
         "result": "WON",
         "profit": 67.11,
         "status": "GRADED",
-        "score": "127-119"
+        "score": "127-119",
+        "kelly": 1.99
     },
     {
         "id": "nba_2026-01-15t03:40:00z_washingtonwizardslosangelesclippers_washingtonwizards",
@@ -412,7 +444,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "119-105"
+        "score": "119-105",
+        "kelly": 2.89
     },
     {
         "id": "nba_2026-01-15t03:10:00z_newyorkknickssacramentokings_newyorkknicks",
@@ -425,7 +458,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "112-101"
+        "score": "112-101",
+        "kelly": 0.59
     },
     {
         "id": "nba_2026-01-15t02:40:00z_denvernuggetsdallasmavericks_denvernuggets",
@@ -438,7 +472,8 @@
         "result": "WON",
         "profit": 98.04,
         "status": "GRADED",
-        "score": "109-118"
+        "score": "109-118",
+        "kelly": 1.42
     },
     {
         "id": "nba_2026-01-15t01:10:00z_brooklynnetsneworleanspelicans_neworleanspelicans",
@@ -451,7 +486,8 @@
         "result": "WON",
         "profit": 112.0,
         "status": "GRADED",
-        "score": "116-113"
+        "score": "116-113",
+        "kelly": 2.93
     },
     {
         "id": "nba_2026-01-15t01:10:00z_utahjazzchicagobulls_utahjazz",
@@ -464,7 +500,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "128-126"
+        "score": "128-126",
+        "kelly": 0.54
     },
     {
         "id": "nba_2026-01-15t00:10:00z_clevelandcavaliersphiladelphia76ers_clevelandcavaliers",
@@ -477,7 +514,8 @@
         "result": "WON",
         "profit": 105.0,
         "status": "GRADED",
-        "score": "107-133"
+        "score": "107-133",
+        "kelly": 3.86
     },
     {
         "id": "nba_2026-01-15t00:10:00z_torontoraptorsindianapacers_indianapacers",
@@ -490,7 +528,8 @@
         "result": "LOST",
         "profit": -100,
         "status": "GRADED",
-        "score": "101-115"
+        "score": "101-115",
+        "kelly": 1.99
     },
     {
         "id": "nba_2026-01-18t17:10:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
@@ -502,6 +541,7 @@
         "ev": 23.48,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "kelly": 1.17
     }
 ]
