@@ -491,5 +491,17 @@
         "profit": -100,
         "status": "GRADED",
         "score": "101-115"
+    },
+    {
+        "id": "nba_2026-01-18t17:10:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-01-18T17:10:00Z",
+        "match": "Orlando Magic @ Memphis Grizzlies",
+        "pick": "Memphis Grizzlies",
+        "odds": 146,
+        "ev": 23.48,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
