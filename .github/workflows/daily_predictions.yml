@@ -26,13 +26,14 @@ jobs:
           cd sports_betting_engine
           pip install -r requirements.txt
       
-      - name: Run predictions
+      - name: Run AI predictions
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           PANDASCORE_API_KEY: ${{ secrets.PANDASCORE_API_KEY }}
+          PYTHONPATH: ${{ github.workspace }}/sports_betting_engine
         run: |
           cd sports_betting_engine
-          python scripts/generate_multisport_predictions.py
+          python scripts/update_dashboard.py
       
       - name: Commit and push results
         run: |
