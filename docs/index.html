@@ -821,10 +821,10 @@
 
 
 
-                let currentHistorySportFilter = 'all';
+                let historyFilter = 'all';
 
-                function renderHistory(sportFilter = 'all') {
-                    currentHistorySportFilter = sportFilter;
+                function renderHistory(sportFilter) {
+                    if (sportFilter !== undefined) historyFilter = sportFilter;
                     const list = document.getElementById('bets-list');
 
                     // Only show graded bets (exclude pending/future games)
@@ -833,32 +833,9 @@
                         .sort((a, b) => new Date(b.date) - new Date(a.date)); // Latest first
 
                     // Apply sport filter
-                    if (sportFilter !== 'all') {
-                        gradedBets = gradedBets.filter(b => b.sport === sportFilter);
+                    if (historyFilter !== 'all') {
+                        gradedBets = gradedBets.filter(b => b.sport === historyFilter);
                     }
-
-                    // Replace sport tabs with dropdown for history
-                    const tabsContainer = document.getElementById('sport-tabs-container');
-                    tabsContainer.innerHTML = `
-                        <select id="history-sport-filter" style="
-                            background: var(--bg-card);
-                            border: 1px solid var(--border-color);
-                            color: var(--text-main);
-                            padding: 8px 16px;
-                            border-radius: 8px;
-                            font-size: 13px;
-                            font-weight: 600;
-                            cursor: pointer;
-                        ">
-                            <option value="all" ${sportFilter === 'all' ? 'selected' : ''}>📊 All Sports</option>
-                            <option value="nfl" ${sportFilter === 'nfl' ? 'selected' : ''}>🏈 NFL</option>
-                            <option value="nba" ${sportFilter === 'nba' ? 'selected' : ''}>🏀 NBA</option>
-                            <option value="soccer" ${sportFilter === 'soccer' ? 'selected' : ''}>⚽ Soccer</option>
-                        </select>
-                    `;
-                    document.getElementById('history-sport-filter').addEventListener('change', (e) => {
-                        renderHistory(e.target.value);
-                    });
 
                     // Switch Stats for History - change labels
                     document.getElementById('avg-edge').parentElement.querySelector('p').textContent = "Net Profit";
@@ -877,9 +854,17 @@
                     const bestEdgeContainer = document.getElementById('best-edge').parentElement.parentElement;
                     bestEdgeContainer.classList.add('hidden-stat');
 
-                    // Update Header for History
-                    headerRow.style.gridTemplateColumns = "1.2fr 2.2fr 1.8fr 0.8fr 0.8fr 0.7fr 0.8fr";
+                    // Update Header for History - Sport column is a dropdown
+                    headerRow.style.gridTemplateColumns = "0.8fr 1fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr";
                     headerRow.innerHTML = `
+                <div>
+                    <select id="sport-filter-dropdown" style="background: transparent; border: none; color: var(--text-muted); font-size: 11px; text-transform: uppercase; font-weight: 700; cursor: pointer; padding: 0;">
+                        <option value="all" ${historyFilter === 'all' ? 'selected' : ''}>SPORT</option>
+                        <option value="nfl" ${historyFilter === 'nfl' ? 'selected' : ''}>NFL</option>
+                        <option value="nba" ${historyFilter === 'nba' ? 'selected' : ''}>NBA</option>
+                        <option value="soccer" ${historyFilter === 'soccer' ? 'selected' : ''}>SOCCER</option>
+                    </select>
+                </div>
                 <div>Date</div>
                 <div>Match</div>
                 <div>Pick</div>
@@ -888,6 +873,9 @@
                 <div>Odds</div>
                 <div>Result</div>
             `;
+                    document.getElementById('sport-filter-dropdown').addEventListener('change', (e) => {
+                        renderHistory(e.target.value);
+                    });
 
                     list.innerHTML = gradedBets.map(b => {
                         // Format EV with 2 decimals and %
@@ -896,13 +884,14 @@
                         const kellyDisplay = b.kelly != null && b.kelly > 0 ? Number(b.kelly).toFixed(2) + '%' : '-';
                         // Result is guaranteed to be WON or LOST since we filtered
                         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
-                        // Sport emoji
-                        const sportEmoji = { 'nfl': '🏈', 'nba': '🏀', 'soccer': '⚽' }[b.sport] || '🎯';
+                        // Sport name
+                        const sportName = { 'nfl': 'NFL', 'nba': 'NBA', 'soccer': 'Soccer' }[b.sport] || '-';
 
                         return `
-                <div class="bet-row" style="grid-template-columns: 1.2fr 2.2fr 1.8fr 0.8fr 0.8fr 0.7fr 0.8fr;">
+                <div class="bet-row" style="grid-template-columns: 0.7fr 1fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr;">
+                    <div style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${sportName}</div>
                     <div class="bet-date" style="font-size: 12px;">
-                        ${sportEmoji} ${new Date(b.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
+                        ${new Date(b.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                     </div>
                     <div class="bet-match" style="font-size: 12px;">
                         ${b.match}
