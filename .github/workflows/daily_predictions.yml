@@ -26,6 +26,15 @@ jobs:
           cd sports_betting_engine
           pip install -r requirements.txt
       
+      - name: Train AI Models
+        env:
+          PYTHONPATH: ${{ github.workspace }}/sports_betting_engine
+        run: |
+          cd sports_betting_engine
+          python scripts/train_model.py --fast
+          python scripts/train_nba_model.py
+          python scripts/train_soccer_model.py
+      
       - name: Run AI predictions
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
