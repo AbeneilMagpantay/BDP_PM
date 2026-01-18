@@ -122,9 +122,10 @@
         "pick": "Nottingham Forest",
         "odds": 600,
         "ev": 50.1,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "0-0"
     },
     {
         "id": "soccer_2026-01-18t14:00:00z_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
@@ -170,9 +171,10 @@
         "pick": "Manchester United",
         "odds": 285,
         "ev": 26.73,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 285.0,
+        "status": "GRADED",
+        "score": "2-0"
     },
     {
         "id": "soccer_2026-01-25t14:00:00z_chelseacrystalpalace_crystalpalace",
@@ -271,9 +273,10 @@
         "pick": "Sunderland",
         "odds": 183,
         "ev": 8.0,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 183.0,
+        "status": "GRADED",
+        "score": "2-1"
     },
     {
         "id": "nba_2026-01-18t01:10:00z_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
@@ -391,6 +394,139 @@
         "pick": "Utah Jazz",
         "odds": 158,
         "ev": 10.36,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "138-120"
+    },
+    {
+        "id": "nfl_2026-01-18t01:10:00z_sanfrancisco49ersseattleseahawks_sanfrancisco49ers",
+        "sport": "nfl",
+        "date": "2026-01-18T01:10:00Z",
+        "match": "San Francisco 49ers @ Seattle Seahawks",
+        "pick": "San Francisco 49ers",
+        "odds": 255,
+        "ev": 198.97999572753906,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:41:00z_indianapacersdetroitpistons_indianapacers",
+        "sport": "nba",
+        "date": "2026-01-18T00:41:00Z",
+        "match": "Indiana Pacers @ Detroit Pistons",
+        "pick": "Indiana Pacers",
+        "odds": 1800,
+        "ev": 103.42,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-19t01:10:00z_charlottehornetsdenvernuggets_charlottehornets",
+        "sport": "nba",
+        "date": "2026-01-19T01:10:00Z",
+        "match": "Charlotte Hornets @ Denver Nuggets",
+        "pick": "Charlotte Hornets",
+        "odds": 126,
+        "ev": 90.96,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:42:00z_phoenixsunsnewyorkknicks_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-01-18T00:42:00Z",
+        "match": "Phoenix Suns @ New York Knicks",
+        "pick": "Phoenix Suns",
+        "odds": 155,
+        "ev": 78.65,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-18t00:41:00z_bostoncelticsatlantahawks_bostonceltics",
+        "sport": "nba",
+        "date": "2026-01-18T00:41:00Z",
+        "match": "Boston Celtics @ Atlanta Hawks",
+        "pick": "Boston Celtics",
+        "odds": -157,
+        "ev": 67.61,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-19t02:40:00z_torontoraptorslosangeleslakers_torontoraptors",
+        "sport": "nba",
+        "date": "2026-01-19T02:40:00Z",
+        "match": "Toronto Raptors @ Los Angeles Lakers",
+        "pick": "Toronto Raptors",
+        "odds": 102,
+        "ev": 57.25,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-19t00:10:00z_brooklynnetschicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-01-19T00:10:00Z",
+        "match": "Brooklyn Nets @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": -218,
+        "ev": 56.38,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-19t00:10:00z_neworleanspelicanshoustonrockets_houstonrockets",
+        "sport": "nba",
+        "date": "2026-01-19T00:10:00Z",
+        "match": "New Orleans Pelicans @ Houston Rockets",
+        "pick": "Houston Rockets",
+        "odds": -700,
+        "ev": 7.82,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-31t15:00:00z_arsenalleedsunited_leedsunited",
+        "sport": "soccer",
+        "date": "2026-01-31T15:00:00Z",
+        "match": "Arsenal @ Leeds United",
+        "pick": "Leeds United",
+        "odds": 528,
+        "ev": 46.83,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-01t16:30:00z_manchestercitytottenhamhotspur_tottenhamhotspur",
+        "sport": "soccer",
+        "date": "2026-02-01T16:30:00Z",
+        "match": "Manchester City @ Tottenham Hotspur",
+        "pick": "Tottenham Hotspur",
+        "odds": 446,
+        "ev": 42.04,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-01-31t15:00:00z_bournemouthwolverhamptonwanderers_wolverhamptonwanderers",
+        "sport": "soccer",
+        "date": "2026-01-31T15:00:00Z",
+        "match": "Bournemouth @ Wolverhampton Wanderers",
+        "pick": "Wolverhampton Wanderers",
+        "odds": 246,
+        "ev": 20.87,
         "result": null,
         "profit": null,
         "status": "PENDING"
