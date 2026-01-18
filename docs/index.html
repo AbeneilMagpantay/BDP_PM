@@ -825,7 +825,9 @@
                     const list = document.getElementById('bets-list');
 
                     // Only show graded bets (exclude pending/future games)
-                    const gradedBets = betHistory.filter(b => b.result === 'WON' || b.result === 'LOST');
+                    const gradedBets = betHistory
+                        .filter(b => b.result === 'WON' || b.result === 'LOST')
+                        .sort((a, b) => new Date(b.date) - new Date(a.date)); // Latest first
 
                     // Switch Stats for History - change labels
                     document.getElementById('avg-edge').parentElement.querySelector('p').textContent = "Net Profit";
