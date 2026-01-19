@@ -1,6 +1,6 @@
 [
     {
-        "id": "nfl_2026-01-18t23:30:00z_losangelesramschicagobears_losangelesrams",
+        "id": "nfl_2026-01-18_losangelesramschicagobears_losangelesrams",
         "sport": "nfl",
         "date": "2026-01-18T23:30:00Z",
         "match": "Los Angeles Rams @ Chicago Bears",
@@ -13,7 +13,7 @@
         "score": "17-20"
     },
     {
-        "id": "nba_2026-01-19t01:10:00z_charlottehornetsdenvernuggets_charlottehornets",
+        "id": "nba_2026-01-19_charlottehornetsdenvernuggets_charlottehornets",
         "sport": "nba",
         "date": "2026-01-19T01:10:00Z",
         "match": "Charlotte Hornets @ Denver Nuggets",
@@ -26,7 +26,7 @@
         "score": "87-110"
     },
     {
-        "id": "nba_2026-01-19t02:40:00z_torontoraptorslosangeleslakers_torontoraptors",
+        "id": "nba_2026-01-19_torontoraptorslosangeleslakers_torontoraptors",
         "sport": "nba",
         "date": "2026-01-19T02:40:00Z",
         "match": "Toronto Raptors @ Los Angeles Lakers",
@@ -39,7 +39,7 @@
         "score": "110-93"
     },
     {
-        "id": "nba_2026-01-19t00:10:00z_brooklynnetschicagobulls_chicagobulls",
+        "id": "nba_2026-01-19_brooklynnetschicagobulls_chicagobulls",
         "sport": "nba",
         "date": "2026-01-19T00:10:00Z",
         "match": "Brooklyn Nets @ Chicago Bulls",
@@ -52,7 +52,7 @@
         "score": "124-102"
     },
     {
-        "id": "nba_2026-01-19t02:10:00z_portlandtrailblazerssacramentokings_portlandtrailblazers",
+        "id": "nba_2026-01-19_portlandtrailblazerssacramentokings_portlandtrailblazers",
         "sport": "nba",
         "date": "2026-01-19T02:10:00Z",
         "match": "Portland Trail Blazers @ Sacramento Kings",
@@ -65,7 +65,7 @@
         "score": "110-117"
     },
     {
-        "id": "nba_2026-01-18t17:10:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
+        "id": "nba_2026-01-18_orlandomagicmemphisgrizzlies_memphisgrizzlies",
         "sport": "nba",
         "date": "2026-01-18T17:10:00Z",
         "match": "Orlando Magic @ Memphis Grizzlies",
@@ -78,7 +78,7 @@
         "score": "126-109"
     },
     {
-        "id": "nba_2026-01-19t00:10:00z_neworleanspelicanshoustonrockets_houstonrockets",
+        "id": "nba_2026-01-19_neworleanspelicanshoustonrockets_houstonrockets",
         "sport": "nba",
         "date": "2026-01-19T00:10:00Z",
         "match": "New Orleans Pelicans @ Houston Rockets",
@@ -91,7 +91,7 @@
         "score": "119-110"
     },
     {
-        "id": "soccer_2026-01-31t15:00:00z_arsenalleedsunited_leedsunited",
+        "id": "soccer_2026-01-31_arsenalleedsunited_leedsunited",
         "sport": "soccer",
         "date": "2026-01-31T15:00:00Z",
         "match": "Arsenal @ Leeds United",
@@ -103,7 +103,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-02-01t16:30:00z_manchestercitytottenhamhotspur_tottenhamhotspur",
+        "id": "soccer_2026-02-01_manchestercitytottenhamhotspur_tottenhamhotspur",
         "sport": "soccer",
         "date": "2026-02-01T16:30:00Z",
         "match": "Manchester City @ Tottenham Hotspur",
@@ -115,7 +115,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-18t14:00:00z_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
+        "id": "soccer_2026-01-18_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
         "sport": "soccer",
         "date": "2026-01-18T14:00:00Z",
         "match": "Newcastle United @ Wolverhampton Wanderers",
@@ -128,7 +128,7 @@
         "score": "0-0"
     },
     {
-        "id": "soccer_2026-01-24t15:00:00z_tottenhamhotspurburnley_burnley",
+        "id": "soccer_2026-01-24_tottenhamhotspurburnley_burnley",
         "sport": "soccer",
         "date": "2026-01-24T15:00:00Z",
         "match": "Tottenham Hotspur @ Burnley",
@@ -140,7 +140,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-24t17:30:00z_liverpoolbournemouth_bournemouth",
+        "id": "soccer_2026-01-24_liverpoolbournemouth_bournemouth",
         "sport": "soccer",
         "date": "2026-01-24T17:30:00Z",
         "match": "Liverpool @ Bournemouth",
@@ -152,7 +152,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-25t14:00:00z_chelseacrystalpalace_crystalpalace",
+        "id": "soccer_2026-01-25_chelseacrystalpalace_crystalpalace",
         "sport": "soccer",
         "date": "2026-01-25T14:00:00Z",
         "match": "Chelsea @ Crystal Palace",
@@ -164,7 +164,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-31t15:00:00z_bournemouthwolverhamptonwanderers_wolverhamptonwanderers",
+        "id": "soccer_2026-01-31_bournemouthwolverhamptonwanderers_wolverhamptonwanderers",
         "sport": "soccer",
         "date": "2026-01-31T15:00:00Z",
         "match": "Bournemouth @ Wolverhampton Wanderers",
@@ -176,7 +176,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t02:40:00z_torontoraptorslosangeleslakers_losangeleslakers",
+        "id": "nba_2026-01-19_torontoraptorslosangeleslakers_losangeleslakers",
         "sport": "nba",
         "date": "2026-01-19T02:40:00Z",
         "match": "Toronto Raptors @ Los Angeles Lakers",
@@ -189,7 +189,7 @@
         "score": "110-93"
     },
     {
-        "id": "soccer_2026-01-24t15:00:00z_brightonandhovealbionfulham_fulham",
+        "id": "soccer_2026-01-24_brightonandhovealbionfulham_fulham",
         "sport": "soccer",
         "date": "2026-01-24T15:00:00Z",
         "match": "Brighton and Hove Albion @ Fulham",
@@ -201,7 +201,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-26t20:00:00z_leedsunitedeverton_everton",
+        "id": "soccer_2026-01-26_leedsunitedeverton_everton",
         "sport": "soccer",
         "date": "2026-01-26T20:00:00Z",
         "match": "Leeds United @ Everton",
@@ -213,7 +213,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-24t12:30:00z_sunderlandwesthamunited_westhamunited",
+        "id": "soccer_2026-01-24_sunderlandwesthamunited_westhamunited",
         "sport": "soccer",
         "date": "2026-01-24T12:30:00Z",
         "match": "Sunderland @ West Ham United",
@@ -225,7 +225,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-02-01t14:00:00z_crystalpalacenottinghamforest_nottinghamforest",
+        "id": "soccer_2026-02-01_crystalpalacenottinghamforest_nottinghamforest",
         "sport": "soccer",
         "date": "2026-02-01T14:00:00Z",
         "match": "Crystal Palace @ Nottingham Forest",
@@ -237,7 +237,7 @@
         "status": "PENDING"
     },
     {
-        "id": "soccer_2026-01-18t16:30:00z_evertonastonvilla_astonvilla",
+        "id": "soccer_2026-01-18_evertonastonvilla_astonvilla",
         "sport": "soccer",
         "date": "2026-01-18T16:30:00Z",
         "match": "Everton @ Aston Villa",
@@ -250,20 +250,7 @@
         "score": "0-1"
     },
     {
-        "id": "nba_2026-01-18t17:14:00z_orlandomagicmemphisgrizzlies_memphisgrizzlies",
-        "sport": "nba",
-        "date": "2026-01-18T17:14:00Z",
-        "match": "Orlando Magic @ Memphis Grizzlies",
-        "pick": "Memphis Grizzlies",
-        "odds": 120,
-        "ev": 29.27,
-        "result": "WON",
-        "profit": 120.0,
-        "status": "GRADED",
-        "score": "126-109"
-    },
-    {
-        "id": "nfl_2026-01-25t20:00:00z_newenglandpatriotsdenverbroncos_denverbroncos",
+        "id": "nfl_2026-01-25_newenglandpatriotsdenverbroncos_denverbroncos",
         "sport": "nfl",
         "date": "2026-01-25T20:00:00Z",
         "match": "New England Patriots @ Denver Broncos",
@@ -275,20 +262,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nfl_2026-01-18t23:40:30z_losangelesramschicagobears_losangelesrams",
-        "sport": "nfl",
-        "date": "2026-01-18T23:40:30Z",
-        "match": "Los Angeles Rams @ Chicago Bears",
-        "pick": "Los Angeles Rams",
-        "odds": -115,
-        "ev": 79.16999816894531,
-        "result": "WON",
-        "profit": 86.96,
-        "status": "GRADED",
-        "score": "17-20"
-    },
-    {
-        "id": "nba_2026-01-20t00:10:00z_indianapacersphiladelphia76ers_indianapacers",
+        "id": "nba_2026-01-20_indianapacersphiladelphia76ers_indianapacers",
         "sport": "nba",
         "date": "2026-01-20T00:10:00Z",
         "match": "Indiana Pacers @ Philadelphia 76ers",
@@ -300,7 +274,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t22:10:00z_utahjazzsanantoniospurs_utahjazz",
+        "id": "nba_2026-01-19_utahjazzsanantoniospurs_utahjazz",
         "sport": "nba",
         "date": "2026-01-19T22:10:00Z",
         "match": "Utah Jazz @ San Antonio Spurs",
@@ -312,7 +286,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t22:10:00z_dallasmavericksnewyorkknicks_dallasmavericks",
+        "id": "nba_2026-01-19_dallasmavericksnewyorkknicks_dallasmavericks",
         "sport": "nba",
         "date": "2026-01-19T22:10:00Z",
         "match": "Dallas Mavericks @ New York Knicks",
@@ -324,7 +298,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t19:40:00z_oklahomacitythunderclevelandcavaliers_clevelandcavaliers",
+        "id": "nba_2026-01-19_oklahomacitythunderclevelandcavaliers_clevelandcavaliers",
         "sport": "nba",
         "date": "2026-01-19T19:40:00Z",
         "match": "Oklahoma City Thunder @ Cleveland Cavaliers",
@@ -336,7 +310,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-20t01:10:00z_bostoncelticsdetroitpistons_bostonceltics",
+        "id": "nba_2026-01-20_bostoncelticsdetroitpistons_bostonceltics",
         "sport": "nba",
         "date": "2026-01-20T01:10:00Z",
         "match": "Boston Celtics @ Detroit Pistons",
@@ -348,7 +322,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-20t00:40:00z_phoenixsunsbrooklynnets_phoenixsuns",
+        "id": "nba_2026-01-20_phoenixsunsbrooklynnets_phoenixsuns",
         "sport": "nba",
         "date": "2026-01-20T00:40:00Z",
         "match": "Phoenix Suns @ Brooklyn Nets",
@@ -360,7 +334,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t18:10:00z_milwaukeebucksatlantahawks_milwaukeebucks",
+        "id": "nba_2026-01-19_milwaukeebucksatlantahawks_milwaukeebucks",
         "sport": "nba",
         "date": "2026-01-19T18:10:00Z",
         "match": "Milwaukee Bucks @ Atlanta Hawks",
@@ -372,33 +346,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19t00:12:00z_brooklynnetschicagobulls_chicagobulls",
-        "sport": "nba",
-        "date": "2026-01-19T00:12:00Z",
-        "match": "Brooklyn Nets @ Chicago Bulls",
-        "pick": "Chicago Bulls",
-        "odds": -835,
-        "ev": 14.6,
-        "result": "WON",
-        "profit": 11.98,
-        "status": "GRADED",
-        "score": "124-102"
-    },
-    {
-        "id": "nba_2026-01-19t00:12:00z_neworleanspelicanshoustonrockets_houstonrockets",
-        "sport": "nba",
-        "date": "2026-01-19T00:12:00Z",
-        "match": "New Orleans Pelicans @ Houston Rockets",
-        "pick": "Houston Rockets",
-        "odds": -625,
-        "ev": 13.24,
-        "result": "WON",
-        "profit": 16.0,
-        "status": "GRADED",
-        "score": "119-110"
-    },
-    {
-        "id": "nba_2026-01-19t20:10:00z_losangelesclipperswashingtonwizards_losangelesclippers",
+        "id": "nba_2026-01-19_losangelesclipperswashingtonwizards_losangelesclippers",
         "sport": "nba",
         "date": "2026-01-19T20:10:00Z",
         "match": "Los Angeles Clippers @ Washington Wizards",
@@ -410,7 +358,7 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-20t03:10:00z_miamiheatgoldenstatewarriors_miamiheat",
+        "id": "nba_2026-01-20_miamiheatgoldenstatewarriors_miamiheat",
         "sport": "nba",
         "date": "2026-01-20T03:10:00Z",
         "match": "Miami Heat @ Golden State Warriors",

@@ -73,8 +73,10 @@ def archive_bets():
     existing_ids = {h.get('id') for h in history}
     
     for bet in current_bets:
-        # Generate ID
-        bet_id = f"{bet['sport']}_{bet['date']}_{bet['match']}_{bet['pick']}".replace(" ", "").replace("@", "").lower()
+        # Generate ID using DATE ONLY (not time) to avoid duplicates from different prediction runs
+        # Extract just the date portion from ISO timestamp
+        date_str = bet['date'].split('T')[0] if 'T' in bet['date'] else bet['date'][:10]
+        bet_id = f"{bet['sport']}_{date_str}_{bet['match']}_{bet['pick']}".replace(" ", "").replace("@", "").lower()
         
         if bet_id not in existing_ids:
             # Create History Entry
