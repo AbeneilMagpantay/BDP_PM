@@ -4,7 +4,7 @@
  */
 
 import { getData, getHistory } from './api.js';
-import { formatEV, formatKelly, formatOdds, formatDateTime, formatHistoryDate, getSportName } from './utils.js';
+import { formatEV, formatKelly, formatOdds, formatDateTime, formatHistoryDate, getSportName, calculateKelly } from './utils.js';
 
 // Current history filter state
 let historyFilter = 'all';
@@ -221,7 +221,9 @@ export function renderHistory(sportFilter) {
 
     list.innerHTML = gradedBets.map(b => {
         const evDisplay = formatEV(b.ev);
-        const kellyDisplay = formatKelly(b.kelly);
+        // Calculate kelly if not saved in history
+        const kellyValue = b.kelly != null ? b.kelly : calculateKelly(b.ev, b.odds);
+        const kellyDisplay = formatKelly(kellyValue);
         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
         const sportName = getSportName(b.sport);
 

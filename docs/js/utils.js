@@ -60,7 +60,7 @@ export function formatKelly(kelly) {
 export function formatDateTime(dateString) {
     const gameDate = new Date(dateString);
     return {
-        date: gameDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }),
+        date: gameDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' }),
         time: gameDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })
     };
 }
@@ -71,7 +71,38 @@ export function formatDateTime(dateString) {
  * @returns {string}
  */
 export function formatHistoryDate(dateString) {
-    return new Date(dateString).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    return new Date(dateString).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+/**
+ * Calculate Kelly percentage from EV and odds
+ * Kelly % = (EV/100) / (odds/100 - 1) for positive odds
+ * @param {number} ev - Expected value percentage
+ * @param {number} odds - American odds
+ * @returns {number} Kelly percentage
+ */
+export function calculateKelly(ev, odds) {
+    if (ev == null || odds == null) return null;
+
+    // Convert American odds to decimal
+    let decimalOdds;
+    if (odds > 0) {
+        decimalOdds = (odds / 100) + 1;
+    } else {
+        decimalOdds = (100 / Math.abs(odds)) + 1;
+    }
+
+    // Estimate probability from EV (simplified: assume fair odds + EV edge)
+    const impliedProb = 1 / decimalOdds;
+    const ourProb = impliedProb + (ev / 100);
+
+    // Kelly formula: (bp - q) / b where b = decimal odds - 1, p = our prob, q = 1 - p
+    const b = decimalOdds - 1;
+    const p = Math.min(ourProb, 0.99); // Cap probability
+    const q = 1 - p;
+
+    const kelly = ((b * p) - q) / b;
+    return Math.max(0, kelly * 100); // Return as percentage
 }
 
 /**
