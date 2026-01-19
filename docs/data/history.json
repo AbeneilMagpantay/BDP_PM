@@ -176,19 +176,6 @@
         "status": "PENDING"
     },
     {
-        "id": "nba_2026-01-19_torontoraptorslosangeleslakers_losangeleslakers",
-        "sport": "nba",
-        "date": "2026-01-19T02:40:00Z",
-        "match": "Toronto Raptors @ Los Angeles Lakers",
-        "pick": "Los Angeles Lakers",
-        "odds": 108,
-        "ev": 12.01,
-        "result": "WON",
-        "profit": 108.0,
-        "status": "GRADED",
-        "score": "110-93"
-    },
-    {
         "id": "soccer_2026-01-24_brightonandhovealbionfulham_fulham",
         "sport": "soccer",
         "date": "2026-01-24T15:00:00Z",

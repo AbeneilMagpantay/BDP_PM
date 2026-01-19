@@ -63,6 +63,19 @@ def archive_bets():
             history = json.load(f)
     else:
         history = []
+    
+    # Filter to keep only highest EV per game
+    # Group bets by (sport, date, match) and keep only highest EV
+    game_best_bets = {}
+    for bet in current_bets:
+        date_str = bet['date'].split('T')[0] if 'T' in bet['date'] else bet['date'][:10]
+        game_key = f"{bet['sport']}_{date_str}_{bet['match']}".replace(" ", "").replace("@", "").lower()
+        
+        if game_key not in game_best_bets or bet['ev'] > game_best_bets[game_key]['ev']:
+            game_best_bets[game_key] = bet
+    
+    # Use only the best bet per game
+    current_bets = list(game_best_bets.values())
         
     # Archive Logic
     # We identify bets by a unique hash of (Date + Match + Pick) to avoid duplicates
