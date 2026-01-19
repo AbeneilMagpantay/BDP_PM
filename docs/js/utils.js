@@ -92,17 +92,15 @@ export function calculateKelly(ev, odds) {
         decimalOdds = (100 / Math.abs(odds)) + 1;
     }
 
-    // Estimate probability from EV (simplified: assume fair odds + EV edge)
-    const impliedProb = 1 / decimalOdds;
-    const ourProb = impliedProb + (ev / 100);
-
-    // Kelly formula: (bp - q) / b where b = decimal odds - 1, p = our prob, q = 1 - p
+    // Simplified Kelly: K = EV% / (decimal_odds - 1) / 100
     const b = decimalOdds - 1;
-    const p = Math.min(ourProb, 0.99); // Cap probability
-    const q = 1 - p;
+    const fullKelly = (ev / 100) / b;
 
-    const kelly = ((b * p) - q) / b;
-    return Math.max(0, kelly * 100); // Return as percentage
+    // Apply 1/4 fractional Kelly (conservative sizing)
+    const quarterKelly = fullKelly * 0.25;
+
+    // Return as percentage, capped at 10% max bet size
+    return Math.min(quarterKelly * 100, 10);
 }
 
 /**
