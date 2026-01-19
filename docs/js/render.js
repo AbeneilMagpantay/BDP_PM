@@ -4,7 +4,7 @@
  */
 
 import { getData, getHistory } from './api.js';
-import { formatEV, formatKelly, formatOdds, formatDateTime, formatHistoryDate, getSportName, calculateKelly } from './utils.js';
+import { formatEV, formatOdds, formatDateTime, formatHistoryDate, getSportName } from './utils.js';
 
 // Current history filter state
 let historyFilter = 'all';
@@ -80,7 +80,7 @@ export function renderBets(filter) {
     // Reset UI for Value Bets
     document.getElementById('table-title-text').textContent = 'Latest Value Bets';
 
-    headerRow.style.gridTemplateColumns = "1fr 2fr 1.5fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr";
+    headerRow.style.gridTemplateColumns = "1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr";
     headerRow.innerHTML = `
         <div>Date</div>
         <div>Match</div>
@@ -88,7 +88,6 @@ export function renderBets(filter) {
         <div>Book</div>
         <div>Odds</div>
         <div>EV</div>
-        <div>Kelly</div>
         <div>Prob</div>
     `;
 
@@ -136,11 +135,10 @@ export function renderBets(filter) {
         const pick = e.bet_team || e.bet_on || 'Unknown';
         const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
         const book = e.bookmaker || 'N/A';
-        const kelly = formatKelly(e.kelly_bet);
         const { date: dateStr, time: timeStr } = formatDateTime(e.commence_time);
 
         return `
-            <div class="bet-row" style="grid-template-columns: 1fr 2fr 1.5fr 1fr 0.7fr 0.7fr 0.7fr 0.7fr;">
+            <div class="bet-row" style="grid-template-columns: 1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr;">
                 <div class="bet-date">
                     <div>${dateStr}</div>
                     <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">${timeStr}</div>
@@ -150,7 +148,6 @@ export function renderBets(filter) {
                 <div class="bet-book">${book}</div>
                 <div class="bet-odds">${formatOdds(e.odds)}</div>
                 <div class="bet-ev">${formatEV(e.ev)}</div>
-                <div style="color: var(--accent-blue);">${kelly}</div>
                 <div class="bet-prob">${prob}%</div>
             </div>
         `;
@@ -196,7 +193,7 @@ export function renderHistory(sportFilter) {
     bestEdgeContainer.classList.add('hidden-stat');
 
     // Update Header with dropdown filter
-    headerRow.style.gridTemplateColumns = "0.8fr 1fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr";
+    headerRow.style.gridTemplateColumns = "0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr";
     headerRow.innerHTML = `
         <div>
             <select id="sport-filter-dropdown" class="sport-filter-dropdown">
@@ -210,7 +207,6 @@ export function renderHistory(sportFilter) {
         <div>Match</div>
         <div>Pick</div>
         <div>EV</div>
-        <div>Kelly</div>
         <div>Odds</div>
         <div>Result</div>
     `;
@@ -221,20 +217,16 @@ export function renderHistory(sportFilter) {
 
     list.innerHTML = gradedBets.map(b => {
         const evDisplay = formatEV(b.ev);
-        // Calculate kelly if not saved in history
-        const kellyValue = b.kelly != null ? b.kelly : calculateKelly(b.ev, b.odds);
-        const kellyDisplay = formatKelly(kellyValue);
         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
         const sportName = getSportName(b.sport);
 
         return `
-            <div class="bet-row" style="grid-template-columns: 0.7fr 1fr 2fr 1.5fr 0.8fr 0.8fr 0.7fr 0.8fr;">
+            <div class="bet-row" style="grid-template-columns: 0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr;">
                 <div style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${sportName}</div>
                 <div class="bet-date" style="font-size: 12px;">${formatHistoryDate(b.date)}</div>
                 <div class="bet-match" style="font-size: 12px;">${b.match}</div>
                 <div><span class="bet-pick bet-pick-history">${b.pick}</span></div>
                 <div class="bet-ev" style="font-size:12px">${evDisplay}</div>
-                <div style="font-size:12px; color: var(--accent-blue);">${kellyDisplay}</div>
                 <div class="bet-odds" style="font-weight:600; font-size: 12px;">${b.odds}</div>
                 <div class="${resultClass}">${b.result}</div>
             </div>
