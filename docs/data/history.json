@@ -256,9 +256,10 @@
         "pick": "Indiana Pacers",
         "odds": 270,
         "ev": 114.18,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "113-104"
     },
     {
         "id": "nba_2026-01-19_utahjazzsanantoniospurs_utahjazz",
@@ -307,9 +308,10 @@
         "pick": "Boston Celtics",
         "odds": 138,
         "ev": 82.32,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-103"
     },
     {
         "id": "nba_2026-01-20_phoenixsunsbrooklynnets_phoenixsuns",
@@ -319,9 +321,10 @@
         "pick": "Phoenix Suns",
         "odds": -295,
         "ev": 39.39,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 33.9,
+        "status": "GRADED",
+        "score": "117-126"
     },
     {
         "id": "nba_2026-01-19_milwaukeebucksatlantahawks_milwaukeebucks",
@@ -357,9 +360,10 @@
         "pick": "Miami Heat",
         "odds": 215,
         "ev": 46.88,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "135-112"
     },
     {
         "id": "nba_2026-01-21_phoenixsunsphiladelphia76ers_phoenixsuns",
@@ -405,6 +409,42 @@
         "pick": "Minnesota Timberwolves",
         "odds": -450,
         "ev": 23.52,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-21_losangeleslakersdenvernuggets_denvernuggets",
+        "sport": "nba",
+        "date": "2026-01-21T03:10:00Z",
+        "match": "Los Angeles Lakers @ Denver Nuggets",
+        "pick": "Denver Nuggets",
+        "odds": 126,
+        "ev": 56.34,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-21_miamiheatsacramentokings_miamiheat",
+        "sport": "nba",
+        "date": "2026-01-21T03:10:00Z",
+        "match": "Miami Heat @ Sacramento Kings",
+        "pick": "Miami Heat",
+        "odds": -143,
+        "ev": 32.53,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-21_torontoraptorsgoldenstatewarriors_torontoraptors",
+        "sport": "nba",
+        "date": "2026-01-21T03:10:00Z",
+        "match": "Toronto Raptors @ Golden State Warriors",
+        "pick": "Toronto Raptors",
+        "odds": 134,
+        "ev": 15.53,
         "result": null,
         "profit": null,
         "status": "PENDING"
