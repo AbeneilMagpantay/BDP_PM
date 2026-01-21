@@ -15,9 +15,10 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Optional, Any
 
 from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import (
     accuracy_score, log_loss, roc_auc_score, 
-    classification_report, confusion_matrix
+    classification_report, confusion_matrix, brier_score_loss
 )
 from xgboost import XGBClassifier
 
@@ -118,7 +119,7 @@ class NFLGamePredictor:
         fast_mode: bool,
         random_state: int
     ) -> XGBClassifier:
-        """Train with hyperparameter tuning via GridSearchCV."""
+        """Train with hyperparameter tuning via GridSearchCV, then apply Platt Scaling."""
         print("\nPerforming hyperparameter tuning...")
         
         param_grid = XGBOOST_PARAM_GRID_FAST if fast_mode else XGBOOST_PARAM_GRID
@@ -144,7 +145,17 @@ class NFLGamePredictor:
         print(f"\nBest parameters: {grid_search.best_params_}")
         print(f"Best CV log loss: {-grid_search.best_score_:.4f}")
         
-        return grid_search.best_estimator_
+        # Apply Platt Scaling for probability calibration
+        print("\nApplying Platt Scaling (probability calibration)...")
+        calibrated_model = CalibratedClassifierCV(
+            grid_search.best_estimator_,
+            method='sigmoid',  # Platt Scaling
+            cv='prefit'  # Model is already fitted
+        )
+        calibrated_model.fit(X_train, y_train)
+        print("Calibration complete.")
+        
+        return calibrated_model
     
     def _train_default(
         self,
@@ -152,7 +163,7 @@ class NFLGamePredictor:
         y_train: pd.Series,
         random_state: int
     ) -> XGBClassifier:
-        """Train with default hyperparameters."""
+        """Train with default hyperparameters, then apply Platt Scaling."""
         print("\nTraining with default parameters...")
         
         model = XGBClassifier(
@@ -168,7 +179,18 @@ class NFLGamePredictor:
         )
         
         model.fit(X_train, y_train)
-        return model
+        
+        # Apply Platt Scaling for probability calibration
+        print("Applying Platt Scaling (probability calibration)...")
+        calibrated_model = CalibratedClassifierCV(
+            model,
+            method='sigmoid',  # Platt Scaling
+            cv='prefit'  # Model is already fitted
+        )
+        calibrated_model.fit(X_train, y_train)
+        print("Calibration complete.")
+        
+        return calibrated_model
     
     def _evaluate(
         self,

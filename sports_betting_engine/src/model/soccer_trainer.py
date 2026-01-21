@@ -13,6 +13,7 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any
 
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import accuracy_score, log_loss, roc_auc_score
 from xgboost import XGBClassifier
 
@@ -88,10 +89,10 @@ class SoccerMatchPredictor:
             
             print(f"\nBest parameters: {grid_search.best_params_}")
             print(f"Best CV log loss: {-grid_search.best_score_:.4f}")
-            self.model = grid_search.best_estimator_
+            raw_model = grid_search.best_estimator_
         else:
             print("\nTraining XGBoost model with default params...")
-            self.model = XGBClassifier(
+            raw_model = XGBClassifier(
                 n_estimators=300,
                 max_depth=6,
                 learning_rate=0.03,
@@ -102,7 +103,17 @@ class SoccerMatchPredictor:
                 random_state=random_state,
                 use_label_encoder=False
             )
-            self.model.fit(X_train, y_train)
+            raw_model.fit(X_train, y_train)
+        
+        # Apply Platt Scaling for probability calibration
+        print("\nApplying Platt Scaling (probability calibration)...")
+        self.model = CalibratedClassifierCV(
+            raw_model,
+            method='sigmoid',  # Platt Scaling
+            cv='prefit'  # Model is already fitted
+        )
+        self.model.fit(X_train, y_train)
+        print("Calibration complete.")
         
         # Evaluate
         y_pred = self.model.predict(X_test)
@@ -172,6 +183,9 @@ class SoccerMatchPredictor:
         
         # Get prediction
         home_win_prob = self.predict_proba(df)[0]
+        
+        # Clamp to realistic Soccer probability range (20%-80% due to high variance in soccer)
+        home_win_prob = max(0.20, min(0.80, home_win_prob))
         
         return {
             'home_win_prob': float(home_win_prob),

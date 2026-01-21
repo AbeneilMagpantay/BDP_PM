@@ -14,6 +14,7 @@ from datetime import datetime
 from typing import Dict, List, Optional, Any
 
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.metrics import accuracy_score, log_loss, roc_auc_score
 from xgboost import XGBClassifier
 
@@ -105,10 +106,10 @@ class NBAGamePredictor:
             
             print(f"\nBest parameters: {grid_search.best_params_}")
             print(f"Best CV log loss: {-grid_search.best_score_:.4f}")
-            self.model = grid_search.best_estimator_
+            raw_model = grid_search.best_estimator_
         else:
             print("\nTraining XGBoost model with default params...")
-            self.model = XGBClassifier(
+            raw_model = XGBClassifier(
                 n_estimators=200,
                 max_depth=4,
                 learning_rate=0.05,
@@ -119,7 +120,17 @@ class NBAGamePredictor:
                 random_state=random_state,
                 use_label_encoder=False
             )
-            self.model.fit(X_train, y_train)
+            raw_model.fit(X_train, y_train)
+        
+        # Apply Platt Scaling for probability calibration
+        print("\nApplying Platt Scaling (probability calibration)...")
+        self.model = CalibratedClassifierCV(
+            raw_model,
+            method='sigmoid',  # Platt Scaling
+            cv='prefit'  # Model is already fitted
+        )
+        self.model.fit(X_train, y_train)
+        print("Calibration complete.")
         
         # Evaluate
         y_pred = self.model.predict(X_test)
@@ -200,6 +211,9 @@ class NBAGamePredictor:
         
         # Get prediction
         home_win_prob = self.predict_proba(df[self.feature_names])[0]
+        
+        # Clamp to realistic NBA probability range (no team ever has >85% or <15% true odds)
+        home_win_prob = max(0.15, min(0.85, home_win_prob))
         
         return {
             'home_win_prob': float(home_win_prob),

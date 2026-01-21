@@ -66,6 +66,10 @@ class GamePredictionService:
         
         # Get prediction
         home_win_prob = self.predictor.predict_proba(features)[0]
+        
+        # Clamp to realistic NFL probability range (no team ever has >85% or <15% true odds)
+        home_win_prob = max(0.15, min(0.85, home_win_prob))
+        
         away_win_prob = 1 - home_win_prob
         
         predicted_winner = 'home' if home_win_prob >= 0.5 else 'away'
