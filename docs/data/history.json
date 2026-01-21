@@ -448,5 +448,53 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_oklahomacitythundermilwaukeebucks_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-01-22T02:40:00Z",
+        "match": "Oklahoma City Thunder @ Milwaukee Bucks",
+        "pick": "Milwaukee Bucks",
+        "odds": 320,
+        "ev": 101.13,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_atlantahawksmemphisgrizzlies_atlantahawks",
+        "sport": "nba",
+        "date": "2026-01-22T01:10:00Z",
+        "match": "Atlanta Hawks @ Memphis Grizzlies",
+        "pick": "Atlanta Hawks",
+        "odds": 120,
+        "ev": 75.2,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_clevelandcavalierscharlottehornets_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-01-22T00:10:00Z",
+        "match": "Cleveland Cavaliers @ Charlotte Hornets",
+        "pick": "Cleveland Cavaliers",
+        "odds": -142,
+        "ev": 32.93,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_brooklynnetsnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-01-22T00:40:00Z",
+        "match": "Brooklyn Nets @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -590,
+        "ev": 21.91,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
