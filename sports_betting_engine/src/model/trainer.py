@@ -292,9 +292,19 @@ class NFLGamePredictor:
         if self.model is None:
             raise ValueError("Model not trained. Call train() first.")
         
+        # Access underlying XGBoost model from CalibratedClassifierCV
+        if hasattr(self.model, 'estimator'):
+            # CalibratedClassifierCV wraps the estimator
+            base_model = self.model.estimator
+        elif hasattr(self.model, 'calibrated_classifiers_'):
+            # Access first calibrated classifier's base estimator
+            base_model = self.model.calibrated_classifiers_[0].estimator
+        else:
+            base_model = self.model
+        
         importance = pd.DataFrame({
             'feature': self.feature_names,
-            'importance': self.model.feature_importances_
+            'importance': base_model.feature_importances_
         }).sort_values('importance', ascending=False)
         
         return importance
