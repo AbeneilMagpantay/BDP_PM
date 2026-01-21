@@ -527,5 +527,17 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-01-25_losangelesramsseattleseahawks_losangelesrams",
+        "sport": "nfl",
+        "date": "2026-01-25T23:30:00Z",
+        "match": "Los Angeles Rams @ Seattle Seahawks",
+        "pick": "Los Angeles Rams",
+        "odds": 130,
+        "ev": 89.16,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
