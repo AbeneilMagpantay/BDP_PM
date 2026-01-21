@@ -89,19 +89,29 @@ class NFLGamePredictor:
         print(f"  Home win rate (test): {y_test.mean():.1%}")
         
         if tune_hyperparameters:
-            self.model = self._train_with_tuning(
+            self.model, base_model = self._train_with_tuning(
                 X_train, y_train, fast_mode, random_state
             )
         else:
-            self.model = self._train_default(X_train, y_train, random_state)
+            self.model, base_model = self._train_default(X_train, y_train, random_state)
         
         # Evaluate on test set
         metrics = self._evaluate(X_test, y_test)
         
-        # Cross-validation score
-        cv_scores = cross_val_score(
-            self.model, X, y, cv=5, scoring='accuracy'
+        # Cross-validation score (use base XGBClassifier, not calibrated model)
+        # CalibratedClassifierCV with cv='prefit' cannot be used with cross_val_score
+        cv_model = XGBClassifier(
+            n_estimators=100,
+            max_depth=3,
+            learning_rate=0.05,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            objective='binary:logistic',
+            eval_metric='logloss',
+            random_state=random_state,
+            use_label_encoder=False
         )
+        cv_scores = cross_val_score(cv_model, X, y, cv=5, scoring='accuracy')
         metrics['cv_accuracy_mean'] = cv_scores.mean()
         metrics['cv_accuracy_std'] = cv_scores.std()
         
@@ -118,8 +128,12 @@ class NFLGamePredictor:
         y_train: pd.Series,
         fast_mode: bool,
         random_state: int
-    ) -> XGBClassifier:
-        """Train with hyperparameter tuning via GridSearchCV, then apply Platt Scaling."""
+    ) -> tuple:
+        """Train with hyperparameter tuning via GridSearchCV, then apply Platt Scaling.
+        
+        Returns:
+            Tuple of (calibrated_model, base_model) for cross-validation support.
+        """
         print("\nPerforming hyperparameter tuning...")
         
         param_grid = XGBOOST_PARAM_GRID_FAST if fast_mode else XGBOOST_PARAM_GRID
@@ -155,15 +169,19 @@ class NFLGamePredictor:
         calibrated_model.fit(X_train, y_train)
         print("Calibration complete.")
         
-        return calibrated_model
+        return calibrated_model, grid_search.best_estimator_
     
     def _train_default(
         self,
         X_train: pd.DataFrame,
         y_train: pd.Series,
         random_state: int
-    ) -> XGBClassifier:
-        """Train with default hyperparameters, then apply Platt Scaling."""
+    ) -> tuple:
+        """Train with default hyperparameters, then apply Platt Scaling.
+        
+        Returns:
+            Tuple of (calibrated_model, base_model) for cross-validation support.
+        """
         print("\nTraining with default parameters...")
         
         model = XGBClassifier(
@@ -190,7 +208,7 @@ class NFLGamePredictor:
         calibrated_model.fit(X_train, y_train)
         print("Calibration complete.")
         
-        return calibrated_model
+        return calibrated_model, model
     
     def _evaluate(
         self,

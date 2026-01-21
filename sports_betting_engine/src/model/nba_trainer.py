@@ -145,8 +145,19 @@ class NBAGamePredictor:
         print(f"  Log Loss: {logloss:.4f}")
         print(f"  ROC AUC: {auc:.4f}")
         
-        # Cross-validation
-        cv_scores = cross_val_score(self.model, X_train_data, y, cv=5, scoring='accuracy')
+        # Cross-validation (use fresh XGBClassifier, not CalibratedClassifierCV)
+        cv_model = XGBClassifier(
+            n_estimators=100,
+            max_depth=4,
+            learning_rate=0.05,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            objective='binary:logistic',
+            eval_metric='logloss',
+            random_state=42,
+            use_label_encoder=False
+        )
+        cv_scores = cross_val_score(cv_model, X_train_data, y, cv=5, scoring='accuracy')
         print(f"\n5-Fold CV Accuracy: {cv_scores.mean():.1%} (+/- {cv_scores.std()*2:.1%})")
         
         self.training_metrics = {
