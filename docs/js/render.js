@@ -223,7 +223,18 @@ export function renderHistory(sportFilter) {
         const evDisplay = formatEV(b.ev);
         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
         const sportName = getSportName(b.sport);
-        const modelProb = b.model_prob ? (b.model_prob * 100).toFixed(0) + '%' : '--';
+
+        // Calculate model_prob from EV and odds if missing
+        // Formula: EV = (Model_Prob × Decimal_Odds) - 1
+        // So: Model_Prob = (EV/100 + 1) / Decimal_Odds
+        let modelProb = b.model_prob;
+        if (!modelProb && b.ev && b.odds) {
+            const odds = b.odds;
+            const decimalOdds = odds > 0 ? (odds / 100) + 1 : (100 / Math.abs(odds)) + 1;
+            const ev = b.ev / 100; // Convert from percentage
+            modelProb = (ev + 1) / decimalOdds;
+        }
+        const modelProbDisplay = modelProb ? (modelProb * 100).toFixed(0) + '%' : '--';
 
         return `
             <div class="bet-row" style="grid-template-columns: 0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;">
@@ -232,7 +243,7 @@ export function renderHistory(sportFilter) {
                 <div class="bet-match" style="font-size: 12px;">${b.match}</div>
                 <div><span class="bet-pick bet-pick-history">${b.pick}</span></div>
                 <div class="bet-ev" style="font-size:12px">${evDisplay}</div>
-                <div class="bet-model-prob" style="font-size: 12px; color: var(--accent-green);">${modelProb}</div>
+                <div class="bet-model-prob" style="font-size: 12px; color: var(--accent-green);">${modelProbDisplay}</div>
                 <div class="bet-odds" style="font-weight:600; font-size: 12px;">${b.odds}</div>
                 <div class="${resultClass}">${b.result}</div>
             </div>
