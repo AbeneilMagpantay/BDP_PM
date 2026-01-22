@@ -575,5 +575,89 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_sanantoniospursutahjazz_utahjazz",
+        "sport": "nba",
+        "date": "2026-01-23T02:10:00Z",
+        "match": "San Antonio Spurs @ Utah Jazz",
+        "pick": "Utah Jazz",
+        "odds": 525,
+        "ev": 138.0,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_charlottehornetsorlandomagic_charlottehornets",
+        "sport": "nba",
+        "date": "2026-01-23T00:10:00Z",
+        "match": "Charlotte Hornets @ Orlando Magic",
+        "pick": "Charlotte Hornets",
+        "odds": 205,
+        "ev": 104.43,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_goldenstatewarriorsdallasmavericks_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-01-23T00:40:00Z",
+        "match": "Golden State Warriors @ Dallas Mavericks",
+        "pick": "Dallas Mavericks",
+        "odds": 138,
+        "ev": 85.97,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_miamiheatportlandtrailblazers_miamiheat",
+        "sport": "nba",
+        "date": "2026-01-23T03:10:00Z",
+        "match": "Miami Heat @ Portland Trail Blazers",
+        "pick": "Miami Heat",
+        "odds": 114,
+        "ev": 76.54,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_losangeleslakerslosangelesclippers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-01-23T03:10:00Z",
+        "match": "Los Angeles Lakers @ Los Angeles Clippers",
+        "pick": "Los Angeles Clippers",
+        "odds": -110,
+        "ev": 65.24,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_houstonrocketsphiladelphia76ers_houstonrockets",
+        "sport": "nba",
+        "date": "2026-01-23T00:10:00Z",
+        "match": "Houston Rockets @ Philadelphia 76ers",
+        "pick": "Houston Rockets",
+        "odds": -138,
+        "ev": 45.66,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_chicagobullsminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-01-23T01:10:00Z",
+        "match": "Chicago Bulls @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -395,
+        "ev": 10.4,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
