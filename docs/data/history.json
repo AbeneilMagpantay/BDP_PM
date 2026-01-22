@@ -246,7 +246,8 @@
         "ev": 217.3699951171875,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-20_indianapacersphiladelphia76ers_indianapacers",
@@ -466,7 +467,8 @@
         "ev": 101.13,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-22_atlantahawksmemphisgrizzlies_atlantahawks",
@@ -478,7 +480,8 @@
         "ev": 75.2,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-22_clevelandcavalierscharlottehornets_clevelandcavaliers",
@@ -514,7 +517,8 @@
         "ev": 28.61,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.4743105773479342
     },
     {
         "id": "nba_2026-01-22_detroitpistonsneworleanspelicans_detroitpistons",
@@ -526,7 +530,8 @@
         "ev": 22.25,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nfl_2026-01-25_losangelesramsseattleseahawks_losangelesrams",
@@ -538,7 +543,8 @@
         "ev": 89.16,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.822
     },
     {
         "id": "nba_2026-01-23_denvernuggetswashingtonwizards_denvernuggets",
@@ -550,7 +556,8 @@
         "ev": 29.7,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-22_brooklynnetsnewyorkknicks_brooklynnets",
@@ -586,7 +593,8 @@
         "ev": 138.0,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-23_charlottehornetsorlandomagic_charlottehornets",
@@ -598,7 +606,8 @@
         "ev": 104.43,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-23_goldenstatewarriorsdallasmavericks_dallasmavericks",
@@ -610,7 +619,8 @@
         "ev": 85.97,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-23_miamiheatportlandtrailblazers_miamiheat",
@@ -622,7 +632,8 @@
         "ev": 76.54,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-23_losangeleslakerslosangelesclippers_losangelesclippers",
@@ -634,7 +645,8 @@
         "ev": 65.24,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     },
     {
         "id": "nba_2026-01-23_houstonrocketsphiladelphia76ers_houstonrockets",
@@ -646,7 +658,8 @@
         "ev": 45.66,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.8081175233732897
     },
     {
         "id": "nba_2026-01-23_chicagobullsminnesotatimberwolves_minnesotatimberwolves",
@@ -658,6 +671,7 @@
         "ev": 10.4,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.85
     }
 ]
