@@ -464,9 +464,10 @@
         "pick": "Milwaukee Bucks",
         "odds": 320,
         "ev": 101.13,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "102-122"
     },
     {
         "id": "nba_2026-01-22_atlantahawksmemphisgrizzlies_atlantahawks",
@@ -476,9 +477,10 @@
         "pick": "Atlanta Hawks",
         "odds": 120,
         "ev": 75.2,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 120.0,
+        "status": "GRADED",
+        "score": "122-124"
     },
     {
         "id": "nba_2026-01-22_clevelandcavalierscharlottehornets_clevelandcavaliers",
@@ -514,9 +516,10 @@
         "pick": "Sacramento Kings",
         "odds": 166,
         "ev": 28.61,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-122"
     },
     {
         "id": "nba_2026-01-22_detroitpistonsneworleanspelicans_detroitpistons",
@@ -526,9 +529,10 @@
         "pick": "Detroit Pistons",
         "odds": -360,
         "ev": 22.25,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 27.78,
+        "status": "GRADED",
+        "score": "104-112"
     },
     {
         "id": "nfl_2026-01-25_losangelesramsseattleseahawks_losangelesrams",
@@ -673,8 +677,9 @@
         "odds": 900,
         "ev": 10.0,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-112"
     }
 ]
