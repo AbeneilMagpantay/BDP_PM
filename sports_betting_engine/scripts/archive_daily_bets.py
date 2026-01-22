@@ -50,6 +50,7 @@ def archive_bets():
                 'pick': edge.get('bet_team', ''),
                 'odds': edge.get('odds', 0),
                 'ev': edge.get('ev', 0),
+                'model_prob': edge.get('model_prob', 0),
                 'kelly': edge.get('kelly_bet', 0),  # Kelly % recommendation
                 'bookmaker': edge.get('bookmaker', 'Unknown'),
                 'home_team': home_team,
@@ -101,6 +102,7 @@ def archive_bets():
                 "pick": bet['pick'],
                 "odds": bet['odds'],
                 "ev": bet['ev'],
+                "model_prob": bet.get('model_prob', 0),
                 "result": None,
                 "profit": None,
                 "status": "PENDING"

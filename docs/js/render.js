@@ -196,7 +196,7 @@ export function renderHistory(sportFilter) {
     bestEdgeContainer.classList.add('hidden-stat');
 
     // Update Header with dropdown filter
-    headerRow.style.gridTemplateColumns = "0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr";
+    headerRow.style.gridTemplateColumns = "0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr";
     headerRow.innerHTML = `
         <div>
             <select id="sport-filter-dropdown" class="sport-filter-dropdown">
@@ -210,6 +210,7 @@ export function renderHistory(sportFilter) {
         <div>Match</div>
         <div>Pick</div>
         <div>EV</div>
+        <div>Model</div>
         <div>Odds</div>
         <div>Result</div>
     `;
@@ -222,14 +223,16 @@ export function renderHistory(sportFilter) {
         const evDisplay = formatEV(b.ev);
         const resultClass = b.result === 'WON' ? 'result-won' : 'result-lost';
         const sportName = getSportName(b.sport);
+        const modelProb = b.model_prob ? (b.model_prob * 100).toFixed(0) + '%' : '--';
 
         return `
-            <div class="bet-row" style="grid-template-columns: 0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr;">
+            <div class="bet-row" style="grid-template-columns: 0.8fr 1.2fr 2fr 1.5fr 0.8fr 0.8fr 0.8fr 0.8fr;">
                 <div style="font-size: 12px; font-weight: 600; color: var(--text-muted);">${sportName}</div>
                 <div class="bet-date" style="font-size: 12px;">${formatHistoryDate(b.date)}</div>
                 <div class="bet-match" style="font-size: 12px;">${b.match}</div>
                 <div><span class="bet-pick bet-pick-history">${b.pick}</span></div>
                 <div class="bet-ev" style="font-size:12px">${evDisplay}</div>
+                <div class="bet-model-prob" style="font-size: 12px; color: var(--accent-green);">${modelProb}</div>
                 <div class="bet-odds" style="font-weight:600; font-size: 12px;">${b.odds}</div>
                 <div class="${resultClass}">${b.result}</div>
             </div>
