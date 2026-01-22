@@ -80,7 +80,7 @@ export function renderBets(filter) {
     // Reset UI for Value Bets
     document.getElementById('table-title-text').textContent = 'Latest Value Bets';
 
-    headerRow.style.gridTemplateColumns = "1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr";
+    headerRow.style.gridTemplateColumns = "1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr 0.8fr";
     headerRow.innerHTML = `
         <div>Date</div>
         <div>Match</div>
@@ -88,7 +88,8 @@ export function renderBets(filter) {
         <div>Book</div>
         <div>Odds</div>
         <div>EV</div>
-        <div>Prob</div>
+        <div>Model</div>
+        <div>Implied</div>
     `;
 
     let allEdges = [];
@@ -131,14 +132,15 @@ export function renderBets(filter) {
     }
 
     list.innerHTML = allEdges.map(e => {
-        const prob = e.implied_prob > 1 ? e.implied_prob : (e.implied_prob * 100).toFixed(1);
+        const impliedProb = e.implied_prob > 1 ? e.implied_prob : (e.implied_prob * 100).toFixed(1);
+        const modelProb = e.model_prob ? (e.model_prob * 100).toFixed(1) : '??';
         const pick = e.bet_team || e.bet_on || 'Unknown';
         const matchup = e.matchup || `${e.away_team} @ ${e.home_team}`;
         const book = e.bookmaker || 'N/A';
         const { date: dateStr, time: timeStr } = formatDateTime(e.commence_time);
 
         return `
-            <div class="bet-row" style="grid-template-columns: 1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr;">
+            <div class="bet-row" style="grid-template-columns: 1fr 2fr 1.5fr 1fr 0.8fr 0.8fr 0.8fr 0.8fr;">
                 <div class="bet-date">
                     <div>${dateStr}</div>
                     <div style="font-size: 11px; opacity: 0.7; margin-top: 2px;">${timeStr}</div>
@@ -148,7 +150,8 @@ export function renderBets(filter) {
                 <div class="bet-book">${book}</div>
                 <div class="bet-odds">${formatOdds(e.odds)}</div>
                 <div class="bet-ev">${formatEV(e.ev)}</div>
-                <div class="bet-prob">${prob}%</div>
+                <div class="bet-model-prob" style="color: var(--accent-green); font-weight: 600;">${modelProb}%</div>
+                <div class="bet-prob" style="opacity: 0.7;">${impliedProb}%</div>
             </div>
         `;
     }).join('');
