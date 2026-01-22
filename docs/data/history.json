@@ -488,9 +488,10 @@
         "pick": "Cleveland Cavaliers",
         "odds": -142,
         "ev": 32.93,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 70.42,
+        "status": "GRADED",
+        "score": "87-94"
     },
     {
         "id": "nba_2026-01-22_brooklynnetsnewyorkknicks_newyorkknicks",
@@ -500,9 +501,10 @@
         "pick": "New York Knicks",
         "odds": -590,
         "ev": 21.91,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 16.95,
+        "status": "GRADED",
+        "score": "120-66"
     },
     {
         "id": "nba_2026-01-22_torontoraptorssacramentokings_sacramentokings",
@@ -560,9 +562,10 @@
         "pick": "Brooklyn Nets",
         "odds": 900,
         "ev": 10.0,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-66"
     },
     {
         "id": "nba_2026-01-22_indianapacersbostonceltics_bostonceltics",
@@ -572,9 +575,10 @@
         "pick": "Boston Celtics",
         "odds": -420,
         "ev": 8.46,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 23.81,
+        "status": "GRADED",
+        "score": "119-104"
     },
     {
         "id": "nba_2026-01-23_sanantoniospursutahjazz_utahjazz",
@@ -656,6 +660,19 @@
         "pick": "Minnesota Timberwolves",
         "odds": -395,
         "ev": 10.4,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_detroitpistonsneworleanspelicans_neworleanspelicans",
+        "sport": "nba",
+        "date": "2026-01-22T01:10:00Z",
+        "match": "Detroit Pistons @ New Orleans Pelicans",
+        "pick": "New Orleans Pelicans",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15,
         "result": null,
         "profit": null,
         "status": "PENDING"
