@@ -539,5 +539,41 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-23_denvernuggetswashingtonwizards_denvernuggets",
+        "sport": "nba",
+        "date": "2026-01-23T00:10:00Z",
+        "match": "Denver Nuggets @ Washington Wizards",
+        "pick": "Denver Nuggets",
+        "odds": -235,
+        "ev": 29.7,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_brooklynnetsnewyorkknicks_brooklynnets",
+        "sport": "nba",
+        "date": "2026-01-22T00:42:00Z",
+        "match": "Brooklyn Nets @ New York Knicks",
+        "pick": "Brooklyn Nets",
+        "odds": 900,
+        "ev": 10.0,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-22_indianapacersbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-01-22T00:41:00Z",
+        "match": "Indiana Pacers @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -420,
+        "ev": 8.46,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
