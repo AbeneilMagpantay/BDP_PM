@@ -100,7 +100,8 @@
         "ev": 46.42,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-02-01_manchestercitytottenhamhotspur_tottenhamhotspur",
@@ -112,7 +113,8 @@
         "ev": 42.51,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-01-18_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
@@ -137,7 +139,8 @@
         "ev": 29.89,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-01-24_liverpoolbournemouth_bournemouth",
@@ -149,7 +152,8 @@
         "ev": 27.39,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-01-25_chelseacrystalpalace_crystalpalace",
@@ -161,7 +165,8 @@
         "ev": 23.88,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-01-31_bournemouthwolverhamptonwanderers_wolverhamptonwanderers",
@@ -173,7 +178,8 @@
         "ev": 21.2,
         "result": null,
         "profit": null,
-        "status": "PENDING"
+        "status": "PENDING",
+        "model_prob": 0.34983876664235597
     },
     {
         "id": "soccer_2026-01-24_brightonandhovealbionfulham_fulham",
@@ -465,10 +471,10 @@
         "pick": "Milwaukee Bucks",
         "odds": 320,
         "ev": 101.13,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.85
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "102-122"
     },
     {
         "id": "nba_2026-01-22_atlantahawksmemphisgrizzlies_atlantahawks",
@@ -478,10 +484,10 @@
         "pick": "Atlanta Hawks",
         "odds": 120,
         "ev": 75.2,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.85
+        "result": "WON",
+        "profit": 120.0,
+        "status": "GRADED",
+        "score": "122-124"
     },
     {
         "id": "nba_2026-01-22_clevelandcavalierscharlottehornets_clevelandcavaliers",
@@ -491,9 +497,10 @@
         "pick": "Cleveland Cavaliers",
         "odds": -142,
         "ev": 32.93,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 70.42,
+        "status": "GRADED",
+        "score": "87-94"
     },
     {
         "id": "nba_2026-01-22_brooklynnetsnewyorkknicks_newyorkknicks",
@@ -503,9 +510,10 @@
         "pick": "New York Knicks",
         "odds": -590,
         "ev": 21.91,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 16.95,
+        "status": "GRADED",
+        "score": "120-66"
     },
     {
         "id": "nba_2026-01-22_torontoraptorssacramentokings_sacramentokings",
@@ -515,10 +523,10 @@
         "pick": "Sacramento Kings",
         "odds": 166,
         "ev": 28.61,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.4743105773479342
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-122"
     },
     {
         "id": "nba_2026-01-22_detroitpistonsneworleanspelicans_detroitpistons",
@@ -528,10 +536,10 @@
         "pick": "Detroit Pistons",
         "odds": -360,
         "ev": 22.25,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.85
+        "result": "WON",
+        "profit": 27.78,
+        "status": "GRADED",
+        "score": "104-112"
     },
     {
         "id": "nfl_2026-01-25_losangelesramsseattleseahawks_losangelesrams",
@@ -567,9 +575,10 @@
         "pick": "Brooklyn Nets",
         "odds": 900,
         "ev": 10.0,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-66"
     },
     {
         "id": "nba_2026-01-22_indianapacersbostonceltics_bostonceltics",
@@ -579,9 +588,10 @@
         "pick": "Boston Celtics",
         "odds": -420,
         "ev": 8.46,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 23.81,
+        "status": "GRADED",
+        "score": "119-104"
     },
     {
         "id": "nba_2026-01-23_sanantoniospursutahjazz_utahjazz",
@@ -673,5 +683,19 @@
         "profit": null,
         "status": "PENDING",
         "model_prob": 0.85
+    },
+    {
+        "id": "nba_2026-01-22_detroitpistonsneworleanspelicans_neworleanspelicans",
+        "sport": "nba",
+        "date": "2026-01-22T01:10:00Z",
+        "match": "Detroit Pistons @ New Orleans Pelicans",
+        "pick": "New Orleans Pelicans",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-112"
     }
 ]
