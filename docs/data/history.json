@@ -697,5 +697,44 @@
         "profit": -100,
         "status": "GRADED",
         "score": "104-112"
+    },
+    {
+        "id": "nba_2026-01-24_phoenixsunsatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-01-24T00:40:00Z",
+        "match": "Phoenix Suns @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": 130,
+        "ev": 83.04,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-24_houstonrocketsdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-01-24T00:10:00Z",
+        "match": "Houston Rockets @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": -156,
+        "ev": 48.12,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-24_bostoncelticsbrooklynnets_bostonceltics",
+        "sport": "nba",
+        "date": "2026-01-24T00:40:00Z",
+        "match": "Boston Celtics @ Brooklyn Nets",
+        "pick": "Boston Celtics",
+        "odds": -330,
+        "ev": 16.51,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
