@@ -137,10 +137,11 @@
         "pick": "Burnley",
         "odds": 310,
         "ev": 29.89,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.34983876664235597
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "model_prob": 0.34983876664235597,
+        "score": "2-2"
     },
     {
         "id": "soccer_2026-01-24_liverpoolbournemouth_bournemouth",
@@ -150,10 +151,11 @@
         "pick": "Bournemouth",
         "odds": 290,
         "ev": 27.39,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.34983876664235597
+        "result": "WON",
+        "profit": 290.0,
+        "status": "GRADED",
+        "model_prob": 0.34983876664235597,
+        "score": "3-2"
     },
     {
         "id": "soccer_2026-01-25_chelseacrystalpalace_crystalpalace",
@@ -189,9 +191,10 @@
         "pick": "Fulham",
         "odds": 166,
         "ev": 16.19,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 166.0,
+        "status": "GRADED",
+        "score": "2-1"
     },
     {
         "id": "soccer_2026-01-26_leedsunitedeverton_everton",
@@ -213,9 +216,10 @@
         "pick": "West Ham United",
         "odds": 151,
         "ev": 11.69,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 151.0,
+        "status": "GRADED",
+        "score": "3-1"
     },
     {
         "id": "soccer_2026-02-01_crystalpalacenottinghamforest_nottinghamforest",
@@ -826,9 +830,10 @@
         "odds": -112,
         "ev": 64.34,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 89.29,
+        "status": "GRADED",
+        "score": "109-112"
     },
     {
         "id": "nba_2026-01-25_clevelandcavaliersorlandomagic_clevelandcavaliers",
@@ -892,9 +897,10 @@
         "odds": -450,
         "ev": 6.36,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 22.22,
+        "status": "GRADED",
+        "score": "119-115"
     },
     {
         "id": "nba_2026-01-25_miamiheatutahjazz_utahjazz",
@@ -905,6 +911,71 @@
         "odds": 235,
         "ev": 71.26,
         "model_prob": 0.6548323713424332,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-25_denvernuggetsmemphisgrizzlies_denvernuggets",
+        "sport": "nba",
+        "date": "2026-01-25T20:40:00Z",
+        "match": "Denver Nuggets @ Memphis Grizzlies",
+        "pick": "Denver Nuggets",
+        "odds": 114,
+        "ev": 76.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-26_dallasmavericksmilwaukeebucks_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-01-26T00:10:00Z",
+        "match": "Dallas Mavericks @ Milwaukee Bucks",
+        "pick": "Dallas Mavericks",
+        "odds": -102,
+        "ev": 69.01,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-25_goldenstatewarriorsminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-01-25T22:40:00Z",
+        "match": "Golden State Warriors @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -260,
+        "ev": 25.56,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-26_brooklynnetslosangelesclippers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-01-26T02:10:00Z",
+        "match": "Brooklyn Nets @ Los Angeles Clippers",
+        "pick": "Los Angeles Clippers",
+        "odds": -450,
+        "ev": 6.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-07_chelseawolverhamptonwanderers_wolverhamptonwanderers",
+        "sport": "soccer",
+        "date": "2026-02-07T15:00:00Z",
+        "match": "Chelsea @ Wolverhampton Wanderers",
+        "pick": "Wolverhampton Wanderers",
+        "odds": 480,
+        "ev": 35.48,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
