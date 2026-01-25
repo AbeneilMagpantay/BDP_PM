@@ -817,9 +817,10 @@
         "odds": 148,
         "ev": 89.35,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "110-116"
     },
     {
         "id": "nba_2026-01-24_newyorkknicksphiladelphia76ers_newyorkknicks",
@@ -844,9 +845,10 @@
         "odds": -112,
         "ev": 64.34,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 89.29,
+        "status": "GRADED",
+        "score": "105-119"
     },
     {
         "id": "nba_2026-01-25_bostoncelticschicagobulls_bostonceltics",
@@ -857,9 +859,10 @@
         "odds": -168,
         "ev": 44.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "114-111"
     },
     {
         "id": "nba_2026-01-24_goldenstatewarriorsminnesotatimberwolves_minnesotatimberwolves",
@@ -911,9 +914,10 @@
         "odds": 235,
         "ev": 71.26,
         "model_prob": 0.6548323713424332,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "116-147"
     },
     {
         "id": "nba_2026-01-25_denvernuggetsmemphisgrizzlies_denvernuggets",
@@ -976,6 +980,19 @@
         "odds": 480,
         "ev": 35.48,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-26_miamiheatphoenixsuns_miamiheat",
+        "sport": "nba",
+        "date": "2026-01-26T01:10:00Z",
+        "match": "Miami Heat @ Phoenix Suns",
+        "pick": "Miami Heat",
+        "odds": 139,
+        "ev": 86.32,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
