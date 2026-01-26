@@ -555,10 +555,11 @@
         "pick": "Los Angeles Rams",
         "odds": 130,
         "ev": 89.16,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.822
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "model_prob": 0.822,
+        "score": "31-27"
     },
     {
         "id": "nba_2026-01-23_denvernuggetswashingtonwizards_denvernuggets",
@@ -970,9 +971,10 @@
         "odds": -450,
         "ev": 6.36,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 22.22,
+        "status": "GRADED",
+        "score": "126-89"
     },
     {
         "id": "soccer_2026-02-07_chelseawolverhamptonwanderers_wolverhamptonwanderers",
@@ -996,9 +998,10 @@
         "odds": 139,
         "ev": 86.32,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 139.0,
+        "status": "GRADED",
+        "score": "102-111"
     },
     {
         "id": "nba_2026-01-26_indianapacersatlantahawks_indianapacers",
@@ -1061,9 +1064,10 @@
         "odds": -286,
         "ev": 21.81,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-103"
     },
     {
         "id": "nba_2026-01-26_neworleanspelicanssanantoniospurs_sanantoniospurs",
@@ -1074,9 +1078,10 @@
         "odds": -310,
         "ev": 18.78,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "95-104"
     },
     {
         "id": "nba_2026-01-27_portlandtrailblazersbostonceltics_bostonceltics",
@@ -1099,6 +1104,19 @@
         "pick": "Houston Rockets",
         "odds": -460,
         "ev": 5.71,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-27_goldenstatewarriorsminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-01-27T02:40:00Z",
+        "match": "Golden State Warriors @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -275,
+        "ev": 23.33,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
