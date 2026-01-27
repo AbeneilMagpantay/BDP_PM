@@ -1027,9 +1027,10 @@
         "odds": 110,
         "ev": 74.76,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "118-129"
     },
     {
         "id": "nba_2026-01-26_philadelphia76erscharlottehornets_charlottehornets",
@@ -1054,9 +1055,10 @@
         "odds": -190,
         "ev": 38.97,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 52.63,
+        "status": "GRADED",
+        "score": "114-98"
     },
     {
         "id": "nba_2026-01-26_torontoraptorsoklahomacitythunder_oklahomacitythunder",
@@ -1095,9 +1097,10 @@
         "odds": -355,
         "ev": 13.96,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 28.17,
+        "status": "GRADED",
+        "score": "102-94"
     },
     {
         "id": "nba_2026-01-27_memphisgrizzlieshoustonrockets_houstonrockets",
@@ -1108,9 +1111,10 @@
         "odds": -460,
         "ev": 5.71,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 21.74,
+        "status": "GRADED",
+        "score": "108-99"
     },
     {
         "id": "nba_2026-01-27_goldenstatewarriorsminnesotatimberwolves_minnesotatimberwolves",
@@ -1121,9 +1125,10 @@
         "odds": -275,
         "ev": 23.33,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 36.36,
+        "status": "GRADED",
+        "score": "108-83"
     },
     {
         "id": "nba_2026-01-28_milwaukeebucksphiladelphia76ers_milwaukeebucks",
