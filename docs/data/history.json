@@ -1139,9 +1139,10 @@
         "odds": 300,
         "ev": 120.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "139-122"
     },
     {
         "id": "nba_2026-01-28_portlandtrailblazerswashingtonwizards_portlandtrailblazers",
@@ -1152,9 +1153,10 @@
         "odds": -196,
         "ev": 37.57,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "115-111"
     },
     {
         "id": "nba_2026-01-28_detroitpistonsdenvernuggets_detroitpistons",
@@ -1165,9 +1167,10 @@
         "odds": -225,
         "ev": 31.24,
         "model_prob": 0.8484935444498218,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 44.44,
+        "status": "GRADED",
+        "score": "107-109"
     },
     {
         "id": "nba_2026-01-28_brooklynnetsphoenixsuns_phoenixsuns",
@@ -1178,9 +1181,10 @@
         "odds": -325,
         "ev": 17.06,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 30.77,
+        "status": "GRADED",
+        "score": "106-102"
     },
     {
         "id": "nba_2026-01-28_losangelesclippersutahjazz_losangelesclippers",
@@ -1191,9 +1195,10 @@
         "odds": -420,
         "ev": 8.46,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 23.81,
+        "status": "GRADED",
+        "score": "103-115"
     },
     {
         "id": "nba_2026-01-29_orlandomagicmiamiheat_orlandomagic",
@@ -1295,6 +1300,33 @@
         "odds": 800,
         "ev": 7.78,
         "model_prob": 0.15000000000000002,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "103-87"
+    },
+    {
+        "id": "nba_2026-01-29_goldenstatewarriorsutahjazz_utahjazz",
+        "sport": "nba",
+        "date": "2026-01-29T02:10:00Z",
+        "match": "Golden State Warriors @ Utah Jazz",
+        "pick": "Utah Jazz",
+        "odds": 321,
+        "ev": 122.49,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-29_newyorkknickstorontoraptors_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-01-29T00:40:00Z",
+        "match": "New York Knicks @ Toronto Raptors",
+        "pick": "New York Knicks",
+        "odds": 118,
+        "ev": 78.26,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
