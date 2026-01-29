@@ -1330,5 +1330,70 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_houstonrocketsatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-01-30T01:10:00Z",
+        "match": "Houston Rockets @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": 154,
+        "ev": 91.26,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_milwaukeebuckswashingtonwizards_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-01-30T00:10:00Z",
+        "match": "Milwaukee Bucks @ Washington Wizards",
+        "pick": "Milwaukee Bucks",
+        "odds": -125,
+        "ev": 58.89,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_miamiheatchicagobulls_miamiheat",
+        "sport": "nba",
+        "date": "2026-01-30T01:10:00Z",
+        "match": "Miami Heat @ Chicago Bulls",
+        "pick": "Miami Heat",
+        "odds": 100,
+        "ev": 50.15,
+        "model_prob": 0.7507702266305851,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_detroitpistonsphoenixsuns_detroitpistons",
+        "sport": "nba",
+        "date": "2026-01-30T02:10:00Z",
+        "match": "Detroit Pistons @ Phoenix Suns",
+        "pick": "Detroit Pistons",
+        "odds": -176,
+        "ev": 42.46,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_brooklynnetsdenvernuggets_denvernuggets",
+        "sport": "nba",
+        "date": "2026-01-30T02:10:00Z",
+        "match": "Brooklyn Nets @ Denver Nuggets",
+        "pick": "Denver Nuggets",
+        "odds": -275,
+        "ev": 23.33,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
