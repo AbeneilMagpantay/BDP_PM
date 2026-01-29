@@ -1209,9 +1209,10 @@
         "odds": 115,
         "ev": 76.98,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 115.0,
+        "status": "GRADED",
+        "score": "124-133"
     },
     {
         "id": "nba_2026-01-29_chicagobullsindianapacers_indianapacers",
@@ -1222,9 +1223,10 @@
         "odds": 110,
         "ev": 74.76,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 110.0,
+        "status": "GRADED",
+        "score": "113-110"
     },
     {
         "id": "nba_2026-01-29_charlottehornetsmemphisgrizzlies_charlottehornets",
@@ -1235,9 +1237,10 @@
         "odds": -120,
         "ev": 60.91,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 83.33,
+        "status": "GRADED",
+        "score": "97-112"
     },
     {
         "id": "nba_2026-01-29_losangeleslakersclevelandcavaliers_clevelandcavaliers",
@@ -1248,9 +1251,10 @@
         "odds": -135,
         "ev": 55.11,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 74.07,
+        "status": "GRADED",
+        "score": "129-99"
     },
     {
         "id": "nba_2026-01-29_sanantoniospurshoustonrockets_houstonrockets",
@@ -1261,9 +1265,10 @@
         "odds": -142,
         "ev": 52.64,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "99-111"
     },
     {
         "id": "nba_2026-01-29_minnesotatimberwolvesdallasmavericks_minnesotatimberwolves",
@@ -1274,9 +1279,10 @@
         "odds": -250,
         "ev": 27.14,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 40.0,
+        "status": "GRADED",
+        "score": "105-118"
     },
     {
         "id": "nba_2026-01-29_atlantahawksbostonceltics_bostonceltics",
@@ -1287,9 +1293,10 @@
         "odds": -295,
         "ev": 20.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "106-117"
     },
     {
         "id": "nba_2026-01-28_sacramentokingsnewyorkknicks_sacramentokings",
@@ -1314,9 +1321,10 @@
         "odds": 321,
         "ev": 122.49,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "124-140"
     },
     {
         "id": "nba_2026-01-29_newyorkknickstorontoraptors_newyorkknicks",
@@ -1327,9 +1335,10 @@
         "odds": 118,
         "ev": 78.26,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 118.0,
+        "status": "GRADED",
+        "score": "92-119"
     },
     {
         "id": "nba_2026-01-30_houstonrocketsatlantahawks_atlantahawks",
@@ -1391,6 +1400,45 @@
         "pick": "Denver Nuggets",
         "odds": -275,
         "ev": 23.33,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_oklahomacitythunderminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-01-30T02:40:00Z",
+        "match": "Oklahoma City Thunder @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": 185,
+        "ev": 99.82,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_charlottehornetsdallasmavericks_charlottehornets",
+        "sport": "nba",
+        "date": "2026-01-30T01:40:00Z",
+        "match": "Charlotte Hornets @ Dallas Mavericks",
+        "pick": "Charlotte Hornets",
+        "odds": -167,
+        "ev": 44.91,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-30_sacramentokingsphiladelphia76ers_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-01-30T00:10:00Z",
+        "match": "Sacramento Kings @ Philadelphia 76ers",
+        "pick": "Philadelphia 76ers",
+        "odds": -464,
+        "ev": 5.46,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
