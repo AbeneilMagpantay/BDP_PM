@@ -1443,5 +1443,31 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-31_torontoraptorsorlandomagic_orlandomagic",
+        "sport": "nba",
+        "date": "2026-01-31T00:40:00Z",
+        "match": "Toronto Raptors @ Orlando Magic",
+        "pick": "Orlando Magic",
+        "odds": -116,
+        "ev": 50.93,
+        "model_prob": 0.7916964357112853,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-01-31_memphisgrizzliesneworleanspelicans_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-01-31T00:40:00Z",
+        "match": "Memphis Grizzlies @ New Orleans Pelicans",
+        "pick": "Memphis Grizzlies",
+        "odds": 110,
+        "ev": 50.1,
+        "model_prob": 0.7266746386787533,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
