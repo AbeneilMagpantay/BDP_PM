@@ -1575,9 +1575,10 @@
         "odds": 440,
         "ev": 129.62,
         "model_prob": 0.8332947556374484,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "111-107"
     },
     {
         "id": "nba_2026-02-01_chicagobullsmiamiheat_chicagobulls",
@@ -1588,9 +1589,10 @@
         "odds": 166,
         "ev": 94.81,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 166.0,
+        "status": "GRADED",
+        "score": "118-125"
     },
     {
         "id": "nba_2026-01-31_sanantoniospurscharlottehornets_charlottehornets",
@@ -1615,9 +1617,10 @@
         "odds": -118,
         "ev": 61.74,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "129-124"
     },
     {
         "id": "nba_2026-02-01_minnesotatimberwolvesmemphisgrizzlies_minnesotatimberwolves",
@@ -1628,9 +1631,10 @@
         "odds": -278,
         "ev": 22.91,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 35.97,
+        "status": "GRADED",
+        "score": "114-131"
     },
     {
         "id": "nba_2026-02-01_neworleanspelicansphiladelphia76ers_philadelphia76ers",
@@ -1641,9 +1645,10 @@
         "odds": -350,
         "ev": 14.44,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 28.57,
+        "status": "GRADED",
+        "score": "124-114"
     },
     {
         "id": "nba_2026-01-31_sacramentokingsbostonceltics_sacramentokings",
