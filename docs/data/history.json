@@ -112,10 +112,11 @@
         "pick": "Tottenham Hotspur",
         "odds": 453,
         "ev": 42.51,
-        "result": null,
-        "profit": null,
-        "status": "PENDING",
-        "model_prob": 0.34983876664235597
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "model_prob": 0.34983876664235597,
+        "score": "2-2"
     },
     {
         "id": "soccer_2026-01-18_newcastleunitedwolverhamptonwanderers_wolverhamptonwanderers",
@@ -233,9 +234,10 @@
         "pick": "Nottingham Forest",
         "odds": 144,
         "ev": 9.41,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "1-1"
     },
     {
         "id": "soccer_2026-01-18_evertonastonvilla_astonvilla",
@@ -1765,9 +1767,10 @@
         "odds": 550,
         "ev": 11.7,
         "model_prob": 0.21234100143168522,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "107-79"
     },
     {
         "id": "soccer_2026-02-12_arsenalbrentford_brentford",
@@ -1817,6 +1820,58 @@
         "odds": 248,
         "ev": 12.5,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-03_houstonrocketsindianapacers_indianapacers",
+        "sport": "nba",
+        "date": "2026-02-03T00:10:00Z",
+        "match": "Houston Rockets @ Indiana Pacers",
+        "pick": "Indiana Pacers",
+        "odds": 190,
+        "ev": 101.03,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-03_neworleanspelicanscharlottehornets_charlottehornets",
+        "sport": "nba",
+        "date": "2026-02-03T00:10:00Z",
+        "match": "New Orleans Pelicans @ Charlotte Hornets",
+        "pick": "Charlotte Hornets",
+        "odds": -250,
+        "ev": 27.14,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-03_minnesotatimberwolvesmemphisgrizzlies_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-02-03T02:40:00Z",
+        "match": "Minnesota Timberwolves @ Memphis Grizzlies",
+        "pick": "Minnesota Timberwolves",
+        "odds": -278,
+        "ev": 22.91,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-02_orlandomagicsanantoniospurs_sanantoniospurs",
+        "sport": "nba",
+        "date": "2026-02-02T02:10:00Z",
+        "match": "Orlando Magic @ San Antonio Spurs",
+        "pick": "San Antonio Spurs",
+        "odds": -148,
+        "ev": 10.99,
+        "model_prob": 0.6517189965717629,
         "result": null,
         "profit": null,
         "status": "PENDING"
