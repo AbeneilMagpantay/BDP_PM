@@ -2016,5 +2016,57 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-05_minnesotatimberwolvestorontoraptors_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-02-05T00:40:00Z",
+        "match": "Minnesota Timberwolves @ Toronto Raptors",
+        "pick": "Minnesota Timberwolves",
+        "odds": -118,
+        "ev": 61.74,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-04_utahjazzindianapacers_indianapacers",
+        "sport": "nba",
+        "date": "2026-02-04T00:11:00Z",
+        "match": "Utah Jazz @ Indiana Pacers",
+        "pick": "Indiana Pacers",
+        "odds": 190,
+        "ev": 50.02,
+        "model_prob": 0.5949159135945374,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-04_newyorkknickswashingtonwizards_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-02-04T00:13:00Z",
+        "match": "New York Knicks @ Washington Wizards",
+        "pick": "Washington Wizards",
+        "odds": 2200,
+        "ev": 21.3,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-04_losangeleslakersbrooklynnets_brooklynnets",
+        "sport": "nba",
+        "date": "2026-02-04T00:40:00Z",
+        "match": "Los Angeles Lakers @ Brooklyn Nets",
+        "pick": "Brooklyn Nets",
+        "odds": 800,
+        "ev": 7.78,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
