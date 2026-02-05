@@ -2157,5 +2157,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-06_goldenstatewarriorsphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-02-06T03:10:00Z",
+        "match": "Golden State Warriors @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": -233,
+        "ev": 19.91,
+        "model_prob": 0.7992264706799869,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
