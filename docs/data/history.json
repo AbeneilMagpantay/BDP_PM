@@ -2174,9 +2174,10 @@
         "odds": -233,
         "ev": 19.91,
         "model_prob": 0.7992264706799869,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "97-101"
     },
     {
         "id": "nba_2026-02-06_utahjazzatlantahawks_utahjazz",
@@ -2187,9 +2188,10 @@
         "odds": 330,
         "ev": 123.49,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-119"
     },
     {
         "id": "nba_2026-02-06_chicagobullstorontoraptors_chicagobulls",
@@ -2200,9 +2202,10 @@
         "odds": 285,
         "ev": 118.05,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "123-107"
     },
     {
         "id": "nba_2026-02-06_sanantoniospursdallasmavericks_dallasmavericks",
@@ -2213,9 +2216,10 @@
         "odds": 230,
         "ev": 109.39,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "123-135"
     },
     {
         "id": "nba_2026-02-06_charlottehornetshoustonrockets_charlottehornets",
@@ -2226,9 +2230,10 @@
         "odds": 140,
         "ev": 86.67,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 140.0,
+        "status": "GRADED",
+        "score": "99-109"
     },
     {
         "id": "nba_2026-02-06_washingtonwizardsdetroitpistons_washingtonwizards",
@@ -2239,9 +2244,10 @@
         "odds": 593,
         "ev": 4.26,
         "model_prob": 0.16560007134864485,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 593.0,
+        "status": "GRADED",
+        "score": "117-126"
     },
     {
         "id": "nba_2026-02-08_memphisgrizzliesportlandtrailblazers_memphisgrizzlies",
@@ -2278,9 +2284,10 @@
         "odds": 105,
         "ev": 69.32,
         "model_prob": 0.8343999286513551,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "117-126"
     },
     {
         "id": "nba_2026-02-07_indianapacersmilwaukeebucks_indianapacers",
@@ -2330,9 +2337,10 @@
         "odds": 1500,
         "ev": 17.5,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "118-98"
     },
     {
         "id": "nba_2026-02-07_neworleanspelicansminnesotatimberwolves_minnesotatimberwolves",
@@ -2342,6 +2350,19 @@
         "pick": "Minnesota Timberwolves",
         "odds": -460,
         "ev": 5.71,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-07_memphisgrizzliesportlandtrailblazers_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-02-07T03:00:00Z",
+        "match": "Memphis Grizzlies @ Portland Trail Blazers",
+        "pick": "Memphis Grizzlies",
+        "odds": 230,
+        "ev": 109.39,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
