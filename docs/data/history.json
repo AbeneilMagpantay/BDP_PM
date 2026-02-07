@@ -2271,9 +2271,10 @@
         "odds": 104,
         "ev": 71.96,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "118-80"
     },
     {
         "id": "nba_2026-02-06_washingtonwizardsdetroitpistons_detroitpistons",
@@ -2298,9 +2299,10 @@
         "odds": -102,
         "ev": 57.14,
         "model_prob": 0.7906663109028429,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "105-99"
     },
     {
         "id": "nba_2026-02-07_losangelesclipperssacramentokings_losangelesclippers",
@@ -2311,9 +2313,10 @@
         "odds": -155,
         "ev": 48.43,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 64.52,
+        "status": "GRADED",
+        "score": "111-114"
     },
     {
         "id": "nba_2026-02-07_miamiheatbostonceltics_bostonceltics",
@@ -2324,9 +2327,10 @@
         "odds": -255,
         "ev": 26.34,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 39.22,
+        "status": "GRADED",
+        "score": "98-96"
     },
     {
         "id": "nba_2026-02-06_brooklynnetsorlandomagic_brooklynnets",
@@ -2351,9 +2355,10 @@
         "odds": -460,
         "ev": 5.71,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "115-119"
     },
     {
         "id": "nba_2026-02-07_memphisgrizzliesportlandtrailblazers_memphisgrizzlies",
@@ -2364,9 +2369,10 @@
         "odds": 230,
         "ev": 109.39,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "135-115"
     },
     {
         "id": "nba_2026-02-08_utahjazzorlandomagic_utahjazz",
@@ -2455,6 +2461,19 @@
         "odds": 130,
         "ev": 7.47,
         "model_prob": 0.4721137584387822,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-07_dallasmaverickssanantoniospurs_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-02-07T23:10:00Z",
+        "match": "Dallas Mavericks @ San Antonio Spurs",
+        "pick": "Dallas Mavericks",
+        "odds": 350,
+        "ev": 125.56,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
