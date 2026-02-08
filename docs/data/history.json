@@ -2260,9 +2260,10 @@
         "odds": 172,
         "ev": 96.47,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "122-115"
     },
     {
         "id": "nba_2026-02-07_newyorkknicksdetroitpistons_newyorkknicks",
@@ -2385,9 +2386,10 @@
         "odds": 260,
         "ev": 114.44,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-117"
     },
     {
         "id": "nba_2026-02-08_denvernuggetschicagobulls_chicagobulls",
@@ -2398,9 +2400,10 @@
         "odds": 168,
         "ev": 95.37,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-136"
     },
     {
         "id": "nba_2026-02-07_washingtonwizardsbrooklynnets_washingtonwizards",
@@ -2425,9 +2428,10 @@
         "odds": -120,
         "ev": 60.91,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "103-109"
     },
     {
         "id": "nba_2026-02-08_charlottehornetsatlantahawks_charlottehornets",
@@ -2438,9 +2442,10 @@
         "odds": -135,
         "ev": 55.11,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 74.07,
+        "status": "GRADED",
+        "score": "119-126"
     },
     {
         "id": "nba_2026-02-07_houstonrocketsoklahomacitythunder_houstonrockets",
@@ -2465,9 +2470,10 @@
         "odds": 130,
         "ev": 7.47,
         "model_prob": 0.4721137584387822,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "105-99"
     },
     {
         "id": "nba_2026-02-07_dallasmaverickssanantoniospurs_dallasmavericks",
@@ -2478,9 +2484,10 @@
         "odds": 350,
         "ev": 125.56,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "138-125"
     },
     {
         "id": "nba_2026-02-08_indianapacerstorontoraptors_indianapacers",
@@ -2568,6 +2575,19 @@
         "pick": "Everton",
         "odds": 233,
         "ev": 9.91,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-18_arsenalwolverhamptonwanderers_wolverhamptonwanderers",
+        "sport": "soccer",
+        "date": "2026-02-18T20:00:00Z",
+        "match": "Arsenal @ Wolverhampton Wanderers",
+        "pick": "Wolverhampton Wanderers",
+        "odds": 850,
+        "ev": 48.92,
         "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
