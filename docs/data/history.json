@@ -2726,5 +2726,57 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-11_dallasmavericksphoenixsuns_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-02-11T02:10:00Z",
+        "match": "Dallas Mavericks @ Phoenix Suns",
+        "pick": "Dallas Mavericks",
+        "odds": 235,
+        "ev": 110.3,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-11_losangelesclippershoustonrockets_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-02-11T01:10:00Z",
+        "match": "Los Angeles Clippers @ Houston Rockets",
+        "pick": "Los Angeles Clippers",
+        "odds": 235,
+        "ev": 45.27,
+        "model_prob": 0.5248336515820475,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-11_indianapacersnewyorkknicks_indianapacers",
+        "sport": "nba",
+        "date": "2026-02-11T00:40:00Z",
+        "match": "Indiana Pacers @ New York Knicks",
+        "pick": "Indiana Pacers",
+        "odds": 425,
+        "ev": 28.58,
+        "model_prob": 0.3333534794428662,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-11_sanantoniospurslosangeleslakers_losangeleslakers",
+        "sport": "nba",
+        "date": "2026-02-11T03:40:00Z",
+        "match": "San Antonio Spurs @ Los Angeles Lakers",
+        "pick": "Los Angeles Lakers",
+        "odds": 245,
+        "ev": 22.39,
+        "model_prob": 0.4018075874805352,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
