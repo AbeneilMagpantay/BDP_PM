@@ -2606,9 +2606,10 @@
         "odds": 321,
         "ev": 122.49,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "118-99"
     },
     {
         "id": "nba_2026-02-10_utahjazzmiamiheat_utahjazz",
@@ -2619,9 +2620,10 @@
         "odds": 270,
         "ev": 115.95,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 270.0,
+        "status": "GRADED",
+        "score": "111-115"
     },
     {
         "id": "nba_2026-02-10_detroitpistonscharlottehornets_charlottehornets",
@@ -2632,9 +2634,10 @@
         "odds": 124,
         "ev": 67.28,
         "model_prob": 0.7828133619930114,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-110"
     },
     {
         "id": "nba_2026-02-10_clevelandcavaliersdenvernuggets_clevelandcavaliers",
@@ -2645,9 +2648,10 @@
         "odds": -113,
         "ev": 63.9,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 88.5,
+        "status": "GRADED",
+        "score": "117-119"
     },
     {
         "id": "nba_2026-02-10_chicagobullsbrooklynnets_chicagobulls",
@@ -2658,9 +2662,10 @@
         "odds": -144,
         "ev": 51.97,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "123-115"
     },
     {
         "id": "nba_2026-02-10_oklahomacitythunderlosangeleslakers_oklahomacitythunder",
@@ -2671,9 +2676,10 @@
         "odds": -170,
         "ev": 36.65,
         "model_prob": 0.8128913587589336,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 58.82,
+        "status": "GRADED",
+        "score": "110-119"
     },
     {
         "id": "nba_2026-02-10_sacramentokingsneworleanspelicans_neworleanspelicans",
@@ -2684,9 +2690,10 @@
         "odds": -218,
         "ev": 32.89,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 45.87,
+        "status": "GRADED",
+        "score": "120-94"
     },
     {
         "id": "nba_2026-02-10_atlantahawksminnesotatimberwolves_minnesotatimberwolves",
@@ -2697,9 +2704,10 @@
         "odds": -240,
         "ev": 28.82,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 41.67,
+        "status": "GRADED",
+        "score": "138-116"
     },
     {
         "id": "nba_2026-02-10_philadelphia76ersportlandtrailblazers_portlandtrailblazers",
@@ -2710,9 +2718,10 @@
         "odds": 124,
         "ev": 25.52,
         "model_prob": 0.5740112758477028,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 124.0,
+        "status": "GRADED",
+        "score": "135-118"
     },
     {
         "id": "nba_2026-02-10_memphisgrizzliesgoldenstatewarriors_goldenstatewarriors",
@@ -2723,9 +2732,10 @@
         "odds": -277,
         "ev": 17.4,
         "model_prob": 0.8217588494249741,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 36.1,
+        "status": "GRADED",
+        "score": "114-113"
     },
     {
         "id": "nba_2026-02-11_dallasmavericksphoenixsuns_dallasmavericks",
@@ -2775,6 +2785,84 @@
         "odds": 245,
         "ev": 22.39,
         "model_prob": 0.4018075874805352,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_milwaukeebucksorlandomagic_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-02-12T00:10:00Z",
+        "match": "Milwaukee Bucks @ Orlando Magic",
+        "pick": "Milwaukee Bucks",
+        "odds": 360,
+        "ev": 126.52,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_oklahomacitythunderphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-02-12T02:10:00Z",
+        "match": "Oklahoma City Thunder @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": 205,
+        "ev": 104.43,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_sanantoniospursgoldenstatewarriors_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-02-12T03:10:00Z",
+        "match": "San Antonio Spurs @ Golden State Warriors",
+        "pick": "Golden State Warriors",
+        "odds": 172,
+        "ev": 96.47,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_detroitpistonstorontoraptors_detroitpistons",
+        "sport": "nba",
+        "date": "2026-02-12T00:40:00Z",
+        "match": "Detroit Pistons @ Toronto Raptors",
+        "pick": "Detroit Pistons",
+        "odds": -122,
+        "ev": 60.09,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_newyorkknicksphiladelphia76ers_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-02-12T00:40:00Z",
+        "match": "New York Knicks @ Philadelphia 76ers",
+        "pick": "New York Knicks",
+        "odds": -126,
+        "ev": 58.5,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-10_newcastleunitedtottenhamhotspur_tottenhamhotspur",
+        "sport": "soccer",
+        "date": "2026-02-10T19:30:00Z",
+        "match": "Newcastle United @ Tottenham Hotspur",
+        "pick": "Tottenham Hotspur",
+        "odds": 255,
+        "ev": 13.63,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
