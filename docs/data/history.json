@@ -1801,9 +1801,10 @@
         "odds": 417,
         "ev": 31.28,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-1"
     },
     {
         "id": "soccer_2026-02-10_manchesterunitedwesthamunited_westhamunited",
@@ -2973,6 +2974,58 @@
         "odds": 575,
         "ev": 6.89,
         "model_prob": 0.1826210866138318,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-13_milwaukeebucksoklahomacitythunder_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-02-13T00:40:00Z",
+        "match": "Milwaukee Bucks @ Oklahoma City Thunder",
+        "pick": "Milwaukee Bucks",
+        "odds": 525,
+        "ev": 138.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-13_dallasmaverickslosangeleslakers_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-02-13T03:10:00Z",
+        "match": "Dallas Mavericks @ Los Angeles Lakers",
+        "pick": "Dallas Mavericks",
+        "odds": 210,
+        "ev": 105.48,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-13_portlandtrailblazersutahjazz_utahjazz",
+        "sport": "nba",
+        "date": "2026-02-13T02:10:00Z",
+        "match": "Portland Trail Blazers @ Utah Jazz",
+        "pick": "Utah Jazz",
+        "odds": 250,
+        "ev": 98.12,
+        "model_prob": 0.7763184734232281,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-12_chicagobullsbostonceltics_chicagobulls",
+        "sport": "nba",
+        "date": "2026-02-12T00:42:00Z",
+        "match": "Chicago Bulls @ Boston Celtics",
+        "pick": "Chicago Bulls",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
