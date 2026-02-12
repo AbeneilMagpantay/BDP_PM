@@ -2804,9 +2804,10 @@
         "odds": 360,
         "ev": 126.52,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 360.0,
+        "status": "GRADED",
+        "score": "108-116"
     },
     {
         "id": "nba_2026-02-12_oklahomacitythunderphoenixsuns_phoenixsuns",
@@ -2817,9 +2818,10 @@
         "odds": 205,
         "ev": 104.43,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-136"
     },
     {
         "id": "nba_2026-02-12_sanantoniospursgoldenstatewarriors_goldenstatewarriors",
@@ -2830,9 +2832,10 @@
         "odds": 172,
         "ev": 96.47,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "113-126"
     },
     {
         "id": "nba_2026-02-12_detroitpistonstorontoraptors_detroitpistons",
@@ -2843,9 +2846,10 @@
         "odds": -122,
         "ev": 60.09,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 81.97,
+        "status": "GRADED",
+        "score": "95-113"
     },
     {
         "id": "nba_2026-02-12_newyorkknicksphiladelphia76ers_newyorkknicks",
@@ -2856,9 +2860,10 @@
         "odds": -126,
         "ev": 58.5,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 79.37,
+        "status": "GRADED",
+        "score": "89-138"
     },
     {
         "id": "soccer_2026-02-10_newcastleunitedtottenhamhotspur_tottenhamhotspur",
@@ -2883,9 +2888,10 @@
         "odds": 180,
         "ev": 93.95,
         "model_prob": 0.8269027412243934,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "110-107"
     },
     {
         "id": "nba_2026-02-12_indianapacersbrooklynnets_indianapacers",
@@ -2896,9 +2902,10 @@
         "odds": 152,
         "ev": 90.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 152.0,
+        "status": "GRADED",
+        "score": "110-115"
     },
     {
         "id": "nba_2026-02-12_miamiheatneworleanspelicans_miamiheat",
@@ -2909,9 +2916,10 @@
         "odds": 102,
         "ev": 70.99,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 102.0,
+        "status": "GRADED",
+        "score": "111-123"
     },
     {
         "id": "nba_2026-02-12_portlandtrailblazersminnesotatimberwolves_minnesotatimberwolves",
@@ -2922,9 +2930,10 @@
         "odds": -280,
         "ev": 22.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 35.71,
+        "status": "GRADED",
+        "score": "133-109"
     },
     {
         "id": "nba_2026-02-12_washingtonwizardsclevelandcavaliers_washingtonwizards",
@@ -2935,9 +2944,10 @@
         "odds": 850,
         "ev": 8.95,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "138-113"
     },
     {
         "id": "nba_2026-02-12_losangelesclippershoustonrockets_losangelesclippers",
@@ -2948,9 +2958,10 @@
         "odds": 275,
         "ev": 51.63,
         "model_prob": 0.5248336515820475,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 275.0,
+        "status": "GRADED",
+        "score": "102-105"
     },
     {
         "id": "nba_2026-02-12_sacramentokingsutahjazz_utahjazz",
@@ -2961,9 +2972,10 @@
         "odds": -235,
         "ev": 29.7,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 42.55,
+        "status": "GRADED",
+        "score": "121-93"
     },
     {
         "id": "nba_2026-02-12_memphisgrizzliesdenvernuggets_memphisgrizzlies",
@@ -2974,9 +2986,10 @@
         "odds": 575,
         "ev": 6.89,
         "model_prob": 0.1826210866138318,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "122-116"
     },
     {
         "id": "nba_2026-02-13_milwaukeebucksoklahomacitythunder_milwaukeebucks",
@@ -3026,6 +3039,46 @@
         "odds": 900,
         "ev": 10.0,
         "model_prob": 0.15000000000000002,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "124-105"
+    },
+    {
+        "id": "soccer_2026-02-28_manchestercityleedsunited_leedsunited",
+        "sport": "soccer",
+        "date": "2026-02-28T17:30:00Z",
+        "match": "Manchester City @ Leeds United",
+        "pick": "Leeds United",
+        "odds": 413,
+        "ev": 30.98,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-27_astonvillawolverhamptonwanderers_wolverhamptonwanderers",
+        "sport": "soccer",
+        "date": "2026-02-27T20:00:00Z",
+        "match": "Aston Villa @ Wolverhampton Wanderers",
+        "pick": "Wolverhampton Wanderers",
+        "odds": 372,
+        "ev": 27.59,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-02-28_brentfordburnley_burnley",
+        "sport": "soccer",
+        "date": "2026-02-28T15:00:00Z",
+        "match": "Brentford @ Burnley",
+        "pick": "Burnley",
+        "odds": 360,
+        "ev": 26.49,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
