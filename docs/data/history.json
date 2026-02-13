@@ -1788,9 +1788,10 @@
         "odds": 464,
         "ev": 34.51,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "1-1"
     },
     {
         "id": "soccer_2026-02-11_liverpoolsunderland_sunderland",
