@@ -3001,9 +3001,10 @@
         "odds": 525,
         "ev": 138.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 525.0,
+        "status": "GRADED",
+        "score": "93-110"
     },
     {
         "id": "nba_2026-02-13_dallasmaverickslosangeleslakers_dallasmavericks",
@@ -3014,9 +3015,10 @@
         "odds": 210,
         "ev": 105.48,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "124-104"
     },
     {
         "id": "nba_2026-02-13_portlandtrailblazersutahjazz_utahjazz",
@@ -3027,9 +3029,10 @@
         "odds": 250,
         "ev": 98.12,
         "model_prob": 0.7763184734232281,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "119-135"
     },
     {
         "id": "nba_2026-02-12_chicagobullsbostonceltics_chicagobulls",
