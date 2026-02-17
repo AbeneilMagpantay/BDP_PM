@@ -3203,5 +3203,31 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_utahjazzmemphisgrizzlies_utahjazz",
+        "sport": "nba",
+        "date": "2026-02-21T00:10:00Z",
+        "match": "Utah Jazz @ Memphis Grizzlies",
+        "pick": "Utah Jazz",
+        "odds": 158,
+        "ev": 92.48,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_milwaukeebucksneworleanspelicans_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-02-21T01:10:00Z",
+        "match": "Milwaukee Bucks @ New Orleans Pelicans",
+        "pick": "Milwaukee Bucks",
+        "odds": 146,
+        "ev": 88.7,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
