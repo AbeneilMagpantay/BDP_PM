@@ -2596,9 +2596,10 @@
         "odds": 850,
         "ev": 48.92,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "2-2"
     },
     {
         "id": "nba_2026-02-10_milwaukeebucksorlandomagic_milwaukeebucks",
@@ -3226,6 +3227,32 @@
         "odds": 146,
         "ev": 88.7,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-20_orlandomagicsacramentokings_orlandomagic",
+        "sport": "nba",
+        "date": "2026-02-20T03:10:00Z",
+        "match": "Orlando Magic @ Sacramento Kings",
+        "pick": "Orlando Magic",
+        "odds": -366,
+        "ev": 12.92,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-20_brooklynnetsclevelandcavaliers_brooklynnets",
+        "sport": "nba",
+        "date": "2026-02-20T00:10:00Z",
+        "match": "Brooklyn Nets @ Cleveland Cavaliers",
+        "pick": "Brooklyn Nets",
+        "odds": 781,
+        "ev": 7.3,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
