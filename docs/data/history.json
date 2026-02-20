@@ -3256,5 +3256,57 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_losangelesclipperslosangeleslakers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-02-21T03:10:00Z",
+        "match": "Los Angeles Clippers @ Los Angeles Lakers",
+        "pick": "Los Angeles Clippers",
+        "odds": 230,
+        "ev": 109.39,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_miamiheatatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-02-21T00:40:00Z",
+        "match": "Miami Heat @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": 130,
+        "ev": 83.04,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_denvernuggetsportlandtrailblazers_denvernuggets",
+        "sport": "nba",
+        "date": "2026-02-21T03:10:00Z",
+        "match": "Denver Nuggets @ Portland Trail Blazers",
+        "pick": "Denver Nuggets",
+        "odds": -154,
+        "ev": 48.74,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_clevelandcavalierscharlottehornets_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-02-21T00:10:00Z",
+        "match": "Cleveland Cavaliers @ Charlotte Hornets",
+        "pick": "Cleveland Cavaliers",
+        "odds": -188,
+        "ev": 39.44,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
