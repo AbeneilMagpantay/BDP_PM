@@ -3097,9 +3097,10 @@
         "odds": 220,
         "ev": 107.5,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-94"
     },
     {
         "id": "nba_2026-02-20_atlantahawksphiladelphia76ers_atlantahawks",
@@ -3110,9 +3111,10 @@
         "odds": 166,
         "ev": 94.81,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 166.0,
+        "status": "GRADED",
+        "score": "107-117"
     },
     {
         "id": "nba_2026-02-20_torontoraptorschicagobulls_chicagobulls",
@@ -3123,9 +3125,10 @@
         "odds": 160,
         "ev": 93.08,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-110"
     },
     {
         "id": "nba_2026-02-20_detroitpistonsnewyorkknicks_detroitpistons",
@@ -3136,9 +3139,10 @@
         "odds": 132,
         "ev": 83.79,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 132.0,
+        "status": "GRADED",
+        "score": "111-126"
     },
     {
         "id": "nba_2026-02-20_houstonrocketscharlottehornets_charlottehornets",
@@ -3149,9 +3153,10 @@
         "odds": 118,
         "ev": 78.26,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-105"
     },
     {
         "id": "nba_2026-02-20_indianapacerswashingtonwizards_indianapacers",
@@ -3162,9 +3167,10 @@
         "odds": -122,
         "ev": 60.09,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-105"
     },
     {
         "id": "nba_2026-02-21_indianapacerswashingtonwizards_indianapacers",
@@ -3188,9 +3194,10 @@
         "odds": -156,
         "ev": 48.12,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 64.1,
+        "status": "GRADED",
+        "score": "110-121"
     },
     {
         "id": "nba_2026-02-20_denvernuggetslosangelesclippers_losangelesclippers",
@@ -3201,9 +3208,10 @@
         "odds": 136,
         "ev": 40.6,
         "model_prob": 0.6267527970522432,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 136.0,
+        "status": "GRADED",
+        "score": "115-114"
     },
     {
         "id": "nba_2026-02-21_utahjazzmemphisgrizzlies_utahjazz",
@@ -3240,9 +3248,10 @@
         "odds": -366,
         "ev": 12.92,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 27.32,
+        "status": "GRADED",
+        "score": "94-131"
     },
     {
         "id": "nba_2026-02-20_brooklynnetsclevelandcavaliers_brooklynnets",
@@ -3253,9 +3262,10 @@
         "odds": 781,
         "ev": 7.3,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-84"
     },
     {
         "id": "nba_2026-02-21_losangelesclipperslosangeleslakers_losangelesclippers",
@@ -3305,6 +3315,19 @@
         "odds": -188,
         "ev": 39.44,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_brooklynnetsoklahomacitythunder_brooklynnets",
+        "sport": "nba",
+        "date": "2026-02-21T01:10:00Z",
+        "match": "Brooklyn Nets @ Oklahoma City Thunder",
+        "pick": "Brooklyn Nets",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
