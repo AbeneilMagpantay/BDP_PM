@@ -3331,5 +3331,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-22_houstonrocketsnewyorkknicks_houstonrockets",
+        "sport": "nba",
+        "date": "2026-02-22T01:40:00Z",
+        "match": "Houston Rockets @ New York Knicks",
+        "pick": "Houston Rockets",
+        "odds": 128,
+        "ev": 79.56,
+        "model_prob": 0.8363988400287116,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-22_philadelphia76ersneworleanspelicans_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-02-22T00:10:00Z",
+        "match": "Philadelphia 76ers @ New Orleans Pelicans",
+        "pick": "Philadelphia 76ers",
+        "odds": -164,
+        "ev": 45.76,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_orlandomagicphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-02-21T22:10:00Z",
+        "match": "Orlando Magic @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": -120,
+        "ev": 29.64,
+        "model_prob": 0.69365113973056,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-22_sacramentokingssanantoniospurs_sacramentokings",
+        "sport": "nba",
+        "date": "2026-02-22T01:10:00Z",
+        "match": "Sacramento Kings @ San Antonio Spurs",
+        "pick": "Sacramento Kings",
+        "odds": 980,
+        "ev": 11.48,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-21_dallasmavericksminnesotatimberwolves_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-02-21T00:43:00Z",
+        "match": "Dallas Mavericks @ Minnesota Timberwolves",
+        "pick": "Dallas Mavericks",
+        "odds": 950,
+        "ev": 10.95,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-22_detroitpistonschicagobulls_detroitpistons",
+        "sport": "nba",
+        "date": "2026-02-22T01:10:00Z",
+        "match": "Detroit Pistons @ Chicago Bulls",
+        "pick": "Detroit Pistons",
+        "odds": -450,
+        "ev": 6.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
