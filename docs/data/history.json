@@ -3349,9 +3349,10 @@
         "odds": 128,
         "ev": 79.56,
         "model_prob": 0.8363988400287116,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "108-106"
     },
     {
         "id": "nba_2026-02-22_philadelphia76ersneworleanspelicans_philadelphia76ers",
@@ -3362,9 +3363,10 @@
         "odds": -164,
         "ev": 45.76,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "126-111"
     },
     {
         "id": "nba_2026-02-21_orlandomagicphoenixsuns_phoenixsuns",
@@ -3389,9 +3391,10 @@
         "odds": 980,
         "ev": 11.48,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "139-122"
     },
     {
         "id": "nba_2026-02-21_dallasmavericksminnesotatimberwolves_dallasmavericks",
@@ -3416,9 +3419,10 @@
         "odds": -450,
         "ev": 6.36,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 22.22,
+        "status": "GRADED",
+        "score": "110-126"
     },
     {
         "id": "nba_2026-02-22_memphisgrizzliesmiamiheat_memphisgrizzlies",
@@ -3429,9 +3433,10 @@
         "odds": 340,
         "ev": 124.55,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "136-120"
     },
     {
         "id": "nba_2026-02-22_torontoraptorsmilwaukeebucks_milwaukeebucks",
@@ -3573,6 +3578,19 @@
         "odds": 470,
         "ev": 34.88,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-23_newyorkknickschicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-02-23T01:10:00Z",
+        "match": "New York Knicks @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": 390,
+        "ev": 105.36,
+        "model_prob": 0.7308679298987862,
         "result": null,
         "profit": null,
         "status": "PENDING"
