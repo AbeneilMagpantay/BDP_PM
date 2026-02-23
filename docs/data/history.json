@@ -2557,9 +2557,10 @@
         "odds": 520,
         "ev": 37.71,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "1-4"
     },
     {
         "id": "soccer_2026-02-22_liverpoolnottinghamforest_nottinghamforest",
@@ -2570,9 +2571,10 @@
         "odds": 320,
         "ev": 22.35,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-1"
     },
     {
         "id": "soccer_2026-02-23_manchesterunitedeverton_everton",
@@ -3447,9 +3449,10 @@
         "odds": 138,
         "ev": 85.97,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "94-122"
     },
     {
         "id": "nba_2026-02-22_bostoncelticslosangeleslakers_bostonceltics",
@@ -3473,9 +3476,10 @@
         "odds": -135,
         "ev": 55.11,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-113"
     },
     {
         "id": "nba_2026-02-22_dallasmavericksindianapacers_dallasmavericks",
@@ -3486,9 +3490,10 @@
         "odds": -142,
         "ev": 52.64,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 70.42,
+        "status": "GRADED",
+        "score": "130-134"
     },
     {
         "id": "nba_2026-02-22_denvernuggetsgoldenstatewarriors_goldenstatewarriors",
@@ -3499,9 +3504,10 @@
         "odds": 148,
         "ev": 46.55,
         "model_prob": 0.6359749651365093,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 148.0,
+        "status": "GRADED",
+        "score": "128-117"
     },
     {
         "id": "nba_2026-02-21_orlandomagicphoenixsuns_orlandomagic",
@@ -3552,9 +3558,10 @@
         "odds": -340,
         "ev": 15.45,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 29.41,
+        "status": "GRADED",
+        "score": "115-104"
     },
     {
         "id": "soccer_2026-03-03_liverpoolwolverhamptonwanderers_wolverhamptonwanderers",
@@ -3591,6 +3598,32 @@
         "odds": 390,
         "ev": 105.36,
         "model_prob": 0.7308679298987862,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-24_sanantoniospursdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-02-24T00:10:00Z",
+        "match": "San Antonio Spurs @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": -116,
+        "ev": 62.59,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-24_sacramentokingsmemphisgrizzlies_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-02-24T01:10:00Z",
+        "match": "Sacramento Kings @ Memphis Grizzlies",
+        "pick": "Memphis Grizzlies",
+        "odds": -180,
+        "ev": 41.43,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
