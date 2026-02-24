@@ -3696,5 +3696,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_philadelphia76ersindianapacers_indianapacers",
+        "sport": "nba",
+        "date": "2026-02-25T00:10:00Z",
+        "match": "Philadelphia 76ers @ Indiana Pacers",
+        "pick": "Indiana Pacers",
+        "odds": 295,
+        "ev": 119.37,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_dallasmavericksbrooklynnets_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-02-25T00:40:00Z",
+        "match": "Dallas Mavericks @ Brooklyn Nets",
+        "pick": "Dallas Mavericks",
+        "odds": -122,
+        "ev": 60.09,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_goldenstatewarriorsneworleanspelicans_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-02-25T01:10:00Z",
+        "match": "Golden State Warriors @ New Orleans Pelicans",
+        "pick": "Golden State Warriors",
+        "odds": -125,
+        "ev": 58.89,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_miamiheatmilwaukeebucks_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-02-25T01:10:00Z",
+        "match": "Miami Heat @ Milwaukee Bucks",
+        "pick": "Milwaukee Bucks",
+        "odds": 180,
+        "ev": 39.25,
+        "model_prob": 0.5533984750745724,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_minnesotatimberwolvesportlandtrailblazers_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-02-25T03:10:00Z",
+        "match": "Minnesota Timberwolves @ Portland Trail Blazers",
+        "pick": "Minnesota Timberwolves",
+        "odds": -235,
+        "ev": 29.7,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-02-25_charlottehornetschicagobulls_charlottehornets",
+        "sport": "nba",
+        "date": "2026-02-25T01:10:00Z",
+        "match": "Charlotte Hornets @ Chicago Bulls",
+        "pick": "Charlotte Hornets",
+        "odds": -300,
+        "ev": 20.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
