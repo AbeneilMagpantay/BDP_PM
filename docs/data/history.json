@@ -3800,9 +3800,10 @@
         "odds": 203,
         "ev": 103.99,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "105-115"
     },
     {
         "id": "nba_2026-03-01_minnesotatimberwolvesdenvernuggets_minnesotatimberwolves",
@@ -3839,9 +3840,10 @@
         "odds": 146,
         "ev": 69.59,
         "model_prob": 0.754451177657725,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-129"
     },
     {
         "id": "nba_2026-03-01_memphisgrizzliesindianapacers_indianapacers",
@@ -3878,9 +3880,10 @@
         "odds": 285,
         "ev": 45.93,
         "model_prob": 0.48938228480856755,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "125-134"
     },
     {
         "id": "nba_2026-03-01_portlandtrailblazersatlantahawks_atlantahawks",
@@ -3943,6 +3946,19 @@
         "odds": 276,
         "ev": 16.78,
         "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-02_neworleanspelicanslosangelesclippers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-03-02T02:10:00Z",
+        "match": "New Orleans Pelicans @ Los Angeles Clippers",
+        "pick": "Los Angeles Clippers",
+        "odds": -325,
+        "ev": 17.06,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
