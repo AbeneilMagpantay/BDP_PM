@@ -3814,9 +3814,10 @@
         "odds": 132,
         "ev": 83.79,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 132.0,
+        "status": "GRADED",
+        "score": "108-117"
     },
     {
         "id": "nba_2026-03-01_sanantoniospursnewyorkknicks_newyorkknicks",
@@ -3827,9 +3828,10 @@
         "odds": 110,
         "ev": 74.76,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 110.0,
+        "status": "GRADED",
+        "score": "114-89"
     },
     {
         "id": "nba_2026-03-01_losangeleslakersgoldenstatewarriors_goldenstatewarriors",
@@ -3854,9 +3856,10 @@
         "odds": -102,
         "ev": 69.01,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "106-125"
     },
     {
         "id": "nba_2026-03-01_milwaukeebuckschicagobulls_milwaukeebucks",
@@ -3867,9 +3870,10 @@
         "odds": -162,
         "ev": 46.34,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-97"
     },
     {
         "id": "nba_2026-03-01_torontoraptorswashingtonwizards_washingtonwizards",
@@ -3959,6 +3963,71 @@
         "odds": -325,
         "ev": 17.06,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-01_portlandtrailblazersatlantahawks_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-03-01T23:11:00Z",
+        "match": "Portland Trail Blazers @ Atlanta Hawks",
+        "pick": "Portland Trail Blazers",
+        "odds": 3300,
+        "ev": 24.12,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-03_bostoncelticsmilwaukeebucks_bostonceltics",
+        "sport": "nba",
+        "date": "2026-03-03T00:40:00Z",
+        "match": "Boston Celtics @ Milwaukee Bucks",
+        "pick": "Boston Celtics",
+        "odds": -270,
+        "ev": 24.05,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-02_philadelphia76ersbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-03-02T01:12:00Z",
+        "match": "Philadelphia 76ers @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -320,
+        "ev": 17.62,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-03_houstonrocketswashingtonwizards_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-03-03T00:10:00Z",
+        "match": "Houston Rockets @ Washington Wizards",
+        "pick": "Washington Wizards",
+        "odds": 800,
+        "ev": 7.78,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-03-14_brightonandhovealbionsunderland_sunderland",
+        "sport": "soccer",
+        "date": "2026-03-14T15:00:00Z",
+        "match": "Brighton and Hove Albion @ Sunderland",
+        "pick": "Sunderland",
+        "odds": 240,
+        "ev": 11.14,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
