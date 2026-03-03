@@ -3994,9 +3994,10 @@
         "odds": -270,
         "ev": 24.05,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 37.04,
+        "status": "GRADED",
+        "score": "81-108"
     },
     {
         "id": "nba_2026-03-02_philadelphia76ersbostonceltics_bostonceltics",
@@ -4021,9 +4022,10 @@
         "odds": 800,
         "ev": 7.78,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "118-123"
     },
     {
         "id": "soccer_2026-03-14_brightonandhovealbionsunderland_sunderland",
@@ -4060,9 +4062,10 @@
         "odds": -122,
         "ev": 60.09,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 81.97,
+        "status": "GRADED",
+        "score": "101-114"
     },
     {
         "id": "nba_2026-03-04_newyorkknickstorontoraptors_newyorkknicks",
@@ -4112,6 +4115,45 @@
         "odds": 102,
         "ev": 70.99,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_washingtonwizardsorlandomagic_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-03-04T00:10:00Z",
+        "match": "Washington Wizards @ Orlando Magic",
+        "pick": "Washington Wizards",
+        "odds": 781,
+        "ev": 43.09,
+        "model_prob": 0.32896871888612533,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_phoenixsunssacramentokings_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-03-04T04:10:00Z",
+        "match": "Phoenix Suns @ Sacramento Kings",
+        "pick": "Phoenix Suns",
+        "odds": -430,
+        "ev": 7.74,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_neworleanspelicanslosangeleslakers_neworleanspelicans",
+        "sport": "nba",
+        "date": "2026-03-04T03:40:00Z",
+        "match": "New Orleans Pelicans @ Los Angeles Lakers",
+        "pick": "New Orleans Pelicans",
+        "odds": 281,
+        "ev": 4.24,
+        "model_prob": 0.2836482716259108,
         "result": null,
         "profit": null,
         "status": "PENDING"
