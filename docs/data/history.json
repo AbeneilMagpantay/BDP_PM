@@ -4076,5 +4076,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_dallasmaverickscharlottehornets_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-03-04T00:10:00Z",
+        "match": "Dallas Mavericks @ Charlotte Hornets",
+        "pick": "Dallas Mavericks",
+        "odds": 450,
+        "ev": 133.64,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_oklahomacitythunderchicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-03-04T01:10:00Z",
+        "match": "Oklahoma City Thunder @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": 400,
+        "ev": 130.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-04_detroitpistonsclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-03-04T00:10:00Z",
+        "match": "Detroit Pistons @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": 102,
+        "ev": 70.99,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
