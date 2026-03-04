@@ -3578,9 +3578,10 @@
         "odds": 594,
         "ev": 41.15,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 594.0,
+        "status": "GRADED",
+        "score": "2-1"
     },
     {
         "id": "soccer_2026-03-04_arsenalbrightonandhovealbion_brightonandhovealbion",
@@ -4154,6 +4155,45 @@
         "odds": 281,
         "ev": 4.24,
         "model_prob": 0.2836482716259108,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-05_atlantahawksmilwaukeebucks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-03-05T02:40:00Z",
+        "match": "Atlanta Hawks @ Milwaukee Bucks",
+        "pick": "Atlanta Hawks",
+        "odds": -110,
+        "ev": 61.54,
+        "model_prob": 0.8315182983240907,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-05_oklahomacitythundernewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-03-05T00:10:00Z",
+        "match": "Oklahoma City Thunder @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": 145,
+        "ev": 54.02,
+        "model_prob": 0.678277022649133,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-05_charlottehornetsbostonceltics_charlottehornets",
+        "sport": "nba",
+        "date": "2026-03-05T00:40:00Z",
+        "match": "Charlotte Hornets @ Boston Celtics",
+        "pick": "Charlotte Hornets",
+        "odds": 205,
+        "ev": 5.36,
+        "model_prob": 0.3546592727340988,
         "result": null,
         "profit": null,
         "status": "PENDING"
