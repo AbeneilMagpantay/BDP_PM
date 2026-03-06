@@ -4408,5 +4408,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_losangelesclipperssanantoniospurs_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-03-07T02:40:00Z",
+        "match": "Los Angeles Clippers @ San Antonio Spurs",
+        "pick": "Los Angeles Clippers",
+        "odds": 250,
+        "ev": 112.86,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_dallasmavericksbostonceltics_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-03-07T00:10:00Z",
+        "match": "Dallas Mavericks @ Boston Celtics",
+        "pick": "Dallas Mavericks",
+        "odds": 660,
+        "ev": 78.98,
+        "model_prob": 0.526490902694646,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_newyorkknicksdenvernuggets_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-03-07T02:10:00Z",
+        "match": "New York Knicks @ Denver Nuggets",
+        "pick": "New York Knicks",
+        "odds": -102,
+        "ev": 57.69,
+        "model_prob": 0.7933926962811861,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_miamiheatcharlottehornets_charlottehornets",
+        "sport": "nba",
+        "date": "2026-03-07T00:10:00Z",
+        "match": "Miami Heat @ Charlotte Hornets",
+        "pick": "Charlotte Hornets",
+        "odds": -225,
+        "ev": 31.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_portlandtrailblazershoustonrockets_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-03-07T01:10:00Z",
+        "match": "Portland Trail Blazers @ Houston Rockets",
+        "pick": "Portland Trail Blazers",
+        "odds": 250,
+        "ev": 8.42,
+        "model_prob": 0.3278103188307713,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-06_brooklynnetsmiamiheat_brooklynnets",
+        "sport": "nba",
+        "date": "2026-03-06T00:42:00Z",
+        "match": "Brooklyn Nets @ Miami Heat",
+        "pick": "Brooklyn Nets",
+        "odds": 800,
+        "ev": 7.78,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
