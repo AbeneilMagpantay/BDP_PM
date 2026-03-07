@@ -4426,9 +4426,10 @@
         "odds": 250,
         "ev": 112.86,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "116-112"
     },
     {
         "id": "nba_2026-03-07_dallasmavericksbostonceltics_dallasmavericks",
@@ -4439,9 +4440,10 @@
         "odds": 660,
         "ev": 78.98,
         "model_prob": 0.526490902694646,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-100"
     },
     {
         "id": "nba_2026-03-07_newyorkknicksdenvernuggets_newyorkknicks",
@@ -4452,9 +4454,10 @@
         "odds": -102,
         "ev": 57.69,
         "model_prob": 0.7933926962811861,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 98.04,
+        "status": "GRADED",
+        "score": "103-142"
     },
     {
         "id": "nba_2026-03-07_miamiheatcharlottehornets_charlottehornets",
@@ -4465,9 +4468,10 @@
         "odds": -225,
         "ev": 31.54,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-128"
     },
     {
         "id": "nba_2026-03-07_portlandtrailblazershoustonrockets_portlandtrailblazers",
@@ -4478,9 +4482,10 @@
         "odds": 250,
         "ev": 8.42,
         "model_prob": 0.3278103188307713,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "106-99"
     },
     {
         "id": "nba_2026-03-06_brooklynnetsmiamiheat_brooklynnets",
@@ -4505,9 +4510,10 @@
         "odds": 374,
         "ev": 127.81,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "128-117"
     },
     {
         "id": "nba_2026-03-07_neworleanspelicansphoenixsuns_phoenixsuns",
@@ -4518,9 +4524,10 @@
         "odds": -215,
         "ev": 33.49,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 46.51,
+        "status": "GRADED",
+        "score": "118-116"
     },
     {
         "id": "nba_2026-03-08_utahjazzmilwaukeebucks_utahjazz",
