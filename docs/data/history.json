@@ -4521,5 +4521,70 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-08_utahjazzmilwaukeebucks_utahjazz",
+        "sport": "nba",
+        "date": "2026-03-08T01:10:00Z",
+        "match": "Utah Jazz @ Milwaukee Bucks",
+        "pick": "Utah Jazz",
+        "odds": 360,
+        "ev": 93.14,
+        "model_prob": 0.6830742031540307,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_philadelphia76ersatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-03-07T23:10:00Z",
+        "match": "Philadelphia 76ers @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": -190,
+        "ev": 38.97,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-07_orlandomagicminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-03-07T20:10:00Z",
+        "match": "Orlando Magic @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -270,
+        "ev": 24.05,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-08_losangelesclippersmemphisgrizzlies_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-03-08T01:10:00Z",
+        "match": "Los Angeles Clippers @ Memphis Grizzlies",
+        "pick": "Los Angeles Clippers",
+        "odds": -295,
+        "ev": 20.63,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-08_goldenstatewarriorsoklahomacitythunder_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-03-08T01:40:00Z",
+        "match": "Golden State Warriors @ Oklahoma City Thunder",
+        "pick": "Golden State Warriors",
+        "odds": 575,
+        "ev": 7.57,
+        "model_prob": 0.18600518197965066,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
