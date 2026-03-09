@@ -4608,9 +4608,10 @@
         "odds": 320,
         "ev": 122.38,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "122-92"
     },
     {
         "id": "nba_2026-03-08_washingtonwizardsneworleanspelicans_washingtonwizards",
@@ -4660,9 +4661,10 @@
         "odds": -108,
         "ev": 66.15,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 92.59,
+        "status": "GRADED",
+        "score": "98-109"
     },
     {
         "id": "nba_2026-03-08_detroitpistonsmiamiheat_detroitpistons",
@@ -4673,9 +4675,10 @@
         "odds": -130,
         "ev": 56.96,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-110"
     },
     {
         "id": "nba_2026-03-08_newyorkknickslosangeleslakers_newyorkknicks",
@@ -4686,9 +4689,10 @@
         "odds": -162,
         "ev": 46.34,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "110-97"
     },
     {
         "id": "nba_2026-03-09_chicagobullssacramentokings_chicagobulls",
@@ -4738,6 +4742,45 @@
         "pick": "Milwaukee Bucks",
         "odds": 138,
         "ev": 85.97,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-09_denvernuggetsoklahomacitythunder_denvernuggets",
+        "sport": "nba",
+        "date": "2026-03-09T23:40:00Z",
+        "match": "Denver Nuggets @ Oklahoma City Thunder",
+        "pick": "Denver Nuggets",
+        "odds": 240,
+        "ev": 78.47,
+        "model_prob": 0.6864734363284883,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-10_newyorkknickslosangelesclippers_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-03-10T02:10:00Z",
+        "match": "New York Knicks @ Los Angeles Clippers",
+        "pick": "New York Knicks",
+        "odds": -125,
+        "ev": 40.36,
+        "model_prob": 0.7573322873919002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-09_philadelphia76ersclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-03-09T23:10:00Z",
+        "match": "Philadelphia 76ers @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": -480,
+        "ev": 4.48,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
