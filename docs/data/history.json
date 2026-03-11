@@ -4979,5 +4979,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_houstonrocketsdenvernuggets_houstonrockets",
+        "sport": "nba",
+        "date": "2026-03-12T02:10:00Z",
+        "match": "Houston Rockets @ Denver Nuggets",
+        "pick": "Houston Rockets",
+        "odds": 170,
+        "ev": 95.93,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_minnesotatimberwolveslosangelesclippers_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-03-12T02:40:00Z",
+        "match": "Minnesota Timberwolves @ Los Angeles Clippers",
+        "pick": "Minnesota Timberwolves",
+        "odds": 100,
+        "ev": 70.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-11_clevelandcavaliersorlandomagic_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-03-11T23:40:00Z",
+        "match": "Cleveland Cavaliers @ Orlando Magic",
+        "pick": "Cleveland Cavaliers",
+        "odds": -142,
+        "ev": 52.64,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
