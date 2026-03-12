@@ -5042,5 +5042,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_chicagobullslosangeleslakers_chicagobulls",
+        "sport": "nba",
+        "date": "2026-03-13T02:40:00Z",
+        "match": "Chicago Bulls @ Los Angeles Lakers",
+        "pick": "Chicago Bulls",
+        "odds": 385,
+        "ev": 128.76,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_milwaukeebucksmiamiheat_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-03-12T23:40:00Z",
+        "match": "Milwaukee Bucks @ Miami Heat",
+        "pick": "Milwaukee Bucks",
+        "odds": 215,
+        "ev": 106.51,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_bostoncelticsoklahomacitythunder_bostonceltics",
+        "sport": "nba",
+        "date": "2026-03-13T01:40:00Z",
+        "match": "Boston Celtics @ Oklahoma City Thunder",
+        "pick": "Boston Celtics",
+        "odds": 200,
+        "ev": 103.33,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_phoenixsunsindianapacers_indianapacers",
+        "sport": "nba",
+        "date": "2026-03-12T23:10:00Z",
+        "match": "Phoenix Suns @ Indiana Pacers",
+        "pick": "Indiana Pacers",
+        "odds": 295,
+        "ev": 97.54,
+        "model_prob": 0.7408596120296432,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_dallasmavericksmemphisgrizzlies_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-03-13T00:10:00Z",
+        "match": "Dallas Mavericks @ Memphis Grizzlies",
+        "pick": "Dallas Mavericks",
+        "odds": -175,
+        "ev": 42.73,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_denvernuggetssanantoniospurs_denvernuggets",
+        "sport": "nba",
+        "date": "2026-03-13T01:10:00Z",
+        "match": "Denver Nuggets @ San Antonio Spurs",
+        "pick": "Denver Nuggets",
+        "odds": 140,
+        "ev": 37.79,
+        "model_prob": 0.6056131880703455,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
