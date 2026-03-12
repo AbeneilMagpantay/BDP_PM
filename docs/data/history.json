@@ -5000,9 +5000,10 @@
         "odds": 170,
         "ev": 95.93,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "129-93"
     },
     {
         "id": "nba_2026-03-12_minnesotatimberwolveslosangelesclippers_minnesotatimberwolves",
@@ -5013,9 +5014,10 @@
         "odds": 100,
         "ev": 70.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "153-128"
     },
     {
         "id": "nba_2026-03-11_clevelandcavaliersorlandomagic_clevelandcavaliers",
@@ -5026,9 +5028,10 @@
         "odds": -142,
         "ev": 52.64,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "128-122"
     },
     {
         "id": "nba_2026-03-12_torontoraptorsneworleanspelicans_torontoraptors",
@@ -5039,9 +5042,10 @@
         "odds": -120,
         "ev": 10.06,
         "model_prob": 0.595772458140456,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "122-111"
     },
     {
         "id": "nba_2026-03-13_chicagobullslosangeleslakers_chicagobulls",
@@ -5117,6 +5121,32 @@
         "odds": 140,
         "ev": 37.79,
         "model_prob": 0.6056131880703455,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_washingtonwizardsorlandomagic_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-03-12T23:10:00Z",
+        "match": "Washington Wizards @ Orlando Magic",
+        "pick": "Washington Wizards",
+        "odds": 800,
+        "ev": 43.57,
+        "model_prob": 0.32896871888612533,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-12_brooklynnetsatlantahawks_brooklynnets",
+        "sport": "nba",
+        "date": "2026-03-12T23:40:00Z",
+        "match": "Brooklyn Nets @ Atlanta Hawks",
+        "pick": "Brooklyn Nets",
+        "odds": 700,
+        "ev": 5.0,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
