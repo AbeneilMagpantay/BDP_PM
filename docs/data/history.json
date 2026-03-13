@@ -5150,5 +5150,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_newyorkknicksindianapacers_indianapacers",
+        "sport": "nba",
+        "date": "2026-03-13T23:40:00Z",
+        "match": "New York Knicks @ Indiana Pacers",
+        "pick": "Indiana Pacers",
+        "odds": 530,
+        "ev": 138.25,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_phoenixsunstorontoraptors_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-03-13T23:40:00Z",
+        "match": "Phoenix Suns @ Toronto Raptors",
+        "pick": "Phoenix Suns",
+        "odds": 142,
+        "ev": 87.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_minnesotatimberwolvesgoldenstatewarriors_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-03-14T02:10:00Z",
+        "match": "Minnesota Timberwolves @ Golden State Warriors",
+        "pick": "Minnesota Timberwolves",
+        "odds": -240,
+        "ev": 28.82,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_neworleanspelicanshoustonrockets_houstonrockets",
+        "sport": "nba",
+        "date": "2026-03-14T00:10:00Z",
+        "match": "New Orleans Pelicans @ Houston Rockets",
+        "pick": "Houston Rockets",
+        "odds": -265,
+        "ev": 24.79,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_dallasmavericksmemphisgrizzlies_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-03-13T00:11:00Z",
+        "match": "Dallas Mavericks @ Memphis Grizzlies",
+        "pick": "Memphis Grizzlies",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_memphisgrizzliesdetroitpistons_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-03-13T23:40:00Z",
+        "match": "Memphis Grizzlies @ Detroit Pistons",
+        "pick": "Memphis Grizzlies",
+        "odds": 750,
+        "ev": 6.47,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
