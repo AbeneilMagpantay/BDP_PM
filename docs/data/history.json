@@ -5056,9 +5056,10 @@
         "odds": 385,
         "ev": 128.76,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "142-130"
     },
     {
         "id": "nba_2026-03-12_milwaukeebucksmiamiheat_milwaukeebucks",
@@ -5069,9 +5070,10 @@
         "odds": 215,
         "ev": 106.51,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-105"
     },
     {
         "id": "nba_2026-03-13_bostoncelticsoklahomacitythunder_bostonceltics",
@@ -5082,9 +5084,10 @@
         "odds": 200,
         "ev": 103.33,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-102"
     },
     {
         "id": "nba_2026-03-12_phoenixsunsindianapacers_indianapacers",
@@ -5095,9 +5098,10 @@
         "odds": 295,
         "ev": 97.54,
         "model_prob": 0.7408596120296432,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "108-123"
     },
     {
         "id": "nba_2026-03-13_dallasmavericksmemphisgrizzlies_dallasmavericks",
@@ -5108,9 +5112,10 @@
         "odds": -175,
         "ev": 42.73,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 57.14,
+        "status": "GRADED",
+        "score": "112-120"
     },
     {
         "id": "nba_2026-03-13_denvernuggetssanantoniospurs_denvernuggets",
@@ -5121,9 +5126,10 @@
         "odds": 140,
         "ev": 37.79,
         "model_prob": 0.6056131880703455,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 140.0,
+        "status": "GRADED",
+        "score": "131-136"
     },
     {
         "id": "nba_2026-03-12_washingtonwizardsorlandomagic_washingtonwizards",
@@ -5134,9 +5140,10 @@
         "odds": 800,
         "ev": 43.57,
         "model_prob": 0.32896871888612533,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "136-131"
     },
     {
         "id": "nba_2026-03-12_brooklynnetsatlantahawks_brooklynnets",
@@ -5147,9 +5154,10 @@
         "odds": 700,
         "ev": 5.0,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "108-97"
     },
     {
         "id": "nba_2026-03-13_newyorkknicksindianapacers_indianapacers",
@@ -5212,9 +5220,10 @@
         "odds": 900,
         "ev": 10.0,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-120"
     },
     {
         "id": "nba_2026-03-13_memphisgrizzliesdetroitpistons_memphisgrizzlies",
@@ -5225,6 +5234,32 @@
         "odds": 750,
         "ev": 6.47,
         "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_utahjazzportlandtrailblazers_utahjazz",
+        "sport": "nba",
+        "date": "2026-03-14T02:10:00Z",
+        "match": "Utah Jazz @ Portland Trail Blazers",
+        "pick": "Utah Jazz",
+        "odds": 750,
+        "ev": 146.47,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_chicagobullslosangelesclippers_chicagobulls",
+        "sport": "nba",
+        "date": "2026-03-14T02:40:00Z",
+        "match": "Chicago Bulls @ Los Angeles Clippers",
+        "pick": "Chicago Bulls",
+        "odds": 500,
+        "ev": 4.44,
+        "model_prob": 0.18884478306691455,
         "result": null,
         "profit": null,
         "status": "PENDING"
