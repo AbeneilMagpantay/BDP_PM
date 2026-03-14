@@ -5168,9 +5168,10 @@
         "odds": 530,
         "ev": 138.25,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "92-101"
     },
     {
         "id": "nba_2026-03-13_phoenixsunstorontoraptors_phoenixsuns",
@@ -5181,9 +5182,10 @@
         "odds": 142,
         "ev": 87.36,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "122-115"
     },
     {
         "id": "nba_2026-03-14_minnesotatimberwolvesgoldenstatewarriors_minnesotatimberwolves",
@@ -5194,9 +5196,10 @@
         "odds": -240,
         "ev": 28.82,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 41.67,
+        "status": "GRADED",
+        "score": "117-127"
     },
     {
         "id": "nba_2026-03-14_neworleanspelicanshoustonrockets_houstonrockets",
@@ -5207,9 +5210,10 @@
         "odds": -265,
         "ev": 24.79,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 37.74,
+        "status": "GRADED",
+        "score": "107-105"
     },
     {
         "id": "nba_2026-03-13_dallasmavericksmemphisgrizzlies_memphisgrizzlies",
@@ -5234,9 +5238,10 @@
         "odds": 750,
         "ev": 6.47,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "126-110"
     },
     {
         "id": "nba_2026-03-14_utahjazzportlandtrailblazers_utahjazz",
@@ -5247,9 +5252,10 @@
         "odds": 750,
         "ev": 146.47,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "124-114"
     },
     {
         "id": "nba_2026-03-14_chicagobullslosangelesclippers_chicagobulls",
@@ -5260,9 +5266,10 @@
         "odds": 500,
         "ev": 4.44,
         "model_prob": 0.18884478306691455,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "119-108"
     },
     {
         "id": "nba_2026-03-14_charlottehornetssanantoniospurs_charlottehornets",
@@ -5312,9 +5319,10 @@
         "odds": 3500,
         "ev": 24.44,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "105-138"
     },
     {
         "id": "nba_2026-03-14_washingtonwizardsbostonceltics_washingtonwizards",
@@ -5337,6 +5345,19 @@
         "pick": "Philadelphia 76ers",
         "odds": -420,
         "ev": 8.46,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_milwaukeebucksatlantahawks_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-03-14T19:10:00Z",
+        "match": "Milwaukee Bucks @ Atlanta Hawks",
+        "pick": "Milwaukee Bucks",
+        "odds": 270,
+        "ev": 115.95,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
