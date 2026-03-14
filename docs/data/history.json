@@ -5263,5 +5263,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_charlottehornetssanantoniospurs_charlottehornets",
+        "sport": "nba",
+        "date": "2026-03-14T19:40:00Z",
+        "match": "Charlotte Hornets @ San Antonio Spurs",
+        "pick": "Charlotte Hornets",
+        "odds": 198,
+        "ev": 102.89,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-15_orlandomagicmiamiheat_orlandomagic",
+        "sport": "nba",
+        "date": "2026-03-15T00:10:00Z",
+        "match": "Orlando Magic @ Miami Heat",
+        "pick": "Orlando Magic",
+        "odds": 140,
+        "ev": 86.67,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_denvernuggetslosangeleslakers_denvernuggets",
+        "sport": "nba",
+        "date": "2026-03-14T22:40:00Z",
+        "match": "Denver Nuggets @ Los Angeles Lakers",
+        "pick": "Denver Nuggets",
+        "odds": -135,
+        "ev": 55.11,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-13_clevelandcavaliersdallasmavericks_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-03-13T23:43:00Z",
+        "match": "Cleveland Cavaliers @ Dallas Mavericks",
+        "pick": "Dallas Mavericks",
+        "odds": 3500,
+        "ev": 24.44,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_washingtonwizardsbostonceltics_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-03-14T22:10:00Z",
+        "match": "Washington Wizards @ Boston Celtics",
+        "pick": "Washington Wizards",
+        "odds": 1100,
+        "ev": 13.33,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-14_brooklynnetsphiladelphia76ers_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-03-14T17:10:00Z",
+        "match": "Brooklyn Nets @ Philadelphia 76ers",
+        "pick": "Philadelphia 76ers",
+        "odds": -420,
+        "ev": 8.46,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
