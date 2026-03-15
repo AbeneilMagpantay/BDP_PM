@@ -5297,9 +5297,10 @@
         "odds": 140,
         "ev": 86.67,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 140.0,
+        "status": "GRADED",
+        "score": "117-121"
     },
     {
         "id": "nba_2026-03-14_denvernuggetslosangeleslakers_denvernuggets",
@@ -5405,9 +5406,10 @@
         "odds": 160,
         "ev": 93.08,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "127-125"
     },
     {
         "id": "nba_2026-03-15_dallasmavericksclevelandcavaliers_dallasmavericks",
@@ -5470,6 +5472,19 @@
         "odds": 420,
         "ev": 31.51,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_utahjazzsacramentokings_utahjazz",
+        "sport": "nba",
+        "date": "2026-03-16T02:10:00Z",
+        "match": "Utah Jazz @ Sacramento Kings",
+        "pick": "Utah Jazz",
+        "odds": 115,
+        "ev": 76.98,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
