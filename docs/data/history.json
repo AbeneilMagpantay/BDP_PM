@@ -5380,9 +5380,10 @@
         "odds": 305,
         "ev": 120.62,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "116-103"
     },
     {
         "id": "nba_2026-03-15_indianapacersmilwaukeebucks_indianapacers",
@@ -5393,9 +5394,10 @@
         "odds": 255,
         "ev": 101.8,
         "model_prob": 0.7906663109028429,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "134-123"
     },
     {
         "id": "nba_2026-03-15_denvernuggetslosangeleslakers_denvernuggets",
@@ -5420,9 +5422,10 @@
         "odds": 850,
         "ev": 55.98,
         "model_prob": 0.38516277030494006,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 850.0,
+        "status": "GRADED",
+        "score": "120-130"
     },
     {
         "id": "nba_2026-03-15_detroitpistonstorontoraptors_detroitpistons",
@@ -5433,9 +5436,10 @@
         "odds": -160,
         "ev": 46.92,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "119-108"
     },
     {
         "id": "nba_2026-03-15_portlandtrailblazersphiladelphia76ers_portlandtrailblazers",
@@ -5446,9 +5450,10 @@
         "odds": -245,
         "ev": 23.92,
         "model_prob": 0.8297396572735559,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-103"
     },
     {
         "id": "nba_2026-03-16_goldenstatewarriorsnewyorkknicks_goldenstatewarriors",
@@ -5484,6 +5489,71 @@
         "pick": "Utah Jazz",
         "odds": 115,
         "ev": 76.98,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-17_sanantoniospurslosangelesclippers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-03-17T02:10:00Z",
+        "match": "San Antonio Spurs @ Los Angeles Clippers",
+        "pick": "Los Angeles Clippers",
+        "odds": 310,
+        "ev": 121.22,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_goldenstatewarriorsnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-03-16T00:13:00Z",
+        "match": "Golden State Warriors @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": 105,
+        "ev": 63.22,
+        "model_prob": 0.8038922560688785,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-17_losangeleslakershoustonrockets_houstonrockets",
+        "sport": "nba",
+        "date": "2026-03-17T01:40:00Z",
+        "match": "Los Angeles Lakers @ Houston Rockets",
+        "pick": "Houston Rockets",
+        "odds": -130,
+        "ev": 56.96,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_orlandomagicatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-03-16T23:10:00Z",
+        "match": "Orlando Magic @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": -135,
+        "ev": 55.11,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_phoenixsunsbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-03-16T23:40:00Z",
+        "match": "Phoenix Suns @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -375,
+        "ev": 12.11,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
