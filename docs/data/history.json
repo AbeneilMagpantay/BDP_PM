@@ -5464,9 +5464,10 @@
         "odds": 550,
         "ev": 8.45,
         "model_prob": 0.19610774393112151,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "110-107"
     },
     {
         "id": "soccer_2026-04-11_brightonandhovealbionburnley_burnley",
@@ -5490,9 +5491,10 @@
         "odds": 115,
         "ev": 76.98,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "116-111"
     },
     {
         "id": "nba_2026-03-17_sanantoniospurslosangelesclippers_losangelesclippers",
@@ -5516,9 +5518,10 @@
         "odds": 105,
         "ev": 63.22,
         "model_prob": 0.8038922560688785,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 105.0,
+        "status": "GRADED",
+        "score": "110-107"
     },
     {
         "id": "nba_2026-03-17_losangeleslakershoustonrockets_houstonrockets",
@@ -5555,6 +5558,58 @@
         "odds": -375,
         "ev": 12.11,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-17_dallasmavericksneworleanspelicans_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-03-17T00:10:00Z",
+        "match": "Dallas Mavericks @ New Orleans Pelicans",
+        "pick": "Dallas Mavericks",
+        "odds": 275,
+        "ev": 116.67,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-17_memphisgrizzlieschicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-03-17T00:10:00Z",
+        "match": "Memphis Grizzlies @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": -230,
+        "ev": 23.9,
+        "model_prob": 0.8164807251210371,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_portlandtrailblazersbrooklynnets_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-03-16T23:40:00Z",
+        "match": "Portland Trail Blazers @ Brooklyn Nets",
+        "pick": "Portland Trail Blazers",
+        "odds": -400,
+        "ev": 10.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-16_goldenstatewarriorswashingtonwizards_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-03-16T23:10:00Z",
+        "match": "Golden State Warriors @ Washington Wizards",
+        "pick": "Golden State Warriors",
+        "odds": -295,
+        "ev": 7.68,
+        "model_prob": 0.7852217399182373,
         "result": null,
         "profit": null,
         "status": "PENDING"
