@@ -5881,5 +5881,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-20_phoenixsunssanantoniospurs_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-03-20T00:10:00Z",
+        "match": "Phoenix Suns @ San Antonio Spurs",
+        "pick": "Phoenix Suns",
+        "odds": 348,
+        "ev": 125.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-19_orlandomagiccharlottehornets_charlottehornets",
+        "sport": "nba",
+        "date": "2026-03-19T23:15:00Z",
+        "match": "Orlando Magic @ Charlotte Hornets",
+        "pick": "Charlotte Hornets",
+        "odds": -167,
+        "ev": 44.91,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-18_goldenstatewarriorsbostonceltics_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-03-18T23:13:00Z",
+        "match": "Golden State Warriors @ Boston Celtics",
+        "pick": "Golden State Warriors",
+        "odds": 3300,
+        "ev": 24.12,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-19_utahjazzminnesotatimberwolves_utahjazz",
+        "sport": "nba",
+        "date": "2026-03-19T00:11:00Z",
+        "match": "Utah Jazz @ Minnesota Timberwolves",
+        "pick": "Utah Jazz",
+        "odds": 3000,
+        "ev": 23.55,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-19_detroitpistonswashingtonwizards_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-03-19T23:10:00Z",
+        "match": "Detroit Pistons @ Washington Wizards",
+        "pick": "Washington Wizards",
+        "odds": 750,
+        "ev": 6.47,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-19_denvernuggetsmemphisgrizzlies_denvernuggets",
+        "sport": "nba",
+        "date": "2026-03-19T00:40:00Z",
+        "match": "Denver Nuggets @ Memphis Grizzlies",
+        "pick": "Denver Nuggets",
+        "odds": -450,
+        "ev": 6.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
