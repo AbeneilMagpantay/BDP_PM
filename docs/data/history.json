@@ -6020,5 +6020,70 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-21_atlantahawkshoustonrockets_atlantahawks",
+        "sport": "nba",
+        "date": "2026-03-21T00:10:00Z",
+        "match": "Atlanta Hawks @ Houston Rockets",
+        "pick": "Atlanta Hawks",
+        "odds": 148,
+        "ev": 73.06,
+        "model_prob": 0.7685043134262113,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-21_portlandtrailblazersminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-03-21T00:10:00Z",
+        "match": "Portland Trail Blazers @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -135,
+        "ev": 55.11,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-19_orlandomagiccharlottehornets_orlandomagic",
+        "sport": "nba",
+        "date": "2026-03-19T23:11:00Z",
+        "match": "Orlando Magic @ Charlotte Hornets",
+        "pick": "Orlando Magic",
+        "odds": 4000,
+        "ev": 25.12,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-20_clevelandcavalierschicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-03-20T00:11:00Z",
+        "match": "Cleveland Cavaliers @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": 2000,
+        "ev": 20.48,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-20_newyorkknicksbrooklynnets_brooklynnets",
+        "sport": "nba",
+        "date": "2026-03-20T23:40:00Z",
+        "match": "New York Knicks @ Brooklyn Nets",
+        "pick": "Brooklyn Nets",
+        "odds": 1100,
+        "ev": 13.33,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
