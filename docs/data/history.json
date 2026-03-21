@@ -6038,9 +6038,10 @@
         "odds": 148,
         "ev": 73.06,
         "model_prob": 0.7685043134262113,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "117-95"
     },
     {
         "id": "nba_2026-03-21_portlandtrailblazersminnesotatimberwolves_minnesotatimberwolves",
@@ -6051,9 +6052,10 @@
         "odds": -135,
         "ev": 55.11,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "104-108"
     },
     {
         "id": "nba_2026-03-19_orlandomagiccharlottehornets_orlandomagic",
@@ -6092,9 +6094,10 @@
         "odds": 1100,
         "ev": 13.33,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "92-93"
     },
     {
         "id": "nba_2026-03-20_goldenstatewarriorsdetroitpistons_detroitpistons",
@@ -6105,9 +6108,10 @@
         "odds": -245,
         "ev": 27.97,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 40.82,
+        "status": "GRADED",
+        "score": "115-101"
     },
     {
         "id": "nba_2026-03-21_torontoraptorsdenvernuggets_denvernuggets",
@@ -6118,9 +6122,10 @@
         "odds": -248,
         "ev": 27.47,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 40.32,
+        "status": "GRADED",
+        "score": "121-115"
     },
     {
         "id": "nba_2026-03-21_bostoncelticsmemphisgrizzlies_memphisgrizzlies",
@@ -6131,9 +6136,10 @@
         "odds": 781,
         "ev": 7.3,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-117"
     },
     {
         "id": "nba_2026-03-22_indianapacerssanantoniospurs_indianapacers",
@@ -6209,6 +6215,59 @@
         "odds": -350,
         "ev": 14.44,
         "model_prob": 0.85,
+        "result": "WON",
+        "profit": 28.57,
+        "status": "GRADED",
+        "score": "92-93"
+    },
+    {
+        "id": "nba_2026-03-22_milwaukeebucksphoenixsuns_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-03-22T02:11:00Z",
+        "match": "Milwaukee Bucks @ Phoenix Suns",
+        "pick": "Milwaukee Bucks",
+        "odds": 456,
+        "ev": 131.44,
+        "model_prob": 0.8370727693119622,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-22_miamiheathoustonrockets_miamiheat",
+        "sport": "nba",
+        "date": "2026-03-22T00:11:00Z",
+        "match": "Miami Heat @ Houston Rockets",
+        "pick": "Miami Heat",
+        "odds": 114,
+        "ev": 21.56,
+        "model_prob": 0.5751112805262599,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-22_goldenstatewarriorsatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-03-22T00:10:00Z",
+        "match": "Golden State Warriors @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": -395,
+        "ev": 10.4,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-21_memphisgrizzliescharlottehornets_memphisgrizzlies",
+        "sport": "nba",
+        "date": "2026-03-21T23:10:00Z",
+        "match": "Memphis Grizzlies @ Charlotte Hornets",
+        "pick": "Memphis Grizzlies",
+        "odds": 830,
+        "ev": 8.49,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
