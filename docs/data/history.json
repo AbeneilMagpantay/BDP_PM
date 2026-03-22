@@ -6152,9 +6152,10 @@
         "odds": 1200,
         "ev": 154.62,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "134-119"
     },
     {
         "id": "nba_2026-03-22_philadelphia76ersutahjazz_utahjazz",
@@ -6165,9 +6166,10 @@
         "odds": 225,
         "ev": 108.46,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "116-126"
     },
     {
         "id": "nba_2026-03-22_losangelesclippersdallasmavericks_dallasmavericks",
@@ -6178,9 +6180,10 @@
         "odds": 235,
         "ev": 104.45,
         "model_prob": 0.820742614525526,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "131-138"
     },
     {
         "id": "nba_2026-03-21_clevelandcavaliersneworleanspelicans_clevelandcavaliers",
@@ -6191,9 +6194,10 @@
         "odds": -205,
         "ev": 35.57,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 48.78,
+        "status": "GRADED",
+        "score": "106-111"
     },
     {
         "id": "nba_2026-03-21_oklahomacitythunderwashingtonwizards_washingtonwizards",
@@ -6232,9 +6236,10 @@
         "odds": 456,
         "ev": 131.44,
         "model_prob": 0.8370727693119622,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 456.0,
+        "status": "GRADED",
+        "score": "105-108"
     },
     {
         "id": "nba_2026-03-22_miamiheathoustonrockets_miamiheat",
@@ -6245,9 +6250,10 @@
         "odds": 114,
         "ev": 21.56,
         "model_prob": 0.5751112805262599,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "123-122"
     },
     {
         "id": "nba_2026-03-22_goldenstatewarriorsatlantahawks_atlantahawks",
@@ -6258,9 +6264,10 @@
         "odds": -395,
         "ev": 10.4,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 25.32,
+        "status": "GRADED",
+        "score": "126-110"
     },
     {
         "id": "nba_2026-03-21_memphisgrizzliescharlottehornets_memphisgrizzlies",
@@ -6271,9 +6278,10 @@
         "odds": 830,
         "ev": 8.49,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "124-101"
     },
     {
         "id": "nba_2026-03-22_washingtonwizardsnewyorkknicks_washingtonwizards",
@@ -6336,9 +6344,10 @@
         "odds": 160,
         "ev": 34.84,
         "model_prob": 0.5588216099234968,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 160.0,
+        "status": "GRADED",
+        "score": "104-105"
     },
     {
         "id": "nba_2026-03-23_torontoraptorsphoenixsuns_phoenixsuns",
