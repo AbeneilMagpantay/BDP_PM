@@ -6292,9 +6292,10 @@
         "odds": 1200,
         "ev": 149.56,
         "model_prob": 0.824718567545716,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "145-113"
     },
     {
         "id": "nba_2026-03-23_minnesotatimberwolvesbostonceltics_minnesotatimberwolves",
@@ -6305,9 +6306,10 @@
         "odds": 345,
         "ev": 125.06,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 345.0,
+        "status": "GRADED",
+        "score": "92-102"
     },
     {
         "id": "nba_2026-03-22_portlandtrailblazersdenvernuggets_portlandtrailblazers",
@@ -6360,9 +6362,10 @@
         "odds": 102,
         "ev": 26.08,
         "model_prob": 0.6254506378626039,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 102.0,
+        "status": "GRADED",
+        "score": "120-98"
     },
     {
         "id": "nba_2026-03-23_indianapacersorlandomagic_indianapacers",
@@ -6477,6 +6480,19 @@
         "odds": 265,
         "ev": 15.17,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-24_brooklynnetsportlandtrailblazers_brooklynnets",
+        "sport": "nba",
+        "date": "2026-03-24T02:10:00Z",
+        "match": "Brooklyn Nets @ Portland Trail Blazers",
+        "pick": "Brooklyn Nets",
+        "odds": 750,
+        "ev": 6.47,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
