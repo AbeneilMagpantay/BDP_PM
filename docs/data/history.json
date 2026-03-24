@@ -6496,5 +6496,70 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-25_denvernuggetsphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-03-25T03:10:00Z",
+        "match": "Denver Nuggets @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": 180,
+        "ev": 79.07,
+        "model_prob": 0.7525026024808065,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-24_houstonrocketschicagobulls_houstonrockets",
+        "sport": "nba",
+        "date": "2026-03-24T00:11:00Z",
+        "match": "Houston Rockets @ Chicago Bulls",
+        "pick": "Houston Rockets",
+        "odds": 185,
+        "ev": 70.66,
+        "model_prob": 0.7041785082070162,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-24_sacramentokingscharlottehornets_sacramentokings",
+        "sport": "nba",
+        "date": "2026-03-24T23:10:00Z",
+        "match": "Sacramento Kings @ Charlotte Hornets",
+        "pick": "Sacramento Kings",
+        "odds": 900,
+        "ev": 10.0,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-03-24_neworleanspelicansnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-03-24T23:40:00Z",
+        "match": "New Orleans Pelicans @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -360,
+        "ev": 4.6,
+        "model_prob": 0.8056232299769354,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-04-12_manchestercitychelsea_chelsea",
+        "sport": "soccer",
+        "date": "2026-04-12T16:30:00Z",
+        "match": "Manchester City @ Chelsea",
+        "pick": "Chelsea",
+        "odds": 225,
+        "ev": 8.43,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
