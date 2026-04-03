@@ -6937,9 +6937,10 @@
         "odds": 146,
         "ev": 88.7,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "99-118"
     },
     {
         "id": "nba_2026-04-02_minnesotatimberwolvesdetroitpistons_minnesotatimberwolves",
@@ -6950,9 +6951,10 @@
         "odds": 122,
         "ev": 79.91,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "113-108"
     },
     {
         "id": "nba_2026-04-02_indianapacerschicagobulls_chicagobulls",
@@ -7005,9 +7007,10 @@
         "odds": 195,
         "ev": 14.01,
         "model_prob": 0.4090086017189899,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "127-107"
     },
     {
         "id": "nba_2026-04-03_losangeleslakersoklahomacitythunder_oklahomacitythunder",
@@ -7018,9 +7021,10 @@
         "odds": -300,
         "ev": 8.17,
         "model_prob": 0.7908525856051553,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 33.33,
+        "status": "GRADED",
+        "score": "139-96"
     },
     {
         "id": "nba_2026-04-02_sacramentokingstorontoraptors_sacramentokings",
@@ -7045,9 +7049,10 @@
         "odds": -455,
         "ev": 6.04,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 21.98,
+        "status": "GRADED",
+        "score": "111-118"
     },
     {
         "id": "nba_2026-04-03_chicagobullsnewyorkknicks_chicagobulls",
@@ -7149,6 +7154,19 @@
         "odds": 800,
         "ev": 7.78,
         "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-04_neworleanspelicanssacramentokings_neworleanspelicans",
+        "sport": "nba",
+        "date": "2026-04-04T02:10:00Z",
+        "match": "New Orleans Pelicans @ Sacramento Kings",
+        "pick": "New Orleans Pelicans",
+        "odds": -175,
+        "ev": 42.73,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
