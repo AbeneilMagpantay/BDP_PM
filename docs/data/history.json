@@ -7170,5 +7170,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-04_washingtonwizardsmiamiheat_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-04-04T19:10:00Z",
+        "match": "Washington Wizards @ Miami Heat",
+        "pick": "Washington Wizards",
+        "odds": 1050,
+        "ev": 152.61,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-04_sanantoniospursdenvernuggets_denvernuggets",
+        "sport": "nba",
+        "date": "2026-04-04T19:10:00Z",
+        "match": "San Antonio Spurs @ Denver Nuggets",
+        "pick": "Denver Nuggets",
+        "odds": 115,
+        "ev": 76.98,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-04_detroitpistonsphiladelphia76ers_detroitpistons",
+        "sport": "nba",
+        "date": "2026-04-04T23:10:00Z",
+        "match": "Detroit Pistons @ Philadelphia 76ers",
+        "pick": "Detroit Pistons",
+        "odds": 108,
+        "ev": 73.85,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
