@@ -7063,9 +7063,10 @@
         "odds": 870,
         "ev": 149.38,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "136-96"
     },
     {
         "id": "nba_2026-04-04_torontoraptorsmemphisgrizzlies_memphisgrizzlies",
@@ -7076,9 +7077,10 @@
         "odds": 610,
         "ev": 141.83,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "96-128"
     },
     {
         "id": "nba_2026-04-04_utahjazzhoustonrockets_utahjazz",
@@ -7089,9 +7091,10 @@
         "odds": 950,
         "ev": 141.22,
         "model_prob": 0.8013426879130424,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "140-106"
     },
     {
         "id": "nba_2026-04-04_orlandomagicdallasmavericks_dallasmavericks",
@@ -7102,9 +7105,10 @@
         "odds": 240,
         "ev": 111.18,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "127-138"
     },
     {
         "id": "nba_2026-04-03_minnesotatimberwolvesphiladelphia76ers_minnesotatimberwolves",
@@ -7115,9 +7119,10 @@
         "odds": 115,
         "ev": 76.98,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "115-103"
     },
     {
         "id": "nba_2026-04-04_bostoncelticsmilwaukeebucks_milwaukeebucks",
@@ -7128,9 +7133,10 @@
         "odds": 1040,
         "ev": 12.46,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-133"
     },
     {
         "id": "nba_2026-04-03_atlantahawksbrooklynnets_brooklynnets",
@@ -7141,9 +7147,10 @@
         "odds": 850,
         "ev": 8.95,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "107-141"
     },
     {
         "id": "nba_2026-04-03_indianapacerscharlottehornets_indianapacers",
@@ -7154,9 +7161,10 @@
         "odds": 800,
         "ev": 7.78,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "129-108"
     },
     {
         "id": "nba_2026-04-04_neworleanspelicanssacramentokings_neworleanspelicans",
@@ -7167,9 +7175,10 @@
         "odds": -175,
         "ev": 42.73,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "117-113"
     },
     {
         "id": "nba_2026-04-04_washingtonwizardsmiamiheat_washingtonwizards",
@@ -7205,6 +7214,97 @@
         "pick": "Detroit Pistons",
         "odds": 108,
         "ev": 73.85,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_utahjazzoklahomacitythunder_utahjazz",
+        "sport": "nba",
+        "date": "2026-04-05T23:10:00Z",
+        "match": "Utah Jazz @ Oklahoma City Thunder",
+        "pick": "Utah Jazz",
+        "odds": 1300,
+        "ev": 155.71,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_losangeleslakersdallasmavericks_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-04-05T23:40:00Z",
+        "match": "Los Angeles Lakers @ Dallas Mavericks",
+        "pick": "Dallas Mavericks",
+        "odds": 220,
+        "ev": 107.5,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_phoenixsunschicagobulls_chicagobulls",
+        "sport": "nba",
+        "date": "2026-04-05T19:40:00Z",
+        "match": "Phoenix Suns @ Chicago Bulls",
+        "pick": "Chicago Bulls",
+        "odds": 370,
+        "ev": 87.75,
+        "model_prob": 0.6515321433994277,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-06_houstonrocketsgoldenstatewarriors_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-04-06T02:10:00Z",
+        "match": "Houston Rockets @ Golden State Warriors",
+        "pick": "Golden State Warriors",
+        "odds": 138,
+        "ev": 78.17,
+        "model_prob": 0.811028414312041,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_charlottehornetsminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-04-05T23:10:00Z",
+        "match": "Charlotte Hornets @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": -126,
+        "ev": 58.5,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_orlandomagicneworleanspelicans_orlandomagic",
+        "sport": "nba",
+        "date": "2026-04-05T23:10:00Z",
+        "match": "Orlando Magic @ New Orleans Pelicans",
+        "pick": "Orlando Magic",
+        "odds": -148,
+        "ev": 34.55,
+        "model_prob": 0.769543940206922,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_torontoraptorsbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-04-05T19:40:00Z",
+        "match": "Toronto Raptors @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -405,
+        "ev": 9.6,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
