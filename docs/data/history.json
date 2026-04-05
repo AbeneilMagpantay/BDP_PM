@@ -7217,9 +7217,10 @@
         "odds": 108,
         "ev": 73.85,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 108.0,
+        "status": "GRADED",
+        "score": "93-116"
     },
     {
         "id": "nba_2026-04-05_utahjazzoklahomacitythunder_utahjazz",
@@ -7347,9 +7348,10 @@
         "odds": 6000,
         "ev": 26.72,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "93-116"
     },
     {
         "id": "nba_2026-04-05_indianapacersclevelandcavaliers_indianapacers",
@@ -7360,6 +7362,32 @@
         "odds": 1200,
         "ev": 14.62,
         "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-06_newyorkknicksatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-04-06T23:10:00Z",
+        "match": "New York Knicks @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": -104,
+        "ev": 68.04,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-07_portlandtrailblazersdenvernuggets_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-04-07T01:10:00Z",
+        "match": "Portland Trail Blazers @ Denver Nuggets",
+        "pick": "Portland Trail Blazers",
+        "odds": 265,
+        "ev": 58.92,
+        "model_prob": 0.5685771399914059,
         "result": null,
         "profit": null,
         "status": "PENDING"
