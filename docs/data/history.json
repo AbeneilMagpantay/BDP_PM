@@ -7189,9 +7189,10 @@
         "odds": 1050,
         "ev": 152.61,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "152-136"
     },
     {
         "id": "nba_2026-04-04_sanantoniospursdenvernuggets_denvernuggets",
@@ -7202,9 +7203,10 @@
         "odds": 115,
         "ev": 76.98,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 115.0,
+        "status": "GRADED",
+        "score": "136-134"
     },
     {
         "id": "nba_2026-04-04_detroitpistonsphiladelphia76ers_detroitpistons",
@@ -7306,6 +7308,58 @@
         "odds": -405,
         "ev": 9.6,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_washingtonwizardsbrooklynnets_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-04-05T19:40:00Z",
+        "match": "Washington Wizards @ Brooklyn Nets",
+        "pick": "Washington Wizards",
+        "odds": 156,
+        "ev": 91.88,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_memphisgrizzliesmilwaukeebucks_milwaukeebucks",
+        "sport": "nba",
+        "date": "2026-04-05T19:40:00Z",
+        "match": "Memphis Grizzlies @ Milwaukee Bucks",
+        "pick": "Milwaukee Bucks",
+        "odds": -225,
+        "ev": 31.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-04_detroitpistonsphiladelphia76ers_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-04-04T23:11:00Z",
+        "match": "Detroit Pistons @ Philadelphia 76ers",
+        "pick": "Philadelphia 76ers",
+        "odds": 6000,
+        "ev": 26.72,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-05_indianapacersclevelandcavaliers_indianapacers",
+        "sport": "nba",
+        "date": "2026-04-05T22:10:00Z",
+        "match": "Indiana Pacers @ Cleveland Cavaliers",
+        "pick": "Indiana Pacers",
+        "odds": 1200,
+        "ev": 14.62,
+        "model_prob": 0.15000000000000002,
         "result": null,
         "profit": null,
         "status": "PENDING"
