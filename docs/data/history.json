@@ -7505,5 +7505,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-07_clevelandcavaliersmemphisgrizzlies_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-04-07T00:11:00Z",
+        "match": "Cleveland Cavaliers @ Memphis Grizzlies",
+        "pick": "Cleveland Cavaliers",
+        "odds": -335,
+        "ev": 15.98,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
