@@ -7576,5 +7576,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-09_portlandtrailblazerssanantoniospurs_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-04-09T00:10:00Z",
+        "match": "Portland Trail Blazers @ San Antonio Spurs",
+        "pick": "Portland Trail Blazers",
+        "odds": 142,
+        "ev": 87.36,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-08_atlantahawksclevelandcavaliers_atlantahawks",
+        "sport": "nba",
+        "date": "2026-04-08T23:10:00Z",
+        "match": "Atlanta Hawks @ Cleveland Cavaliers",
+        "pick": "Atlanta Hawks",
+        "odds": 114,
+        "ev": 31.73,
+        "model_prob": 0.6259458199501813,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-08_charlottehornetsbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-04-08T00:13:00Z",
+        "match": "Charlotte Hornets @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -150,
+        "ev": 9.07,
+        "model_prob": 0.6453407272659012,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
