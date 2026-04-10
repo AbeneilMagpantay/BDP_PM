@@ -7775,5 +7775,83 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-11_dallasmaverickssanantoniospurs_dallasmavericks",
+        "sport": "nba",
+        "date": "2026-04-11T00:10:00Z",
+        "match": "Dallas Mavericks @ San Antonio Spurs",
+        "pick": "Dallas Mavericks",
+        "odds": 870,
+        "ev": 149.38,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-11_losangelesclippersportlandtrailblazers_losangelesclippers",
+        "sport": "nba",
+        "date": "2026-04-11T02:10:00Z",
+        "match": "Los Angeles Clippers @ Portland Trail Blazers",
+        "pick": "Los Angeles Clippers",
+        "odds": 106,
+        "ev": 72.91,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-09_chicagobullswashingtonwizards_washingtonwizards",
+        "sport": "nba",
+        "date": "2026-04-09T23:12:28Z",
+        "match": "Chicago Bulls @ Washington Wizards",
+        "pick": "Washington Wizards",
+        "odds": 1500,
+        "ev": 36.37,
+        "model_prob": 0.24437450855005216,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-09_indianapacersbrooklynnets_brooklynnets",
+        "sport": "nba",
+        "date": "2026-04-09T23:40:39Z",
+        "match": "Indiana Pacers @ Brooklyn Nets",
+        "pick": "Brooklyn Nets",
+        "odds": 3300,
+        "ev": 24.12,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-10_philadelphia76ershoustonrockets_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-04-10T00:11:33Z",
+        "match": "Philadelphia 76ers @ Houston Rockets",
+        "pick": "Philadelphia 76ers",
+        "odds": 1300,
+        "ev": 15.71,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-04-12_newcastleunitedcrystalpalace_crystalpalace",
+        "sport": "soccer",
+        "date": "2026-04-12T13:00:00Z",
+        "match": "Newcastle United @ Crystal Palace",
+        "pick": "Crystal Palace",
+        "odds": 225,
+        "ev": 8.43,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
