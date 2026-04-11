@@ -8018,5 +8018,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-10_torontoraptorsnewyorkknicks_torontoraptors",
+        "sport": "nba",
+        "date": "2026-04-10T23:43:00Z",
+        "match": "Toronto Raptors @ New York Knicks",
+        "pick": "Toronto Raptors",
+        "odds": 1200,
+        "ev": 14.67,
+        "model_prob": 0.15025668666092074,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-11_brooklynnetsmilwaukeebucks_brooklynnets",
+        "sport": "nba",
+        "date": "2026-04-11T00:13:00Z",
+        "match": "Brooklyn Nets @ Milwaukee Bucks",
+        "pick": "Brooklyn Nets",
+        "odds": 1000,
+        "ev": 11.82,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-11_goldenstatewarriorssacramentokings_goldenstatewarriors",
+        "sport": "nba",
+        "date": "2026-04-11T02:10:00Z",
+        "match": "Golden State Warriors @ Sacramento Kings",
+        "pick": "Golden State Warriors",
+        "odds": -483,
+        "ev": 4.31,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
