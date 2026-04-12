@@ -8257,5 +8257,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-12_washingtonwizardsclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-04-12T22:10:00Z",
+        "match": "Washington Wizards @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": -479,
+        "ev": 4.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
