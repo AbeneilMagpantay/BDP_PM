@@ -8309,9 +8309,10 @@
         "odds": -200,
         "ev": 36.67,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 50.0,
+        "status": "GRADED",
+        "score": "127-126"
     },
     {
         "id": "nba_2026-04-15_miamiheatcharlottehornets_charlottehornets",
@@ -8441,9 +8442,10 @@
         "odds": 150,
         "ev": 37.41,
         "model_prob": 0.5870516285123787,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 150.0,
+        "status": "GRADED",
+        "score": "110-114"
     },
     {
         "id": "nba_2026-04-19_houstonrocketslosangeleslakers_houstonrockets",
@@ -8454,6 +8456,19 @@
         "odds": -192,
         "ev": 29.85,
         "model_prob": 0.8067991528720232,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-20_portlandtrailblazerssanantoniospurs_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-04-20T01:00:00Z",
+        "match": "Portland Trail Blazers @ San Antonio Spurs",
+        "pick": "Portland Trail Blazers",
+        "odds": 408,
+        "ev": 130.63,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
