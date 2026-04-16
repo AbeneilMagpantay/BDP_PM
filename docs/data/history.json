@@ -8472,5 +8472,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-15_orlandomagicphiladelphia76ers_orlandomagic",
+        "sport": "nba",
+        "date": "2026-04-15T23:40:47Z",
+        "match": "Orlando Magic @ Philadelphia 76ers",
+        "pick": "Orlando Magic",
+        "odds": 400,
+        "ev": 46.57,
+        "model_prob": 0.432856784044096,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
