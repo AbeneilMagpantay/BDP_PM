@@ -8390,9 +8390,10 @@
         "odds": -112,
         "ev": 7.77,
         "model_prob": 0.567143215955904,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 89.29,
+        "status": "GRADED",
+        "score": "109-97"
     },
     {
         "id": "soccer_2026-04-25_tottenhamhotspurwolverhamptonwanderers_wolverhamptonwanderers",
@@ -8429,9 +8430,10 @@
         "odds": -166,
         "ev": 45.19,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-126"
     },
     {
         "id": "nba_2026-04-15_portlandtrailblazersphoenixsuns_portlandtrailblazers",
@@ -8482,6 +8484,33 @@
         "odds": 400,
         "ev": 46.57,
         "model_prob": 0.432856784044096,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-97"
+    },
+    {
+        "id": "nba_2026-04-18_goldenstatewarriorsphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-04-18T02:10:00Z",
+        "match": "Golden State Warriors @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": -125,
+        "ev": 48.73,
+        "model_prob": 0.7992264706799869,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-17_charlottehornetsorlandomagic_charlottehornets",
+        "sport": "nba",
+        "date": "2026-04-17T23:40:00Z",
+        "match": "Charlotte Hornets @ Orlando Magic",
+        "pick": "Charlotte Hornets",
+        "odds": -166,
+        "ev": 45.19,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
