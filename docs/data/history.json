@@ -8498,9 +8498,10 @@
         "odds": -125,
         "ev": 48.73,
         "model_prob": 0.7992264706799869,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 80.0,
+        "status": "GRADED",
+        "score": "111-96"
     },
     {
         "id": "nba_2026-04-17_charlottehornetsorlandomagic_charlottehornets",
@@ -8510,6 +8511,33 @@
         "pick": "Charlotte Hornets",
         "odds": -166,
         "ev": 45.19,
+        "model_prob": 0.85,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "121-90"
+    },
+    {
+        "id": "nba_2026-04-19_phoenixsunsoklahomacitythunder_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-04-19T19:40:00Z",
+        "match": "Phoenix Suns @ Oklahoma City Thunder",
+        "pick": "Phoenix Suns",
+        "odds": 610,
+        "ev": 141.83,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-19_orlandomagicdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-04-19T22:40:00Z",
+        "match": "Orlando Magic @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": -325,
+        "ev": 17.06,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
