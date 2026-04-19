@@ -8461,9 +8461,10 @@
         "odds": -192,
         "ev": 29.85,
         "model_prob": 0.8067991528720232,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "107-98"
     },
     {
         "id": "nba_2026-04-20_portlandtrailblazerssanantoniospurs_portlandtrailblazers",
@@ -8594,6 +8595,19 @@
         "odds": 474,
         "ev": 35.12,
         "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-22_houstonrocketslosangeleslakers_houstonrockets",
+        "sport": "nba",
+        "date": "2026-04-22T02:40:00Z",
+        "match": "Houston Rockets @ Los Angeles Lakers",
+        "pick": "Houston Rockets",
+        "odds": -170,
+        "ev": 35.43,
+        "model_prob": 0.8067991481539738,
         "result": null,
         "profit": null,
         "status": "PENDING"
