@@ -8476,9 +8476,10 @@
         "odds": 408,
         "ev": 130.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "111-98"
     },
     {
         "id": "nba_2026-04-15_orlandomagicphiladelphia76ers_orlandomagic",
@@ -8636,6 +8637,19 @@
         "pick": "Detroit Pistons",
         "odds": -371,
         "ev": 12.46,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-22_portlandtrailblazerssanantoniospurs_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-04-22T00:00:00Z",
+        "match": "Portland Trail Blazers @ San Antonio Spurs",
+        "pick": "Portland Trail Blazers",
+        "odds": 541,
+        "ev": 138.8,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
