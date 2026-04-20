@@ -6489,9 +6489,10 @@
         "odds": 265,
         "ev": 15.17,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "1-2"
     },
     {
         "id": "nba_2026-03-24_brooklynnetsportlandtrailblazers_brooklynnets",
@@ -8530,9 +8531,10 @@
         "odds": 610,
         "ev": 141.83,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "119-84"
     },
     {
         "id": "nba_2026-04-19_orlandomagicdetroitpistons_detroitpistons",
@@ -8543,9 +8545,10 @@
         "odds": -325,
         "ev": 17.06,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-112"
     },
     {
         "id": "nba_2026-04-21_minnesotatimberwolvesdenvernuggets_minnesotatimberwolves",
@@ -8608,6 +8611,32 @@
         "odds": -170,
         "ev": 35.43,
         "model_prob": 0.8067991481539738,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-23_phoenixsunsoklahomacitythunder_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-04-23T01:40:00Z",
+        "match": "Phoenix Suns @ Oklahoma City Thunder",
+        "pick": "Phoenix Suns",
+        "odds": 1092,
+        "ev": 153.22,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-22_orlandomagicdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-04-22T23:00:00Z",
+        "match": "Orlando Magic @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": -371,
+        "ev": 12.46,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
