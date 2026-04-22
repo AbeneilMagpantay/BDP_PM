@@ -8709,5 +8709,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-21_philadelphia76ersbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-04-21T23:12:57Z",
+        "match": "Philadelphia 76ers @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": 270,
+        "ev": 115.95,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
