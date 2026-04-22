@@ -8615,9 +8615,10 @@
         "odds": -170,
         "ev": 35.43,
         "model_prob": 0.8067991481539738,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "101-94"
     },
     {
         "id": "nba_2026-04-23_phoenixsunsoklahomacitythunder_phoenixsuns",
@@ -8654,9 +8655,10 @@
         "odds": 541,
         "ev": 138.8,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 541.0,
+        "status": "GRADED",
+        "score": "103-106"
     },
     {
         "id": "nba_2026-04-24_denvernuggetsminnesotatimberwolves_minnesotatimberwolves",
@@ -8706,9 +8708,10 @@
         "odds": 683,
         "ev": 4.46,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 683.0,
+        "status": "GRADED",
+        "score": "97-111"
     },
     {
         "id": "nba_2026-04-21_philadelphia76ersbostonceltics_bostonceltics",
@@ -8718,6 +8721,46 @@
         "pick": "Boston Celtics",
         "odds": 270,
         "ev": 115.95,
+        "model_prob": 0.85,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "97-111"
+    },
+    {
+        "id": "nba_2026-04-25_sanantoniospursportlandtrailblazers_portlandtrailblazers",
+        "sport": "nba",
+        "date": "2026-04-25T02:40:00Z",
+        "match": "San Antonio Spurs @ Portland Trail Blazers",
+        "pick": "Portland Trail Blazers",
+        "odds": 102,
+        "ev": 29.56,
+        "model_prob": 0.6428462209058513,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-24_bostoncelticsphiladelphia76ers_bostonceltics",
+        "sport": "nba",
+        "date": "2026-04-24T23:10:00Z",
+        "match": "Boston Celtics @ Philadelphia 76ers",
+        "pick": "Boston Celtics",
+        "odds": -272,
+        "ev": 23.76,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-25_losangeleslakershoustonrockets_houstonrockets",
+        "sport": "nba",
+        "date": "2026-04-25T00:10:00Z",
+        "match": "Los Angeles Lakers @ Houston Rockets",
+        "pick": "Houston Rockets",
+        "odds": -390,
+        "ev": 10.82,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
