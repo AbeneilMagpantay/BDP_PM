@@ -8630,9 +8630,10 @@
         "odds": 1092,
         "ev": 153.22,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "120-107"
     },
     {
         "id": "nba_2026-04-22_orlandomagicdetroitpistons_detroitpistons",
@@ -8643,9 +8644,10 @@
         "odds": -371,
         "ev": 12.46,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 26.95,
+        "status": "GRADED",
+        "score": "98-83"
     },
     {
         "id": "nba_2026-04-22_portlandtrailblazerssanantoniospurs_portlandtrailblazers",
@@ -8762,6 +8764,32 @@
         "pick": "Houston Rockets",
         "odds": -390,
         "ev": 10.82,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-25_oklahomacitythunderphoenixsuns_phoenixsuns",
+        "sport": "nba",
+        "date": "2026-04-25T19:30:00Z",
+        "match": "Oklahoma City Thunder @ Phoenix Suns",
+        "pick": "Phoenix Suns",
+        "odds": 364,
+        "ev": 126.9,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-25_detroitpistonsorlandomagic_detroitpistons",
+        "sport": "nba",
+        "date": "2026-04-25T17:10:00Z",
+        "match": "Detroit Pistons @ Orlando Magic",
+        "pick": "Detroit Pistons",
+        "odds": -135,
+        "ev": 55.11,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
