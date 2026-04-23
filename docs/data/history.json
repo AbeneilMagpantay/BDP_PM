@@ -8270,9 +8270,10 @@
         "odds": 1060,
         "ev": 52.73,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-1"
     },
     {
         "id": "nba_2026-04-12_washingtonwizardsclevelandcavaliers_clevelandcavaliers",
