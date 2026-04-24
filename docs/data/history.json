@@ -8672,9 +8672,10 @@
         "odds": 107,
         "ev": 73.38,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 107.0,
+        "status": "GRADED",
+        "score": "113-96"
     },
     {
         "id": "nba_2026-04-23_newyorkknicksatlantahawks_atlantahawks",
@@ -8685,9 +8686,10 @@
         "odds": 100,
         "ev": 70.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 100.0,
+        "status": "GRADED",
+        "score": "109-108"
     },
     {
         "id": "nba_2026-04-24_clevelandcavalierstorontoraptors_clevelandcavaliers",
@@ -8698,9 +8700,10 @@
         "odds": -145,
         "ev": 51.63,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "126-104"
     },
     {
         "id": "nba_2026-04-21_philadelphia76ersbostonceltics_philadelphia76ers",
@@ -8790,6 +8793,45 @@
         "pick": "Detroit Pistons",
         "odds": -135,
         "ev": 55.11,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-25_newyorkknicksatlantahawks_atlantahawks",
+        "sport": "nba",
+        "date": "2026-04-25T22:10:00Z",
+        "match": "New York Knicks @ Atlanta Hawks",
+        "pick": "Atlanta Hawks",
+        "odds": 114,
+        "ev": 76.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-26_denvernuggetsminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-04-26T00:40:00Z",
+        "match": "Denver Nuggets @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": 114,
+        "ev": 76.54,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-04-26_clevelandcavalierstorontoraptors_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-04-26T17:10:00Z",
+        "match": "Cleveland Cavaliers @ Toronto Raptors",
+        "pick": "Cleveland Cavaliers",
+        "odds": -155,
+        "ev": 48.43,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
