@@ -8945,9 +8945,10 @@
         "odds": 700,
         "ev": 145.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "106-93"
     },
     {
         "id": "nba_2026-05-01_denvernuggetsminnesotatimberwolves_minnesotatimberwolves",
@@ -8958,9 +8959,10 @@
         "odds": 360,
         "ev": 126.52,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 360.0,
+        "status": "GRADED",
+        "score": "110-98"
     },
     {
         "id": "nba_2026-05-01_detroitpistonsorlandomagic_detroitpistons",
@@ -9036,6 +9038,32 @@
         "odds": 320,
         "ev": 22.35,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-05_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-05-05T01:30:00Z",
+        "match": "Minnesota Timberwolves @ San Antonio Spurs",
+        "pick": "Minnesota Timberwolves",
+        "odds": 700,
+        "ev": 145.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-02_philadelphia76ersbostonceltics_bostonceltics",
+        "sport": "nba",
+        "date": "2026-05-02T23:40:00Z",
+        "match": "Philadelphia 76ers @ Boston Celtics",
+        "pick": "Boston Celtics",
+        "odds": -270,
+        "ev": 24.05,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
