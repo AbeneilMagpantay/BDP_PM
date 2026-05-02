@@ -8973,9 +8973,10 @@
         "odds": -158,
         "ev": 47.52,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 63.29,
+        "status": "GRADED",
+        "score": "79-93"
     },
     {
         "id": "nba_2026-05-02_losangeleslakershoustonrockets_houstonrockets",
@@ -8986,9 +8987,10 @@
         "odds": -170,
         "ev": 44.07,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "78-98"
     },
     {
         "id": "nba_2026-05-01_clevelandcavalierstorontoraptors_clevelandcavaliers",
@@ -8999,9 +9001,10 @@
         "odds": -172,
         "ev": 43.53,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "112-110"
     },
     {
         "id": "soccer_2026-05-10_astonvillaburnley_burnley",
@@ -9077,6 +9080,46 @@
         "odds": 5500,
         "ev": 26.43,
         "model_prob": 0.15,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "79-93"
+    },
+    {
+        "id": "nba_2026-05-03_torontoraptorsclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-03T23:40:00Z",
+        "match": "Toronto Raptors @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": -285,
+        "ev": 21.95,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-06_losangeleslakersoklahomacitythunder_losangeleslakers",
+        "sport": "nba",
+        "date": "2026-05-06T01:40:00Z",
+        "match": "Los Angeles Lakers @ Oklahoma City Thunder",
+        "pick": "Los Angeles Lakers",
+        "odds": 750,
+        "ev": 18.3,
+        "model_prob": 0.20914741738054832,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-03_orlandomagicdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-05-03T19:40:00Z",
+        "match": "Orlando Magic @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": -350,
+        "ev": 14.44,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
