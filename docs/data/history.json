@@ -9067,5 +9067,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-01_detroitpistonsorlandomagic_orlandomagic",
+        "sport": "nba",
+        "date": "2026-05-01T23:09:16Z",
+        "match": "Detroit Pistons @ Orlando Magic",
+        "pick": "Orlando Magic",
+        "odds": 5500,
+        "ev": 26.43,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
