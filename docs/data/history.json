@@ -9068,9 +9068,10 @@
         "odds": -270,
         "ev": 24.05,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "100-109"
     },
     {
         "id": "nba_2026-05-01_detroitpistonsorlandomagic_orlandomagic",
@@ -9121,6 +9122,19 @@
         "odds": -350,
         "ev": 14.44,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-05_philadelphia76ersnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-05-05T00:10:00Z",
+        "match": "Philadelphia 76ers @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -250,
+        "ev": 5.58,
+        "model_prob": 0.7421909054221999,
         "result": null,
         "profit": null,
         "status": "PENDING"
