@@ -9122,9 +9122,10 @@
         "odds": -350,
         "ev": 14.44,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 28.57,
+        "status": "GRADED",
+        "score": "116-94"
     },
     {
         "id": "nba_2026-05-05_philadelphia76ersnewyorkknicks_newyorkknicks",
@@ -9135,6 +9136,45 @@
         "odds": -250,
         "ev": 5.58,
         "model_prob": 0.7421909054221999,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-03_torontoraptorsclevelandcavaliers_torontoraptors",
+        "sport": "nba",
+        "date": "2026-05-03T23:42:55Z",
+        "match": "Toronto Raptors @ Cleveland Cavaliers",
+        "pick": "Toronto Raptors",
+        "odds": 1000,
+        "ev": 11.82,
+        "model_prob": 0.15000000000000002,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-17_fulhamwolverhamptonwanderers_wolverhamptonwanderers",
+        "sport": "soccer",
+        "date": "2026-05-17T14:00:00Z",
+        "match": "Fulham @ Wolverhampton Wanderers",
+        "pick": "Wolverhampton Wanderers",
+        "odds": 270,
+        "ev": 15.91,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-17_liverpoolastonvilla_astonvilla",
+        "sport": "soccer",
+        "date": "2026-05-17T11:30:00Z",
+        "match": "Liverpool @ Aston Villa",
+        "pick": "Aston Villa",
+        "odds": 248,
+        "ev": 12.5,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
