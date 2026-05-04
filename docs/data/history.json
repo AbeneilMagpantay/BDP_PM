@@ -9096,9 +9096,10 @@
         "odds": -285,
         "ev": 21.95,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 35.09,
+        "status": "GRADED",
+        "score": "114-102"
     },
     {
         "id": "nba_2026-05-06_losangeleslakersoklahomacitythunder_losangeleslakers",
@@ -9149,9 +9150,10 @@
         "odds": 1000,
         "ev": 11.82,
         "model_prob": 0.15000000000000002,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "114-102"
     },
     {
         "id": "soccer_2026-05-17_fulhamwolverhamptonwanderers_wolverhamptonwanderers",
@@ -9175,6 +9177,19 @@
         "odds": 248,
         "ev": 12.5,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-05_clevelandcavaliersdetroitpistons_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-05T23:10:00Z",
+        "match": "Cleveland Cavaliers @ Detroit Pistons",
+        "pick": "Cleveland Cavaliers",
+        "odds": 136,
+        "ev": 85.25,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
