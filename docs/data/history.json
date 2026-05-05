@@ -8604,9 +8604,10 @@
         "odds": 474,
         "ev": 35.12,
         "model_prob": 0.3498387704874486,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "3-3"
     },
     {
         "id": "nba_2026-04-22_houstonrocketslosangeleslakers_houstonrockets",
@@ -9190,6 +9191,19 @@
         "odds": 136,
         "ev": 85.25,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-05_philadelphia76ersnewyorkknicks_philadelphia76ers",
+        "sport": "nba",
+        "date": "2026-05-05T00:13:39Z",
+        "match": "Philadelphia 76ers @ New York Knicks",
+        "pick": "Philadelphia 76ers",
+        "odds": 1800,
+        "ev": 41.04,
+        "model_prob": 0.2578090982627358,
         "result": null,
         "profit": null,
         "status": "PENDING"
