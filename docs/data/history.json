@@ -9112,9 +9112,10 @@
         "odds": 750,
         "ev": 18.3,
         "model_prob": 0.20914741738054832,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "108-90"
     },
     {
         "id": "nba_2026-05-03_orlandomagicdetroitpistons_detroitpistons",
@@ -9193,9 +9194,10 @@
         "odds": 136,
         "ev": 85.25,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "111-101"
     },
     {
         "id": "nba_2026-05-05_philadelphia76ersnewyorkknicks_philadelphia76ers",
@@ -9220,6 +9222,32 @@
         "odds": 304,
         "ev": 120.5,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-07_clevelandcavaliersdetroitpistons_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-07T23:10:00Z",
+        "match": "Cleveland Cavaliers @ Detroit Pistons",
+        "pick": "Cleveland Cavaliers",
+        "odds": 136,
+        "ev": 85.25,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-08_losangeleslakersoklahomacitythunder_losangeleslakers",
+        "sport": "nba",
+        "date": "2026-05-08T01:40:00Z",
+        "match": "Los Angeles Lakers @ Oklahoma City Thunder",
+        "pick": "Los Angeles Lakers",
+        "odds": 700,
+        "ev": 16.83,
+        "model_prob": 0.20914741738054832,
         "result": null,
         "profit": null,
         "status": "PENDING"
