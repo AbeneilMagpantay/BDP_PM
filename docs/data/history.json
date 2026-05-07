@@ -9222,9 +9222,10 @@
         "odds": 304,
         "ev": 120.5,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "133-95"
     },
     {
         "id": "nba_2026-05-07_clevelandcavaliersdetroitpistons_clevelandcavaliers",
@@ -9261,6 +9262,33 @@
         "odds": -200,
         "ev": 15.1,
         "model_prob": 0.7421909017372642,
+        "result": "WON",
+        "profit": 50.0,
+        "status": "GRADED",
+        "score": "108-102"
+    },
+    {
+        "id": "nba_2026-05-09_sanantoniospursminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-05-09T01:40:00Z",
+        "match": "San Antonio Spurs @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": 150,
+        "ev": 90.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-08_newyorkknicksphiladelphia76ers_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-05-08T23:10:00Z",
+        "match": "New York Knicks @ Philadelphia 76ers",
+        "pick": "New York Knicks",
+        "odds": 100,
+        "ev": 70.0,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
