@@ -9251,5 +9251,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-06_philadelphia76ersnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-05-06T23:14:00Z",
+        "match": "Philadelphia 76ers @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -200,
+        "ev": 15.1,
+        "model_prob": 0.7421909017372642,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
