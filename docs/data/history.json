@@ -9250,9 +9250,10 @@
         "odds": 700,
         "ev": 16.83,
         "model_prob": 0.20914741738054832,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "125-107"
     },
     {
         "id": "nba_2026-05-06_philadelphia76ersnewyorkknicks_newyorkknicks",
@@ -9329,6 +9330,19 @@
         "odds": 250,
         "ev": 12.82,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-10_oklahomacitythunderlosangeleslakers_oklahomacitythunder",
+        "sport": "nba",
+        "date": "2026-05-10T00:40:00Z",
+        "match": "Oklahoma City Thunder @ Los Angeles Lakers",
+        "pick": "Oklahoma City Thunder",
+        "odds": -360,
+        "ev": 6.06,
+        "model_prob": 0.8128913587589336,
         "result": null,
         "profit": null,
         "status": "PENDING"
