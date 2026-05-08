@@ -9236,9 +9236,10 @@
         "odds": 136,
         "ev": 85.25,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "107-97"
     },
     {
         "id": "nba_2026-05-08_losangeleslakersoklahomacitythunder_losangeleslakers",
@@ -9289,6 +9290,45 @@
         "odds": 100,
         "ev": 70.0,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-11_sanfrancisco49erslosangelesrams_losangelesrams",
+        "sport": "nfl",
+        "date": "2026-09-11T00:35:00Z",
+        "match": "San Francisco 49ers @ Los Angeles Rams",
+        "pick": "Los Angeles Rams",
+        "odds": -148,
+        "ev": 42.43,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-09_detroitpistonsclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-09T19:10:00Z",
+        "match": "Detroit Pistons @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": -158,
+        "ev": 47.52,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-15_liverpoolastonvilla_astonvilla",
+        "sport": "soccer",
+        "date": "2026-05-15T19:00:00Z",
+        "match": "Liverpool @ Aston Villa",
+        "pick": "Aston Villa",
+        "odds": 250,
+        "ev": 12.82,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
