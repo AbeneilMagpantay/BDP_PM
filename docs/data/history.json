@@ -9278,9 +9278,10 @@
         "odds": 150,
         "ev": 90.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "108-115"
     },
     {
         "id": "nba_2026-05-08_newyorkknicksphiladelphia76ers_newyorkknicks",
@@ -9291,9 +9292,10 @@
         "odds": 100,
         "ev": 70.0,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 100.0,
+        "status": "GRADED",
+        "score": "94-108"
     },
     {
         "id": "nfl_2026-09-11_sanfrancisco49erslosangelesrams_losangelesrams",
@@ -9356,6 +9358,33 @@
         "odds": 3500,
         "ev": 24.44,
         "model_prob": 0.15,
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "94-108"
+    },
+    {
+        "id": "nba_2026-05-10_sanantoniospursminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-05-10T23:40:00Z",
+        "match": "San Antonio Spurs @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": 160,
+        "ev": 93.08,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-10_newyorkknicksphiladelphia76ers_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-05-10T19:40:00Z",
+        "match": "New York Knicks @ Philadelphia 76ers",
+        "pick": "New York Knicks",
+        "odds": -115,
+        "ev": 63.02,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
