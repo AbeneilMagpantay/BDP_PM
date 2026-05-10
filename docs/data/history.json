@@ -9347,9 +9347,10 @@
         "odds": -360,
         "ev": 6.06,
         "model_prob": 0.8128913587589336,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 27.78,
+        "status": "GRADED",
+        "score": "108-131"
     },
     {
         "id": "nba_2026-05-08_newyorkknicksphiladelphia76ers_philadelphia76ers",
@@ -9400,6 +9401,19 @@
         "odds": -160,
         "ev": 46.92,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-10_evertoncrystalpalace_crystalpalace",
+        "sport": "soccer",
+        "date": "2026-05-10T13:00:00Z",
+        "match": "Everton @ Crystal Palace",
+        "pick": "Crystal Palace",
+        "odds": 225,
+        "ev": 8.43,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
