@@ -9017,9 +9017,10 @@
         "odds": 460,
         "ev": 34.25,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "2-2"
     },
     {
         "id": "soccer_2026-05-10_arsenalwesthamunited_westhamunited",
@@ -9030,9 +9031,10 @@
         "odds": 430,
         "ev": 32.23,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-1"
     },
     {
         "id": "soccer_2026-05-09_manchesterunitedsunderland_sunderland",
@@ -9388,9 +9390,10 @@
         "odds": -115,
         "ev": 63.02,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 86.96,
+        "status": "GRADED",
+        "score": "114-144"
     },
     {
         "id": "nba_2026-05-12_detroitpistonsclevelandcavaliers_clevelandcavaliers",
@@ -9411,6 +9414,20 @@
         "date": "2026-05-10T13:00:00Z",
         "match": "Everton @ Crystal Palace",
         "pick": "Crystal Palace",
+        "odds": 225,
+        "ev": 8.43,
+        "model_prob": 0.34983876664235597,
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "2-2"
+    },
+    {
+        "id": "soccer_2026-05-17_brightonandhovealbionleedsunited_leedsunited",
+        "sport": "soccer",
+        "date": "2026-05-17T14:00:00Z",
+        "match": "Brighton and Hove Albion @ Leeds United",
+        "pick": "Leeds United",
         "odds": 225,
         "ev": 8.43,
         "model_prob": 0.34983876664235597,
