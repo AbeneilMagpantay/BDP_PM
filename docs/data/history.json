@@ -9377,9 +9377,10 @@
         "odds": 160,
         "ev": 93.08,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 160.0,
+        "status": "GRADED",
+        "score": "114-109"
     },
     {
         "id": "nba_2026-05-10_newyorkknicksphiladelphia76ers_newyorkknicks",
@@ -9431,6 +9432,19 @@
         "odds": 225,
         "ev": 8.43,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-13_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-05-13T00:00:00Z",
+        "match": "Minnesota Timberwolves @ San Antonio Spurs",
+        "pick": "Minnesota Timberwolves",
+        "odds": 350,
+        "ev": 125.56,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
