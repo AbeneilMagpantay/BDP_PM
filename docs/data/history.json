@@ -9405,9 +9405,10 @@
         "odds": -160,
         "ev": 46.92,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 62.5,
+        "status": "GRADED",
+        "score": "112-103"
     },
     {
         "id": "soccer_2026-05-10_evertoncrystalpalace_crystalpalace",
@@ -9444,6 +9445,32 @@
         "pick": "Minnesota Timberwolves",
         "odds": 350,
         "ev": 125.56,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-18_detroitlionsbuffalobills_buffalobills",
+        "sport": "nfl",
+        "date": "2026-09-18T01:15:00Z",
+        "match": "Detroit Lions @ Buffalo Bills",
+        "pick": "Buffalo Bills",
+        "odds": -158,
+        "ev": 38.8,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-14_clevelandcavaliersdetroitpistons_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-14T00:10:00Z",
+        "match": "Cleveland Cavaliers @ Detroit Pistons",
+        "pick": "Cleveland Cavaliers",
+        "odds": 154,
+        "ev": 91.26,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
