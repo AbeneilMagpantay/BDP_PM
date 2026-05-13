@@ -9475,5 +9475,44 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-15_denverbroncoskansascitychiefs_denverbroncos",
+        "sport": "nfl",
+        "date": "2026-09-15T00:15:00Z",
+        "match": "Denver Broncos @ Kansas City Chiefs",
+        "pick": "Denver Broncos",
+        "odds": 130,
+        "ev": 95.5,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-27_baltimoreravensdallascowboys_baltimoreravens",
+        "sport": "nfl",
+        "date": "2026-09-27T20:25:00Z",
+        "match": "Baltimore Ravens @ Dallas Cowboys",
+        "pick": "Baltimore Ravens",
+        "odds": -130,
+        "ev": 50.38,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-11-08_cincinnatibengalsatlantafalcons_cincinnatibengals",
+        "sport": "nfl",
+        "date": "2026-11-08T14:30:00Z",
+        "match": "Cincinnati Bengals @ Atlanta Falcons",
+        "pick": "Cincinnati Bengals",
+        "odds": -215,
+        "ev": 24.53,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
