@@ -9446,9 +9446,10 @@
         "odds": 350,
         "ev": 125.56,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "126-97"
     },
     {
         "id": "nfl_2026-09-18_detroitlionsbuffalobills_buffalobills",
@@ -9510,6 +9511,19 @@
         "pick": "Cincinnati Bengals",
         "odds": -215,
         "ev": 24.53,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-16_sanantoniospursminnesotatimberwolves_minnesotatimberwolves",
+        "sport": "nba",
+        "date": "2026-05-16T01:40:00Z",
+        "match": "San Antonio Spurs @ Minnesota Timberwolves",
+        "pick": "Minnesota Timberwolves",
+        "odds": 172,
+        "ev": 96.47,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
