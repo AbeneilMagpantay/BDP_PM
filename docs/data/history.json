@@ -9473,9 +9473,10 @@
         "odds": 154,
         "ev": 91.26,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 154.0,
+        "status": "GRADED",
+        "score": "113-117"
     },
     {
         "id": "nfl_2026-09-15_denverbroncoskansascitychiefs_denverbroncos",
@@ -9616,6 +9617,32 @@
         "odds": -198,
         "ev": 27.93,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-15_detroitpistonsclevelandcavaliers_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-15T23:10:00Z",
+        "match": "Detroit Pistons @ Cleveland Cavaliers",
+        "pick": "Cleveland Cavaliers",
+        "odds": -170,
+        "ev": 44.07,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-19_manchestercitybournemouth_bournemouth",
+        "sport": "soccer",
+        "date": "2026-05-19T18:30:00Z",
+        "match": "Manchester City @ Bournemouth",
+        "pick": "Bournemouth",
+        "odds": 362,
+        "ev": 26.68,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
