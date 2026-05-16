@@ -9336,9 +9336,10 @@
         "odds": 250,
         "ev": 12.82,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 250.0,
+        "status": "GRADED",
+        "score": "4-2"
     },
     {
         "id": "nba_2026-05-10_oklahomacitythunderlosangeleslakers_oklahomacitythunder",
