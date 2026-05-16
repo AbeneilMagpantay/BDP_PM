@@ -9527,9 +9527,10 @@
         "odds": 172,
         "ev": 96.47,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "109-139"
     },
     {
         "id": "nfl_2026-11-23_minnesotavikingssanfrancisco49ers_minnesotavikings",
@@ -9631,9 +9632,10 @@
         "odds": -170,
         "ev": 44.07,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "94-115"
     },
     {
         "id": "soccer_2026-05-19_manchestercitybournemouth_bournemouth",
@@ -10683,6 +10685,32 @@
         "pick": "New England Patriots",
         "odds": -425,
         "ev": 5.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-18_clevelandcavaliersdetroitpistons_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-18T00:10:00Z",
+        "match": "Cleveland Cavaliers @ Detroit Pistons",
+        "pick": "Cleveland Cavaliers",
+        "odds": 165,
+        "ev": 94.53,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-19_sanantoniospursoklahomacitythunder_oklahomacitythunder",
+        "sport": "nba",
+        "date": "2026-05-19T00:40:00Z",
+        "match": "San Antonio Spurs @ Oklahoma City Thunder",
+        "pick": "Oklahoma City Thunder",
+        "odds": -238,
+        "ev": 29.17,
         "model_prob": 0.85,
         "result": null,
         "profit": null,
