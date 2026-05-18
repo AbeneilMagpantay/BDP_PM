@@ -10701,9 +10701,10 @@
         "odds": 165,
         "ev": 94.53,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 165.0,
+        "status": "GRADED",
+        "score": "94-125"
     },
     {
         "id": "nba_2026-05-19_sanantoniospursoklahomacitythunder_oklahomacitythunder",
@@ -10727,9 +10728,10 @@
         "odds": 1200,
         "ev": 14.62,
         "model_prob": 0.15,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "94-125"
     },
     {
         "id": "soccer_2026-05-24_chelseasunderland_sunderland",
@@ -10739,6 +10741,32 @@
         "pick": "Sunderland",
         "odds": 282,
         "ev": 17.61,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-20_clevelandcavaliersnewyorkknicks_clevelandcavaliers",
+        "sport": "nba",
+        "date": "2026-05-20T00:10:00Z",
+        "match": "Cleveland Cavaliers @ New York Knicks",
+        "pick": "Cleveland Cavaliers",
+        "odds": 220,
+        "ev": 107.5,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-24_arsenalcrystalpalace_crystalpalace",
+        "sport": "soccer",
+        "date": "2026-05-24T15:00:00Z",
+        "match": "Arsenal @ Crystal Palace",
+        "pick": "Crystal Palace",
+        "odds": 680,
+        "ev": 44.33,
         "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
