@@ -9171,9 +9171,10 @@
         "odds": 270,
         "ev": 15.91,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "PUSH",
+        "profit": 0.0,
+        "status": "GRADED",
+        "score": "1-1"
     },
     {
         "id": "soccer_2026-05-17_liverpoolastonvilla_astonvilla",
@@ -9434,9 +9435,10 @@
         "odds": 225,
         "ev": 8.43,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 225.0,
+        "status": "GRADED",
+        "score": "1-0"
     },
     {
         "id": "nba_2026-05-13_minnesotatimberwolvessanantoniospurs_minnesotatimberwolves",
@@ -10712,6 +10714,32 @@
         "odds": -238,
         "ev": 29.17,
         "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-18_clevelandcavaliersdetroitpistons_detroitpistons",
+        "sport": "nba",
+        "date": "2026-05-18T00:14:27Z",
+        "match": "Cleveland Cavaliers @ Detroit Pistons",
+        "pick": "Detroit Pistons",
+        "odds": 1200,
+        "ev": 14.62,
+        "model_prob": 0.15,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-24_chelseasunderland_sunderland",
+        "sport": "soccer",
+        "date": "2026-05-24T15:00:00Z",
+        "match": "Chelsea @ Sunderland",
+        "pick": "Sunderland",
+        "odds": 282,
+        "ev": 17.61,
+        "model_prob": 0.34983876664235597,
         "result": null,
         "profit": null,
         "status": "PENDING"
