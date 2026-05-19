@@ -10771,5 +10771,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-05-24_bournemouthnottinghamforest_nottinghamforest",
+        "sport": "soccer",
+        "date": "2026-05-24T15:00:00Z",
+        "match": "Bournemouth @ Nottingham Forest",
+        "pick": "Nottingham Forest",
+        "odds": 225,
+        "ev": 8.43,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
