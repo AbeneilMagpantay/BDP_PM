@@ -10715,9 +10715,10 @@
         "odds": -238,
         "ev": 29.17,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "115-122"
     },
     {
         "id": "nba_2026-05-18_clevelandcavaliersdetroitpistons_detroitpistons",
@@ -10781,6 +10782,19 @@
         "odds": 225,
         "ev": 8.43,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-05-21_sanantoniospursoklahomacitythunder_oklahomacitythunder",
+        "sport": "nba",
+        "date": "2026-05-21T00:40:00Z",
+        "match": "San Antonio Spurs @ Oklahoma City Thunder",
+        "pick": "Oklahoma City Thunder",
+        "odds": -225,
+        "ev": 31.54,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
