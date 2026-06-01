@@ -10798,5 +10798,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-06-04_newyorkknickssanantoniospurs_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-06-04T00:40:00Z",
+        "match": "New York Knicks @ San Antonio Spurs",
+        "pick": "New York Knicks",
+        "odds": 171,
+        "ev": 96.2,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
