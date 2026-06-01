@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T02:15:01.866086",
+  "generated_at": "2026-06-01T14:53:45.000312",
   "sports": {
     "nfl": {
       "profile": {
@@ -16,7 +16,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -51,7 +51,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -86,7 +86,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -121,7 +121,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -156,7 +156,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -191,7 +191,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -226,7 +226,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -261,7 +261,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -305,7 +305,7 @@
           "away_team": "San Francisco 49ers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -340,7 +340,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -375,7 +375,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -410,7 +410,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -445,7 +445,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -480,7 +480,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -488,34 +488,34 @@
                     "point": null
                   },
                   "San Francisco 49ers": {
-                    "odds": 125,
+                    "odds": 128,
                     "point": null
                   }
                 },
                 "spreads": {
                   "Los Angeles Rams": {
-                    "odds": -114,
-                    "point": -2.5
+                    "odds": -109,
+                    "point": -3.0
                   },
                   "San Francisco 49ers": {
-                    "odds": -109,
-                    "point": 2.5
+                    "odds": -114,
+                    "point": 3.0
                   }
                 },
                 "totals": {
                   "Over": {
-                    "odds": -113,
+                    "odds": -112,
                     "point": 48.5
                   },
                   "Under": {
-                    "odds": -110,
+                    "odds": -112,
                     "point": 48.5
                   }
                 }
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -550,7 +550,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -594,7 +594,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -629,7 +629,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -664,7 +664,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -699,7 +699,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -734,7 +734,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -769,7 +769,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -804,7 +804,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -839,7 +839,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -883,7 +883,7 @@
           "away_team": "Baltimore Ravens",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -918,7 +918,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -953,7 +953,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -988,7 +988,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1023,7 +1023,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1058,7 +1058,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1093,7 +1093,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1128,7 +1128,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1172,7 +1172,7 @@
           "away_team": "Buffalo Bills",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1207,7 +1207,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1242,7 +1242,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1277,7 +1277,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1312,7 +1312,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1347,7 +1347,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1382,7 +1382,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1417,7 +1417,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1461,7 +1461,7 @@
           "away_team": "Chicago Bears",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1496,7 +1496,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1531,7 +1531,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1566,7 +1566,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1601,7 +1601,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1636,7 +1636,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1671,7 +1671,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1706,7 +1706,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1750,7 +1750,7 @@
           "away_team": "Tampa Bay Buccaneers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1785,7 +1785,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1820,7 +1820,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1855,7 +1855,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1890,7 +1890,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1925,7 +1925,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1960,7 +1960,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1995,7 +1995,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2039,7 +2039,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2074,7 +2074,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2109,7 +2109,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2144,7 +2144,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2179,7 +2179,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2214,7 +2214,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2249,7 +2249,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2284,7 +2284,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2328,7 +2328,7 @@
           "away_team": "New Orleans Saints",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2363,7 +2363,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2398,7 +2398,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2433,7 +2433,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2468,7 +2468,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2503,7 +2503,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2538,7 +2538,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2573,7 +2573,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2617,7 +2617,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2652,7 +2652,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2687,7 +2687,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2722,7 +2722,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2757,7 +2757,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2792,7 +2792,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2827,7 +2827,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2862,7 +2862,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2906,7 +2906,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -2941,7 +2941,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -2976,7 +2976,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3011,7 +3011,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3046,7 +3046,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3081,7 +3081,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3116,7 +3116,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3151,7 +3151,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3195,7 +3195,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3230,7 +3230,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3265,7 +3265,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3300,7 +3300,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -3325,7 +3325,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3360,7 +3360,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3395,7 +3395,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3430,7 +3430,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3474,7 +3474,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3509,7 +3509,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3544,7 +3544,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3579,7 +3579,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3614,7 +3614,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3649,7 +3649,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3684,7 +3684,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3719,7 +3719,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3763,7 +3763,7 @@
           "away_team": "Washington Commanders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3798,7 +3798,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3833,7 +3833,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3868,7 +3868,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3903,7 +3903,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3938,7 +3938,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -3973,7 +3973,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4008,7 +4008,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4052,7 +4052,7 @@
           "away_team": "Dallas Cowboys",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4087,7 +4087,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4122,7 +4122,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4157,7 +4157,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4192,7 +4192,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4227,7 +4227,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4262,7 +4262,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4297,7 +4297,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4341,7 +4341,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4376,7 +4376,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4411,7 +4411,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4446,7 +4446,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4481,7 +4481,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4516,7 +4516,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4551,7 +4551,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4586,7 +4586,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4630,7 +4630,7 @@
           "away_team": "Detroit Lions",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -4665,7 +4665,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:14:17Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "spreads": {
                   "Buffalo Bills": {
@@ -4690,7 +4690,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -4725,7 +4725,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:14:50Z",
+              "last_update": "2026-06-01T14:53:42Z",
               "markets": {
                 "spreads": {
                   "Buffalo Bills": {
@@ -4750,7 +4750,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -4785,7 +4785,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -4829,7 +4829,7 @@
           "away_team": "Carolina Panthers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -4864,7 +4864,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -4898,7 +4898,7 @@
           "away_team": "New Orleans Saints",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -4933,7 +4933,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -4967,7 +4967,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -5011,7 +5011,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -5046,7 +5046,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -5080,7 +5080,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -5115,7 +5115,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cleveland Browns": {
@@ -5149,7 +5149,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -5193,7 +5193,7 @@
           "away_team": "Pittsburgh Steelers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -5228,7 +5228,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "New England Patriots": {
@@ -5262,7 +5262,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -5297,7 +5297,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Philadelphia Eagles": {
@@ -5331,7 +5331,7 @@
           "away_team": "Jacksonville Jaguars",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5366,7 +5366,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -5400,7 +5400,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -5435,7 +5435,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -5469,7 +5469,7 @@
           "away_team": "Seattle Seahawks",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -5504,7 +5504,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -5538,7 +5538,7 @@
           "away_team": "Washington Commanders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -5573,7 +5573,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -5607,7 +5607,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Miami Dolphins": {
@@ -5642,7 +5642,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Miami Dolphins": {
@@ -5676,7 +5676,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -5711,7 +5711,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -5745,7 +5745,7 @@
           "away_team": "New York Giants",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -5780,7 +5780,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Los Angeles Rams": {
@@ -5814,7 +5814,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -5849,7 +5849,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -5883,7 +5883,7 @@
           "away_team": "Los Angeles Chargers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -5927,7 +5927,7 @@
           "away_team": "Carolina Panthers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -5962,7 +5962,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Carolina Panthers": {
@@ -5996,7 +5996,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -6031,7 +6031,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -6065,7 +6065,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -6109,7 +6109,7 @@
           "away_team": "Houston Texans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Houston Texans": {
@@ -6144,7 +6144,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Houston Texans": {
@@ -6178,7 +6178,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -6213,7 +6213,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Jacksonville Jaguars": {
@@ -6247,7 +6247,7 @@
           "away_team": "Kansas City Chiefs",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Kansas City Chiefs": {
@@ -6282,7 +6282,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Kansas City Chiefs": {
@@ -6316,7 +6316,7 @@
           "away_team": "Tennessee Titans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "New York Giants": {
@@ -6351,7 +6351,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "New York Giants": {
@@ -6385,7 +6385,7 @@
           "away_team": "Seattle Seahawks",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Seattle Seahawks": {
@@ -6420,7 +6420,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Seattle Seahawks": {
@@ -6454,7 +6454,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -6489,7 +6489,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -6523,7 +6523,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Minnesota Vikings": {
@@ -6558,7 +6558,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Minnesota Vikings": {
@@ -6592,7 +6592,7 @@
           "away_team": "Baltimore Ravens",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -6627,7 +6627,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -6662,7 +6662,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -6697,7 +6697,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -6731,7 +6731,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -6766,7 +6766,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -6800,7 +6800,7 @@
           "away_team": "Los Angeles Rams",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -6835,7 +6835,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -6869,7 +6869,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -6913,7 +6913,7 @@
           "away_team": "Pittsburgh Steelers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -6948,7 +6948,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cleveland Browns": {
@@ -6982,7 +6982,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7017,7 +7017,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7052,7 +7052,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7087,7 +7087,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7122,7 +7122,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -7156,7 +7156,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -7191,7 +7191,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -7225,7 +7225,7 @@
           "away_team": "Tennessee Titans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -7260,7 +7260,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -7294,7 +7294,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -7338,7 +7338,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -7382,7 +7382,7 @@
           "away_team": "Jacksonville Jaguars",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -7417,7 +7417,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -7451,7 +7451,7 @@
           "away_team": "Dallas Cowboys",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -7486,7 +7486,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -7520,7 +7520,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -7555,7 +7555,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -7589,7 +7589,7 @@
           "away_team": "Los Angeles Rams",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -7624,7 +7624,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Los Angeles Rams": {
@@ -7658,7 +7658,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Miami Dolphins": {
@@ -7693,7 +7693,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Miami Dolphins": {
@@ -7727,7 +7727,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -7762,7 +7762,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -7796,7 +7796,7 @@
           "away_team": "Kansas City Chiefs",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Kansas City Chiefs": {
@@ -7831,7 +7831,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Kansas City Chiefs": {
@@ -7865,7 +7865,7 @@
           "away_team": "Los Angeles Chargers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Chargers": {
@@ -7900,7 +7900,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Los Angeles Chargers": {
@@ -7934,7 +7934,7 @@
           "away_team": "Detroit Lions",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -7978,7 +7978,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -8013,7 +8013,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -8047,7 +8047,7 @@
           "away_team": "Tampa Bay Buccaneers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -8082,7 +8082,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -8116,7 +8116,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8151,7 +8151,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-01T02:14:52Z",
+              "last_update": "2026-06-01T14:53:23Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8186,7 +8186,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:53:04Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8221,7 +8221,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:01Z",
+              "last_update": "2026-06-01T14:52:10Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8256,7 +8256,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Jacksonville Jaguars": {
@@ -8290,7 +8290,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -8325,7 +8325,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -8359,7 +8359,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -8403,7 +8403,7 @@
           "away_team": "Houston Texans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Houston Texans": {
@@ -8438,7 +8438,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Houston Texans": {
@@ -8472,7 +8472,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -8507,7 +8507,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -8541,7 +8541,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -8576,7 +8576,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -8610,7 +8610,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Minnesota Vikings": {
@@ -8645,7 +8645,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Minnesota Vikings": {
@@ -8679,7 +8679,7 @@
           "away_team": "New York Giants",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "New York Giants": {
@@ -8714,7 +8714,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "New York Giants": {
@@ -8748,7 +8748,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -8783,7 +8783,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -8817,7 +8817,7 @@
           "away_team": "San Francisco 49ers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-01T02:13:56Z",
+              "last_update": "2026-06-01T14:52:45Z",
               "markets": {
                 "h2h": {
                   "San Francisco 49ers": {
@@ -8852,7 +8852,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-01T02:13:58Z",
+              "last_update": "2026-06-01T14:53:06Z",
               "markets": {
                 "spreads": {
                   "San Francisco 49ers": {
@@ -9859,7 +9859,7 @@
           "away_team": "New York Knicks",
           "bookmakers": {
             "fanduel": {
-              "last_update": "2026-06-01T02:14:45Z",
+              "last_update": "2026-06-01T14:53:37Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
@@ -9894,7 +9894,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-01T02:12:40Z",
+              "last_update": "2026-06-01T14:52:41Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
@@ -9929,7 +9929,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-01T02:13:53Z",
+              "last_update": "2026-06-01T14:52:40Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
@@ -9964,25 +9964,25 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-01T02:13:53Z",
+              "last_update": "2026-06-01T14:52:41Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
-                    "odds": 171,
+                    "odds": 166,
                     "point": null
                   },
                   "San Antonio Spurs": {
-                    "odds": -195,
+                    "odds": -190,
                     "point": null
                   }
                 },
                 "spreads": {
                   "New York Knicks": {
-                    "odds": -102,
+                    "odds": -107,
                     "point": 5.0
                   },
                   "San Antonio Spurs": {
-                    "odds": -110,
+                    "odds": -105,
                     "point": -5.0
                   }
                 },
@@ -9999,42 +9999,42 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-01T02:14:10Z",
+              "last_update": "2026-06-01T14:53:18Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
-                    "odds": 170,
+                    "odds": 163,
                     "point": null
                   },
                   "San Antonio Spurs": {
-                    "odds": -215,
+                    "odds": -205,
                     "point": null
                   }
                 },
                 "spreads": {
                   "New York Knicks": {
-                    "odds": -109,
+                    "odds": -114,
                     "point": 5.0
                   },
                   "San Antonio Spurs": {
-                    "odds": -114,
+                    "odds": -109,
                     "point": -5.0
                   }
                 },
                 "totals": {
                   "Over": {
-                    "odds": -114,
-                    "point": 218.0
+                    "odds": -113,
+                    "point": 218.5
                   },
                   "Under": {
                     "odds": -109,
-                    "point": 218.0
+                    "point": 218.5
                   }
                 }
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-01T02:14:45Z",
+              "last_update": "2026-06-01T14:53:18Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
@@ -10069,7 +10069,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-01T02:13:51Z",
+              "last_update": "2026-06-01T14:52:40Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
@@ -10104,25 +10104,25 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-01T02:14:14Z",
+              "last_update": "2026-06-01T14:52:13Z",
               "markets": {
                 "h2h": {
                   "New York Knicks": {
-                    "odds": 165,
+                    "odds": 160,
                     "point": null
                   },
                   "San Antonio Spurs": {
-                    "odds": -195,
+                    "odds": -185,
                     "point": null
                   }
                 },
                 "spreads": {
                   "New York Knicks": {
-                    "odds": -110,
+                    "odds": -115,
                     "point": 5.0
                   },
                   "San Antonio Spurs": {
-                    "odds": -110,
+                    "odds": -105,
                     "point": -5.0
                   }
                 },
@@ -10147,13 +10147,13 @@
           "matchup": "New York Knicks @ San Antonio Spurs",
           "bet_team": "New York Knicks",
           "bet_side": "away",
-          "odds": 171,
-          "bookmaker": "lowvig",
+          "odds": 170,
+          "bookmaker": "betonlineag",
           "model_prob": 0.85,
-          "implied_prob": 0.36900369003690037,
-          "edge": 48.1,
-          "ev": 96.2,
-          "kelly_bet": 4.81,
+          "implied_prob": 0.37037037037037035,
+          "edge": 47.96,
+          "ev": 95.93,
+          "kelly_bet": 4.8,
           "confidence": 0.7,
           "commence_time": "2026-06-04T00:40:00Z"
         }
