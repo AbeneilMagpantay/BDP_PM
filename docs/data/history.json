@@ -10822,6 +10822,20 @@
         "odds": 195,
         "ev": 102.2,
         "model_prob": 0.85,
+        "result": "WON",
+        "profit": 195.0,
+        "status": "GRADED",
+        "score": "104-105"
+    },
+    {
+        "id": "nba_2026-06-09_sanantoniospursnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-06-09T00:40:00Z",
+        "match": "San Antonio Spurs @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -125,
+        "ev": 58.89,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
