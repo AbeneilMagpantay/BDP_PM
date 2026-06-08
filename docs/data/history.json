@@ -10839,5 +10839,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-20_miamidolphinssanfrancisco49ers_miamidolphins",
+        "sport": "nfl",
+        "date": "2026-09-20T20:25:00Z",
+        "match": "Miami Dolphins @ San Francisco 49ers",
+        "pick": "Miami Dolphins",
+        "odds": 440,
+        "ev": 18.12,
+        "model_prob": 0.219,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
