@@ -10836,9 +10836,10 @@
         "odds": -125,
         "ev": 58.89,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "111-115"
     },
     {
         "id": "nfl_2026-09-20_miamidolphinssanfrancisco49ers_miamidolphins",
@@ -10849,6 +10850,19 @@
         "odds": 440,
         "ev": 18.12,
         "model_prob": 0.219,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nba_2026-06-11_sanantoniospursnewyorkknicks_newyorkknicks",
+        "sport": "nba",
+        "date": "2026-06-11T00:40:00Z",
+        "match": "San Antonio Spurs @ New York Knicks",
+        "pick": "New York Knicks",
+        "odds": -124,
+        "ev": 59.29,
+        "model_prob": 0.85,
         "result": null,
         "profit": null,
         "status": "PENDING"
