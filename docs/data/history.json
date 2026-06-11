@@ -10863,9 +10863,10 @@
         "odds": -124,
         "ev": 59.29,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 80.65,
+        "status": "GRADED",
+        "score": "107-106"
     },
     {
         "id": "nba_2026-06-14_newyorkknickssanantoniospurs_newyorkknicks",
