@@ -10877,8 +10877,9 @@
         "odds": 188,
         "ev": 100.56,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 188.0,
+        "status": "GRADED",
+        "score": "90-94"
     }
 ]
