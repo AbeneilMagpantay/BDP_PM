@@ -10881,5 +10881,31 @@
         "profit": 188.0,
         "status": "GRADED",
         "score": "90-94"
+    },
+    {
+        "id": "soccer_2026-08-22_manchesterunitedhullcity_hullcity",
+        "sport": "soccer",
+        "date": "2026-08-22T11:30:00Z",
+        "match": "Manchester United @ Hull City",
+        "pick": "Hull City",
+        "odds": 642,
+        "ev": 43.01,
+        "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-08-24_chelseafulham_fulham",
+        "sport": "soccer",
+        "date": "2026-08-24T19:00:00Z",
+        "match": "Chelsea @ Fulham",
+        "pick": "Fulham",
+        "odds": 250,
+        "ev": 12.82,
+        "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
