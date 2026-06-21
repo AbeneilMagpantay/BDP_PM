@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T02:17:38.408494",
+  "generated_at": "2026-06-21T11:43:31.701225",
   "sports": {
     "nfl": {
       "profile": {
@@ -16,7 +16,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -51,7 +51,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -86,7 +86,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -121,7 +121,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -156,7 +156,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -191,7 +191,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -226,7 +226,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -261,7 +261,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -296,7 +296,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -340,7 +340,7 @@
           "away_team": "San Francisco 49ers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -375,7 +375,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -410,7 +410,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -445,7 +445,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -480,7 +480,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -515,7 +515,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -550,7 +550,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -585,7 +585,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -620,7 +620,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -654,7 +654,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -689,7 +689,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -724,7 +724,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -759,7 +759,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -794,7 +794,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -829,7 +829,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -864,7 +864,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -899,7 +899,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -934,7 +934,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -978,7 +978,7 @@
           "away_team": "Baltimore Ravens",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1013,7 +1013,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1048,7 +1048,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1083,7 +1083,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1118,7 +1118,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1153,7 +1153,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1188,7 +1188,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1223,7 +1223,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1258,7 +1258,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -1302,7 +1302,7 @@
           "away_team": "Buffalo Bills",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1337,7 +1337,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1372,7 +1372,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1407,7 +1407,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1442,7 +1442,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1477,7 +1477,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1512,7 +1512,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1547,7 +1547,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1582,7 +1582,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -1626,7 +1626,7 @@
           "away_team": "Chicago Bears",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1661,7 +1661,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1696,7 +1696,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1731,7 +1731,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1766,7 +1766,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1801,7 +1801,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1836,7 +1836,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1871,7 +1871,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1906,7 +1906,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -1950,7 +1950,7 @@
           "away_team": "Tampa Bay Buccaneers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -1985,7 +1985,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2020,7 +2020,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2055,7 +2055,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2090,7 +2090,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2125,7 +2125,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2160,7 +2160,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2195,7 +2195,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2230,7 +2230,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -2274,7 +2274,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2309,7 +2309,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2344,7 +2344,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2379,7 +2379,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2414,7 +2414,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2449,7 +2449,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2484,7 +2484,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2519,7 +2519,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2554,7 +2554,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -2588,7 +2588,7 @@
           "away_team": "New Orleans Saints",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2623,7 +2623,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2658,7 +2658,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2693,7 +2693,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2728,7 +2728,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2763,7 +2763,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2798,7 +2798,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2833,7 +2833,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2868,7 +2868,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -2912,7 +2912,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2947,7 +2947,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -2982,7 +2982,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3017,7 +3017,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3052,7 +3052,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3087,7 +3087,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3122,7 +3122,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3157,7 +3157,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3192,7 +3192,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "New York Jets": {
@@ -3236,7 +3236,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3271,7 +3271,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3306,7 +3306,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3341,7 +3341,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3376,7 +3376,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3411,7 +3411,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3446,7 +3446,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3481,7 +3481,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3516,7 +3516,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -3560,7 +3560,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3595,7 +3595,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -3620,7 +3620,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -3645,7 +3645,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -3670,7 +3670,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3705,7 +3705,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3740,7 +3740,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3775,7 +3775,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3810,7 +3810,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -3854,7 +3854,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3889,7 +3889,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3924,7 +3924,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3959,7 +3959,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -3994,7 +3994,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -4029,7 +4029,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -4064,7 +4064,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -4099,7 +4099,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -4134,7 +4134,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -4178,7 +4178,7 @@
           "away_team": "Washington Commanders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4213,7 +4213,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4248,7 +4248,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4283,7 +4283,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4318,7 +4318,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4353,7 +4353,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4388,7 +4388,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4423,7 +4423,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4458,7 +4458,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -4502,7 +4502,7 @@
           "away_team": "Dallas Cowboys",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4537,7 +4537,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4572,7 +4572,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4607,7 +4607,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4642,7 +4642,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4677,7 +4677,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4712,7 +4712,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4747,7 +4747,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4782,7 +4782,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -4826,7 +4826,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4861,7 +4861,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4896,7 +4896,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4931,7 +4931,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -4966,7 +4966,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5001,7 +5001,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5036,7 +5036,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5071,7 +5071,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5106,7 +5106,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5150,7 +5150,7 @@
           "away_team": "Detroit Lions",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -5185,7 +5185,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:42:42Z",
               "markets": {
                 "spreads": {
                   "Buffalo Bills": {
@@ -5210,7 +5210,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -5245,7 +5245,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:42:53Z",
               "markets": {
                 "spreads": {
                   "Buffalo Bills": {
@@ -5270,7 +5270,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -5305,7 +5305,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:17:27Z",
+              "last_update": "2026-06-21T11:42:31Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -5349,7 +5349,7 @@
           "away_team": "Carolina Panthers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -5384,7 +5384,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -5418,7 +5418,7 @@
           "away_team": "New Orleans Saints",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -5453,7 +5453,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -5487,7 +5487,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -5531,7 +5531,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -5566,7 +5566,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -5600,7 +5600,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -5635,7 +5635,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Cleveland Browns": {
@@ -5669,7 +5669,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -5713,7 +5713,7 @@
           "away_team": "Pittsburgh Steelers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "New England Patriots": {
@@ -5748,7 +5748,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "New England Patriots": {
@@ -5782,7 +5782,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Philadelphia Eagles": {
@@ -5817,7 +5817,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Philadelphia Eagles": {
@@ -5851,7 +5851,7 @@
           "away_team": "Jacksonville Jaguars",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -5886,7 +5886,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -5920,7 +5920,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -5955,7 +5955,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -5989,7 +5989,7 @@
           "away_team": "Seattle Seahawks",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -6024,7 +6024,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -6058,7 +6058,7 @@
           "away_team": "Washington Commanders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -6093,7 +6093,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -6127,7 +6127,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Miami Dolphins": {
@@ -6162,7 +6162,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Miami Dolphins": {
@@ -6196,7 +6196,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -6231,7 +6231,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -6265,7 +6265,7 @@
           "away_team": "New York Giants",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -6300,7 +6300,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Los Angeles Rams": {
@@ -6334,7 +6334,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -6369,7 +6369,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -6403,7 +6403,7 @@
           "away_team": "Los Angeles Chargers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -6447,7 +6447,7 @@
           "away_team": "Carolina Panthers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -6491,7 +6491,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -6526,7 +6526,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -6560,7 +6560,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Detroit Lions": {
@@ -6604,7 +6604,7 @@
           "away_team": "Houston Texans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Houston Texans": {
@@ -6639,7 +6639,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Houston Texans": {
@@ -6673,7 +6673,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -6708,7 +6708,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Jacksonville Jaguars": {
@@ -6742,7 +6742,7 @@
           "away_team": "Kansas City Chiefs",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Kansas City Chiefs": {
@@ -6777,7 +6777,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Kansas City Chiefs": {
@@ -6811,7 +6811,7 @@
           "away_team": "Tennessee Titans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "New York Giants": {
@@ -6846,7 +6846,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "New York Giants": {
@@ -6880,7 +6880,7 @@
           "away_team": "Seattle Seahawks",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Seattle Seahawks": {
@@ -6915,7 +6915,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Seattle Seahawks": {
@@ -6949,7 +6949,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -6984,7 +6984,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -7018,7 +7018,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Minnesota Vikings": {
@@ -7053,7 +7053,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Minnesota Vikings": {
@@ -7087,7 +7087,7 @@
           "away_team": "Baltimore Ravens",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -7122,7 +7122,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -7157,7 +7157,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -7192,7 +7192,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -7226,7 +7226,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -7261,7 +7261,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -7295,7 +7295,7 @@
           "away_team": "Los Angeles Rams",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -7339,7 +7339,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -7383,7 +7383,7 @@
           "away_team": "Pittsburgh Steelers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -7427,7 +7427,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7462,7 +7462,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7497,7 +7497,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7532,7 +7532,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7567,7 +7567,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -7592,7 +7592,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -7636,7 +7636,7 @@
           "away_team": "Arizona Cardinals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Arizona Cardinals": {
@@ -7671,7 +7671,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Arizona Cardinals": {
@@ -7705,7 +7705,7 @@
           "away_team": "Tennessee Titans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Baltimore Ravens": {
@@ -7740,7 +7740,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Baltimore Ravens": {
@@ -7774,7 +7774,7 @@
           "away_team": "New England Patriots",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Buffalo Bills": {
@@ -7818,7 +7818,7 @@
           "away_team": "New York Jets",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Chicago Bears": {
@@ -7862,7 +7862,7 @@
           "away_team": "Jacksonville Jaguars",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -7897,7 +7897,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -7931,7 +7931,7 @@
           "away_team": "Dallas Cowboys",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -7966,7 +7966,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -8000,7 +8000,7 @@
           "away_team": "Green Bay Packers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Green Bay Packers": {
@@ -8035,7 +8035,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Green Bay Packers": {
@@ -8069,7 +8069,7 @@
           "away_team": "Los Angeles Rams",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Rams": {
@@ -8113,7 +8113,7 @@
           "away_team": "Miami Dolphins",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Miami Dolphins": {
@@ -8148,7 +8148,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Miami Dolphins": {
@@ -8182,7 +8182,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -8217,7 +8217,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -8251,7 +8251,7 @@
           "away_team": "Kansas City Chiefs",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Kansas City Chiefs": {
@@ -8286,7 +8286,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Kansas City Chiefs": {
@@ -8320,7 +8320,7 @@
           "away_team": "Los Angeles Chargers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Los Angeles Chargers": {
@@ -8355,7 +8355,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Los Angeles Chargers": {
@@ -8389,7 +8389,7 @@
           "away_team": "Detroit Lions",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Carolina Panthers": {
@@ -8433,7 +8433,7 @@
           "away_team": "Atlanta Falcons",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Atlanta Falcons": {
@@ -8468,7 +8468,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Atlanta Falcons": {
@@ -8502,7 +8502,7 @@
           "away_team": "Tampa Bay Buccaneers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Dallas Cowboys": {
@@ -8537,7 +8537,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Dallas Cowboys": {
@@ -8571,7 +8571,7 @@
           "away_team": "Philadelphia Eagles",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8606,7 +8606,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:28Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8641,7 +8641,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:03Z",
+              "last_update": "2026-06-21T11:43:15Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8676,7 +8676,7 @@
               }
             },
             "bovada": {
-              "last_update": "2026-06-21T02:17:31Z",
+              "last_update": "2026-06-21T11:41:50Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8711,7 +8711,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Jacksonville Jaguars": {
@@ -8736,7 +8736,7 @@
               }
             },
             "mybookieag": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:41:35Z",
               "markets": {
                 "h2h": {
                   "Jacksonville Jaguars": {
@@ -8770,7 +8770,7 @@
           "away_team": "Cincinnati Bengals",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cincinnati Bengals": {
@@ -8805,7 +8805,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Cincinnati Bengals": {
@@ -8839,7 +8839,7 @@
           "away_team": "Cleveland Browns",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Cleveland Browns": {
@@ -8883,7 +8883,7 @@
           "away_team": "Houston Texans",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Houston Texans": {
@@ -8918,7 +8918,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Houston Texans": {
@@ -8952,7 +8952,7 @@
           "away_team": "Indianapolis Colts",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Indianapolis Colts": {
@@ -8987,7 +8987,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Indianapolis Colts": {
@@ -9021,7 +9021,7 @@
           "away_team": "Las Vegas Raiders",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Las Vegas Raiders": {
@@ -9056,7 +9056,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Las Vegas Raiders": {
@@ -9090,7 +9090,7 @@
           "away_team": "Minnesota Vikings",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Minnesota Vikings": {
@@ -9125,7 +9125,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Minnesota Vikings": {
@@ -9159,7 +9159,7 @@
           "away_team": "New York Giants",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "New York Giants": {
@@ -9194,7 +9194,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "New York Giants": {
@@ -9228,7 +9228,7 @@
           "away_team": "Denver Broncos",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "Denver Broncos": {
@@ -9263,7 +9263,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "Denver Broncos": {
@@ -9297,7 +9297,7 @@
           "away_team": "San Francisco 49ers",
           "bookmakers": {
             "draftkings": {
-              "last_update": "2026-06-21T02:16:39Z",
+              "last_update": "2026-06-21T11:43:27Z",
               "markets": {
                 "h2h": {
                   "San Francisco 49ers": {
@@ -9332,7 +9332,7 @@
               }
             },
             "betus": {
-              "last_update": "2026-06-21T02:16:41Z",
+              "last_update": "2026-06-21T11:43:28Z",
               "markets": {
                 "spreads": {
                   "San Francisco 49ers": {
@@ -10350,7 +10350,7 @@
           "away_team": "Coventry City",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10369,26 +10369,26 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
-                    "odds": -529,
+                    "odds": -549,
                     "point": null
                   },
                   "Coventry City": {
-                    "odds": 1800,
+                    "odds": 1900,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 720,
+                    "odds": 730,
                     "point": null
                   }
                 }
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10407,7 +10407,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10426,7 +10426,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10459,7 +10459,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10492,7 +10492,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10511,26 +10511,26 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
-                    "odds": -581,
+                    "odds": -602,
                     "point": null
                   },
                   "Coventry City": {
-                    "odds": 1750,
+                    "odds": 1850,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 700,
+                    "odds": 710,
                     "point": null
                   }
                 }
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10549,7 +10549,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10568,7 +10568,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10587,7 +10587,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10606,7 +10606,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10625,7 +10625,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10644,7 +10644,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10663,7 +10663,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10682,7 +10682,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10701,7 +10701,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10720,7 +10720,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10739,7 +10739,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10758,7 +10758,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10777,7 +10777,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10796,7 +10796,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10815,7 +10815,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10834,7 +10834,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10867,7 +10867,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10886,7 +10886,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10905,7 +10905,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10924,7 +10924,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10943,7 +10943,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10962,7 +10962,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -10981,7 +10981,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11000,7 +11000,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11019,7 +11019,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11038,7 +11038,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11057,7 +11057,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11076,7 +11076,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Arsenal": {
@@ -11104,7 +11104,7 @@
           "away_team": "Manchester United",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11123,26 +11123,26 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
-                    "odds": 621,
+                    "odds": 642,
                     "point": null
                   },
                   "Manchester United": {
-                    "odds": -202,
+                    "odds": -206,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 382,
+                    "odds": 383,
                     "point": null
                   }
                 }
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11161,7 +11161,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11180,7 +11180,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11202,7 +11202,7 @@
                     "point": null
                   },
                   "Manchester United": {
-                    "odds": -182,
+                    "odds": -179,
                     "point": null
                   },
                   "Draw": {
@@ -11213,7 +11213,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11235,7 +11235,7 @@
                     "point": null
                   },
                   "Manchester United": {
-                    "odds": -182,
+                    "odds": -179,
                     "point": null
                   },
                   "Draw": {
@@ -11246,7 +11246,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11265,15 +11265,15 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
-                    "odds": 610,
+                    "odds": 630,
                     "point": null
                   },
                   "Manchester United": {
-                    "odds": -213,
+                    "odds": -217,
                     "point": null
                   },
                   "Draw": {
@@ -11284,7 +11284,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11303,7 +11303,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11322,7 +11322,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11341,7 +11341,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11360,7 +11360,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11379,7 +11379,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11398,7 +11398,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11417,7 +11417,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11436,7 +11436,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11455,7 +11455,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11474,7 +11474,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11493,7 +11493,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11512,7 +11512,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11531,7 +11531,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11550,7 +11550,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11569,7 +11569,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11588,7 +11588,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11621,7 +11621,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11640,7 +11640,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11659,7 +11659,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11678,7 +11678,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11697,7 +11697,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11716,7 +11716,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11735,7 +11735,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11754,7 +11754,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11773,7 +11773,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11792,7 +11792,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11811,7 +11811,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11830,7 +11830,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Hull City": {
@@ -11858,7 +11858,7 @@
           "away_team": "Crystal Palace",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -11877,26 +11877,26 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
-                    "odds": 264,
+                    "odds": 274,
                     "point": null
                   },
                   "Everton": {
-                    "odds": 111,
+                    "odds": 108,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 275,
+                    "odds": 274,
                     "point": null
                   }
                 }
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -11915,7 +11915,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -11934,7 +11934,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -11967,7 +11967,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12000,7 +12000,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12019,26 +12019,26 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
-                    "odds": 260,
+                    "odds": 268,
                     "point": null
                   },
                   "Everton": {
-                    "odds": 108,
+                    "odds": 105,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 270,
+                    "odds": 268,
                     "point": null
                   }
                 }
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12057,7 +12057,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12076,7 +12076,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12095,7 +12095,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12114,7 +12114,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12133,7 +12133,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12152,7 +12152,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12171,7 +12171,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12190,7 +12190,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12209,7 +12209,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12228,7 +12228,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12247,7 +12247,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12266,7 +12266,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12285,7 +12285,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12304,7 +12304,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12323,7 +12323,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12342,7 +12342,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12375,7 +12375,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12394,7 +12394,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12413,7 +12413,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12432,7 +12432,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12451,7 +12451,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12470,7 +12470,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12489,7 +12489,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12508,7 +12508,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12527,7 +12527,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12546,7 +12546,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12565,7 +12565,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12584,7 +12584,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Crystal Palace": {
@@ -12612,7 +12612,7 @@
           "away_team": "Sunderland",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12631,26 +12631,26 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
-                    "odds": 183,
+                    "odds": 182,
                     "point": null
                   },
                   "Sunderland": {
-                    "odds": 168,
+                    "odds": 170,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 245,
+                    "odds": 243,
                     "point": null
                   }
                 }
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12669,7 +12669,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12688,7 +12688,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12721,7 +12721,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12754,7 +12754,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12773,26 +12773,26 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
-                    "odds": 179,
+                    "odds": 178,
                     "point": null
                   },
                   "Sunderland": {
-                    "odds": 164,
+                    "odds": 166,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 240,
+                    "odds": 238,
                     "point": null
                   }
                 }
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12811,7 +12811,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12830,7 +12830,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12849,7 +12849,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12868,7 +12868,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12887,7 +12887,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12906,7 +12906,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12925,7 +12925,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12944,7 +12944,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12963,7 +12963,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -12982,7 +12982,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13001,7 +13001,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13020,7 +13020,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13039,7 +13039,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13058,7 +13058,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13077,7 +13077,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13096,7 +13096,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13129,7 +13129,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13148,7 +13148,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13167,7 +13167,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13186,7 +13186,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13205,7 +13205,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13224,7 +13224,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13243,7 +13243,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13262,7 +13262,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13281,7 +13281,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13300,7 +13300,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13319,7 +13319,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13338,7 +13338,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Ipswich Town": {
@@ -13366,7 +13366,7 @@
           "away_team": "Leeds United",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13385,26 +13385,26 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
-                    "odds": 223,
+                    "odds": 227,
                     "point": null
                   },
                   "Nottingham Forest": {
-                    "odds": 132,
+                    "odds": 128,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 264,
+                    "odds": 268,
                     "point": null
                   }
                 }
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13423,7 +13423,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13442,7 +13442,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13475,7 +13475,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13508,7 +13508,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13527,26 +13527,26 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
-                    "odds": 218,
+                    "odds": 222,
                     "point": null
                   },
                   "Nottingham Forest": {
-                    "odds": 128,
+                    "odds": 125,
                     "point": null
                   },
                   "Draw": {
-                    "odds": 258,
+                    "odds": 262,
                     "point": null
                   }
                 }
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13565,7 +13565,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13584,7 +13584,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13603,7 +13603,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13622,7 +13622,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13641,7 +13641,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13660,7 +13660,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13679,7 +13679,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13698,7 +13698,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13717,7 +13717,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13736,7 +13736,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13755,7 +13755,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13774,7 +13774,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13793,7 +13793,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13812,7 +13812,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13831,7 +13831,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13850,7 +13850,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13883,7 +13883,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13902,7 +13902,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13921,7 +13921,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13940,7 +13940,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13959,7 +13959,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13978,7 +13978,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -13997,7 +13997,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14016,7 +14016,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14035,7 +14035,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14054,7 +14054,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14073,7 +14073,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14092,7 +14092,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Leeds United": {
@@ -14120,7 +14120,7 @@
           "away_team": "Tottenham Hotspur",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14139,15 +14139,15 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
-                    "odds": 169,
+                    "odds": 168,
                     "point": null
                   },
                   "Tottenham Hotspur": {
-                    "odds": 167,
+                    "odds": 168,
                     "point": null
                   },
                   "Draw": {
@@ -14158,7 +14158,7 @@
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14177,7 +14177,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14196,7 +14196,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14229,7 +14229,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14262,7 +14262,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14281,15 +14281,15 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
-                    "odds": 165,
+                    "odds": 164,
                     "point": null
                   },
                   "Tottenham Hotspur": {
-                    "odds": 163,
+                    "odds": 164,
                     "point": null
                   },
                   "Draw": {
@@ -14300,7 +14300,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14319,7 +14319,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14338,7 +14338,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14357,7 +14357,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14376,7 +14376,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14395,7 +14395,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14414,7 +14414,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14433,7 +14433,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14452,7 +14452,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14471,7 +14471,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14490,7 +14490,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14509,7 +14509,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14528,7 +14528,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14547,7 +14547,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14566,7 +14566,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14585,7 +14585,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14604,7 +14604,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14637,7 +14637,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14656,7 +14656,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14675,7 +14675,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14694,7 +14694,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14713,7 +14713,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14732,7 +14732,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14751,7 +14751,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14770,7 +14770,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14789,7 +14789,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14808,7 +14808,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14827,7 +14827,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14846,7 +14846,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Brentford": {
@@ -14874,7 +14874,7 @@
           "away_team": "Aston Villa",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -14893,15 +14893,15 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
-                    "odds": 202,
+                    "odds": 209,
                     "point": null
                   },
                   "Brighton and Hove Albion": {
-                    "odds": 136,
+                    "odds": 132,
                     "point": null
                   },
                   "Draw": {
@@ -14912,7 +14912,7 @@
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -14931,7 +14931,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -14950,7 +14950,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -14983,7 +14983,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15016,7 +15016,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15035,15 +15035,15 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
-                    "odds": 198,
+                    "odds": 204,
                     "point": null
                   },
                   "Brighton and Hove Albion": {
-                    "odds": 132,
+                    "odds": 128,
                     "point": null
                   },
                   "Draw": {
@@ -15054,7 +15054,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15073,7 +15073,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15092,7 +15092,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15111,7 +15111,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15130,7 +15130,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15149,7 +15149,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15168,7 +15168,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15176,7 +15176,7 @@
                     "point": null
                   },
                   "Brighton and Hove Albion": {
-                    "odds": 125,
+                    "odds": 120,
                     "point": null
                   },
                   "Draw": {
@@ -15187,7 +15187,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15206,7 +15206,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15225,7 +15225,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15244,7 +15244,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15263,7 +15263,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15282,7 +15282,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15301,7 +15301,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15320,7 +15320,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15339,7 +15339,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15358,7 +15358,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15391,7 +15391,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15410,7 +15410,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15429,7 +15429,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15448,7 +15448,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15467,7 +15467,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15486,7 +15486,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15505,7 +15505,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15524,7 +15524,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15543,7 +15543,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15562,7 +15562,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15581,7 +15581,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15600,7 +15600,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Aston Villa": {
@@ -15628,7 +15628,7 @@
           "away_team": "Bournemouth",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15647,7 +15647,7 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15666,7 +15666,7 @@
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15685,7 +15685,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15704,7 +15704,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15737,7 +15737,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15770,7 +15770,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15789,7 +15789,7 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15808,7 +15808,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15827,7 +15827,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15846,7 +15846,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15865,7 +15865,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15884,7 +15884,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15903,7 +15903,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15922,7 +15922,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15941,7 +15941,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15960,7 +15960,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15979,7 +15979,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -15998,15 +15998,15 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
-                    "odds": 450,
+                    "odds": 500,
                     "point": null
                   },
                   "Manchester City": {
-                    "odds": -222,
+                    "odds": -238,
                     "point": null
                   },
                   "Draw": {
@@ -16017,7 +16017,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16036,7 +16036,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16055,7 +16055,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16074,7 +16074,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16093,7 +16093,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16112,7 +16112,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16145,7 +16145,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16164,7 +16164,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16183,7 +16183,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16202,7 +16202,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16221,7 +16221,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16240,7 +16240,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16259,7 +16259,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16278,7 +16278,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16297,7 +16297,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16316,7 +16316,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16335,7 +16335,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16354,7 +16354,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Bournemouth": {
@@ -16382,7 +16382,7 @@
           "away_team": "Liverpool",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16401,15 +16401,15 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
-                    "odds": 132,
+                    "odds": 128,
                     "point": null
                   },
                   "Newcastle United": {
-                    "odds": 198,
+                    "odds": 205,
                     "point": null
                   },
                   "Draw": {
@@ -16420,7 +16420,7 @@
               }
             },
             "betfair_sb_uk": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16439,7 +16439,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16458,7 +16458,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16491,7 +16491,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16524,7 +16524,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16543,15 +16543,15 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
-                    "odds": 128,
+                    "odds": 124,
                     "point": null
                   },
                   "Newcastle United": {
-                    "odds": 193,
+                    "odds": 200,
                     "point": null
                   },
                   "Draw": {
@@ -16562,7 +16562,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16581,7 +16581,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16600,7 +16600,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16619,7 +16619,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16638,7 +16638,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16657,7 +16657,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16676,7 +16676,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16695,7 +16695,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16714,7 +16714,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16733,7 +16733,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16752,7 +16752,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16771,7 +16771,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16790,7 +16790,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16809,7 +16809,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16828,7 +16828,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16847,7 +16847,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16866,7 +16866,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16899,7 +16899,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16918,7 +16918,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16937,7 +16937,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16956,7 +16956,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16975,7 +16975,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -16994,7 +16994,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17013,7 +17013,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17032,7 +17032,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17051,7 +17051,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17070,7 +17070,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17089,7 +17089,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17108,7 +17108,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Liverpool": {
@@ -17136,7 +17136,7 @@
           "away_team": "Chelsea",
           "bookmakers": {
             "pinnacle": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17155,15 +17155,15 @@
               }
             },
             "onexbet": {
-              "last_update": "2026-06-21T02:17:37Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
-                    "odds": 123,
+                    "odds": 122,
                     "point": null
                   },
                   "Fulham": {
-                    "odds": 229,
+                    "odds": 231,
                     "point": null
                   },
                   "Draw": {
@@ -17174,7 +17174,7 @@
               }
             },
             "betfred_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17193,7 +17193,7 @@
               }
             },
             "fanduel": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17212,15 +17212,15 @@
               }
             },
             "marathonbet": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:13Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
-                    "odds": 119,
+                    "odds": 118,
                     "point": null
                   },
                   "Fulham": {
-                    "odds": 224,
+                    "odds": 226,
                     "point": null
                   },
                   "Draw": {
@@ -17231,7 +17231,7 @@
               }
             },
             "coral": {
-              "last_update": "2026-06-21T02:16:49Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17250,7 +17250,7 @@
               }
             },
             "paddypower": {
-              "last_update": "2026-06-21T02:15:50Z",
+              "last_update": "2026-06-21T11:42:41Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17269,7 +17269,7 @@
               }
             },
             "unibet_fr": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17288,7 +17288,7 @@
               }
             },
             "williamhill": {
-              "last_update": "2026-06-21T02:17:24Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17307,7 +17307,7 @@
               }
             },
             "betclic_fr": {
-              "last_update": "2026-06-21T02:16:53Z",
+              "last_update": "2026-06-21T11:41:59Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17326,7 +17326,7 @@
               }
             },
             "betmgm": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17345,7 +17345,7 @@
               }
             },
             "betvictor": {
-              "last_update": "2026-06-21T02:13:16Z",
+              "last_update": "2026-06-21T11:43:17Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17364,7 +17364,7 @@
               }
             },
             "betfair_ex_uk": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17397,7 +17397,7 @@
               }
             },
             "betfair_ex_eu": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17430,7 +17430,7 @@
               }
             },
             "sport888": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:12Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17449,7 +17449,7 @@
               }
             },
             "draftkings": {
-              "last_update": "2026-06-21T02:17:01Z",
+              "last_update": "2026-06-21T11:42:05Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17468,7 +17468,7 @@
               }
             },
             "ladbrokes_uk": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:42:40Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17487,7 +17487,7 @@
               }
             },
             "tipico_de": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17506,7 +17506,7 @@
               }
             },
             "skybet": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17525,7 +17525,7 @@
               }
             },
             "unibet_uk": {
-              "last_update": "2026-06-21T02:17:02Z",
+              "last_update": "2026-06-21T11:43:25Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17544,7 +17544,7 @@
               }
             },
             "boylesports": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:42:29Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17563,7 +17563,7 @@
               }
             },
             "winamax_de": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:14Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17582,7 +17582,7 @@
               }
             },
             "winamax_fr": {
-              "last_update": "2026-06-21T02:17:26Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17601,7 +17601,7 @@
               }
             },
             "smarkets": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17634,7 +17634,7 @@
               }
             },
             "casumo": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:01Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17653,7 +17653,7 @@
               }
             },
             "livescorebet": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:24Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17672,7 +17672,7 @@
               }
             },
             "unibet_se": {
-              "last_update": "2026-06-21T02:16:50Z",
+              "last_update": "2026-06-21T11:43:03Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17691,7 +17691,7 @@
               }
             },
             "leovegas_se": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:43:26Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17710,7 +17710,7 @@
               }
             },
             "grosvenor": {
-              "last_update": "2026-06-21T02:17:14Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17729,7 +17729,7 @@
               }
             },
             "virginbet": {
-              "last_update": "2026-06-21T02:17:36Z",
+              "last_update": "2026-06-21T11:42:51Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17748,7 +17748,7 @@
               }
             },
             "unibet_nl": {
-              "last_update": "2026-06-21T02:17:25Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17767,7 +17767,7 @@
               }
             },
             "coolbet": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:43:02Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17786,7 +17786,7 @@
               }
             },
             "betrivers": {
-              "last_update": "2026-06-21T02:16:38Z",
+              "last_update": "2026-06-21T11:42:28Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17805,7 +17805,7 @@
               }
             },
             "everygame": {
-              "last_update": "2026-06-21T02:17:29Z",
+              "last_update": "2026-06-21T11:42:19Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17824,7 +17824,7 @@
               }
             },
             "betonlineag": {
-              "last_update": "2026-06-21T02:16:37Z",
+              "last_update": "2026-06-21T11:43:23Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17843,7 +17843,7 @@
               }
             },
             "lowvig": {
-              "last_update": "2026-06-21T02:17:13Z",
+              "last_update": "2026-06-21T11:43:05Z",
               "markets": {
                 "h2h": {
                   "Chelsea": {
@@ -17870,12 +17870,12 @@
           "matchup": "Manchester United @ Hull City",
           "bet_team": "Hull City",
           "bet_side": "home",
-          "odds": 640,
-          "bookmaker": "betfair_ex_uk",
+          "odds": 642,
+          "bookmaker": "onexbet",
           "model_prob": 0.34983876664235597,
-          "implied_prob": 0.13513513513513514,
-          "edge": 21.47,
-          "ev": 42.94,
+          "implied_prob": 0.1347708894878706,
+          "edge": 21.51,
+          "ev": 43.01,
           "kelly_bet": 2.15,
           "confidence": 0.30032246671528806,
           "commence_time": "2026-08-22T11:30:00Z"
