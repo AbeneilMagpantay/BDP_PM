@@ -10907,5 +10907,57 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-25_tampabaybuccaneerscarolinapanthers_tampabaybuccaneers",
+        "sport": "nfl",
+        "date": "2026-10-25T17:00:00Z",
+        "match": "Tampa Bay Buccaneers @ Carolina Panthers",
+        "pick": "Tampa Bay Buccaneers",
+        "odds": -118,
+        "ev": 57.03,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-18_pittsburghsteelerstampabaybuccaneers_tampabaybuccaneers",
+        "sport": "nfl",
+        "date": "2026-10-18T17:00:00Z",
+        "match": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+        "pick": "Tampa Bay Buccaneers",
+        "odds": -125,
+        "ev": 53.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-25_clevelandbrownstennesseetitans_tennesseetitans",
+        "sport": "nfl",
+        "date": "2026-10-25T17:00:00Z",
+        "match": "Cleveland Browns @ Tennessee Titans",
+        "pick": "Tennessee Titans",
+        "odds": -170,
+        "ev": 35.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-18_newyorkjetsnewenglandpatriots_newenglandpatriots",
+        "sport": "nfl",
+        "date": "2026-10-18T17:00:00Z",
+        "match": "New York Jets @ New England Patriots",
+        "pick": "New England Patriots",
+        "odds": -440,
+        "ev": 4.32,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
