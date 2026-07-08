@@ -10959,5 +10959,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-18_tennesseetitansindianapoliscolts_tennesseetitans",
+        "sport": "nfl",
+        "date": "2026-10-18T17:00:00Z",
+        "match": "Tennessee Titans @ Indianapolis Colts",
+        "pick": "Tennessee Titans",
+        "odds": 160,
+        "ev": 121.0,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
