@@ -11076,5 +11076,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-10-11_denverbroncoslosangeleschargers_losangeleschargers",
+        "sport": "nfl",
+        "date": "2026-10-11T20:05:00Z",
+        "match": "Denver Broncos @ Los Angeles Chargers",
+        "pick": "Los Angeles Chargers",
+        "odds": -135,
+        "ev": 47.96,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
