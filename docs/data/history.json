@@ -12805,5 +12805,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-12-27_clevelandbrownsbaltimoreravens_baltimoreravens",
+        "sport": "nfl",
+        "date": "2026-12-27T18:00:00Z",
+        "match": "Cleveland Browns @ Baltimore Ravens",
+        "pick": "Baltimore Ravens",
+        "odds": -455,
+        "ev": 3.68,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
