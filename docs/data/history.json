@@ -12818,5 +12818,31 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-08-21_coventrycityarsenal_arsenal",
+        "sport": "soccer",
+        "date": "2026-08-21T19:00:00Z",
+        "match": "Coventry City @ Arsenal",
+        "pick": "Arsenal",
+        "odds": 1200,
+        "ev": 54.58,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-08-23_bournemouthmanchestercity_manchestercity",
+        "sport": "soccer",
+        "date": "2026-08-23T13:00:00Z",
+        "match": "Bournemouth @ Manchester City",
+        "pick": "Manchester City",
+        "odds": 500,
+        "ev": 36.63,
+        "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
