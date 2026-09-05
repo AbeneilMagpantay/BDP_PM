@@ -13478,9 +13478,10 @@
         "odds": 480,
         "ev": 35.48,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-2"
     },
     {
         "id": "soccer_2026-09-13_brightonandhovealbioncoventrycity_coventrycity",
