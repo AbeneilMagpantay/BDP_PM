@@ -13534,5 +13534,18 @@
         "result": null,
         "profit": null,
         "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-09-05_bournemouthnewcastleunited_newcastleunited",
+        "sport": "soccer",
+        "date": "2026-09-05T11:30:00Z",
+        "match": "Bournemouth @ Newcastle United",
+        "pick": "Newcastle United",
+        "odds": 510,
+        "ev": 37.18,
+        "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
     }
 ]
