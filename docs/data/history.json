@@ -10116,9 +10116,10 @@
         "odds": -192,
         "ev": 29.27,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 52.08,
+        "status": "GRADED",
+        "score": "13-10"
     },
     {
         "id": "nfl_2026-10-25_cincinnatibengalsbaltimoreravens_baltimoreravens",
