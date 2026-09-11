@@ -9310,9 +9310,10 @@
         "odds": -148,
         "ev": 42.43,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "7-27"
     },
     {
         "id": "nba_2026-05-09_detroitpistonsclevelandcavaliers_clevelandcavaliers",
