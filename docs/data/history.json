@@ -13467,9 +13467,10 @@
         "odds": 700,
         "ev": 44.97,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-2"
     },
     {
         "id": "soccer_2026-09-04_liverpoolipswichtown_ipswichtown",
@@ -13588,6 +13589,32 @@
         "odds": 227,
         "ev": 8.81,
         "model_prob": 0.34983876664235597,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-10-11_evertonhullcity_hullcity",
+        "sport": "soccer",
+        "date": "2026-10-11T13:00:00Z",
+        "match": "Everton @ Hull City",
+        "pick": "Hull City",
+        "odds": 300,
+        "ev": 19.97,
+        "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-10-12_newcastleunitedcoventrycity_coventrycity",
+        "sport": "soccer",
+        "date": "2026-10-12T19:00:00Z",
+        "match": "Newcastle United @ Coventry City",
+        "pick": "Coventry City",
+        "odds": 274,
+        "ev": 16.49,
+        "model_prob": 0.3498387704874486,
         "result": null,
         "profit": null,
         "status": "PENDING"
