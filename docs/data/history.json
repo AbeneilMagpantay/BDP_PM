@@ -9727,9 +9727,10 @@
         "odds": 150,
         "ev": 112.5,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "27-13"
     },
     {
         "id": "nfl_2026-10-04_dallascowboyshoustontexans_dallascowboys",
@@ -9779,9 +9780,10 @@
         "odds": 108,
         "ev": 76.8,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 108.0,
+        "status": "GRADED",
+        "score": "39-22"
     },
     {
         "id": "nfl_2026-11-01_baltimoreravensbuffalobills_baltimoreravens",
@@ -9805,9 +9807,10 @@
         "odds": -112,
         "ev": 60.89,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 89.29,
+        "status": "GRADED",
+        "score": "31-36"
     },
     {
         "id": "nfl_2026-09-29_philadelphiaeagleschicagobears_chicagobears",
@@ -9844,9 +9847,10 @@
         "odds": -122,
         "ev": 54.67,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "10-23"
     },
     {
         "id": "nfl_2026-10-04_losangelesramsphiladelphiaeagles_losangelesrams",
@@ -9883,9 +9887,10 @@
         "odds": -134,
         "ev": 48.43,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 74.63,
+        "status": "GRADED",
+        "score": "20-13"
     },
     {
         "id": "nfl_2026-09-13_chicagobearscarolinapanthers_chicagobears",
@@ -9896,9 +9901,10 @@
         "odds": -135,
         "ev": 47.96,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 74.07,
+        "status": "GRADED",
+        "score": "37-59"
     },
     {
         "id": "nfl_2026-10-02_pittsburghsteelersclevelandbrowns_pittsburghsteelers",
@@ -10104,9 +10110,10 @@
         "odds": -185,
         "ev": 30.95,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 54.05,
+        "status": "GRADED",
+        "score": "23-41"
     },
     {
         "id": "nfl_2026-09-10_newenglandpatriotsseattleseahawks_seattleseahawks",
@@ -10157,9 +10164,10 @@
         "odds": -194,
         "ev": 28.81,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 51.55,
+        "status": "GRADED",
+        "score": "33-27"
     },
     {
         "id": "nfl_2026-09-20_washingtoncommandersdallascowboys_dallascowboys",
@@ -10209,9 +10217,10 @@
         "odds": -215,
         "ev": 24.53,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 46.51,
+        "status": "GRADED",
+        "score": "24-22"
     },
     {
         "id": "nfl_2026-09-20_philadelphiaeaglestennesseetitans_philadelphiaeagles",
@@ -10287,9 +10296,10 @@
         "odds": -285,
         "ev": 14.82,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 35.09,
+        "status": "GRADED",
+        "score": "34-10"
     },
     {
         "id": "nfl_2026-10-18_carolinapanthersphiladelphiaeagles_philadelphiaeagles",
@@ -10326,9 +10336,10 @@
         "odds": -325,
         "ev": 11.15,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "WON",
+        "profit": 30.77,
+        "status": "GRADED",
+        "score": "31-30"
     },
     {
         "id": "nfl_2026-10-04_arizonacardinalsnewyorkgiants_newyorkgiants",
@@ -13495,9 +13506,10 @@
         "odds": 380,
         "ev": 28.3,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-5"
     },
     {
         "id": "soccer_2026-09-05_astonvillahullcity_hullcity",
@@ -13536,9 +13548,10 @@
         "odds": 227,
         "ev": 8.81,
         "model_prob": 0.34983876664235597,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "0-1"
     },
     {
         "id": "soccer_2026-09-05_bournemouthnewcastleunited_newcastleunited",
@@ -13614,6 +13627,32 @@
         "pick": "Coventry City",
         "odds": 274,
         "ev": 16.49,
+        "model_prob": 0.3498387704874486,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "nfl_2026-09-20_seattleseahawksarizonacardinals_seattleseahawks",
+        "sport": "nfl",
+        "date": "2026-09-20T20:25:00Z",
+        "match": "Seattle Seahawks @ Arizona Cardinals",
+        "pick": "Seattle Seahawks",
+        "odds": -230,
+        "ev": 21.96,
+        "model_prob": 0.85,
+        "result": null,
+        "profit": null,
+        "status": "PENDING"
+    },
+    {
+        "id": "soccer_2026-10-11_manchestercityliverpool_liverpool",
+        "sport": "soccer",
+        "date": "2026-10-11T15:30:00Z",
+        "match": "Manchester City @ Liverpool",
+        "pick": "Liverpool",
+        "odds": 228,
+        "ev": 8.99,
         "model_prob": 0.3498387704874486,
         "result": null,
         "profit": null,
