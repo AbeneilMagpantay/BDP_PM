@@ -9491,9 +9491,10 @@
         "odds": 130,
         "ev": 95.5,
         "model_prob": 0.85,
-        "result": null,
-        "profit": null,
-        "status": "PENDING"
+        "result": "LOST",
+        "profit": -100,
+        "status": "GRADED",
+        "score": "31-10"
     },
     {
         "id": "nfl_2026-09-27_baltimoreravensdallascowboys_baltimoreravens",
